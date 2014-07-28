@@ -1,0 +1,26 @@
+{
+  "name": "draft-day",
+  "version": "0.0.0",
+  "description": "draft-day =========",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikefrey/draft-day.git"
+  },
+  "author": "Mike Frey <frey.mike@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mikefrey/draft-day/issues"
+  },
+  "homepage": "https://github.com/mikefrey/draft-day",
+  "dependencies": {
+    "good": "^2.2.0",
+    "hapi": "^6.2.1",
+    "sequelize": "^1.7.9",
+    "sqlite3": "^2.2.4"
+  }
+}
