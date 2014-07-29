@@ -5,7 +5,7 @@ var Path = require('path')
 var picks = require('./routes/picks.js')
 var players = require('./routes/players.js')
 
-var server = new Hapi.Server(3000)
+var server = new Hapi.Server(3000, { state: { cookies: { strictHeader: false } } })
 
 var home = { file: Path.join(__dirname, 'public/layout.html') }
 

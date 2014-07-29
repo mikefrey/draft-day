@@ -59,8 +59,11 @@ angular.module('draftDay')
     this.savePlayer = function(player) {
       Players.save(player,
         function savePlayerSuccess() {
-          this.players.unshift(player)
           console.log('player save success')
+          if (!player.id)
+            this.players.unshift(player)
+          else
+            $scope.editing = null
         }.bind(this),
         function savePlayerError() {
           console.error('player save failed')
@@ -75,7 +78,11 @@ angular.module('draftDay')
     }
 
     this.editPlayer = function(player) {
-      console.log(player)
+      $scope.editing = player.id
+    }
+
+    this.cancelEdit = function() {
+      $scope.editing = null
     }
 
     this.deletePlayer = function(player, idx) {

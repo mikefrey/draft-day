@@ -43,7 +43,7 @@
           <td><select ng-model="player.team" ng-options="t as t for t in ctrl.nflTeams"></select></td>
           <td>
             <button ng-click="ctrl.savePlayer(player)">save</button>
-            <button ng-click="editing = null">cancel</button>
+            <button ng-click="ctrl.cancelEdit()">cancel</button>
           </td>
         </tr>
         <tr ng-if="editing != player.id">

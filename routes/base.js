@@ -14,7 +14,7 @@ var methods = {
         .success(function (result) {
           reply(result).type('application/json')
         })
-        .error(handleError.bind(request, reply))
+        .error(handleError.bind(null, request, reply))
     }
 
   },
@@ -28,7 +28,7 @@ var methods = {
         .success(function(result) {
           reply(result) //.type('application/json')
         })
-        .error(handleError.bind(request, reply))
+        .error(handleError.bind(null, request, reply))
     }
 
   },
@@ -41,7 +41,7 @@ var methods = {
         .success(function(result) {
           reply(result) //.type('application/json')
         })
-        .error(handleError.bind(request, reply))
+        .error(handleError.bind(null, request, reply))
     }
 
   },
@@ -51,7 +51,8 @@ var methods = {
 
     return function(request, reply) {
       var id = parseInt(request.params.id, 10)
-      if (id != request.payload.id) {
+      var payload = request.payload
+      if (id != payload.id) {
         var msg = 'payload.id and params.id do not match'
         request.log('error', msg)
         reply(msg).code(400)
@@ -62,9 +63,9 @@ var methods = {
             .success(function() {
               reply(item) //.type('application/json')
             })
-            .error(handleError.bind(request, reply))
+            .error(handleError.bind(null, request, reply))
         })
-        .error(handleError.bind(request, reply))
+        .error(handleError.bind(null, request, reply))
     }
 
   },
@@ -79,9 +80,9 @@ var methods = {
             .success(function() {
               reply() //.type('application/json')
             })
-            .error(handleError.bind(request, reply))
+            .error(handleError.bind(null, request, reply))
         })
-        .error(handleError.bind(request, reply))
+        .error(handleError.bind(null, request, reply))
     }
 
   }
