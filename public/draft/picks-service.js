@@ -39,7 +39,7 @@ angular.module('draftDay')
       },
       {
         number: 8,
-        team: { name: 'Mount Fugi', slug: 'mount-fugi' },
+        team: { name: 'Mount Fuji', slug: 'mount-fuji' },
         player: { name: 'Zach Sudfeld', position: 'TE' }
       },
       {
@@ -54,104 +54,107 @@ angular.module('draftDay')
       },
       {
         number: 11,
-        team: { name: 'Sin City' },
-        player: { name: 'Zach Sudfeld', position: 'TE' }
-      },
-      {
-        number: 12,
-        team: { name: 'Atlanta' },
-        player: { name: 'Joe Flacco', position: 'QB' }
-      },
-      {
-        number: 13,
-        team: { name: 'Springfield' },
+        team: { name: 'Springfield', slug: 'springfield' },
         player: { name: 'Bernard Pierce', position: 'RB' }
       },
       {
+        number: 12,
+        team: { name: 'Sin City', slug: 'sin-city' },
+        player: { name: 'Zach Sudfeld', position: 'TE' }
+      },
+      {
+        number: 13,
+        team: { name: 'Atlanta', slug: 'atlanta' },
+        player: { name: 'Joe Flacco', position: 'QB' }
+      },
+      {
         number: 14,
-        team: { name: 'Sin City' },
-        player: null
+        team: { name: 'Baton Rouge', slug: 'baton-rouge' },
+        player: { name: 'Bernard Pierce', position: 'RB' }
       },
       {
         number: 15,
-        team: { name: 'Atlanta' },
+        team: { name: 'Central City', slug: 'central-city' },
         player: null
       },
       {
         number: 16,
-        team: { name: 'Springfield' },
+        team: { name: 'Mankato', slug: 'mankato' },
         player: null
       },
       {
         number: 17,
-        team: { name: 'Sin City' },
+        team: { name: 'Washington', slug: 'washington' },
         player: null
       },
       {
         number: 18,
-        team: { name: 'Atlanta' },
-        player: null
+        team: { name: 'Mount Fuji', slug: 'mount-fuji' },
+        player: { name: 'Zach Sudfeld', position: 'TE' },
+        keeper: true
       },
       {
         number: 19,
-        team: { name: 'Springfield' },
+        team: { name: 'Gotham City', slug: 'gotham-city' },
         player: null
       },
       {
         number: 20,
-        team: { name: 'Sin City' },
+        team: { name: 'Coos Bay', slug: 'coos-bay' },
         player: null
       },
       {
         number: 21,
-        team: { name: 'Atlanta' },
+        team: { name: 'Springfield', slug: 'springfield' },
         player: null
       },
       {
         number: 22,
-        team: { name: 'Springfield' },
-        player: null
+        team: { name: 'Sin City', slug: 'sin-city' },
+        player: { name: 'Zach Sudfeld', position: 'TE' },
+        trade: true
       },
       {
         number: 23,
-        team: { name: 'Sin City' },
+        team: { name: 'Atlanta', slug: 'atlanta' },
         player: null
       },
       {
         number: 24,
-        team: { name: 'Atlanta' },
+        team: { name: 'Baton Rouge', slug: 'baton-rouge' },
         player: null
       },
       {
         number: 25,
-        team: { name: 'Springfield' },
+        team: { name: 'Central City', slug: 'central-city' },
         player: null
       },
       {
         number: 26,
-        team: { name: 'Sin City' },
-        player: null
+        team: { name: 'Mankato', slug: 'mankato' },
+        player: { name: 'Joe Flacco', position: 'QB' },
+        keeper: true
       },
       {
         number: 27,
-        team: { name: 'Atlanta' },
+        team: { name: 'Washington', slug: 'washington' },
         player: null
       },
       {
         number: 28,
-        team: { name: 'Springfield' },
+        team: { name: 'Mount Fuji', slug: 'mount-fuji' },
         player: null
       },
       {
         number: 29,
-        team: { name: 'Sin City' },
+        team: { name: 'Gotham City', slug: 'gotham-city' },
         player: null
       },
       {
         number: 30,
-        team: { name: 'Atlanta' },
+        team: { name: 'Coos Bay', slug: 'coos-bay' },
         player: null
-      },
+      }
     ]
 
   })

@@ -1,22 +1,29 @@
-var db = require('../services/db')
+var Sequelize = require('sequelize')
+var Path = require('path')
+
+var db = new Sequelize('draftday', '', '', {
+  dialect: 'sqlite',
+  storage: Path.join(__dirname, '../data/database.sqlite')
+})
+
 
 var Pick = db.define('Pick', {
-  number: db.INTEGER,
-  keeper: db.BOOLEAN,
-  trade: db.BOOLEAN,
-  note: db.STRING(1024)
+  number: Sequelize.INTEGER,
+  keeper: Sequelize.BOOLEAN,
+  trade: Sequelize.BOOLEAN,
+  note: Sequelize.STRING
 })
 
 var Player = db.define('Player', {
-  firstname: db.STRING,
-  lastname: db.STRING,
-  position: db.ENUM('QB','RB','WR','TE','K','DL','LB','DB'),
-  logo: db.STRING
+  firstname: Sequelize.STRING,
+  lastname: Sequelize.STRING,
+  position: Sequelize.ENUM('QB','RB','WR','TE','K','DL','LB','DB'),
+  team: Sequelize.STRING
 })
 
 var Team = db.define('Team', {
-  name: db.STRING,
-  logo: db.STRING
+  name: Sequelize.STRING,
+  slug: Sequelize.STRING
 })
 
 Player.hasOne(Pick)

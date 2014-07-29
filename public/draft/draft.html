@@ -5,7 +5,7 @@
   </div>
   <div class="nav home">
     <span>DFFL DRAFT</span>
-    <div class="logo"><a href="#"></a></div>
+    <div class="logo"><a href="#" ng-click="$root.showMenu=true"></a></div>
     <span>Round {{draft.current.round}}</span>
   </div>
   <div class="nav next">
@@ -17,7 +17,7 @@
   <div class="round side previous">
     <ul class="picks">
       <li ng-repeat="pick in draft.prev.picks" ng-class="{ keeper: pick.keeper, trade: pick.trade }">
-        <ul class="make-pick"><li>PICK</li></ul>
+        <ul class="make-pick"><li>ENTER PICK</li></ul>
         <ul>
           <li class="pick-number">{{pick.number}}</li>
           <li class="team">{{pick.team.name}}</li>
@@ -35,8 +35,8 @@
         'on-the-clock': draft.currentPick == pick.number,
         'on-deck': draft.currentPick+1 == pick.number,
         'in-the-hole': draft.currentPick+2 == pick.number,
-        later: draft.currentPick+2 < pick.number }">
-        <ul class="make-pick"><li>PICK</li></ul>
+        later: draft.currentPick+2 < pick.number }" class="{{pick.team.slug}}">
+        <ul class="make-pick"><li>ENTER PICK</li></ul>
         <ul>
           <li class="pick-number">{{pick.number}}</li>
           <li class="team">{{pick.team.name}}</li>
@@ -54,7 +54,7 @@
         'on-deck': draft.currentPick+1 == pick.number,
         'in-the-hole': draft.currentPick+2 == pick.number,
         later: draft.currentPick+2 < pick.number }">
-        <ul class="make-pick"><li>PICK</li></ul>
+        <ul class="make-pick"><li>ENTER PICK</li></ul>
         <ul>
           <li class="pick-number">{{pick.number}}</li>
           <li class="team">{{pick.team.name}}</li>

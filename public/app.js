@@ -12,4 +12,24 @@ angular.module('draftDay', [
         templateUrl: '/draft/draft.html',
         controller: 'DraftController as draft'
       })
+      .when('/offensive', {
+        templateUrl: '/draft/draft.html',
+        controller: 'DraftController as draft'
+      })
+      .when('/defensive', {
+        templateUrl: '/draft/draft.html',
+        controller: 'DraftController as draft'
+      })
+      .when('/edit/players', {
+        templateUrl: '/edit/players.html',
+        controller: 'PlayersController as ctrl'
+      })
+      .when('/edit/offense', {
+        templateUrl: '/edit/offense.html',
+        controller: 'EditOffenseController as ctrl'
+      })
+      .when('/edit/defense', {
+        templateUrl: '/edit/defense.html',
+        controller: 'EditDefenseController as ctrl'
+      })
   })
