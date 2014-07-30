@@ -6,7 +6,12 @@ var Base = require('./base.js')
 
 module.exports = Base(Pick, {
 
-  index: { include: [ Team, Player ] },
+  index: function(request) {
+    return {
+      include: [ Team, Player ],
+      where: { offense: request.query.offense === 'true' }
+    }
+  },
   create: {},
   update: {},
   destroy: {}

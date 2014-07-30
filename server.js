@@ -4,6 +4,7 @@ var Path = require('path')
 
 var picks = require('./routes/picks.js')
 var players = require('./routes/players.js')
+var teams = require('./routes/teams.js')
 
 var server = new Hapi.Server(3000, { state: { cookies: { strictHeader: false } } })
 
@@ -30,6 +31,13 @@ server.route([
   { method: 'POST', path: '/players', handler: players.create },
   { method: 'POST', path: '/players/{id}', handler: players.update },
   { method: 'DELETE', path: '/players/{id}', handler: players.destroy },
+
+  // players
+  { method: 'GET', path: '/teams', handler: teams.index },
+  { method: 'GET', path: '/teams/{id}', handler: teams.show },
+  { method: 'POST', path: '/teams', handler: teams.create },
+  { method: 'POST', path: '/teams/{id}', handler: teams.update },
+  { method: 'DELETE', path: '/teams/{id}', handler: teams.destroy },
 
 
 

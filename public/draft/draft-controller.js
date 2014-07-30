@@ -1,7 +1,7 @@
 angular.module('draftDay')
   .controller('DraftController', function(Picks) {
 
-    var picks = Picks
+    var picks = Picks.query()
 
     // find current pick
     for (var i = 0; i < picks.length; i++) {
@@ -16,7 +16,7 @@ angular.module('draftDay')
     this.next = {}
 
     // get current round
-    this.current.round = ((this.currentPick / 10)|0) + 1
+    this.current.round = (((this.currentPick - 1) / 10)|0) + 1
     var cStart = ((this.currentPick / 10)|0) * 10
     this.current.picks = picks.slice(cStart, cStart+10)
 

@@ -8,6 +8,7 @@ var db = new Sequelize('draftday', '', '', {
 
 
 var Pick = db.define('Pick', {
+  offense: Sequelize.BOOLEAN,
   number: Sequelize.INTEGER,
   keeper: Sequelize.BOOLEAN,
   trade: Sequelize.BOOLEAN,
@@ -22,8 +23,8 @@ var Player = db.define('Player', {
 })
 
 var Team = db.define('Team', {
+  city: Sequelize.STRING,
   name: Sequelize.STRING,
-  shortname: Sequelize.STRING,
   abbrev: Sequelize.STRING,
   slug: Sequelize.STRING
 })
@@ -34,10 +35,11 @@ Pick.belongsTo(Player)
 Team.hasMany(Pick)
 Pick.belongsTo(Team)
 
-db.sync()
+var syncPromise = db.sync()
 
 module.exports = {
   Pick: Pick,
   Player: Player,
-  Team: Team
+  Team: Team,
+  syncPromise: syncPromise
 }

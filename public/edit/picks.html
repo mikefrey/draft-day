@@ -1,0 +1,46 @@
+<div id="header">
+  <div class="nav last">
+  </div>
+  <div class="nav home">
+    <span>DFFL DRAFT</span>
+    <div class="logo"><a href="#" ng-click="$root.showMenu=true"></a></div>
+    <span>EDIT PICKS</span>
+  </div>
+  <div class="nav next">
+  </div>
+</div>
+<div id="draft-board">
+  <div class="round side previous">
+  </div>
+  <div class="round current">
+    <table id="edit-draft">
+      <thead>
+        <tr>
+          <td>Round</td>
+          <td>Pick</td>
+          <td>Team</td>
+          <td>Player</td>
+          <td>Keeper</td>
+          <td>Trade</td>
+          <td>Note</td>
+        </tr>
+      </thead>
+      <tbody ng-repeat="pick in ctrl.picks">
+        <tr>
+          <td>{{ pick.number | round }}</td>
+          <td>{{pick.number}}</td>
+          <td><select ng-model="pick.TeamId" ng-options="t.id as t.name for t in ctrl.teams"></select></td>
+          <td><select ng-model="pick.player" ng-options="p.id as p.firstname for p in ctrl.players"></select></td>
+          <td><input type="checkbox" value="Keeper" ng-model="pick.keeper"></td>
+          <td><input type="checkbox" value="Trade" ng-model="pick.trade"></td>
+          <td><input type="text" name="note" ng-model="pick.note"></td>
+        </tr>
+        <tr class="round-break" ng-if="pick.number % 10 == 0">
+          <td colspan="7"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="round side upcoming">
+  </div>
+</div>

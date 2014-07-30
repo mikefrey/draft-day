@@ -4,16 +4,21 @@ function handleError(request, reply, err) {
   reply('error').code(500)
 }
 
+function getOpts(request, opts) {
+  if (typeof opts === 'function')
+    opts = opts(request)
+  return opts
+}
+
 
 var methods = {
 
   index: function(Resource, opts) {
 
     return function(request, reply) {
-      Resource.findAll()
-        .success(function (result) {
-          reply(result).type('application/json')
-        })
+      opts = getOpts(request, opts)
+      Resource.findAll(opts)
+        .then(function (result) { reply(result) })
         .error(handleError.bind(null, request, reply))
     }
 
@@ -25,9 +30,7 @@ var methods = {
     return function(request, reply) {
       var id = parseInt(request.params.id, 10)
       Resource.find(id)
-        .success(function(result) {
-          reply(result) //.type('application/json')
-        })
+        .then(function(result) { reply(result) })
         .error(handleError.bind(null, request, reply))
     }
 
@@ -38,9 +41,7 @@ var methods = {
 
     return function(request, reply) {
       Resource.create(request.payload)
-        .success(function(result) {
-          reply(result) //.type('application/json')
-        })
+        .then(function(result) { reply(result) })
         .error(handleError.bind(null, request, reply))
     }
 
@@ -52,20 +53,19 @@ var methods = {
     return function(request, reply) {
       var id = parseInt(request.params.id, 10)
       var payload = request.payload
+
       if (id != payload.id) {
         var msg = 'payload.id and params.id do not match'
         request.log('error', msg)
         reply(msg).code(400)
       }
+
       Resource.find(id)
-        .success(function(item) {
-          item.updateAttributes(payload)
-            .success(function() {
-              reply(item) //.type('application/json')
-            })
-            .error(handleError.bind(null, request, reply))
+        .then(function(item) {
+          return item.updateAttributes(payload)
         })
-        .error(handleError.bind(null, request, reply))
+        .then(function() { reply(item) })
+        .catch(handleError.bind(null, request, reply))
     }
 
   },
@@ -75,14 +75,9 @@ var methods = {
     return function(request, reply) {
       var id = parseInt(request.params.id, 10)
       Resource.find(id)
-        .success(function(item) {
-          item.destroy()
-            .success(function() {
-              reply() //.type('application/json')
-            })
-            .error(handleError.bind(null, request, reply))
-        })
-        .error(handleError.bind(null, request, reply))
+        .then(function(item) { return item.destroy() })
+        .then(function() { reply() })
+        .catch(handleError.bind(null, request, reply))
     }
 
   }
