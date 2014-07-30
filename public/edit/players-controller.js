@@ -56,21 +56,25 @@ angular.module('draftDay')
     this.players = Players.query()
 
 
-    this.savePlayer = function(player) {
+    this.savePlayer = function(player, original) {
       Players.save(player,
-        function savePlayerSuccess() {
+        function savePlayerSuccess(savedPlayer) {
           console.log('player save success')
-          if (!player.id)
-            this.players.unshift(player)
-          else
-            $scope.editing = null
+          $scope.editing = null
+          if (!player.id) {
+            this.players.unshift(savedPlayer)
+            this.clearPlayer(player)
+          }
+          else if (original) {
+            angular.extend(original, player)
+          }
         }.bind(this),
         function savePlayerError() {
           console.error('player save failed')
         })
     }
 
-    this.cancelNewPlayer = function(player) {
+    this.clearPlayer = function(player) {
       player.firstname = ''
       player.lastname = ''
       player.position = ''
@@ -78,6 +82,13 @@ angular.module('draftDay')
     }
 
     this.editPlayer = function(player) {
+      player.update = {
+        id: player.id,
+        position: player.position,
+        firstname: player.firstname,
+        lastname: player.lastname,
+        team: player.team
+      }
       $scope.editing = player.id
     }
 

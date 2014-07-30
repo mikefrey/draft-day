@@ -23,6 +23,8 @@ var Player = db.define('Player', {
 
 var Team = db.define('Team', {
   name: Sequelize.STRING,
+  shortname: Sequelize.STRING,
+  abbrev: Sequelize.STRING,
   slug: Sequelize.STRING
 })
 

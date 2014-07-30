@@ -31,18 +31,18 @@
           <td><select ng-model="newPlayer.team" ng-options="t as t for t in ctrl.nflTeams"></select></td>
           <td>
             <button ng-click="ctrl.savePlayer(newPlayer)">save</button>
-            <button ng-click="ctrl.cancelNewPlayer(newPlayer)">cancel</button>
+            <button ng-click="ctrl.clearPlayer(newPlayer)">cancel</button>
           </td>
         </tr>
       </tbody>
       <tbody ng-repeat="player in ctrl.players | orderBy: orderField: rev">
         <tr ng-if="editing == player.id">
-          <td><select ng-model="player.position" ng-options="o as o for o in ctrl.positions"></select></td>
-          <td><input type="text" ng-model="player.firstname"></td>
-          <td><input type="text" ng-model="player.lastname"></td>
-          <td><select ng-model="player.team" ng-options="t as t for t in ctrl.nflTeams"></select></td>
+          <td><select ng-model="player.update.position" ng-options="o as o for o in ctrl.positions"></select></td>
+          <td><input type="text" ng-model="player.update.firstname"></td>
+          <td><input type="text" ng-model="player.update.lastname"></td>
+          <td><select ng-model="player.update.team" ng-options="t as t for t in ctrl.nflTeams"></select></td>
           <td>
-            <button ng-click="ctrl.savePlayer(player)">save</button>
+            <button ng-click="ctrl.savePlayer(player.update, player)">save</button>
             <button ng-click="ctrl.cancelEdit()">cancel</button>
           </td>
         </tr>
