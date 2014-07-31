@@ -18,7 +18,7 @@ var Pick = db.define('Pick', {
 var Player = db.define('Player', {
   firstname: Sequelize.STRING,
   lastname: Sequelize.STRING,
-  position: Sequelize.ENUM('QB','RB','WR','TE','K','DL','LB','DB'),
+  position: Sequelize.STRING(5),
   team: Sequelize.STRING
 })
 

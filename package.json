@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/mikefrey/draft-day",
   "dependencies": {
+    "bluebird": "^2.2.2",
+    "csv-parse": "0.0.5",
     "good": "^2.2.0",
     "hapi": "^6.2.1",
     "sequelize": "^1.7.9",

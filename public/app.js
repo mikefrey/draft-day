@@ -2,7 +2,8 @@ angular.module('draftDay', [
     'ngAnimate',
     'ngResource',
     'ngRoute',
-    'ngSanitize'
+    'ngSanitize',
+    'angucomplete'
   ])
   .config(function($routeProvider, $locationProvider) {
     $locationProvider.html5Mode(true)

@@ -3,11 +3,16 @@ var Pick = models.Pick
 var Team = models.Team
 var Player = models.Player
 
+var importPlayers = require('./import-players')
 
 
 models.syncPromise
-  .success(importTeams)
-  .success(importPicks)
+  .then(importTeams)
+  .then(importPicks)
+  .then(importPlayers)
+  .then(function () {
+    console.log('DONE!')
+  })
 
 
 
@@ -27,7 +32,7 @@ function importTeams() {
     { id: 10,   abbrev: 'CB',  name: 'Pre',           city: 'Coos Bay',     slug: 'coos-bay' }
   ]
 
-  return Team.bulkCreate(teams).success(function() {
+  return Team.bulkCreate(teams).then(function() {
     console.log('Successfully imported %d teams', teams.length)
   })
 
@@ -61,7 +66,7 @@ function importPicks() {
     }
   }
 
-  return Pick.bulkCreate(picks).success(function() {
+  return Pick.bulkCreate(picks).then(function() {
     console.log('Successfully imported %d picks', picks.length)
   })
 

@@ -30,7 +30,12 @@
           <td>{{ pick.number | round }}</td>
           <td>{{pick.number}}</td>
           <td><select ng-model="pick.TeamId" ng-options="t.id as t.name for t in ctrl.teams"></select></td>
-          <td><select ng-model="pick.player" ng-options="p.id as p.firstname for p in ctrl.players"></select></td>
+          <td><angucomplete placeholder="Search Players"
+                pause="100"
+                selectedobject="pick.PlayerId"
+                localdata="ctrl.players"
+                searchfields="firstname,lastname"
+                titlefield="firstname,lastname"></angucomplete></td>
           <td><input type="checkbox" value="Keeper" ng-model="pick.keeper"></td>
           <td><input type="checkbox" value="Trade" ng-model="pick.trade"></td>
           <td><input type="text" name="note" ng-model="pick.note"></td>
