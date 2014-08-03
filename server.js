@@ -16,8 +16,8 @@ server.route([
   { method: 'GET', path: '/edit/players', handler: home },
   { method: 'GET', path: '/edit/offense', handler: home },
   { method: 'GET', path: '/edit/defense', handler: home },
-  { method: 'GET', path: '/offense', handler: home },
-  { method: 'GET', path: '/defense', handler: home },
+  { method: 'GET', path: '/draft/offense', handler: home },
+  { method: 'GET', path: '/draft/defense', handler: home },
 
   // picks
   { method: 'GET', path: '/picks', handler: picks.index },

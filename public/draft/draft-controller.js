@@ -1,7 +1,8 @@
 angular.module('draftDay')
-  .controller('DraftController', function(Picks) {
+  .controller('DraftController', function(picks, Picks, $routeParams) {
 
-    var picks = Picks.query()
+    // var picks = Picks.query({ offense: $routeParams.side.toLowerCase() === 'offense' },
+    //   function() {
 
     // find current pick
     for (var i = 0; i < picks.length; i++) {
@@ -31,6 +32,8 @@ angular.module('draftDay')
     this.next.picks = nStart > picks.length-1 ? fillRound() : picks.slice(nStart, nStart+10)
 
     console.log(this)
+
+    // })
 
     function fillRound() {
       console.log('FILLING ROUND')

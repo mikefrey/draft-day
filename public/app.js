@@ -10,12 +10,14 @@ angular.module('draftDay', [
 
     $routeProvider
       .when('/', {
-        templateUrl: '/draft/draft.html',
-        controller: 'DraftController as draft'
+        redirectTo: '/draft/offense'
       })
       .when('/draft/:side', {
         templateUrl: '/draft/draft.html',
-        controller: 'DraftController as draft'
+        controller: 'DraftController as draft',
+        resolve: { picks: function(Picks, $route) {
+          return Picks.query({ offense: $route.current.params.side.toLowerCase() === 'offense' })
+        }}
       })
       .when('/edit/players', {
         templateUrl: '/edit/players.html',

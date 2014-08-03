@@ -1,7 +1,7 @@
 <div id="header">
   <div class="nav last">
-    <a class="arrow" href="#">&laquo;</a>
-    <span class="">Round {{draft.prev.round}}</span>
+    <a class="arrow" href="#" ng-click="draft.prevRound()" ng-show="draft.prev.round > 0">&laquo;</a>
+    <span class="" ng-show="draft.prev.round > 0">Round {{draft.prev.round}}</span>
   </div>
   <div class="nav home">
     <span>DFFL DRAFT</span>
@@ -9,8 +9,8 @@
     <span>Round {{draft.current.round}}</span>
   </div>
   <div class="nav next">
-    <a class="arrow" href="#">&raquo;</a>
-    <span>Round {{draft.next.round}}</span>
+    <a class="arrow" href="#" ng-click="draft.nextRound()" ng-show="draft.next.round < 15">&raquo;</a>
+    <span ng-show="draft.next.round < 15">Round {{draft.next.round}}</span>
   </div>
 </div>
 <div id="draft-board">

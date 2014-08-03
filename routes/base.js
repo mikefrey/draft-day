@@ -16,8 +16,8 @@ var methods = {
   index: function(Resource, opts) {
 
     return function(request, reply) {
-      opts = getOpts(request, opts)
-      Resource.findAll(opts)
+      var options = getOpts(request, opts)
+      Resource.findAll(options)
         .then(function (result) { reply(result) })
         .error(handleError.bind(null, request, reply))
     }
