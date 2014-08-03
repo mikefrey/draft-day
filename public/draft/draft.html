@@ -1,22 +1,28 @@
 <div id="header">
   <div class="nav last">
     <a class="arrow" href="#" ng-click="draft.prevRound()" ng-show="draft.prev.round > 0">&laquo;</a>
-    <span class="" ng-show="draft.prev.round > 0">Round {{draft.prev.round}}</span>
+    <span class="" ng-show="draft.prev.round > 0">Round {{draft.prev.round}}</span>&nbsp;
   </div>
   <div class="nav home">
     <span>DFFL DRAFT</span>
     <div class="logo"><a href="#" ng-click="$root.showMenu=true"></a></div>
     <span>Round {{draft.current.round}}</span>
   </div>
-  <div class="nav next">
-    <a class="arrow" href="#" ng-click="draft.nextRound()" ng-show="draft.next.round < 15">&raquo;</a>
-    <span ng-show="draft.next.round < 15">Round {{draft.next.round}}</span>
+  <div class="nav next" ng-show="draft.next.round <= draft.totalRounds">
+    <a class="arrow" href="#" ng-click="draft.nextRound()">&raquo;</a>
+    <span>Round {{draft.next.round}}</span>
   </div>
 </div>
 <div id="draft-board">
   <div class="round side previous">
     <ul class="picks">
-      <li ng-repeat="pick in draft.prev.picks" ng-class="{ keeper: pick.keeper, trade: pick.trade }">
+      <li ng-repeat="pick in draft.prev.picks" ng-class="{
+        keeper: pick.keeper,
+        trade: pick.trade,
+        'on-the-clock': draft.currentPick == pick.number,
+        'on-deck': draft.currentPick+1 == pick.number,
+        'in-the-hole': draft.currentPick+2 == pick.number,
+        later: draft.currentPick+2 < pick.number }">
         <ul class="make-pick"><li>ENTER PICK</li></ul>
         <ul>
           <li class="pick-number">{{pick.number}}</li>
@@ -51,6 +57,7 @@
       <li ng-repeat="pick in draft.next.picks" ng-class="{
         keeper: pick.keeper,
         trade: pick.trade,
+        'on-the-clock': draft.currentPick == pick.number,
         'on-deck': draft.currentPick+1 == pick.number,
         'in-the-hole': draft.currentPick+2 == pick.number,
         later: draft.currentPick+2 < pick.number }">

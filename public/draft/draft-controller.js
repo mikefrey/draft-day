@@ -2,8 +2,7 @@ angular.module('draftDay')
   .controller('DraftController', function(picks, Picks, $routeParams) {
 
     picks.$promise.then(function() {
-
-      console.log('PICKS', picks)
+      this.totalRounds = $routeParams.side.toLowerCase() === 'offense' ? 14 : 6
 
       // find current pick
       this.currentPick = 1
@@ -18,9 +17,16 @@ angular.module('draftDay')
       this.prev = {}
       this.next = {}
 
-      // get current round
-      this.current.round = (((this.currentPick - 1) / 10)|0) + 1
-      var cStart = ((this.currentPick / 10)|0) * 10
+      var round = (((this.currentPick - 1) / 10)|0) + 1
+      this.setRound(round)
+
+    }.bind(this))
+
+
+    this.setRound = function(round) {
+      // set current round
+      this.current.round = round
+      var cStart = (round - 1) * 10 //((this.currentPick / 10)|0) * 10
       this.current.picks = picks.slice(cStart, cStart+10)
 
       // get prev round
@@ -32,15 +38,22 @@ angular.module('draftDay')
       this.next.round = this.current.round + 1
       var nStart = cStart + 10
       this.next.picks = nStart > picks.length-1 ? fillRound() : picks.slice(nStart, nStart+10)
+    }
 
-      console.log(this)
-    }.bind(this))
-
-    // })
 
     function fillRound() {
       console.log('FILLING ROUND')
       return [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
     }
+
+    this.nextRound = function() {
+      this.setRound(this.current.round + 1)
+    }
+
+    this.prevRound = function() {
+      this.setRound(this.current.round - 1)
+    }
+
+
 
   })
