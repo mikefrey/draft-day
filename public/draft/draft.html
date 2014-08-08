@@ -14,61 +14,17 @@
   </div>
 </div>
 <div id="draft-board">
-  <div class="round side previous">
-    <ul class="picks">
-      <li ng-repeat="pick in draft.prev.picks" ng-class="{
-        keeper: pick.keeper,
-        trade: pick.trade,
-        'on-the-clock': draft.currentPick == pick.number,
-        'on-deck': draft.currentPick+1 == pick.number,
-        'in-the-hole': draft.currentPick+2 == pick.number,
-        later: draft.currentPick+2 < pick.number }">
-        <ul class="make-pick"><li>ENTER PICK</li></ul>
-        <ul>
-          <li class="pick-number">{{pick.number}}</li>
-          <li class="team">{{pick.team.name}}</li>
-          <li class="player-position">{{pick.player.position}}</li>
-          <li class="player-name">{{pick.player.name}}</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-  <div class="round current">
-    <ul class="picks">
-      <li ng-repeat="pick in draft.current.picks" ng-class="{
-        keeper: pick.keeper,
-        trade: pick.trade,
-        'on-the-clock': draft.currentPick == pick.number,
-        'on-deck': draft.currentPick+1 == pick.number,
-        'in-the-hole': draft.currentPick+2 == pick.number,
-        later: draft.currentPick+2 < pick.number }" class="{{pick.team.slug}}">
-        <ul class="make-pick"><li>ENTER PICK</li></ul>
-        <ul>
-          <li class="pick-number">{{pick.number}}</li>
-          <li class="team">{{pick.team.name}}</li>
-          <li class="player-position">{{pick.player.position}}</li>
-          <li class="player-name" player-name="pick" draft="draft"></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-  <div class="round side upcoming">
-    <ul class="picks">
-      <li ng-repeat="pick in draft.next.picks" ng-class="{
-        keeper: pick.keeper,
-        trade: pick.trade,
-        'on-the-clock': draft.currentPick == pick.number,
-        'on-deck': draft.currentPick+1 == pick.number,
-        'in-the-hole': draft.currentPick+2 == pick.number,
-        later: draft.currentPick+2 < pick.number }">
-        <ul class="make-pick"><li>ENTER PICK</li></ul>
-        <ul>
-          <li class="pick-number">{{pick.number}}</li>
-          <li class="team">{{pick.team.name}}</li>
-          <li class="player-position">{{pick.player.position}}</li>
-          <li class="player-name" player-name="pick" draft="draft"></li>
-        </ul>
-      </li>
-    </ul>
-  </div>
+  <div class="round side previous"
+    picks-list picks="draft.prev.picks"
+    current-pick="draft.currentPick.number"
+    show-pick="draft.showPick(pick)"></div>
+  <div class="round current"
+    picks-list picks="draft.current.picks"
+    current-pick="draft.currentPick.number"
+    show-pick="draft.showPick(pick)"></div>
+  <div class="round side upcoming"
+    picks-list picks="draft.next.picks"
+    current-pick="draft.currentPick.number"
+    show-pick="draft.showPick(pick)"></div>
 </div>
+<pick show="draft.pickShowing" pick="draft.selectedPick" />

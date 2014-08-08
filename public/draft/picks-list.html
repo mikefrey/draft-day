@@ -1,0 +1,17 @@
+<ul class="picks">
+  <li ng-repeat="pick in picks" ng-class="{
+    keeper: pick.keeper,
+    trade: pick.trade,
+    'on-the-clock': currentPick == pick.number,
+    'on-deck': currentPick+1 == pick.number,
+    'in-the-hole': currentPick+2 == pick.number,
+    later: currentPick+2 < pick.number }" class="{{pick.team.slug}}">
+    <ul class="make-pick"><li ng-click="showPick({pick:pick})">ENTER PICK</li></ul>
+    <ul>
+      <li class="pick-number">{{pick.number}}</li>
+      <li class="team">{{pick.team.name}}</li>
+      <li class="player-position">{{pick.player.position}}</li>
+      <li class="player-name" player-name="pick" current-pick="currentPick"></li>
+    </ul>
+  </li>
+</ul>

@@ -5,7 +5,7 @@ angular.module('draftDay')
       restrict: 'A',
       scope: {
         pick: "=playerName",
-        draft: "="
+        currentPick: "="
       },
       template: '{{text}} <span></span>',
       link: function(scope, element, attrs) {
@@ -14,13 +14,13 @@ angular.module('draftDay')
         if (pick.player && pick.player.name) {
           scope.text = pick.player.name
         }
-        else if (scope.draft.currentPick == pick.number) {
+        else if (scope.currentPick == pick.number) {
           scope.text = 'On The Clock'
         }
-        else if (scope.draft.currentPick+1 == pick.number) {
+        else if (scope.currentPick+1 == pick.number) {
           scope.text = 'On Deck'
         }
-        else if (scope.draft.currentPick+2 == pick.number) {
+        else if (scope.currentPick+2 == pick.number) {
           scope.text = 'In The Hole'
         }
         else {

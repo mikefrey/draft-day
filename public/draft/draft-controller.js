@@ -5,10 +5,10 @@ angular.module('draftDay')
       this.totalRounds = $routeParams.side.toLowerCase() === 'offense' ? 14 : 6
 
       // find current pick
-      this.currentPick = 1
+      this.currentPick = picks[0]
       for (var i = 0; i < picks.length; i++) {
         if (!picks[i].player) {
-          this.currentPick = picks[i].number
+          this.currentPick = picks[i]
           break
         }
       }
@@ -17,7 +17,7 @@ angular.module('draftDay')
       this.prev = {}
       this.next = {}
 
-      var round = (((this.currentPick - 1) / 10)|0) + 1
+      var round = (((this.currentPick.number - 1) / 10)|0) + 1
       this.setRound(round)
 
     }.bind(this))
@@ -26,7 +26,7 @@ angular.module('draftDay')
     this.setRound = function(round) {
       // set current round
       this.current.round = round
-      var cStart = (round - 1) * 10 //((this.currentPick / 10)|0) * 10
+      var cStart = (round - 1) * 10
       this.current.picks = picks.slice(cStart, cStart+10)
 
       // get prev round
@@ -42,7 +42,6 @@ angular.module('draftDay')
 
 
     function fillRound() {
-      console.log('FILLING ROUND')
       return [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
     }
 
@@ -55,5 +54,12 @@ angular.module('draftDay')
     }
 
 
+    this.pickShowing = false
+    this.selectedPick = null
+    this.showPick = function(pick) {
+      console.log('show pick', pick)
+      this.pickShowing = true
+      this.selectedPick = pick
+    }
 
   })

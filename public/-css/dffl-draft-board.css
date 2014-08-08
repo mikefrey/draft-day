@@ -3,18 +3,19 @@
 html, body { height: 100%; margin: 0; padding: 0; border: none; }
 body { background: #000; font-family: Arvo, sans-serif; font-weight: 100; text-transform: uppercase; }
 #container {  width: 100%; height: 100%; position: relative; }
-#header { width: 100%; height: 8.571428571429%; background: #1e1e1e; position: relative; }
+#header { width: 100%; height: 8.571428571429%; background: #1e1e1e; position: relative; line-height: 77px; font-size: 28x; }
 .nav { float: left; text-align: center; height: 100%; display: table; position: relative; }
-.nav .arrow { position: absolute; z-index: 10; font-size: 54px; color: #666; text-decoration: none; }
+.nav .arrow { position: absolute; z-index: 10; font-size: 54px; color: #666; text-decoration: none; line-height: 70px; }
+.nav .arrow:hover, .nav .arrow:active, .nav .arrow:visited { color: #fff; }
 .nav span { display: table-cell; vertical-align: middle; }
 .nav.last, .nav.next { text-align: center; width: 25%; color: #666; font-size: 24px; }
 .nav.last a { position: absolute; left: 20px; height: 100%; display: table-cell; vertical-align: middle; }
 .nav.next a { position: absolute; right: 20px; height: 100%; display: table-cell; vertical-align: middle; }
 .home { color: #999; font-size: 42px; font-weight: 700; position: relative; width: 50%; }
-.home span:first-child { text-align: right; padding-right: 100px; width: 50%; }
-.home span:last-child { text-align: left; padding-left: 100px; width: 50%; }
-.logo { position: absolute; width: 100px; height: 100%; left: 50%; }
-.logo a { position: absolute; left: -50px; width: 100px; height: 100%; background: url('../-img/logo-dffl.png') 50% no-repeat;  }
+.home span:first-child { text-align: right; padding-right: 50px; width: 50%; }
+.home span:last-child { text-align: left; padding-left: 50px; width: 50%; }
+.logo { position: absolute; width: 50px; height: 100%; left: 50%; }
+.logo a { position: absolute; left: -25px; width: 50px; height: 100%; background: url('../-img/logo-dffl.png') 50% no-repeat;  }
 #draft-board { width: 100%; height: 91.428571428571%; position: relative; }
 ul, li { margin: 0; padding: 0; list-style-type: none; box-sizing: border-box;}
 .round { position: absolute; top: 0; bottom: 100%; padding: 10px; height: 100%; box-sizing: border-box; }
@@ -41,18 +42,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', end
 
 .picks li:hover ul { display: none; }
 .picks li ul { background: #1e1e1e; height: 100%;  position: relative; /*display: table; width: 100%;*/ }
-.picks .on-the-clock .player-name { color: #ff9; font-weight: 100; }
-.picks .on-the-clock .player-name span { float: right; padding-right: .5em; color: #ff0; font-weight: 700; }
+.picks .on-the-clock .player-name { color: #ff9; font-weight: 100;  }
+.picks .on-the-clock .player-name span { float: right; padding-right: .5em; color: #ff0; font-weight: 700;}
 .picks .on-deck .player-name, .picks .in-the-hole .player-name { font-weight: 100; }
 .picks .on-deck { opacity: .8; }
 .picks .in-the-hole { opacity: .6; }
 .picks .later { opacity: .4; }
 .picks .keeper ul { font-style: italic; outline: dotted 3px #333; }
 .picks .keeper ul .player-name {  } 
-.picks li ul li { padding: 0; float: left; font-size: 48px; height: 100%;
+.picks li ul li { padding: 0; float: left; /* font-size: 48px;*/ line-height: 71px; font-size: 32px; height: 100%;
 /* display: table-cell; vertical-align: middle; */
 /* position: relative; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); */
 }
+.side .picks li ul li {}
+.side .picks li ul li {}
+
 .picks li ul li.pick-number { width: 11.411290322581%; color: #666; text-align: right; padding-right: .5em; }
 .picks li ul li.team { width: 14.112903225806%; }
 .current .picks li.atlanta ul li.team { background: #333 url('../-img/logo-atlanta.png') 50% no-repeat; background-size: cover; }
@@ -67,15 +71,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', end
 .current .picks li.washington ul li.team { background: #333 url('../-img/logo-washington.png') 50% no-repeat; background-size: cover; }
 .picks li ul li.team { background-image: none; }
 .picks li ul li.player-position { width: 10.411290322581%;  color: #666; padding-left: .5em; font-weight: 700; }
-.picks li ul li.player-name { width: 64.064516129032%; color: #fff; font-weight: 700; }
+.picks li ul li.player-name { width: 64.064516129032%; color: #fff; font-weight: 700; padding-left: .5em; }
 .current .team { text-indent: -9999px; }
 .side .picks ul { position: relative; }
 .side .picks .pick-number { width: 23%; }
-.side .team { color: #999; font-size: 18px; position: absolute; left: 23%; top: 0; height: 50%; vertical-align: text-bottom; }
-.side .picks .player-position, .side .picks .player-name { font-size: 24px; position: absolute; height: 50%; }
-.side .picks .player-position { left: 23%; top: 50%; padding: 0; }
-.side .picks .player-name { left: 32.5%; top: 50%; }
-.side .picks .team { background-image: none; background-color: #1e1e1e; width: 77%; }
+.side .team { color: #999; font-size: 18px; position: absolute; left: 23%; top: 20px; height: 20px; vertical-align: text-bottom; }
+.side .picks .player-position, .side .picks .player-name { font-size: 16px; position: absolute; line-height: 16px; height: 16px; }
+.side .picks .player-position { left: 23%; top: 35px; padding: 0; }
+.side .picks .player-name { left: 32.5%; top: 35px; padding-left: 0px; }
+.side .picks .team { background-image: none; background-color: #1e1e1e; width: 77%; font-size: 12px; line-height: 12px; height: 12px; }
 
 /* EDIT PICKS */
 table#edit-draft { width: 100%; background-color: #333; color: #fff; border-collapse: collapse; }
@@ -98,6 +102,66 @@ table#edit-players td:first-child { text-indent: 1em; }
 #modal #menu a:hover, #modal #menu a:active { color: #f90; text-decoration: none; }
 #modal #menu ul { padding-bottom: 20px; }
 #modal #menu .options { font-size: 24px; margin-top: 40px;  }
+
+/* ENTER PICKS */
+#enter-pick { width: 600px; height: 800px; border: solid 1px #fff; margin: 50px auto; }
+
+#enter-pick  div { width: 474px; margin: auto; }
+
+#enter-pick .with-the { height: 41px; margin-top: 40px; background: url('../-img/pick-with-the.png') no-repeat 50%; }
+#enter-pick .xx-pick {  margin-top: 10px; }
+#enter-pick .dffl-draft { height: 151px; margin-top: 10px; background: url('../-img/pick-dffl-draft.png') no-repeat 50%; }
+#enter-pick .team-banner { height: 152px; margin-top: 10px; background-position: 50%; background-repeat: none; }
+#enter-pick .player-selection { margin-top: 10px; }
+#enter-pick .stars { height: 9px; margin-top: 10px; background-position: 50%; background-repeat: none; }
+
+#enter-pick .actions { position: absolute; bottom: 75px; left: 620px; }
+#enter-pick .actions li { display: inline-block; padding-right: 20px; }
+#enter-pick .actions li a { color: #fff; text-decoration: none; opacity: .5; font-size: 18px; }
+#enter-pick .actions li a:hover, #enter-pick .actions li a:active, #enter-pick .actions li a:visited { opacity: 1.0; }
+
+#enter-pick.enter-atlanta .team-banner {}
+#enter-pick.enter-baton-rouge .team-banner {}
+#enter-pick.enter-central-city .team-banner {}
+#enter-pick.enter-coos-bay .team-banner {}
+#enter-pick.enter-gotham-city .team-banner {}
+#enter-pick.enter-mankato .team-banner {}
+#enter-pick.enter-mount-fuji .team-banner {}
+#enter-pick.enter-sin-city .team-banner {}
+#enter-pick.enter-springfield .team-banner { background-image: url('../-img/pick-team-springfield.png'); }
+#enter-pick.enter-washington .team-banner {}
+
+#enter-pick.enter-atlanta .stars {}
+#enter-pick.enter-baton-rouge .stars {}
+#enter-pick.enter-central-city .stars {}
+#enter-pick.enter-coos-bay .stars {}
+#enter-pick.enter-gotham-city .stars {}
+#enter-pick.enter-mankato .stars {}
+#enter-pick.enter-mount-fuji .stars {}
+#enter-pick.enter-sin-city .stars {}
+#enter-pick.enter-springfield .stars { background-image: url('../-img/pick-stars-springfield.png'); }
+#enter-pick.enter-washington .stars {}
+
+#enter-pick.enter-atlanta {}
+#enter-pick.enter-baton-rouge {}
+#enter-pick.enter-central-city {}
+#enter-pick.enter-coos-bay {}
+#enter-pick.enter-gotham-city {}
+#enter-pick.enter-mankato {}
+#enter-pick.enter-mount-fuji {}
+#enter-pick.enter-sin-city {}
+#enter-pick.enter-springfield {
+	background: #488dcb; /* Old browsers */
+	background: -moz-linear-gradient(top, #488dcb 0%, #488dcb 50%, #27537b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#488dcb), color-stop(50%,#488dcb), color-stop(100%,#27537b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #488dcb 0%,#488dcb 50%,#27537b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #488dcb 0%,#488dcb 50%,#27537b 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #488dcb 0%,#488dcb 50%,#27537b 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #488dcb 0%,#488dcb 50%,#27537b 100%); /* W3C */
+}
+#enter-pick.enter-washington {}
+
+
 
 
 
