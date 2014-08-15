@@ -45,7 +45,7 @@ function importPicks() {
   var picks = []
 
   // generate offensive draft
-  for (var i = 0; i <= 14; i++) {
+  for (var i = 0; i < 14; i++) {
     for (var j = 1; j < 11; j++) {
       picks.push({
         offense: true,
@@ -56,7 +56,7 @@ function importPicks() {
   }
 
   // generate offensive draft
-  for (var i = 0; i <= 6; i++) {
+  for (var i = 0; i < 6; i++) {
     for (var j = 1; j < 11; j++) {
       picks.push({
         offense: false,
