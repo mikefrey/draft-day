@@ -9,9 +9,16 @@ angular.module('draftDay')
     var width = 474
     var center = width / 2
 
+    function font(size, weight) {
+      return (weight ? weight + ' ' : '') + size + 'px "Arvo"'
+    }
+
 
     var st = ['TH', 'ST', 'ND', 'RD']
     function renderPick(ctx, num) {
+      var arvo = font(84)
+      var boldArvo = font(84, 'bold')
+      var boldArvoSup = font(51, 'bold')
       ctx.clearRect(0, 0, 500, 200)
 
       var sup = st[num%10]||'TH'
@@ -19,24 +26,24 @@ angular.module('draftDay')
       var lineY = 64
       ctx.textAlign = 'start'
 
-      ctx.font = 'bold 84px "Arvo"'
+      ctx.font = boldArvo
       var numWidth = ctx.measureText(num).width
 
-      ctx.font = 'bold 44px "Arvo"'
+      ctx.font = boldArvoSup
       var stWidth = ctx.measureText(sup).width
 
-      ctx.font = '88px "Arvo"'
+      ctx.font = arvo
       var pickWidth = ctx.measureText(' PICK').width
 
       var fullWidth = numWidth + stWidth + pickWidth
       var x = center - (fullWidth/2)
 
       ctx.fillStyle = 'rgba(255, 255, 255, 0.75)'
-      ctx.font = 'bold 84px "Arvo"'
+      ctx.font = boldArvo
       ctx.fillText(''+num, x, lineY)
-      ctx.font = 'bold 44px "Arvo"'
+      ctx.font = boldArvoSup
       ctx.fillText(sup, x+numWidth, lineY-30)
-      ctx.font = '84px "Arvo"'
+      ctx.font = arvo
       ctx.fillText(' PICK', x+numWidth+stWidth, lineY)
     }
 
@@ -44,7 +51,7 @@ angular.module('draftDay')
       var size = determineSize(text)
       lineY += size
       lineY -= (size * 0.12)
-      ctx.font = size + 'px "Arvo"'
+      ctx.font = font(size)
       ctx.fillText(text, center, lineY)
     }
 
@@ -52,7 +59,7 @@ angular.module('draftDay')
       var size = determineSize(text, true)
       lineY += size
       lineY -= (size * 0.12)
-      ctx.font = 'bold ' + size + 'px "Arvo"'
+      ctx.font = font(size, 'bold')
       ctx.fillText(text, center, lineY)
     }
 
