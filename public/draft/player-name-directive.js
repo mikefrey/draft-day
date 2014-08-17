@@ -11,8 +11,8 @@ angular.module('draftDay')
       link: function(scope, element, attrs) {
         var pick = scope.pick
 
-        if (pick.player && pick.player.name) {
-          scope.text = pick.player.name
+        if (pick.player && pick.player.firstname) {
+          scope.text = pick.player.firstname + ' ' + pick.player.lastname
         }
         else if (scope.currentPick == pick.number) {
           scope.text = 'On The Clock'

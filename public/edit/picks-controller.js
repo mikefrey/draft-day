@@ -12,12 +12,22 @@ angular.module('draftDay')
     this.picks = Picks.query({ offense: $routeParams.side.toLowerCase() === 'offense' })
 
 
+    var findTeam = function(id) {
+      for (var i = 0; i < this.teams.length; i++) {
+        if (this.teams[i].id === id)
+          return this.teams[i]
+      }
+      return null
+    }.bind(this)
+
+
     this.savePick = function(pick) {
-      if (pick.player && pick.player.originalObject) {
+      if (pick.newPlayer && pick.newPlayer.originalObject) {
         pick.PlayerId = pick.player.originalObject.id
         pick.player = pick.player.originalObject
+        delete pick.newPlayer
       }
-      console.log(pick)
+      pick.team = findTeam(pick.TeamId)
       Picks.save(pick,
         function savePickSuccess() {
           console.log('pick save success')
@@ -30,11 +40,19 @@ angular.module('draftDay')
     }
 
     this.editPick = function(pick) {
+      console.log(pick.TeamId, pick.team.id)
       $scope.editing = pick.id
     }
 
     this.cancelEdit = function() {
       $scope.editing = null
+    }
+
+    this.clearPlayer = function(pick) {
+      pick.player = null
+      pick.PlayerId = null
+      delete pick.newPlayer
+      this.savePick(pick)
     }
 
   })

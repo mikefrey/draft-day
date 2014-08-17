@@ -48,32 +48,36 @@ angular.module('draftDay')
     }
 
     function renderPlayer(ctx, player) {
+      ctx.clearRect(0, 0, 500, 400)
+      ctx.textAlign = 'center'
+
       var lineY = 0
 
       // position
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.25)'
-      lineY = text(ctx, positions[player.position], 44, lineY)
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.25)'
+      lineY = text(ctx, positions[player.position].toUpperCase(), 44, lineY)
 
       // firstname
       ctx.fillStyle = 'rgba(255, 255, 255, 0.50)'
       lineY = text(ctx, player.firstname.toUpperCase(), 55, lineY)
 
       // lastname
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.50)'
+      ctx.fillStyle = 'rgba(255, 255, 255, 1)'
       lineY = boldText(ctx, player.lastname.toUpperCase(), 75, lineY)
     }
 
     function text(ctx, text, prefSize, lineY) {
-      var size = Math.min(prefSize, determineSize(text))
+      var size = Math.min(prefSize, determineSize(ctx, text))
       lineY += size
       lineY -= (size * 0.12)
       ctx.font = font(size)
-      ctx.fillText(ctx, text, center, lineY)
+      console.log(size, text, lineY, ctx.font)
+      ctx.fillText(text, center, lineY)
       return lineY
     }
 
-    function boldText(ct, text, prefSize, lineY) {
-      var size = Math.min(prefSize, determineSize(text, true))
+    function boldText(ctx, text, prefSize, lineY) {
+      var size = Math.min(prefSize, determineSize(ctx, text, true))
       lineY += size
       lineY -= (size * 0.12)
       ctx.font = font(size, 'bold')
@@ -81,9 +85,9 @@ angular.module('draftDay')
       return lineY
     }
 
-    function determineSize(text, bold) {
+    function determineSize(ctx, text, bold) {
       var b = bold ? 'bold ' : ''
-      var target = width - margin - margin
+      var target = width
       ctx.font = b + '80px "Arvo"'
       var a = ctx.measureText(text).width
       ctx.font = b + '100px "Arvo"'
