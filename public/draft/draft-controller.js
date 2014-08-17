@@ -4,8 +4,22 @@ angular.module('draftDay')
     picks.$promise.then(function() {
       this.totalRounds = $routeParams.side.toLowerCase() === 'offense' ? 14 : 6
 
-      // find current pick
       this.currentPick = picks[0]
+      setCurrentPick()
+
+    }.bind(this))
+
+
+    this.players = Players.query(function(players) {
+      players.forEach(function(p) {
+        p.display = p.position + ' ' + p.firstname + ' ' + p.lastname + ' (' + p.team + ')'
+      })
+      return players
+    })
+
+
+    var setCurrentPick = function() {
+      // find current pick
       for (var i = 0; i < picks.length; i++) {
         if (!picks[i].player) {
           this.currentPick = picks[i]
@@ -19,16 +33,7 @@ angular.module('draftDay')
 
       var round = (((this.currentPick.number - 1) / 10)|0) + 1
       this.setRound(round)
-
-    }.bind(this))
-
-
-    this.players = Players.query(function(players) {
-      players.forEach(function(p) {
-        p.display = p.position + ' ' + p.firstname + ' ' + p.lastname + ' (' + p.team + ')'
-      })
-      return players
-    })
+    }.bind(this)
 
 
     this.setRound = function(round) {
@@ -72,10 +77,16 @@ angular.module('draftDay')
 
 
     this.setPlayer = function(pick) {
-      if (pick.player && pick.player.originalObject) {
-        pick.PlayerId = pick.player.originalObject.id
-      }
-      Picks.save(pick)
+      Picks.save(pick,
+        function pickSaveSuccess() {
+          console.log('pick save success')
+          this.pickShowing = false
+          setCurrentPick()
+        },
+        function pickSaveFailure() {
+          console.log('pick save failure')
+          this.pickShowing = false
+        })
     }
 
   })
