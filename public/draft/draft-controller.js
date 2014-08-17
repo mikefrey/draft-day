@@ -1,5 +1,5 @@
 angular.module('draftDay')
-  .controller('DraftController', function(picks, Picks, $routeParams) {
+  .controller('DraftController', function(picks, Picks, Players, $routeParams) {
 
     picks.$promise.then(function() {
       this.totalRounds = $routeParams.side.toLowerCase() === 'offense' ? 14 : 6
@@ -21,6 +21,14 @@ angular.module('draftDay')
       this.setRound(round)
 
     }.bind(this))
+
+
+    this.players = Players.query(function(players) {
+      players.forEach(function(p) {
+        p.display = p.position + ' ' + p.firstname + ' ' + p.lastname + ' (' + p.team + ')'
+      })
+      return players
+    })
 
 
     this.setRound = function(round) {
@@ -60,6 +68,14 @@ angular.module('draftDay')
       console.log('show pick', pick)
       this.pickShowing = true
       this.selectedPick = pick
+    }
+
+
+    this.setPlayer = function(pick) {
+      if (pick.player && pick.player.originalObject) {
+        pick.PlayerId = pick.player.originalObject.id
+      }
+      Picks.save(pick)
     }
 
   })

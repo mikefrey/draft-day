@@ -12,7 +12,11 @@ angular.module('draftDay')
     this.picks = Picks.query({ offense: $routeParams.side.toLowerCase() === 'offense' })
 
 
-    this.savePick = function(pick, original) {
+    this.savePick = function(pick) {
+      if (pick.player && pick.player.originalObject) {
+        pick.PlayerId = pick.player.originalObject.id
+      }
+      console.log(pick)
       Picks.save(pick,
         function savePickSuccess() {
           console.log('pick save success')

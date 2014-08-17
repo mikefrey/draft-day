@@ -42,25 +42,43 @@ angular.module('draftDay')
       ctx.font = boldArvo
       ctx.fillText(''+num, x, lineY)
       ctx.font = boldArvoSup
-      ctx.fillText(sup, x+numWidth, lineY-30)
+      ctx.fillText(sup, x+numWidth, lineY-24)
       ctx.font = arvo
       ctx.fillText(' PICK', x+numWidth+stWidth, lineY)
     }
 
-    function text(text) {
-      var size = determineSize(text)
+    function renderPlayer(ctx, player) {
+      var lineY = 0
+
+      // position
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.25)'
+      lineY = text(ctx, positions[player.position], 44, lineY)
+
+      // firstname
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.50)'
+      lineY = text(ctx, player.firstname.toUpperCase(), 55, lineY)
+
+      // lastname
+      ctx.fillStyle = 'rgba(255, 255, 255, 0.50)'
+      lineY = boldText(ctx, player.lastname.toUpperCase(), 75, lineY)
+    }
+
+    function text(ctx, text, prefSize, lineY) {
+      var size = Math.min(prefSize, determineSize(text))
       lineY += size
       lineY -= (size * 0.12)
       ctx.font = font(size)
-      ctx.fillText(text, center, lineY)
+      ctx.fillText(ctx, text, center, lineY)
+      return lineY
     }
 
-    function boldText(text) {
-      var size = determineSize(text, true)
+    function boldText(ct, text, prefSize, lineY) {
+      var size = Math.min(prefSize, determineSize(text, true))
       lineY += size
       lineY -= (size * 0.12)
       ctx.font = font(size, 'bold')
       ctx.fillText(text, center, lineY)
+      return lineY
     }
 
     function determineSize(text, bold) {
@@ -97,7 +115,9 @@ angular.module('draftDay')
       restrict: 'E',
       scope: {
         show: '=',
-        pick: '='
+        pick: '=',
+        players: '=',
+        setPlayer: '&'
       },
       templateUrl: '/components/pick/pick.html',
       link: function(scope, element, attrs) {
@@ -106,13 +126,25 @@ angular.module('draftDay')
           scope.show = false
         }
 
+        scope.newPlayer = null
+
+        scope.save = function() {
+          if (scope.newPlayer) {
+            scope.pick.player = newPlayer
+            scope.setPlayer(pick)
+          }
+        }
+
         scope.$watch('pick', function(pick) {
           if (!pick || !pick.number) return
           var ctxPick = $('#cvsPick')[0].getContext('2d')
           var ctxPlayer = $('#cvsPlayer')[0].getContext('2d')
 
           renderPick(ctxPick, pick.number)
-          renderPlayer(ctxPlayer, pick.player)
+          if (pick.player) {
+            renderPlayer(ctxPlayer, pick.player)
+          }
+
         })
 
       }

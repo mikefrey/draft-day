@@ -23,22 +23,35 @@
           <td>Keeper</td>
           <td>Trade</td>
           <td>Note</td>
+          <td></td>
         </tr>
       </thead>
       <tbody ng-repeat="pick in ctrl.picks">
-        <tr>
+        <tr ng-if="pick.id != editing">
+          <td>{{ pick.number | round }}</td>
+          <td>{{pick.number}}</td>
+          <td>{{pick.team.name}}</td>
+          <td>{{pick.player | playerName}}</td>
+          <td>{{pick.keeper}}</td>
+          <td>{{pick.trade}}</td>
+          <td>{{pick.note}}</td>
+          <td><button ng-click="editing = pick.id">Edit</button></td>
+        </tr>
+        <tr ng-if="pick.id == editing">
           <td>{{ pick.number | round }}</td>
           <td>{{pick.number}}</td>
           <td><select ng-model="pick.TeamId" ng-options="t.id as t.name for t in ctrl.teams"></select></td>
           <td><angucomplete placeholder="Search Players"
                 pause="100"
-                selectedobject="pick.PlayerId"
+                selectedobject="pick.player"
                 localdata="ctrl.players"
                 searchfields="display"
                 titlefield="display"></angucomplete></td>
           <td><input type="checkbox" value="Keeper" ng-model="pick.keeper"></td>
           <td><input type="checkbox" value="Trade" ng-model="pick.trade"></td>
           <td><input type="text" name="note" ng-model="pick.note"></td>
+          <td><button ng-click="ctrl.savePick(pick)">Save</button></td>
+          <td><button ng-click="editing = null">Cancel</button></td>
         </tr>
         <tr class="round-break" ng-if="pick.number % 10 == 0">
           <td colspan="7"></td>
