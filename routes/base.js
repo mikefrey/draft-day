@@ -1,5 +1,7 @@
 
 function handleError(request, reply, err) {
+  console.log('\n\n\n\nERROR HANDLER\n\n\n\n\n')
+  console.log('error', err)
   request.log('error', err)
   reply('error').code(500)
 }
@@ -64,7 +66,7 @@ var methods = {
         .then(function(item) {
           return item.updateAttributes(payload)
         })
-        .then(function() { reply(item) })
+        .then(function(item) { reply(item) })
         .catch(handleError.bind(null, request, reply))
     }
 

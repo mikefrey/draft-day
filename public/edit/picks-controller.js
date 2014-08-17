@@ -15,15 +15,26 @@ angular.module('draftDay')
     this.savePick = function(pick) {
       if (pick.player && pick.player.originalObject) {
         pick.PlayerId = pick.player.originalObject.id
+        pick.player = pick.player.originalObject
       }
       console.log(pick)
       Picks.save(pick,
         function savePickSuccess() {
           console.log('pick save success')
+          $scope.editing = null
         }.bind(this),
         function savePickError() {
           console.error('pick save failed')
+          $scope.editing = null
         })
+    }
+
+    this.editPick = function(pick) {
+      $scope.editing = pick.id
+    }
+
+    this.cancelEdit = function() {
+      $scope.editing = null
     }
 
   })

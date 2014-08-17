@@ -35,7 +35,7 @@
           <td>{{pick.keeper}}</td>
           <td>{{pick.trade}}</td>
           <td>{{pick.note}}</td>
-          <td><button ng-click="editing = pick.id">Edit</button></td>
+          <td><button ng-click="ctrl.editPick(pick)">Edit</button></td>
         </tr>
         <tr ng-if="pick.id == editing">
           <td>{{ pick.number | round }}</td>
@@ -50,11 +50,13 @@
           <td><input type="checkbox" value="Keeper" ng-model="pick.keeper"></td>
           <td><input type="checkbox" value="Trade" ng-model="pick.trade"></td>
           <td><input type="text" name="note" ng-model="pick.note"></td>
-          <td><button ng-click="ctrl.savePick(pick)">Save</button></td>
-          <td><button ng-click="editing = null">Cancel</button></td>
+          <td>
+            <button ng-click="ctrl.savePick(pick)">Save</button>
+            <button ng-click="ctrl.cancelEdit()">Cancel</button>
+          </td>
         </tr>
         <tr class="round-break" ng-if="pick.number % 10 == 0">
-          <td colspan="7"></td>
+          <td colspan="8"></td>
         </tr>
       </tbody>
     </table>
