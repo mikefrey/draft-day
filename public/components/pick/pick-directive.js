@@ -132,6 +132,14 @@ angular.module('draftDay')
           scope.show = false
         }
 
+        scope.edit = function() {
+          scope.editing = true
+        }
+
+        scope.cancelEdit = function() {
+          scope.editing = false
+        }
+
         scope.save = function(newPlayer) {
           console.log('save', newPlayer)
           if (newPlayer) {
@@ -141,7 +149,7 @@ angular.module('draftDay')
             element.find('input').val('')
 
             renderPlayer(ctxPlayer, scope.pick.player)
-
+            scope.editing = false
 
             scope.setPlayer({pick:scope.pick})
           }

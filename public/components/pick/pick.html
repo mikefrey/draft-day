@@ -4,8 +4,8 @@
     <div class="xx-pick"><canvas id="cvsPick" width="474" height="66"></canvas></div>
     <div class="dffl-draft"></div>
     <div class="team-banner gotham-city"></div>
-    <div ng-show="pick.player" class="player-selection"><canvas id="cvsPlayer" width="474" height="160"></canvas></div>
-    <div ng-show="!pick.player" class="player-selection">
+    <div ng-show="pick.player && !editing" class="player-selection"><canvas id="cvsPlayer" width="474" height="160"></canvas></div>
+    <div ng-show="!pick.player || editing" class="player-selection">
       <angucomplete placeholder="Search Players"
         pause="100"
         selectedobject="pick.newPlayer"
@@ -14,10 +14,17 @@
         titlefield="display"></angucomplete>
     </div>
     <div class="stars"></div>
-    <ul class="actions">
-      <li ng-if="!pick.player"><a href="#" ng-click="save(pick.newPlayer)">SAVE</a></li>
-      <li ng-if="pick.player"><a href="#">EDIT</a></li>
+    <ul ng-if="!pick.player" class="actions">
+      <li><a href="#" ng-click="save(pick.newPlayer)">SAVE</a></li>
       <li><a href="#" ng-click="close()">CANCEL</a></li>
+    </ul>
+    <ul ng-if="pick.player && !editing" class="actions">
+      <li><a href="#" ng-click="edit()">EDIT</a></li>
+      <li><a href="#" ng-click="close()">CANCEL</a></li>
+    </ul>
+    <ul ng-if="editing" class="actions">
+      <li><a href="#" ng-click="save(pick.newPlayer)">SAVE</a></li>
+      <li><a href="#" ng-click="cancelEdit()">CANCEL</a></li>
     </ul>
   </div>
 </div>

@@ -9,10 +9,16 @@ angular.module('draftDay')
       },
       template: '{{text}} <span></span>',
       link: function(scope, element, attrs) {
-        var pick = scope.pick
 
         scope.$watch('currentPick', function(currentPick) {
+          changeText(scope.pick, currentPick)
+        })
 
+        scope.$watch(function() { return scope.pick.PlayerId }, function() {
+          changeText(scope.pick, scope.currentPick)
+        })
+
+        function changeText(pick, currentPick) {
           if (pick.player && pick.player.firstname) {
             scope.text = pick.player.firstname + ' ' + pick.player.lastname
           }
@@ -28,8 +34,7 @@ angular.module('draftDay')
           else {
             scope.text = ''
           }
-
-        })
+        }
 
       }
     }
