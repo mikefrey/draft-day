@@ -120,36 +120,100 @@ table#edit-players td:first-child { text-indent: 1em; }
 #enter-pick .actions li a { color: #fff; text-decoration: none; opacity: .5; font-size: 18px; }
 #enter-pick .actions li a:hover, #enter-pick .actions li a:active, #enter-pick .actions li a:visited { opacity: 1.0; }
 
-#enter-pick.enter-atlanta .team-banner {}
-#enter-pick.enter-baton-rouge .team-banner {}
-#enter-pick.enter-central-city .team-banner {}
-#enter-pick.enter-coos-bay .team-banner {}
-#enter-pick.enter-gotham-city .team-banner {}
-#enter-pick.enter-mankato .team-banner {}
-#enter-pick.enter-mount-fuji .team-banner {}
-#enter-pick.enter-sin-city .team-banner {}
+#enter-pick.enter-atlanta .team-banner { background-image: url('../-img/pick-team-atlanta.png'); }
+#enter-pick.enter-baton-rouge .team-banner { background-image: url('../-img/pick-team-baton-rouge.png'); }
+#enter-pick.enter-central-city .team-banner { background-image: url('../-img/pick-team-central-city.png'); }
+#enter-pick.enter-coos-bay .team-banner { background-image: url('../-img/pick-team-coos-bay.png'); }
+#enter-pick.enter-gotham-city .team-banner { background-image: url('../-img/pick-team-gotham-city.png'); }
+#enter-pick.enter-mankato .team-banner { background-image: url('../-img/pick-team-mankato.png'); }
+#enter-pick.enter-mount-fuji .team-banner { background-image: url('../-img/pick-team-mount-fuji.png'); }
+#enter-pick.enter-sin-city .team-banner { background-image: url('../-img/pick-team-sin-city.png'); }
 #enter-pick.enter-springfield .team-banner { background-image: url('../-img/pick-team-springfield.png'); }
-#enter-pick.enter-washington .team-banner {}
+#enter-pick.enter-washington .team-banner { background-image: url('../-img/pick-team-washington.png'); }
 
-#enter-pick.enter-atlanta .stars {}
-#enter-pick.enter-baton-rouge .stars {}
-#enter-pick.enter-central-city .stars {}
-#enter-pick.enter-coos-bay .stars {}
-#enter-pick.enter-gotham-city .stars {}
-#enter-pick.enter-mankato .stars {}
-#enter-pick.enter-mount-fuji .stars {}
-#enter-pick.enter-sin-city .stars {}
+#enter-pick.enter-atlanta .stars { background-image: url('../-img/pick-stars-atlanta.png'); }
+#enter-pick.enter-baton-rouge .stars { background-image: url('../-img/pick-stars-baton-rouge.png'); }
+#enter-pick.enter-central-city .stars { background-image: url('../-img/pick-stars-central-city.png'); }
+#enter-pick.enter-coos-bay .stars { background-image: url('../-img/pick-stars-coos-bay.png'); }
+#enter-pick.enter-gotham-city .stars { background-image: url('../-img/pick-stars-gotham-city.png'); }
+#enter-pick.enter-mankato .stars { background-image: url('../-img/pick-stars-mankato.png'); }
+#enter-pick.enter-mount-fuji .stars { background-image: url('../-img/pick-stars-mount-fuji.png'); }
+#enter-pick.enter-sin-city .stars { background-image: url('../-img/pick-stars-sin-city.png'); }
 #enter-pick.enter-springfield .stars { background-image: url('../-img/pick-stars-springfield.png'); }
-#enter-pick.enter-washington .stars {}
+#enter-pick.enter-washington .stars { background-image: url('../-img/pick-stars-washington.png'); }
 
-#enter-pick.enter-atlanta {}
-#enter-pick.enter-baton-rouge {}
-#enter-pick.enter-central-city {}
-#enter-pick.enter-coos-bay {}
-#enter-pick.enter-gotham-city {}
-#enter-pick.enter-mankato {}
-#enter-pick.enter-mount-fuji {}
-#enter-pick.enter-sin-city {}
+#enter-pick.enter-atlanta {
+	background: #ed1c24; /* Old browsers */
+	background: -moz-linear-gradient(top, #ed1c24 0%, #ed1c24 50%, #8a0607 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ed1c24), color-stop(50%,#ed1c24), color-stop(100%,#8a0607)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ed1c24 0%,#ed1c24 50%,#8a0607 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ed1c24 0%,#ed1c24 50%,#8a0607 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ed1c24 0%,#ed1c24 50%,#8a0607 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ed1c24 0%,#ed1c24 50%,#8a0607 100%); /* W3C */
+}
+#enter-pick.enter-baton-rouge {
+	background: #8d3824; /* Old browsers */
+	background: -moz-linear-gradient(top, #8d3824 0%, #8d3824 50%, #410a00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8d3824), color-stop(50%,#8d3824), color-stop(100%,#410a00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #8d3824 0%,#8d3824 50%,#410a00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #8d3824 0%,#8d3824 50%,#410a00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #8d3824 0%,#8d3824 50%,#410a00 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #8d3824 0%,#8d3824 50%,#410a00 100%); /* W3C */
+}
+#enter-pick.enter-central-city {
+	background: #b72025; /* Old browsers */
+	background: -moz-linear-gradient(top, #b72025 0%, #b72025 50%, #660000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b72025), color-stop(50%,#b72025), color-stop(100%,#660000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b72025 0%,#b72025 50%,#660000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b72025 0%,#b72025 50%,#660000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b72025 0%,#b72025 50%,#660000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b72025 0%,#b72025 50%,#660000 100%); /* W3C */
+}
+#enter-pick.enter-coos-bay {
+	background: #00854b; /* Old browsers */
+	background: -moz-linear-gradient(top, #00854b 0%, #00854b 50%, #004b25 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00854b), color-stop(50%,#00854b), color-stop(100%,#004b25)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #00854b 0%,#00854b 50%,#004b25 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #00854b 0%,#00854b 50%,#004b25 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #00854b 0%,#00854b 50%,#004b25 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #00854b 0%,#00854b 50%,#004b25 100%); /* W3C */
+}
+#enter-pick.enter-gotham-city {
+	background: #414042; /* Old browsers */
+	background: -moz-linear-gradient(top, #414042 0%, #414042 50%, #231f20 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#414042), color-stop(50%,#414042), color-stop(100%,#231f20)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #414042 0%,#414042 50%,#231f20 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #414042 0%,#414042 50%,#231f20 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #414042 0%,#414042 50%,#231f20 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #414042 0%,#414042 50%,#231f20 100%); /* W3C */
+}
+#enter-pick.enter-mankato {
+	background: #a51e2b; /* Old browsers */
+	background: -moz-linear-gradient(top, #a51e2b 0%, #a51e2b 50%, #570001 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a51e2b), color-stop(50%,#a51e2b), color-stop(100%,#570001)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a51e2b 0%,#a51e2b 50%,#570001 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a51e2b 0%,#a51e2b 50%,#570001 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a51e2b 0%,#a51e2b 50%,#570001 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #a51e2b 0%,#a51e2b 50%,#570001 100%); /* W3C */
+}
+#enter-pick.enter-mount-fuji {
+	background: #7a112b; /* Old browsers */
+	background: -moz-linear-gradient(top, #7a112b 0%, #7a112b 50%, #2d0000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7a112b), color-stop(50%,#7a112b), color-stop(100%,#2d0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #7a112b 0%,#7a112b 50%,#2d0000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #7a112b 0%,#7a112b 50%,#2d0000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #7a112b 0%,#7a112b 50%,#2d0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #7a112b 0%,#7a112b 50%,#2d0000 100%); /* W3C */
+}
+#enter-pick.enter-sin-city {
+	background: #b82025; /* Old browsers */
+	background: -moz-linear-gradient(top, #b82025 0%, #b82025 50%, #670000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b82025), color-stop(50%,#b82025), color-stop(100%,#670000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #b82025 0%,#b82025 50%,#670000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #b82025 0%,#b82025 50%,#670000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #b82025 0%,#b82025 50%,#670000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #b82025 0%,#b82025 50%,#670000 100%); /* W3C */
+}
 #enter-pick.enter-springfield {
 	background: #488dcb; /* Old browsers */
 	background: -moz-linear-gradient(top, #488dcb 0%, #488dcb 50%, #27537b 100%); /* FF3.6+ */
@@ -159,7 +223,15 @@ table#edit-players td:first-child { text-indent: 1em; }
 	background: -ms-linear-gradient(top, #488dcb 0%,#488dcb 50%,#27537b 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #488dcb 0%,#488dcb 50%,#27537b 100%); /* W3C */
 }
-#enter-pick.enter-washington {}
+#enter-pick.enter-washington {
+	background: #8a1728; /* Old browsers */
+	background: -moz-linear-gradient(top, #8a1728 0%, #8a1728 50%, #3d0000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a1728), color-stop(50%,#8a1728), color-stop(100%,#3d0000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #8a1728 0%,#8a1728 50%,#3d0000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #8a1728 0%,#8a1728 50%,#3d0000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #8a1728 0%,#8a1728 50%,#3d0000 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #8a1728 0%,#8a1728 50%,#3d0000 100%); /* W3C */
+}
 
 
 
