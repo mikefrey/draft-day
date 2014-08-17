@@ -71,7 +71,6 @@ angular.module('draftDay')
       lineY += size
       lineY -= (size * 0.12)
       ctx.font = font(size)
-      console.log(size, text, lineY, ctx.font)
       ctx.fillText(text, center, lineY)
       return lineY
     }
@@ -130,22 +129,23 @@ angular.module('draftDay')
           scope.show = false
         }
 
-        scope.newPlayer = null
-
-        scope.save = function() {
-          if (scope.newPlayer) {
-            scope.pick.player = newPlayer
-            scope.setPlayer(pick)
+        scope.save = function(newPlayer) {
+          console.log('save', newPlayer)
+          if (newPlayer) {
+            scope.pick.player = newPlayer.originalObject
+            scope.pick.PlayerId = newPlayer.originalObject.id
+            delete scope.pick.newPlayer
+            scope.setPlayer({pick:scope.pick})
           }
         }
 
         scope.$watch('pick', function(pick) {
           if (!pick || !pick.number) return
           var ctxPick = $('#cvsPick')[0].getContext('2d')
-          var ctxPlayer = $('#cvsPlayer')[0].getContext('2d')
 
           renderPick(ctxPick, pick.number)
           if (pick.player) {
+            var ctxPlayer = $('#cvsPlayer')[0].getContext('2d')
             renderPlayer(ctxPlayer, pick.player)
           }
 
@@ -162,5 +162,3 @@ angular.module('draftDay')
 // Position Name: 44px Arvo Regular (.25)
 // First Name: 55px Arvo Regular (.50)
 // Last Name: 75px Arvo Bold (1.00)
-
-// ˢᵀ ᴺᴰ ᴿᴰ ᵀᴴ

@@ -8,15 +8,15 @@
     <div ng-if="!pick.player" class="player-selection">
       <angucomplete placeholder="Search Players"
         pause="100"
-        selectedobject="newPlayer"
+        selectedobject="pick.newPlayer"
         localdata="players"
         searchfields="display"
         titlefield="display"></angucomplete>
     </div>
     <div class="stars"></div>
     <ul class="actions">
-      <li ng-if="pick.player"><a href="#" ng-click="save()">SAVE</a></li>
-      <li ng-if="!pick.player"><a href="#">EDIT</a></li>
+      <li ng-if="!pick.player"><a href="#" ng-click="save(pick.newPlayer)">SAVE</a></li>
+      <li ng-if="pick.player"><a href="#">EDIT</a></li>
       <li><a href="#" ng-click="close()">CANCEL</a></li>
     </ul>
   </div>
