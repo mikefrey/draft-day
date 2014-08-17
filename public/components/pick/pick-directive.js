@@ -125,6 +125,9 @@ angular.module('draftDay')
       templateUrl: '/components/pick/pick.html',
       link: function(scope, element, attrs) {
 
+        var ctxPick = $('#cvsPick')[0].getContext('2d')
+        var ctxPlayer = $('#cvsPlayer')[0].getContext('2d')
+
         scope.close = function() {
           scope.show = false
         }
@@ -135,17 +138,21 @@ angular.module('draftDay')
             scope.pick.player = newPlayer.originalObject
             scope.pick.PlayerId = newPlayer.originalObject.id
             delete scope.pick.newPlayer
+            element.find('input').val('')
+
+            renderPlayer(ctxPlayer, scope.pick.player)
+
+
             scope.setPlayer({pick:scope.pick})
           }
         }
 
         scope.$watch('pick', function(pick) {
           if (!pick || !pick.number) return
-          var ctxPick = $('#cvsPick')[0].getContext('2d')
 
           renderPick(ctxPick, pick.number)
+
           if (pick.player) {
-            var ctxPlayer = $('#cvsPlayer')[0].getContext('2d')
             renderPlayer(ctxPlayer, pick.player)
           }
 

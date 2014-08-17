@@ -4,8 +4,8 @@
     <div class="xx-pick"><canvas id="cvsPick" width="474" height="66"></canvas></div>
     <div class="dffl-draft"></div>
     <div class="team-banner gotham-city"></div>
-    <div ng-if="pick.player" class="player-selection"><canvas id="cvsPlayer" width="474" height="160"></canvas></div>
-    <div ng-if="!pick.player" class="player-selection">
+    <div ng-show="pick.player" class="player-selection"><canvas id="cvsPlayer" width="474" height="160"></canvas></div>
+    <div ng-show="!pick.player" class="player-selection">
       <angucomplete placeholder="Search Players"
         pause="100"
         selectedobject="pick.newPlayer"
