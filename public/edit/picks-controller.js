@@ -23,8 +23,8 @@ angular.module('draftDay')
 
     this.savePick = function(pick) {
       if (pick.newPlayer && pick.newPlayer.originalObject) {
-        pick.PlayerId = pick.player.originalObject.id
-        pick.player = pick.player.originalObject
+        pick.PlayerId = pick.newPlayer.originalObject.id
+        pick.player = pick.newPlayer.originalObject
         delete pick.newPlayer
       }
       pick.team = findTeam(pick.TeamId)
