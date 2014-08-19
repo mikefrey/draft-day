@@ -1,0 +1,1 @@
+angular.module('draft-day').controller('HomeController', function() {})

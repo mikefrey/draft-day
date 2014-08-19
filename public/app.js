@@ -10,7 +10,8 @@ angular.module('draftDay', [
 
     $routeProvider
       .when('/', {
-        redirectTo: '/draft/offense'
+        templateUrl: '/home/home.html',
+        controller: 'HomeController as ctrl'
       })
       .when('/draft/:side', {
         templateUrl: '/draft/draft.html',
