@@ -20,7 +20,9 @@ angular.module('draftDay')
 
         function changeText(pick, currentPick) {
           if (pick.player && pick.player.firstname) {
-            scope.text = pick.player.firstname + ' ' + pick.player.lastname
+            var text = pick.player.firstname + ' ' + pick.player.lastname
+            if (text.length > 16) text = text.substring(0, 16) + '...'
+            scope.text = text
           }
           else if (currentPick == pick.number) {
             scope.text = 'On The Clock'
