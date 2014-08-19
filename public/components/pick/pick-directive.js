@@ -91,7 +91,7 @@ angular.module('draftDay')
 
     function determineSize(ctx, text, bold) {
       var b = bold ? 'bold ' : ''
-      var target = width
+      var target = width - 10
       ctx.font = b + '80px "Arvo"'
       var a = ctx.measureText(text).width
       ctx.font = b + '100px "Arvo"'
