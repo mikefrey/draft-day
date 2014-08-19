@@ -13,15 +13,20 @@ angular.module('draftDay')
       return (weight ? weight + ' ' : '') + size + 'px "Arvo"'
     }
 
-
     var st = ['TH', 'ST', 'ND', 'RD']
+    function superscript(num) {
+      num = num % 100
+      if (num > 10 && num < 20) return 'TH'
+      return st[num%10]||'TH'
+    }
+
     function renderPick(ctx, num) {
       var arvo = font(84)
       var boldArvo = font(84, 'bold')
       var boldArvoSup = font(51, 'bold')
       ctx.clearRect(0, 0, 500, 200)
 
-      var sup = st[num%10]||'TH'
+      var sup = superscript(num)
 
       var lineY = 64
       ctx.textAlign = 'start'
