@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', end
 .picks .in-the-hole { opacity: .6; }
 .picks .later { opacity: .4; }
 .picks .keeper ul { font-style: italic; outline: dotted 3px #333; }
-.picks .keeper ul .player-name {  } 
+.picks .keeper ul .player-name {  }
 .picks li ul li { padding: 0; float: left; /* font-size: 48px;*/ line-height: 71px; font-size: 32px; height: 100%;
 /* display: table-cell; vertical-align: middle; */
 /* position: relative; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); */
@@ -97,6 +97,8 @@ table#edit-players td:first-child { text-indent: 1em; }
 
 /* MENU */
 #modal { position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,.9); left: 0; top: 0; z-index: 20; }
+#modal { -webkit-transition: all linear 0.3s; transition: all linear 0.3s; }
+#modal.ng-hide { opacity:0; }
 #modal #menu { margin: 100px auto; background-color: #1e1e1e; color: #666; font-weight: 700; font-size: 42px; z-index: 30; text-align: center; padding: 40px; border: solid 2px #666; }
 #modal #menu a { color: #999; text-decoration: none; font-weight: 100; }
 #modal #menu a:hover, #modal #menu a:active { color: #f90; text-decoration: none; }
