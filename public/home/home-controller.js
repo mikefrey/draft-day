@@ -1,1 +1,2 @@
-angular.module('draft-day').controller('HomeController', function() {})
+angular.module('draftDay')
+  .controller('HomeController', function() {})
