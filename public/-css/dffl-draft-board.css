@@ -12,9 +12,9 @@ body { background: #000; font-family: Arvo, sans-serif; font-weight: 100; text-t
 .nav.last a { position: absolute; left: 20px; height: 100%; display: table-cell; vertical-align: middle; }
 .nav.next a { position: absolute; right: 20px; height: 100%; display: table-cell; vertical-align: middle; }
 .home { color: #999; font-size: 42px; font-weight: 700; position: relative; width: 50%; }
-.home span:first-child { text-align: right; padding-right: 50px; width: 50%; }
-.home span:last-child { text-align: left; padding-left: 50px; width: 50%; }
-.logo { position: absolute; width: 50px; height: 100%; left: 50%; }
+.home span:first-child { text-align: right; padding-right: 35px; width: 50%; }
+.home span:last-child { text-align: left; padding-left: 35px; width: 50%; }
+.logo { position: absolute; width: 50px; height: 60px; left: 50%; top: 5px; }
 .logo a { position: absolute; left: -25px; width: 50px; height: 100%; background: url('../-img/logo-dffl.png') 50% no-repeat;  }
 #draft-board { width: 100%; height: 91.428571428571%; position: relative; }
 ul, li { margin: 0; padding: 0; list-style-type: none; box-sizing: border-box;}
@@ -50,7 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', end
 .picks .later { opacity: .4; }
 .picks .keeper ul { font-style: italic; outline: dotted 3px #333; }
 .picks .keeper ul .player-name {  }
-.picks li ul li { padding: 0; float: left; /* font-size: 48px;*/ line-height: 71px; font-size: 32px; height: 100%;
+.picks li ul li { padding: 0; float: left; /* font-size: 48px;*/ line-height: 61px; font-size: 28px; height: 100%;
 /* display: table-cell; vertical-align: middle; */
 /* position: relative; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); */
 }
@@ -75,11 +75,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', end
 .current .team { text-indent: -9999px; }
 .side .picks ul { position: relative; }
 .side .picks .pick-number { width: 23%; }
-.side .team { color: #999; font-size: 18px; position: absolute; left: 23%; top: 20px; height: 20px; vertical-align: text-bottom; }
+.side .team { color: #999; font-size: 18px; position: absolute; left: 20%; top: 20px; height: 20px; vertical-align: text-bottom; }
 .side .picks .player-position, .side .picks .player-name { font-size: 16px; position: absolute; line-height: 16px; height: 16px; }
-.side .picks .player-position { left: 23%; top: 35px; padding: 0; }
+.side .picks .player-position { left: 20%; top: 35px; padding: 0; }
 .side .picks .player-name { left: 32.5%; top: 35px; padding-left: 0px; }
-.side .picks .team { background-image: none; background-color: #1e1e1e; width: 77%; font-size: 12px; line-height: 12px; height: 12px; }
+.side .picks .team { background-image: none; background-color: #1e1e1e; width: 80%; font-size: 12px; line-height: 12px; height: 12px; }
 
 /* EDIT PICKS */
 table#edit-draft { width: 100%; background-color: #333; color: #fff; border-collapse: collapse; }
@@ -99,14 +99,14 @@ table#edit-players td:first-child { text-indent: 1em; }
 #modal { position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,.9); left: 0; top: 0; z-index: 20; }
 #modal { -webkit-transition: all linear 0.3s; transition: all linear 0.3s; }
 #modal.ng-hide { opacity:0; }
-#modal #menu { margin: 100px auto; background-color: #1e1e1e; color: #666; font-weight: 700; font-size: 42px; z-index: 30; text-align: center; padding: 40px; border: solid 2px #666; }
+#modal #menu { position: absolute; top: 75px; left: 300px; width: 600px; background-color: #1e1e1e; color: #666; font-weight: 700; font-size: 28px; z-index: 30; text-align: center; padding: 40px; border: solid 2px #666; }
 #modal #menu a { color: #999; text-decoration: none; font-weight: 100; }
 #modal #menu a:hover, #modal #menu a:active { color: #f90; text-decoration: none; }
 #modal #menu ul { padding-bottom: 20px; }
 #modal #menu .options { font-size: 24px; margin-top: 40px;  }
 
 /* ENTER PICKS */
-#enter-pick { width: 600px; height: 800px; border: solid 1px #fff; margin: 50px auto; }
+#enter-pick { width: 600px; height: 750px; border: solid 1px #fff; margin: 25px auto; }
 
 #enter-pick  div { width: 474px; margin: auto; }
 
@@ -117,7 +117,7 @@ table#edit-players td:first-child { text-indent: 1em; }
 #enter-pick .player-selection { margin-top: 10px; }
 #enter-pick .stars { height: 9px; margin-top: 10px; background-position: 50%; background-repeat: none; }
 
-#enter-pick .actions { position: absolute; bottom: 75px; left: 620px; }
+#enter-pick .actions { position: absolute; bottom: 50px; left: 575px; }
 #enter-pick .actions li { display: inline-block; padding-right: 20px; }
 #enter-pick .actions li a { color: #fff; text-decoration: none; opacity: .5; font-size: 18px; }
 #enter-pick .actions li a:hover, #enter-pick .actions li a:active, #enter-pick .actions li a:visited { opacity: 1.0; }
