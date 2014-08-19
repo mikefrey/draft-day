@@ -22,7 +22,9 @@ function importPlayers() {
           position: record[0],
           firstname: record[1],
           lastname: record[2],
-          team: initial(record[3])
+          team: initial(record[3]),
+          exp: record[5],
+          pos2: record[6]
         })
       }
     })

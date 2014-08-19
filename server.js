@@ -2,9 +2,10 @@ var Hapi = require('hapi')
 var Good = require('good')
 var Path = require('path')
 
-var picks = require('./routes/picks.js')
-var players = require('./routes/players.js')
-var teams = require('./routes/teams.js')
+var exporter = require('./routes/export')
+var picks = require('./routes/picks')
+var players = require('./routes/players')
+var teams = require('./routes/teams')
 
 var server = new Hapi.Server(3000, { state: { cookies: { strictHeader: false } } })
 
@@ -19,6 +20,9 @@ server.route([
   { method: 'GET', path: '/draft/offense', handler: home },
   { method: 'GET', path: '/draft/defense', handler: home },
 
+  // export
+  { method: 'GET', path: '/export/{side}', handler: exporter.index },
+
   // picks
   { method: 'GET', path: '/picks', handler: picks.index },
   { method: 'POST', path: '/picks', handler: picks.create },
@@ -32,7 +36,7 @@ server.route([
   { method: 'POST', path: '/players/{id}', handler: players.update },
   { method: 'DELETE', path: '/players/{id}', handler: players.destroy },
 
-  // players
+  // teams
   { method: 'GET', path: '/teams', handler: teams.index },
   { method: 'GET', path: '/teams/{id}', handler: teams.show },
   { method: 'POST', path: '/teams', handler: teams.create },
