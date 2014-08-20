@@ -23,7 +23,7 @@ function importTeams() {
     { id: 1,    abbrev: 'SPR', name: 'D\'oh Boys',    city: 'Springfield',  slug: 'springfield' },
     { id: 2,    abbrev: 'SC',  name: 'Outcasts',      city: 'Sin City',     slug: 'sin-city' },
     { id: 3,    abbrev: 'ATL', name: 'Rednecks',      city: 'Atlanta',      slug: 'atlanta' },
-    { id: 4,    abbrev: 'BR',  name: 'Ruabdubs',      city: 'Baton Rouge',  slug: 'baton-rouge' },
+    { id: 4,    abbrev: 'BR',  name: 'Rubadubs',      city: 'Baton Rouge',  slug: 'baton-rouge' },
     { id: 5,    abbrev: 'CC',  name: 'Flash',         city: 'Central City', slug: 'central-city' },
     { id: 6,    abbrev: 'MAN', name: 'Mavericks',     city: 'Mankato',      slug: 'mankato' },
     { id: 7,    abbrev: 'WAS', name: 'Weasels',       city: 'Washington',   slug: 'washington' },
