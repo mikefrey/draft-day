@@ -97,7 +97,8 @@ table#edit-players td:first-child { text-indent: 1em; }
 
 /* MENU */
 #modal { position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,.9); left: 0; top: 0; z-index: 20; }
-#modal { -webkit-transition: all linear 0.3s; transition: all linear 0.3s; }
+#modal { transition: all linear 0.3s; }
+#modal.long-hide { transition-delay: 5s;}
 #modal.ng-hide { opacity:0; }
 #modal #menu { position: absolute; top: 75px; left: 300px; width: 600px; background-color: #1e1e1e; color: #666; font-weight: 700; font-size: 28px; z-index: 30; text-align: center; padding: 40px; border: solid 2px #666; }
 #modal #menu a { color: #999; text-decoration: none; font-weight: 100; }

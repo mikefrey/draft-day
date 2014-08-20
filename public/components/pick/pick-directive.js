@@ -1,5 +1,5 @@
 angular.module('draftDay')
-  .directive('pick', function($rootScope) {
+  .directive('pick', function($rootScope, $timeout) {
 
     var img1 = new Image()
     img1.src = '/-fonts/arvo.woff'
@@ -157,8 +157,17 @@ angular.module('draftDay')
             scope.editing = false
 
             scope.setPlayer({pick:scope.pick})
+
+            element.find('#modal').addClass('long-hide')
+            scope.show = false
           }
         }
+
+        scope.$watch('show', function(show) {
+          if (show) {
+            element.find('#modal').removeClass('long-hide')
+          }
+        })
 
         scope.$watch('pick', function(pick) {
           if (!pick || !pick.number) return

@@ -1,5 +1,5 @@
 angular.module('draftDay')
-  .controller('DraftController', function(picks, Picks, Players, $routeParams, $timeout) {
+  .controller('DraftController', function(picks, Picks, Players, $routeParams) {
 
     picks.$promise.then(function() {
       this.totalRounds = $routeParams.side.toLowerCase() === 'offense' ? 14 : 6
@@ -81,7 +81,6 @@ angular.module('draftDay')
         function pickSaveSuccess() {
           console.log('pick save success')
           setCurrentPick()
-          $timeout(function() { this.pickShowing = false }.bind(this), 5000)
         }.bind(this),
         function pickSaveFailure() {
           console.log('pick save failure')
