@@ -1,8 +1,7 @@
 angular.module('draftDay')
-  .controller('DraftController', function(picks, Picks, Players, $routeParams) {
+  .controller('PickerController', function(picks, Picks, Players) {
 
     picks.$promise.then(function() {
-      // this.totalRounds = $routeParams.side.toLowerCase() === 'offense' ? 14 : 6
       this.totalRounds = 14
 
       this.currentPick = picks[0]

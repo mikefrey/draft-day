@@ -9,7 +9,7 @@ module.exports = Base(Pick, {
   index: function(request) {
     return {
       include: [ Team, Player ],
-      where: { offense: request.query.offense === 'true' }
+      where: { offense: true }
     }
   },
   create: {},

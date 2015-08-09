@@ -31,7 +31,7 @@ var methods = {
 
     return function(request, reply) {
       var id = parseInt(request.params.id, 10)
-      Resource.find(id)
+      Resource.findById(id)
         .then(function(result) { reply(result) })
         .error(handleError.bind(null, request, reply))
     }
@@ -62,7 +62,7 @@ var methods = {
         reply(msg).code(400)
       }
 
-      Resource.find(id)
+      Resource.findById(id)
         .then(function(item) {
           return item.updateAttributes(payload)
         })
@@ -76,7 +76,7 @@ var methods = {
 
     return function(request, reply) {
       var id = parseInt(request.params.id, 10)
-      Resource.find(id)
+      Resource.findById(id)
         .then(function(item) { return item.destroy() })
         .then(function() { reply() })
         .catch(handleError.bind(null, request, reply))
@@ -97,4 +97,3 @@ module.exports = function(Resource, actions) {
 
   return controller
 }
-

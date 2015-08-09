@@ -10,21 +10,27 @@ angular.module('draftDay', [
 
     $routeProvider
       .when('/', {
-        templateUrl: '/home/home.html',
-        controller: 'HomeController as ctrl'
+        redirectTo: '/draft'
       })
-      .when('/draft/:side', {
+      .when('/draft', {
         templateUrl: '/draft/draft.html',
         controller: 'DraftController as draft',
         resolve: { picks: function(Picks, $route) {
-          return Picks.query({ offense: $route.current.params.side.toLowerCase() === 'offense' })
+          return Picks.query({ offense: 'offense' })
+        }}
+      })
+      .when('/select-player', {
+        templateUrl: '/draft/picker.html',
+        controller: 'PickerController as draft',
+        resolve: { picks: function(Picks, $route) {
+          return Picks.query({ offense: 'offense' })
         }}
       })
       .when('/edit/players', {
         templateUrl: '/edit/players.html',
         controller: 'PlayersController as ctrl'
       })
-      .when('/edit/:side', {
+      .when('/edit/offense', {
         templateUrl: '/edit/picks.html',
         controller: 'PicksController as ctrl'
       })

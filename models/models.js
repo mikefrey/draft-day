@@ -7,7 +7,7 @@ var db = new Sequelize('draftday', '', '', {
 })
 
 
-var Pick = db.define('Pick', {
+var Pick = db.define('pick', {
   offense: Sequelize.BOOLEAN,
   number: Sequelize.INTEGER,
   keeper: Sequelize.BOOLEAN,
@@ -15,7 +15,7 @@ var Pick = db.define('Pick', {
   note: Sequelize.STRING
 })
 
-var Player = db.define('Player', {
+var Player = db.define('player', {
   firstname: Sequelize.STRING,
   lastname: Sequelize.STRING,
   position: Sequelize.STRING(5),
@@ -24,7 +24,7 @@ var Player = db.define('Player', {
   pos2: Sequelize.STRING(5)
 })
 
-var Team = db.define('Team', {
+var Team = db.define('team', {
   city: Sequelize.STRING,
   name: Sequelize.STRING,
   abbrev: Sequelize.STRING,

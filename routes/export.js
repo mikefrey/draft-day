@@ -39,7 +39,7 @@ function toCsv(picks) {
 module.exports = {
 
   index: function(request, reply) {
-    var side = request.params.side
+    var side = 'offense' // request.params.side
 
     Pick.findAll({ include: [ Team, Player ], where: { offense: side === 'offense' } })
       .then(function (result) {

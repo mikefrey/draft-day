@@ -1,30 +1,44 @@
-<div id="header">
-  <div class="nav last">
-    <a class="arrow" href="#" ng-click="draft.prevRound()" ng-show="draft.prev.round > 0">&laquo;</a>
-    <span class="" ng-show="draft.prev.round > 0">Round {{draft.prev.round}}</span>&nbsp;
-  </div>
-  <div class="nav home">
-    <span>DFFL DRAFT</span>
-    <div class="logo"><a href="#" ng-click="$root.showMenu=true"></a></div>
-    <span>Round {{draft.current.round}}</span>
-  </div>
-  <div class="nav next" ng-show="draft.next.round <= draft.totalRounds">
-    <a class="arrow" href="#" ng-click="draft.nextRound()">&raquo;</a>
-    <span>Round {{draft.next.round}}</span>
+<div class="row h10">
+	<div class="column w100 h100">
+		<header class="h100">
+			<div class="column w25 h100">
+				<p class="centered"><a href="#" ng-click="draft.prevRound()" ng-show="draft.prev.round > 0" style="color: inherit; text-decoration: inherit;">Round {{draft.prev.round}}</a></p>
+			</div>
+			<div class="column w50 h100">
+				<div class="centered w45 round">Round {{draft.current.round}}</div>
+				<div class="centered w10 h100 dffl-logo"><a href="#" ng-click="$root.showMenu=true"></a></div>
+				<div class="centered w45 current-pick">Pick {{draft.currentPick.number}}</div>
+			</div>
+			<div class="column w25 h100">
+				<p class="centered"><a href="#" ng-click="draft.nextRound()" ng-show="draft.next.round <= draft.totalRounds" style="color: inherit; text-decoration: inherit;">Round {{draft.next.round}}</a></p>
+			</div>
+		</header>
+	</div>
+</div>
+
+
+
+
+
+<div class="row h90">
+  <div class="column w100 h100">
+
+    <div class="column w25 h100 last-round"
+      picks-list picks="draft.prev.picks"
+      current-pick="draft.currentPick.number"
+      show-pick="draft.showPick(pick)"></div>
+
+    <div class="column w50 h100 current-round"
+      picks-list picks="draft.current.picks"
+      current-pick="draft.currentPick.number"
+      show-pick="draft.showPick(pick)"></div>
+
+    <div class="column w25 h100 next-round"
+      picks-list picks="draft.next.picks"
+      current-pick="draft.currentPick.number"
+      show-pick="draft.showPick(pick)"></div>
+
   </div>
 </div>
-<div id="draft-board">
-  <div class="round side previous"
-    picks-list picks="draft.prev.picks"
-    current-pick="draft.currentPick.number"
-    show-pick="draft.showPick(pick)"></div>
-  <div class="round current"
-    picks-list picks="draft.current.picks"
-    current-pick="draft.currentPick.number"
-    show-pick="draft.showPick(pick)"></div>
-  <div class="round side upcoming"
-    picks-list picks="draft.next.picks"
-    current-pick="draft.currentPick.number"
-    show-pick="draft.showPick(pick)"></div>
-</div>
+
 <pick show="draft.pickShowing" pick="draft.selectedPick" players="draft.players" set-player="draft.setPlayer(pick)" />

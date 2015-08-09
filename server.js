@@ -1,5 +1,4 @@
 var Hapi = require('hapi')
-var Good = require('good')
 var Path = require('path')
 
 var exporter = require('./routes/export')
@@ -7,18 +6,29 @@ var picks = require('./routes/picks')
 var players = require('./routes/players')
 var teams = require('./routes/teams')
 
-var server = new Hapi.Server(3000, { state: { cookies: { strictHeader: false } } })
+var server = new Hapi.Server({ connections: { state: { strictHeader: false } } })
+server.connection({ port: 3000 || process.env.PORT, router: { stripTrailingSlash: true } })
+
+var plugins = [{
+  register: require('good'),
+  options: {
+    reporters: [{
+      reporter: require('good-console'),
+      events: { log:'*', request:'*', response:'*' }
+    }]
+  }
+}]
 
 var home = { file: Path.join(__dirname, 'public/layout.html') }
 
 server.route([
   // home
   { method: 'GET', path: '/', handler: home },
+  { method: 'GET', path: '/draft', handler: home },
+  { method: 'GET', path: '/select-player', handler: home },
   { method: 'GET', path: '/edit/players', handler: home },
   { method: 'GET', path: '/edit/offense', handler: home },
-  { method: 'GET', path: '/edit/defense', handler: home },
   { method: 'GET', path: '/draft/offense', handler: home },
-  { method: 'GET', path: '/draft/defense', handler: home },
 
   // export
   { method: 'GET', path: '/export/{side}', handler: exporter.index },
@@ -54,7 +64,7 @@ server.route([
 ])
 
 
-server.pack.register(Good, function(err) {
+server.register(plugins, function(err) {
   if (err) throw err
 
   server.start(function() {

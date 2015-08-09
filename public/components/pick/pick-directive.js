@@ -1,105 +1,6 @@
 angular.module('draftDay')
   .directive('pick', function($rootScope, $timeout) {
 
-    var img1 = new Image()
-    img1.src = '/-fonts/arvo.woff'
-    var img2 = new Image()
-    img2.src = '/-fonts/arvo-bold.woff'
-
-    var width = 474
-    var center = width / 2
-
-    function font(size, weight) {
-      return (weight ? weight + ' ' : '') + size + 'px "Arvo"'
-    }
-
-    var st = ['TH', 'ST', 'ND', 'RD']
-    function superscript(num) {
-      num = num % 100
-      if (num > 10 && num < 20) return 'TH'
-      return st[num%10]||'TH'
-    }
-
-    function renderPick(ctx, num) {
-      var arvo = font(84)
-      var boldArvo = font(84, 'bold')
-      var boldArvoSup = font(51, 'bold')
-      ctx.clearRect(0, 0, 500, 200)
-
-      var sup = superscript(num)
-
-      var lineY = 64
-      ctx.textAlign = 'start'
-
-      ctx.font = boldArvo
-      var numWidth = ctx.measureText(num).width
-
-      ctx.font = boldArvoSup
-      var stWidth = ctx.measureText(sup).width
-
-      ctx.font = arvo
-      var pickWidth = ctx.measureText(' PICK').width
-
-      var fullWidth = numWidth + stWidth + pickWidth
-      var x = center - (fullWidth/2)
-
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.75)'
-      ctx.font = boldArvo
-      ctx.fillText(''+num, x, lineY)
-      ctx.font = boldArvoSup
-      ctx.fillText(sup, x+numWidth, lineY-24)
-      ctx.font = arvo
-      ctx.fillText(' PICK', x+numWidth+stWidth, lineY)
-    }
-
-    function renderPlayer(ctx, player) {
-      ctx.clearRect(0, 0, 500, 400)
-      ctx.textAlign = 'center'
-
-      var lineY = 0
-
-      // position
-      ctx.fillStyle = 'rgba(0, 0, 0, 0.25)'
-      lineY = text(ctx, positions[player.position].toUpperCase(), 44, lineY)
-
-      // firstname
-      ctx.fillStyle = 'rgba(255, 255, 255, 0.50)'
-      lineY = text(ctx, player.firstname.toUpperCase(), 55, lineY)
-
-      // lastname
-      ctx.fillStyle = 'rgba(255, 255, 255, 1)'
-      lineY = boldText(ctx, player.lastname.toUpperCase(), 75, lineY)
-    }
-
-    function text(ctx, text, prefSize, lineY) {
-      var size = Math.min(prefSize, determineSize(ctx, text))
-      lineY += size
-      lineY -= (size * 0.12)
-      ctx.font = font(size)
-      ctx.fillText(text, center, lineY)
-      return lineY
-    }
-
-    function boldText(ctx, text, prefSize, lineY) {
-      var size = Math.min(prefSize, determineSize(ctx, text, true))
-      lineY += size
-      lineY -= (size * 0.12)
-      ctx.font = font(size, 'bold')
-      ctx.fillText(text, center, lineY)
-      return lineY
-    }
-
-    function determineSize(ctx, text, bold) {
-      var b = bold ? 'bold ' : ''
-      var target = width - 10
-      ctx.font = b + '80px "Arvo"'
-      var a = ctx.measureText(text).width
-      ctx.font = b + '100px "Arvo"'
-      var b = ctx.measureText(text).width
-      var slope = 20 / (b - a)
-      return Math.ceil(slope * target)
-    }
-
     var positions = {
       QB: 'Quarterback',
       RB: 'Running back',
@@ -153,13 +54,11 @@ angular.module('draftDay')
             delete scope.pick.newPlayer
             element.find('input').val('')
 
-            renderPlayer(ctxPlayer, scope.pick.player)
             scope.editing = false
 
             scope.setPlayer({pick:scope.pick})
 
             element.find('#modal').addClass('long-hide')
-            scope.show = false
           }
         }
 
@@ -167,17 +66,6 @@ angular.module('draftDay')
           if (show) {
             element.find('#modal').removeClass('long-hide')
           }
-        })
-
-        scope.$watch('pick', function(pick) {
-          if (!pick || !pick.number) return
-
-          renderPick(ctxPick, pick.number)
-
-          if (pick.player) {
-            renderPlayer(ctxPlayer, pick.player)
-          }
-
         })
 
       }

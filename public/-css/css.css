@@ -1,0 +1,262 @@
+/* https://css-tricks.com/centering-in-the-unknown/ */
+
+
+/* DRAFT BOARD */
+
+html, body { margin: 0; padding: 0; border: none; }
+body { 
+  background: #000 url('../-img/background.jpg') 50% no-repeat;
+  background-size: cover; 
+  font-family: Arvo, sans-serif; 
+  font-weight: 100; 
+  color: #fff; 
+}
+
+.row { 
+	padding: 5px 0;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+}
+
+.column { 
+	float: left;
+	padding: 0 15px;
+	-webkit-box-sizing: border-box;
+}
+
+.w10 { width: 10%; }
+.w45 { width: 45%; }
+.w25 { width: 25%; }
+.w50 { width: 50%; }
+.w100 { width: 100%; }
+.h10 { height: 10%; }
+.h25 { height: 25%; }
+.h90 { height: 90%; }
+.h100 { height: 100%; }
+
+/* HEADER */
+/* This parent can be any width and height */
+header .column {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 900;
+
+  /* May want to do this if there is risk the container may be narrower than the element inside */
+  white-space: nowrap;
+}
+
+header .column:first-child, header .column:last-child { opacity: .5; font-weight: 100; font-size: 24px }
+ 
+/* The ghost, nudged to maintain perfect centering */
+header .column:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can also be of any width and height */ 
+ header .column .centered {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header ul.centered {
+  padding: 0;
+  margin: 0;
+}
+
+header ul.centered li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.round { padding-right: .5em; text-align: right; }
+.current-pick { padding-left: .5em; text-align: left; }
+.dffl-logo { background: url('../-img/logo-board-dffl.png') 50% no-repeat; background-size: cover; }
+
+
+/* PICK CONTENT */
+
+.draft-pick { background: rgba(255,255,255,.1); } /* modify background color for keepers */
+.draft-pick.keeper { background: rgba(255,255,255,.25); }
+.draft-pick.next { opacity: .5; }
+.draft-pick.on-deck { opacity: .75; }
+.draft-pick.on-the-clock .position { opacity: 1; }
+.draft-pick.on-the-clock.atl { background-color: #ED1C24; }
+.draft-pick.on-the-clock.br { background-color: #8C3723; }
+.draft-pick.on-the-clock.cc { background-color: #C1272D; }
+.draft-pick.on-the-clock.cb { background-color: #00854B; }
+.draft-pick.on-the-clock.gc { background-color: #B9A779; }
+.draft-pick.on-the-clock.man { background-color: #295A80; }
+.draft-pick.on-the-clock.mf { background-color: #7A0029; }
+.draft-pick.on-the-clock.sc { background-color: #B9131A; }
+.draft-pick.on-the-clock.spr { background-color: #498DCB; }
+.draft-pick.on-the-clock.was { background-color: #900028; }
+.draft-pick .team-logo { background-size: cover; background-position: 50%; background-repeat: no-repeat; }
+.draft-pick.atl .team-logo { background-image: url('../-img/logo-board-atl.png'); }
+.draft-pick.br .team-logo { background-image: url('../-img/logo-board-br.png'); }
+.draft-pick.cc .team-logo { background-image: url('../-img/logo-board-cc.png'); }
+.draft-pick.cb .team-logo { background-image: url('../-img/logo-board-cb.png'); }
+.draft-pick.gc .team-logo { background-image: url('../-img/logo-board-gc.png'); }
+.draft-pick.man .team-logo { background-image: url('../-img/logo-board-man.png'); }
+.draft-pick.mf .team-logo { background-image: url('../-img/logo-board-mf.png'); }
+.draft-pick.sc .team-logo { background-image: url('../-img/logo-board-sc.png'); }
+.draft-pick.spr .team-logo { background-image: url('../-img/logo-board-spr.png'); }
+.draft-pick.was .team-logo { background-image: url('../-img/logo-board-was.png'); }
+
+
+/* This parent can be any width and height */
+.pick-info {			
+  /* May want to do this if there is risk the container may be narrower than the element inside */
+  white-space: nowrap;
+  position: relative;
+}
+
+.trade { position: absolute; bottom: 5px; z-index: 10; left: 0; width: 20%; text-align: center; font-size: 12px; color: #00E1E1; }
+.current-round .trade { position: absolute; bottom: 5px; z-index: 10; left: 0; width: 10%; }
+ 
+/* The ghost, nudged to maintain perfect centering */
+.pick-info:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  /* margin-right: -.65em; Adjusts for spacing <!-- NEED TO PLAY WITH THIS, MAYBE EVEN IN EACH INDIVIDUAL DIV FOR BOTH COLUMNS - set window at 1920 x 1080 and do it. */
+}
+
+/* The element to be centered, can also be of any width and height */ 
+.order, .team-logo, .pick, .position {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+}
+.order { width: 20%; text-align: center; font-size: 36px; opacity: .5; }
+.team-logo { height: 100%; }
+.pick { width: 60%; font-size: 11px; text-indent: .5em; }
+.position { width: 20%; text-align: right; padding-right: 1em; font-size: 18px; font-weight: 900; opacity: .5; margin-top: 21px; margin-left: -.5em; }
+
+.team-name { margin: 0 0 .25em; text-transform: uppercase; opacity: .5;}
+.player { margin: 0; font-size: 18px; }
+
+/* ROUND DIFFERENCES */
+
+.current-round .team-name  { display: none; }
+.last-round .team-logo, .next-round .team-logo { display: none; }
+
+.current-round .order { width: 10%; opacity: 1; }
+.current-round .team-logo { width: 15%; }
+.current-round .pick { width: 60%; font-size: 36px; }
+.current-round .position { width: 15%; font-size: 36px; margin-top: 0; text-align: right; margin-left: -.15em; }
+.current-round .player { font-size: 36px; }
+
+
+
+
+
+/* SELECT PLAYER */
+
+#pick {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-opacity: .5;
+}
+
+.select-player { text-align: center; }
+.dffl-team-name { font-size: 48px; margin-top: 20px; text-transform: uppercase; }
+.dffl-team-logo { background-size: contain; background-position: 50%; background-repeat: no-repeat; height: 300px; }
+.nfl-player { font-size: 128px; }
+.nfl-team { font-size: 36px; text-transform: uppercase; }
+
+#pick.atl { background-image: url('../-img/background-atl.jpg'); }
+#pick.br { background: url('../-img/background-br.jpg'); }
+#pick.cc { background: url('../-img/background-cc.jpg'); }
+#pick.cb { background: url('../-img/background-cb.jpg'); }
+#pick.gc { background: url('../-img/background-gc.jpg'); }
+#pick.man { background: url('../-img/background-man.jpg'); }
+#pick.mf { background: url('../-img/background-mf.jpg'); }
+#pick.sc { background: url('../-img/background-sc.jpg'); }
+#pick.spr { background: url('../-img/background-spr.jpg'); }
+#pick.was { background: url('../-img/background-was.jpg'); }
+
+#pick.atl .dffl-team-logo { background-image: url('../-img/logo-pick-atl.png');}
+#pick.br .dffl-team-logo { background-image: url('../-img/logo-pick-br.png');}
+#pick.cc .dffl-team-logo { background-image: url('../-img/logo-pick-cc.png');}
+#pick.cb .dffl-team-logo { background-image: url('../-img/logo-pick-cb.png');}
+#pick.gc .dffl-team-logo { background-image: url('../-img/logo-pick-gc.png');}
+#pick.man .dffl-team-logo { background-image: url('../-img/logo-pick-man.png');}
+#pick.mf .dffl-team-logo { background-image: url('../-img/logo-pick-mf.png');}
+#pick.sc .dffl-team-logo { background-image: url('../-img/logo-pick-sc.png');}
+#pick.spr .dffl-team-logo { background-image: url('../-img/logo-pick-spr.png');}
+#pick.was .dffl-team-logo { background-image: url('../-img/logo-pick-was.png');}
+
+#pick.atl .player-search button { background: #ED1C24; }
+#pick.br .player-search button { background: #8C3723; }
+#pick.cc .player-search button { background: #B80000; }
+#pick.cb .player-search button { background: #00854B; }
+#pick.gc .player-search button { background: #B9A779; }
+#pick.man .player-search button { background: #2D5980; }
+#pick.mf .player-search button { background: #7A0029; }
+#pick.sc .player-search button { background: #B9131A; }
+#pick.spr .player-search button { background: #498DCB; }
+#pick.was .player-search button { background: #900027 ; }
+
+.player-search input {
+  font-size: 24px;
+  font-family: Arvo;
+  height: 56px;
+  line-height: 56px;
+  border-radius: 8px;
+  padding: 0 10px;
+  width: 600px;
+  border: 0;
+}
+
+.player-search button { 
+  font-size: 24px;
+  font-family: Arvo;
+  text-transform: uppercase;
+  padding: 0 30px;
+    height: 56px;
+  line-height: 56px; 
+  border: solid 1px #fff; 
+  border-radius: 8px;
+  color: #fff;
+  margin-top: 1em;
+}
+
+/* ADMIN */
+
+#admin { text-align: center; }
+
+#admin a, #admin a:visited { color: #fff; text-decoration: none; }
+#admin a:hover { color: #00E1E1; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

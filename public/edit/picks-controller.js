@@ -1,5 +1,5 @@
 angular.module('draftDay')
-  .controller('PicksController', function(Players, Teams, Picks, $routeParams, $scope) {
+  .controller('PicksController', function(Players, Teams, Picks, $scope) {
     console.log('PICKS CONTROLLER')
 
     this.players = Players.query(function(players) {
@@ -9,7 +9,7 @@ angular.module('draftDay')
       return players
     })
     this.teams = Teams.query()
-    this.picks = Picks.query({ offense: $routeParams.side.toLowerCase() === 'offense' })
+    this.picks = Picks.query({ offense: 'offense' })
 
 
     var findTeam = function(id) {
@@ -23,11 +23,11 @@ angular.module('draftDay')
 
     this.savePick = function(pick) {
       if (pick.newPlayer && pick.newPlayer.originalObject) {
-        pick.PlayerId = pick.newPlayer.originalObject.id
+        pick.playerId = pick.newPlayer.originalObject.id
         pick.player = pick.newPlayer.originalObject
         delete pick.newPlayer
       }
-      pick.team = findTeam(pick.TeamId)
+      pick.team = findTeam(pick.teamId)
       Picks.save(pick,
         function savePickSuccess() {
           console.log('pick save success')
@@ -40,7 +40,7 @@ angular.module('draftDay')
     }
 
     this.editPick = function(pick) {
-      console.log(pick.TeamId, pick.team.id)
+      console.log(pick.teamId, pick.team.id)
       $scope.editing = pick.id
     }
 
@@ -50,7 +50,7 @@ angular.module('draftDay')
 
     this.clearPlayer = function(pick) {
       pick.player = null
-      pick.PlayerId = null
+      pick.playerId = null
       delete pick.newPlayer
       this.savePick(pick)
     }

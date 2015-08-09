@@ -1,17 +1,19 @@
-<ul class="picks">
-  <li ng-repeat="pick in picks" ng-class="{
+<div ng-repeat="pick in picks" class="row w100 h10">
+  <div class="draft-pick w100 h100 {{pick.team.abbrev | lowercase}}" ng-class="{
     keeper: pick.keeper,
-    trade: pick.trade,
     'on-the-clock': currentPick == pick.number,
     'on-deck': currentPick+1 == pick.number,
-    'in-the-hole': currentPick+2 == pick.number,
-    later: currentPick+2 < pick.number }" class="{{pick.team.slug}}">
-    <ul ng-if="pick.team" class="make-pick"><li ng-click="showPick({pick:pick})">ENTER PICK</li></ul>
-    <ul>
-      <li class="pick-number">{{pick.number}}</li>
-      <li class="team">{{pick.team.name}}</li>
-      <li class="player-position">{{pick.player.position}}</li>
-      <li class="player-name" player-name="pick" current-pick="currentPick"></li>
-    </ul>
-  </li>
-</ul>
+    next: currentPick+1 < pick.number
+  }">
+    <div class="pick-info w100 h100">
+      <div class="trade"><em>{{pick.note}}</em></div>
+      <div class="order">{{pick.number}}</div>
+      <div class="team-logo"></div>
+      <div class="pick">
+        <p class="team-name">{{pick.team.city}} {{pick.team.name}}</p>
+        <p class="player" player-name="pick" current-pick="currentPick"></p>
+      </div>
+      <div class="position" timer="currentPick == pick.number" pick="pick"></div>
+    </div>
+  </div>
+</div>

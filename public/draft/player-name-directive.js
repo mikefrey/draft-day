@@ -7,7 +7,7 @@ angular.module('draftDay')
         pick: "=playerName",
         currentPick: "="
       },
-      template: '{{text}} <span>{{clockTime | date:"m:ss"}}</span>',
+      template: '{{text}}',
       link: function(scope, element, attrs) {
         var timer = null
 
@@ -15,54 +15,30 @@ angular.module('draftDay')
           changeText(scope.pick, currentPick)
         })
 
-        scope.$watch(function() { return scope.pick.PlayerId }, function() {
+        scope.$watch(function() { return scope.pick.playerId }, function() {
           changeText(scope.pick, scope.currentPick)
         })
 
-        function startClock() {
-          if (scope.pick.startTime && timer) return
-          if (!scope.pick.startTime) scope.pick.startTime = +new Date
-          timer = $interval(function() {
-            scope.clockTime = (+new Date) - scope.pick.startTime
-          }, 1000)
-        }
-
-        function cancelClock() {
-          if (timer) {
-            $interval.cancel(timer)
-            timer = false
-            scope.clockTime = ''
-          }
-        }
-
         function changeText(pick, currentPick) {
-          cancelClock()
 
           if (pick.player && pick.player.firstname) {
             var text = pick.player.firstname + ' ' + pick.player.lastname
-            if (text.length > 16) text = text.substring(0, 16) + '...'
+            // if (text.length > 16) text = text.substring(0, 16) + '...'
             scope.text = text
           }
           else if (currentPick == pick.number) {
-            scope.text = 'On The Clock'
-            if (pick.startTime) scope.clockTime = (+new Date) - pick.startTime
-            startClock()
+            scope.text = 'On the Clock'
           }
           else if (currentPick+1 == pick.number) {
             scope.text = 'On Deck'
           }
           else if (currentPick+2 == pick.number) {
-            scope.text = 'In The Hole'
+            scope.text = 'In the Hole'
           }
           else {
-            scope.text = ''
+            scope.text = '\u00A0'
           }
         }
-
-        scope.$on('destroy', function() {
-          console.log('destroy')
-          cancelClock
-        })
 
       }
     }
