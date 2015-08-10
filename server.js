@@ -36,6 +36,7 @@ server.route([
   // picks
   { method: 'GET', path: '/picks', handler: picks.index },
   { method: 'POST', path: '/picks', handler: picks.create },
+  { method: 'GET', path: '/picks/{id}', handler: picks.show },
   { method: 'POST', path: '/picks/{id}', handler: picks.update },
   { method: 'DELETE', path: '/picks/{id}', handler: picks.destroy },
 

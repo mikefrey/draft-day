@@ -14,6 +14,7 @@ module.exports = Base(Pick, {
   },
   create: {},
   update: {},
-  destroy: {}
+  destroy: {},
+  show: {}
 
 })

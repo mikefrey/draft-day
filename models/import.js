@@ -29,7 +29,7 @@ function importTeams() {
     { id: 7,    abbrev: 'GC',  name: 'Dark Knights',  city: 'Gotham City',  slug: 'gotham-city' },
     { id: 8,    abbrev: 'WAS', name: 'Weasels',       city: 'Washington',   slug: 'washington' },
     { id: 9,    abbrev: 'CC',  name: 'Flash',         city: 'Central City', slug: 'central-city' },
-    { id: 10,    abbrev: 'SC',  name: 'Outcasts',      city: 'Sin City',     slug: 'sin-city' }
+    { id: 10,   abbrev: 'SC',  name: 'Outcasts',      city: 'Sin City',     slug: 'sin-city' }
   ]
 
   return Team.bulkCreate(teams).then(function() {
