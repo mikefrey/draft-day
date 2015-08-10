@@ -4,21 +4,21 @@
 /* DRAFT BOARD */
 
 html, body { margin: 0; padding: 0; border: none; }
-body { 
-  background: #000 url('../-img/background.jpg') 50% no-repeat;
-  background-size: cover; 
-  font-family: Arvo, sans-serif; 
-  font-weight: 100; 
-  color: #fff; 
+body {
+  background: #000 url('/-img/background.jpg') 50% no-repeat;
+  background-size: cover;
+  font-family: Arvo, sans-serif;
+  font-weight: 100;
+  color: #fff;
 }
 
-.row { 
+.row {
 	padding: 5px 0;
 	overflow: hidden;
 	-webkit-box-sizing: border-box;
 }
 
-.column { 
+.column {
 	float: left;
 	padding: 0 15px;
 	-webkit-box-sizing: border-box;
@@ -47,7 +47,7 @@ header .column {
 }
 
 header .column:first-child, header .column:last-child { opacity: .5; font-weight: 100; font-size: 24px }
- 
+
 /* The ghost, nudged to maintain perfect centering */
 header .column:before {
   content: '';
@@ -57,7 +57,7 @@ header .column:before {
   margin-right: -0.25em; /* Adjusts for spacing */
 }
 
-/* The element to be centered, can also be of any width and height */ 
+/* The element to be centered, can also be of any width and height */
  header .column .centered {
   display: inline-block;
   vertical-align: middle;
@@ -75,7 +75,7 @@ header ul.centered li {
 
 .round { padding-right: .5em; text-align: right; }
 .current-pick { padding-left: .5em; text-align: left; }
-.dffl-logo { background: url('../-img/logo-board-dffl.png') 50% no-repeat; background-size: cover; }
+.dffl-logo { background: url('/-img/logo-board-dffl.png') 50% no-repeat; background-size: cover; }
 
 
 /* PICK CONTENT */
@@ -96,20 +96,20 @@ header ul.centered li {
 .draft-pick.on-the-clock.spr { background-color: #498DCB; }
 .draft-pick.on-the-clock.was { background-color: #900028; }
 .draft-pick .team-logo { background-size: cover; background-position: 50%; background-repeat: no-repeat; }
-.draft-pick.atl .team-logo { background-image: url('../-img/logo-board-atl.png'); }
-.draft-pick.br .team-logo { background-image: url('../-img/logo-board-br.png'); }
-.draft-pick.cc .team-logo { background-image: url('../-img/logo-board-cc.png'); }
-.draft-pick.cb .team-logo { background-image: url('../-img/logo-board-cb.png'); }
-.draft-pick.gc .team-logo { background-image: url('../-img/logo-board-gc.png'); }
-.draft-pick.man .team-logo { background-image: url('../-img/logo-board-man.png'); }
-.draft-pick.mf .team-logo { background-image: url('../-img/logo-board-mf.png'); }
-.draft-pick.sc .team-logo { background-image: url('../-img/logo-board-sc.png'); }
-.draft-pick.spr .team-logo { background-image: url('../-img/logo-board-spr.png'); }
-.draft-pick.was .team-logo { background-image: url('../-img/logo-board-was.png'); }
+.draft-pick.atl .team-logo { background-image: url('/-img/logo-board-atl.png'); }
+.draft-pick.br .team-logo { background-image: url('/-img/logo-board-br.png'); }
+.draft-pick.cc .team-logo { background-image: url('/-img/logo-board-cc.png'); }
+.draft-pick.cb .team-logo { background-image: url('/-img/logo-board-cb.png'); }
+.draft-pick.gc .team-logo { background-image: url('/-img/logo-board-gc.png'); }
+.draft-pick.man .team-logo { background-image: url('/-img/logo-board-man.png'); }
+.draft-pick.mf .team-logo { background-image: url('/-img/logo-board-mf.png'); }
+.draft-pick.sc .team-logo { background-image: url('/-img/logo-board-sc.png'); }
+.draft-pick.spr .team-logo { background-image: url('/-img/logo-board-spr.png'); }
+.draft-pick.was .team-logo { background-image: url('/-img/logo-board-was.png'); }
 
 
 /* This parent can be any width and height */
-.pick-info {			
+.pick-info {
   /* May want to do this if there is risk the container may be narrower than the element inside */
   white-space: nowrap;
   position: relative;
@@ -117,7 +117,7 @@ header ul.centered li {
 
 .trade { position: absolute; bottom: 5px; z-index: 10; left: 0; width: 20%; text-align: center; font-size: 12px; color: #00E1E1; }
 .current-round .trade { position: absolute; bottom: 5px; z-index: 10; left: 0; width: 10%; }
- 
+
 /* The ghost, nudged to maintain perfect centering */
 .pick-info:before {
   content: '';
@@ -127,7 +127,7 @@ header ul.centered li {
   /* margin-right: -.65em; Adjusts for spacing <!-- NEED TO PLAY WITH THIS, MAYBE EVEN IN EACH INDIVIDUAL DIV FOR BOTH COLUMNS - set window at 1920 x 1080 and do it. */
 }
 
-/* The element to be centered, can also be of any width and height */ 
+/* The element to be centered, can also be of any width and height */
 .order, .team-logo, .pick, .position {
   display: inline-block;
   vertical-align: middle;
@@ -171,27 +171,27 @@ header ul.centered li {
 .nfl-player { font-size: 128px; }
 .nfl-team { font-size: 36px; text-transform: uppercase; }
 
-#pick.atl { background-image: url('../-img/background-atl.jpg'); }
-#pick.br { background: url('../-img/background-br.jpg'); }
-#pick.cc { background: url('../-img/background-cc.jpg'); }
-#pick.cb { background: url('../-img/background-cb.jpg'); }
-#pick.gc { background: url('../-img/background-gc.jpg'); }
-#pick.man { background: url('../-img/background-man.jpg'); }
-#pick.mf { background: url('../-img/background-mf.jpg'); }
-#pick.sc { background: url('../-img/background-sc.jpg'); }
-#pick.spr { background: url('../-img/background-spr.jpg'); }
-#pick.was { background: url('../-img/background-was.jpg'); }
+#pick.atl { background-image: url('/-img/background-atl.jpg'); }
+#pick.br { background: url('/-img/background-br.jpg'); }
+#pick.cc { background: url('/-img/background-cc.jpg'); }
+#pick.cb { background: url('/-img/background-cb.jpg'); }
+#pick.gc { background: url('/-img/background-gc.jpg'); }
+#pick.man { background: url('/-img/background-man.jpg'); }
+#pick.mf { background: url('/-img/background-mf.jpg'); }
+#pick.sc { background: url('/-img/background-sc.jpg'); }
+#pick.spr { background: url('/-img/background-spr.jpg'); }
+#pick.was { background: url('/-img/background-was.jpg'); }
 
-#pick.atl .dffl-team-logo { background-image: url('../-img/logo-pick-atl.png');}
-#pick.br .dffl-team-logo { background-image: url('../-img/logo-pick-br.png');}
-#pick.cc .dffl-team-logo { background-image: url('../-img/logo-pick-cc.png');}
-#pick.cb .dffl-team-logo { background-image: url('../-img/logo-pick-cb.png');}
-#pick.gc .dffl-team-logo { background-image: url('../-img/logo-pick-gc.png');}
-#pick.man .dffl-team-logo { background-image: url('../-img/logo-pick-man.png');}
-#pick.mf .dffl-team-logo { background-image: url('../-img/logo-pick-mf.png');}
-#pick.sc .dffl-team-logo { background-image: url('../-img/logo-pick-sc.png');}
-#pick.spr .dffl-team-logo { background-image: url('../-img/logo-pick-spr.png');}
-#pick.was .dffl-team-logo { background-image: url('../-img/logo-pick-was.png');}
+#pick.atl .dffl-team-logo { background-image: url('/-img/logo-pick-atl.png');}
+#pick.br .dffl-team-logo { background-image: url('/-img/logo-pick-br.png');}
+#pick.cc .dffl-team-logo { background-image: url('/-img/logo-pick-cc.png');}
+#pick.cb .dffl-team-logo { background-image: url('/-img/logo-pick-cb.png');}
+#pick.gc .dffl-team-logo { background-image: url('/-img/logo-pick-gc.png');}
+#pick.man .dffl-team-logo { background-image: url('/-img/logo-pick-man.png');}
+#pick.mf .dffl-team-logo { background-image: url('/-img/logo-pick-mf.png');}
+#pick.sc .dffl-team-logo { background-image: url('/-img/logo-pick-sc.png');}
+#pick.spr .dffl-team-logo { background-image: url('/-img/logo-pick-spr.png');}
+#pick.was .dffl-team-logo { background-image: url('/-img/logo-pick-was.png');}
 
 #pick.atl .player-search button { background: #ED1C24; }
 #pick.br .player-search button { background: #8C3723; }
@@ -215,14 +215,14 @@ header ul.centered li {
   border: 0;
 }
 
-.player-search button { 
+.player-search button {
   font-size: 24px;
   font-family: Arvo;
   text-transform: uppercase;
   padding: 0 30px;
     height: 56px;
-  line-height: 56px; 
-  border: solid 1px #fff; 
+  line-height: 56px;
+  border: solid 1px #fff;
   border-radius: 8px;
   color: #fff;
   margin-top: 1em;
@@ -234,29 +234,3 @@ header ul.centered li {
 
 #admin a, #admin a:visited { color: #fff; text-decoration: none; }
 #admin a:hover { color: #00E1E1; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

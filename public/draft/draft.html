@@ -16,10 +16,6 @@
 	</div>
 </div>
 
-
-
-
-
 <div class="row h90">
   <div class="column w100 h100">
 
@@ -41,4 +37,6 @@
   </div>
 </div>
 
-<pick show="draft.pickShowing" pick="draft.selectedPick" players="draft.players" set-player="draft.setPlayer(pick)" />
+<div id="modal" class="w100 h100 fade" ng-show="draft.announcePick">
+  <pick draft="draft" editing="false" />
+</div>

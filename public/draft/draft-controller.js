@@ -1,5 +1,7 @@
 angular.module('draftDay')
-  .controller('DraftController', function(picks, Picks, Players, $routeParams) {
+  .controller('DraftController', function(picks, Picks, Players, $routeParams, $interval, $timeout) {
+    this.announcePick = false
+    var audio = {}
 
     picks.$promise.then(function() {
       // this.totalRounds = $routeParams.side.toLowerCase() === 'offense' ? 14 : 6
@@ -10,6 +12,13 @@ angular.module('draftDay')
 
     }.bind(this))
 
+    var getAudio = function(abbrev) {
+      if (!audio[abbrev]) {
+        audio[abbrev] = new Audio('/-audio/'+abbrev+'.mp3')
+      }
+      return audio[abbrev]
+    }
+
 
     this.players = Players.query(function(players) {
       players.forEach(function(p) {
@@ -17,6 +26,31 @@ angular.module('draftDay')
       })
       return players
     })
+
+
+    $interval(function() {
+      if (this.announcePick) return
+      var pickId = this.currentPick.id
+      Picks.get({id: pickId}, function(pick) {
+        if (!pick.playerId) return
+
+        var players = this.players
+        for (var i = 0; i < players.length; i++) {
+          if (players[i].id == pick.playerId) {
+            console.log('FOUND')
+            this.currentPick.player = players[i]
+            this.currentPick.playerId = pick.playerId
+            this.announcePick = true
+            getAudio(this.currentPick.team.abbrev).play()
+            $timeout(function() {
+              this.announcePick = false
+              $timeout(setCurrentPick, 1500)
+            }.bind(this), 6000)
+            break
+          }
+        }
+      }.bind(this))
+    }.bind(this), 4000)
 
 
     var setCurrentPick = function() {

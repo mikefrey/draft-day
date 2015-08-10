@@ -15,7 +15,7 @@ angular.module('draftDay')
           changeText(scope.pick, timerActive)
         })
 
-        scope.$watch(function() { return scope.pick.PlayerId }, function() {
+        scope.$watch(function() { return scope.pick.playerId }, function() {
           changeText(scope.pick, scope.timerActive)
         })
 

@@ -1,4 +1,50 @@
-<div id="modal" ng-show="show">
+<div id="pick" class="h100 {{draft.currentPick.team.abbrev | lowercase}}">
+	<div class="row h10">
+		<div class="column w100 h100">
+			<header class="h100">
+				<div class="column w25 h100">
+				</div>
+				<div class="column w50 h100">
+					<div class="centered w45 round">Round {{draft.current.round}}</div>
+					<div class="centered w10 h100 dffl-logo"></div>
+					<div class="centered w45 current-pick">Pick {{draft.currentPick.number}}</div>
+				</div>
+				<div class="column w25 h100">
+				</div>
+			</header>
+		</div>
+	</div>
+
+	<div class="row h90">
+		<div class="column w100 h100 select-player">
+			<div class="dffl-team-name">
+				<span>The <strong>{{draft.currentPick.team.city}} {{draft.currentPick.team.name}}</strong> Select</span>
+			</div>
+			<div class="dffl-team-logo h25"></div>
+
+			<div class="player-search" ng-show="editing">
+				<div>
+					<angucomplete placeholder="Find a Player"
+		        pause="100"
+		        selectedobject="draft.newPlayer"
+		        localdata="draft.players"
+		        searchfields="display"
+		        titlefield="display"></angucomplete>
+				</div>
+				<button ng-click="save(draft.newPlayer)">Save Pick</button>
+			</div>
+
+			<div class="player-choice" ng-show="!editing">
+				<div class="nfl-player">{{draft.currentPick.player.firstname}} {{draft.currentPick.player.lastname}}</div>
+				<div class="nfl-team">{{draft.currentPick.player.position | position}} - {{draft.currentPick.player.team}}</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- <div id="modal" ng-show="show">
   <div id="enter-pick" class="enter-{{pick.team.slug}}">
     <div class="with-the"></div>
     <div class="xx-pick"><canvas id="cvsPick" width="474" height="66"></canvas></div>
@@ -27,4 +73,4 @@
       <li><a href="#" ng-click="cancelEdit()">CANCEL</a></li>
     </ul>
   </div>
-</div>
+</div> -->
