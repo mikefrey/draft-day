@@ -14,7 +14,7 @@ angular.module('draftDay')
 
     var getAudio = function(abbrev) {
       if (!audio[abbrev]) {
-        audio[abbrev] = new Audio('/-audio/'+abbrev+'.mp3')
+        audio[abbrev] = new Audio('/-audio/'+abbrev.toLowerCase()+'.mp3')
       }
       return audio[abbrev]
     }
@@ -45,7 +45,7 @@ angular.module('draftDay')
             $timeout(function() {
               this.announcePick = false
               $timeout(setCurrentPick, 1500)
-            }.bind(this), 6000)
+            }.bind(this), 9000)
             break
           }
         }
