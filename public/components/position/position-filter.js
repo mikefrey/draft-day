@@ -16,7 +16,13 @@ angular.module('draftDay')
       OG: 'Offensive guard',
       DL: 'Defensive line',
       LB: 'Linebacker',
-      DB: 'Defensive back'
+      DB: 'Defensive back',
+      FB: 'Fullback',
+      S:  'Safety',
+      CB: 'Cornerback',
+      DE: 'Defensive End',
+      DT: 'Defensive Tackle',
+      NT: 'Nose Tackle'
     }
 
     return function(p) {

@@ -21,7 +21,7 @@ var Player = db.define('player', {
   position: Sequelize.STRING(5),
   team: Sequelize.STRING,
   exp: Sequelize.INTEGER,
-  pos2: Sequelize.STRING(5)
+  pos2: Sequelize.STRING(50)
 })
 
 var Team = db.define('team', {
