@@ -26,7 +26,7 @@ Install Node.js if it's not installed already by going to http://nodejs.org. Cli
 
 Open a terminal window clone this repo with git:
 ```
-$ git clone git@github.com:mikefrey/draft-day.git
+$ git clone https://github.com/mikefrey/draft-day.git
 ```
 
 This will create a new folder called `draft-day`
