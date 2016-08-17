@@ -50,7 +50,7 @@ Then go to http://localhost:3000 in your browser.
 
 ## Screens
 
-Draft Board: http://localhost:3000/draft
-Player Selection: http://localhost:3000/select-player
-Player Edit: http://localhost:3000/edit/players
-Pick Edit: http://localhost:3000/edit/offense
+Draft Board: http://localhost:3000/draft  
+Player Selection: http://localhost:3000/select-player  
+Player Edit: http://localhost:3000/edit/players  
+Pick Edit: http://localhost:3000/edit/offense  
