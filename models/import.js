@@ -20,16 +20,16 @@ models.syncPromise
 function importTeams() {
 
   var teams = [
-    { id: 1,    abbrev: 'CB',  name: 'Pre',           city: 'Coos Bay',     slug: 'coos-bay' },
-    { id: 2,    abbrev: 'ATL', name: 'Rednecks',      city: 'Atlanta',      slug: 'atlanta' },
-    { id: 3,    abbrev: 'SPR', name: 'D\'oh Boys',    city: 'Springfield',  slug: 'springfield' },
-    { id: 4,    abbrev: 'MF',  name: 'Dragons',       city: 'Mount Fuji',   slug: 'mount-fuji' },
-    { id: 5,    abbrev: 'BR',  name: 'Rubadubs',      city: 'Baton Rouge',  slug: 'baton-rouge' },
-    { id: 6,    abbrev: 'MAN', name: 'Mavericks',     city: 'Mankato',      slug: 'mankato' },
-    { id: 7,    abbrev: 'GC',  name: 'Dark Knights',  city: 'Gotham City',  slug: 'gotham-city' },
-    { id: 8,    abbrev: 'WAS', name: 'Weasels',       city: 'Washington',   slug: 'washington' },
-    { id: 9,    abbrev: 'CC',  name: 'Flash',         city: 'Central City', slug: 'central-city' },
-    { id: 10,   abbrev: 'SC',  name: 'Outcasts',      city: 'Sin City',     slug: 'sin-city' }
+    { id: 1,    abbrev: 'CC',  name: 'Flash',          city: 'Central City', slug: 'central-city' },
+    { id: 2,    abbrev: 'MF',  name: 'Dragons',        city: 'Mount Fuji',   slug: 'mount-fuji' },
+    { id: 3,    abbrev: 'WAS', name: 'Weasels',        city: 'Washington',   slug: 'washington' },
+    { id: 4,    abbrev: 'ML',  name: 'Green Backs',    city: 'Mille Lacs',   slug: 'mille-lacs' },
+    { id: 5,    abbrev: 'SC',  name: 'Outcasts',       city: 'Sin City',     slug: 'sin-city' },
+    { id: 6,    abbrev: 'HUT', name: 'Hell on Cleats', city: 'Hutchinson',   slug: 'hutch' },
+    { id: 7,    abbrev: 'BR',  name: 'Rubadubs',       city: 'Baton Rouge',  slug: 'baton-rouge' },
+    { id: 8,    abbrev: 'GC',  name: 'Dark Knights',   city: 'Gotham City',  slug: 'gotham-city' },
+    { id: 9,    abbrev: 'ATL', name: 'Rednecks',       city: 'Atlanta',      slug: 'atlanta' },
+    { id: 10,   abbrev: 'SPR', name: 'D\'oh Boys',     city: 'Springfield',  slug: 'springfield' },
   ]
 
   return Team.bulkCreate(teams).then(function() {

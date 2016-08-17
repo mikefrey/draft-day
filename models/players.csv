@@ -1,2988 +1,977 @@
-QB,Tony,Romo,Cowboys,13,Quarterback,1
-QB,Jameill,Showers,Cowboys,0,Quarterback,2
-QB,Dustin,Vaughan,Cowboys,2,Quarterback,3
-QB,Brandon,Weeden,Cowboys,4,Quarterback,4
-RB,Lance,Dunbar,Cowboys,4,Running Back,5
-RB,Gus,Johnson,Cowboys,0,Running Back,6
-RB,Darren,McFadden,Cowboys,8,Running Back,7
-RB,Joseph,Randle,Cowboys,3,Running Back,8
-RB,Lache,Seastrunk,Cowboys,1,Running Back,9
-FB,Ray,Agnew,Cowboys,2,Full Back,10
-FB,Tyler,Clutts,Cowboys,5,Full Back,11
-WR,Cole,Beasley,Cowboys,4,Wide Receiver,12
-WR,Dez,Bryant,Cowboys,6,Wide Receiver,13
-WR,Reggie,Dunn,Cowboys,1,Wide Receiver,14
-WR,George,Farmer,Cowboys,0,Wide Receiver,15
-WR,Antwan,Goodley,Cowboys,0,Wide Receiver,16
-WR,Deontay,Greenberry,Cowboys,0,Wide Receiver,17
-WR,Nick,Harwell,Cowboys,0,Wide Receiver,18
-WR,A.J.,Jenkins,Cowboys,4,Wide Receiver,19
-WR,Devin,Street,Cowboys,2,Wide Receiver,20
-WR,Lucky,Whitehead,Cowboys,0,Wide Receiver,21
-WR,Terrance,Williams,Cowboys,3,Wide Receiver,22
-TE,Brandon,Barden,Cowboys,1,Tight End,23
-TE,Gavin,Escobar,Cowboys,3,Tight End,24
-TE,Ray,Hamilton,Cowboys,0,Tight End,25
-TE,James,Hanna,Cowboys,4,Tight End,26
-TE,Geoff,Swaim,Cowboys,0,Tight End,27
-TE,Jason,Witten,Cowboys,13,Tight End,28
-C,Travis,Frederick,Cowboys,3,Center,29
-C,Shane,McDermott,Cowboys,0,Center,30
-C,Ronald,Patrick,Cowboys,1,Center,31
-G,Mackenzy,Bernadeau,Cowboys,8,Guard,32
-G,Ronald,Leary,Cowboys,3,Guard,33
-G,Zack,Martin,Cowboys,2,Guard,34
-OL,Reshod,Fortenberry,Cowboys,0,Offensive Lineman,35
-OT,La'el,Collins,Cowboys,0,Offensive Tackle,36
-OT,R.J.,Dill,Cowboys,1,Offensive Tackle,37
-OT,Doug,Free,Cowboys,9,Offensive Tackle,38
-OT,Laurence,Gibson,Cowboys,0,Offensive Tackle,39
-OT,Chaz,Green,Cowboys,0,Offensive Tackle,40
-OT,Tyron,Smith,Cowboys,5,Offensive Tackle,41
-OT,Darrion,Weems,Cowboys,3,Offensive Tackle,42
-OT,John,Wetzel,Cowboys,1,Offensive Tackle,43
-DE,Kenneth,Boatright,Cowboys,2,Defensive End,44
-DE,Jack,Crawford,Cowboys,4,Defensive End,45
-DE,Tyrone,Crawford,Cowboys,4,Defensive End,46
-DE,Lavar,Edwards,Cowboys,3,Defensive End,47
-DE,Ben,Gardner,Cowboys,2,Defensive End,48
-DE,Randy,Gregory,Cowboys,0,Defensive End,49
-DE,Greg,Hardy,Cowboys,5,Defensive End,50
-DE,DeMarcus,Lawrence,Cowboys,2,Defensive End,51
-DE,Jeremy,Mincey,Cowboys,8,Defensive End,52
-DE,Efe,Obada,Cowboys,0,Defensive End,53
-DE,Ryan,Russell,Cowboys,0,Defensive End,54
-DE,Jordan,Williams,Cowboys,0,Defensive End,55
-DT,Davon,Coleman,Cowboys,2,Defensive Tackle,56
-DT,Nick,Hayden,Cowboys,8,Defensive Tackle,57
-DT,Terrell,McClain,Cowboys,5,Defensive Tackle,58
-DT,Chris,Whaley,Cowboys,1,Defensive Tackle,59
-NT,Ken,Bishop,Cowboys,2,Nose Tackle,60
-LB,Donnie,Baggs,Cowboys,0,Linebacker,61
-LB,Jasper,Brinkley,Cowboys,7,Linebacker,62
-LB,Jonathan,Brown,Cowboys,1,Linebacker,63
-LB,Andrew,Gachkar,Cowboys,5,Linebacker,64
-LB,Ka'Lial,Glaud,Cowboys,2,Linebacker,65
-LB,Anthony,Hitchens,Cowboys,2,Linebacker,66
-LB,Taiwan,Jones,Cowboys,0,Linebacker,67
-LB,Sean,Lee,Cowboys,6,Linebacker,68
-LB,Rolando,McClain,Cowboys,5,Linebacker,69
-LB,Mark,Nzeocha,Cowboys,0,Linebacker,70
-LB,Keith,Smith,Cowboys,2,Linebacker,71
-LB,Will,Smith,Cowboys,1,Linebacker,72
-LB,Kyle,Wilber,Cowboys,4,Linebacker,73
-LB,Damien,Wilson,Cowboys,0,Linebacker,74
-CB,Brandon,Carr,Cowboys,8,Cornerback,75
-CB,Morris,Claiborne,Cowboys,4,Cornerback,76
-CB,Byron,Jones,Cowboys,0,Cornerback,77
-CB,Tyler,Patmon,Cowboys,2,Cornerback,78
-CB,Joel,Ross,Cowboys,0,Cornerback,79
-CB,Orlando,Scandrick,Cowboys,8,Cornerback,80
-CB,Robert,Steeples,Cowboys,1,Cornerback,81
-CB,Corey,White,Cowboys,4,Cornerback,82
-CB,Jason,Wilson,Cowboys,0,Cornerback,83
-S,Barry,Church,Cowboys,6,Safety,84
-S,Jeff,Heath,Cowboys,3,Safety,85
-S,Danny,McCray,Cowboys,6,Safety,86
-S,Tim,Scott,Cowboys,0,Safety,87
-S,Ray,Vinopal,Cowboys,0,Safety,88
-S,J.J.,Wilcox,Cowboys,3,Safety,89
-K,Dan,Bailey,Cowboys,5,Kicker,90
-P,Tom,Hornsey,Cowboys,1,Punter,91
-P,Chris,Jones,Cowboys,4,Punter,92
-LS,Casey,Kreiter,Cowboys,1,Long Snapper,93
-LS,L.P.,Ladouceur,Cowboys,11,Long Snapper,94
-QB,Carson,Palmer,Cardinals,13,Quarterback,95
-QB,Phillip,Sims,Cardinals,0,Quarterback,96
-QB,Drew,Stanton,Cardinals,9,Quarterback,97
-QB,Logan,Thomas,Cardinals,2,Quarterback,98
-RB,Andre,Ellington,Cardinals,3,Running Back,99
-RB,Marion,Grice,Cardinals,2,Running Back,100
-RB,Robert,Hughes,Cardinals,3,Running Back,101
-RB,David,Johnson,Cardinals,0,Running Back,102
-RB,Paul,Lasike,Cardinals,0,Running Back,103
-RB,Jalen,Parmele,Cardinals,4,Running Back,104
-RB,Stepfan,Taylor,Cardinals,3,Running Back,105
-RB,Kerwynn,Williams,Cardinals,2,Running Back,106
-WR,Jaron,Brown,Cardinals,3,Wide Receiver,107
-WR,John,Brown,Cardinals,2,Wide Receiver,108
-WR,Larry,Fitzgerald,Cardinals,12,Wide Receiver,109
-WR,Michael,Floyd,Cardinals,4,Wide Receiver,110
-WR,Brittan,Golden,Cardinals,2,Wide Receiver,111
-WR,Trevor,Harman,Cardinals,0,Wide Receiver,112
-WR,Travis,Harvey,Cardinals,1,Wide Receiver,113
-WR,JJ,Nelson,Cardinals,0,Wide Receiver,114
-WR,Jaxon,Shipley,Cardinals,0,Wide Receiver,115
-WR,Ryan,Spadola,Cardinals,2,Wide Receiver,116
-TE,Gerald,Christian,Cardinals,0,Tight End,117
-TE,Darren,Fells,Cardinals,2,Tight End,118
-TE,Jermaine,Gresham,Cardinals,6,Tight End,119
-TE,Ifeanyi,Momah,Cardinals,1,Tight End,120
-TE,Troy,Niklas,Cardinals,2,Tight End,121
-TE,Gannon,Sinclair,Cardinals,1,Tight End,122
-TE,Jack,Tabb,Cardinals,0,Tight End,123
-C,Ted,Larsen,Cardinals,6,Center,124
-C,Lyle,Sendlein,Cardinals,9,Center,125
-C,A.Q.,Shipley,Cardinals,4,Center,126
-G,Jonathan,Cooper,Cardinals,3,Guard,127
-G,Jon,Halapio,Cardinals,1,Guard,128
-G,Nathan,Isles,Cardinals,1,Guard,129
-G,Mike,Iupati,Cardinals,6,Guard,130
-G,Antoine,McClain,Cardinals,2,Guard,131
-G,Anthony,Steen,Cardinals,1,Guard,132
-G,Earl,Watford,Cardinals,3,Guard,133
-OT,Cameron,Bradfield,Cardinals,5,Offensive Tackle,134
-OT,Rob,Crisp,Cardinals,0,Offensive Tackle,135
-OT,John,Fullington,Cardinals,0,Offensive Tackle,136
-OT,D.J.,Humphries,Cardinals,0,Offensive Tackle,137
-OT,Bobby,Massie,Cardinals,4,Offensive Tackle,138
-OT,Bradley,Sowell,Cardinals,4,Offensive Tackle,139
-OT,Jared,Veldheer,Cardinals,6,Offensive Tackle,140
-DE,Calais,Campbell,Cardinals,8,Defensive End,141
-DE,Rodney,Gunter,Cardinals,0,Defensive End,142
-DE,Josh,Mauro,Cardinals,2,Defensive End,143
-DE,Cory,Redding,Cardinals,13,Defensive End,144
-DE,Frostee,Rucker,Cardinals,10,Defensive End,145
-DE,Matt,Shaughnessy,Cardinals,7,Defensive End,146
-DE,Ed,Stinson,Cardinals,2,Defensive End,147
-DT,Corey,Peters,Cardinals,6,Defensive Tackle,148
-DT,Alameda,Ta'amu,Cardinals,4,Defensive Tackle,149
-DT,Xavier,Williams,Cardinals,0,Defensive Tackle,150
-LB,Lorenzo,Alexander,Cardinals,9,Linebacker,151
-LB,Glenn,Carson,Cardinals,2,Linebacker,152
-LB,Kenny,Demens,Cardinals,2,Linebacker,153
-LB,Alani,Fua,Cardinals,0,Linebacker,154
-LB,Markus,Golden,Cardinals,0,Linebacker,155
-LB,Edwin,Jackson,Cardinals,0,Linebacker,156
-LB,Andrae,Kirk,Cardinals,0,Linebacker,157
-LB,Gabe,Martin,Cardinals,0,Linebacker,158
-LB,Kareem,Martin,Cardinals,2,Linebacker,159
-LB,Kevin,Minter,Cardinals,3,Linebacker,160
-LB,Alex,Okafor,Cardinals,3,Linebacker,161
-LB,Shaq,Riddick,Cardinals,0,Linebacker,162
-LB,Darryl,Sharpton,Cardinals,6,Linebacker,163
-LB,Zack,Wagenmann,Cardinals,0,Linebacker,164
-LB,Daryl,Washington,Cardinals,5,Linebacker,165
-LB,Sean,Weatherspoon,Cardinals,6,Linebacker,166
-LB,LaMarr,Woodley,Cardinals,9,Linebacker,167
-CB,Justin,Bethel,Cardinals,4,Cornerback,168
-CB,Cariel,Brooks,Cardinals,0,Cornerback,169
-CB,Jonte,Green,Cardinals,3,Cornerback,170
-CB,Jimmy,Legree,Cardinals,1,Cornerback,171
-CB,Patrick,Peterson,Cardinals,5,Cornerback,172
-CB,Jerraud,Powers,Cardinals,7,Cornerback,173
-CB,Shaquille,Richardson,Cardinals,1,Cornerback,174
-CB,C.J.,Roberts,Cardinals,0,Cornerback,175
-CB,Darren,Woodard,Cardinals,1,Cornerback,176
-DB,Bryan,McCann,Cardinals,5,Defensive Back,177
-S,Deone,Bucannon,Cardinals,2,Safety,178
-S,Chris,Clemons,Cardinals,6,Safety,179
-S,Tony,Jefferson,Cardinals,3,Safety,180
-S,Rashad,Johnson,Cardinals,7,Safety,181
-S,Harold,Jones-Quartey,Cardinals,0,Safety,182
-S,Tyrann,Mathieu,Cardinals,3,Safety,183
-S,Brandon,Person,Cardinals,0,Safety,184
-K,Chandler,Catanzaro,Cardinals,2,Kicker,185
-P,Drew,Butler,Cardinals,3,Punter,186
-P,Dave,Zastudil,Cardinals,14,Punter,187
-LS,Mike,Leach,Cardinals,16,Long Snapper,188
-QB,Sean,Renfree,Falcons,3,Quarterback,189
-QB,Matt,Ryan,Falcons,8,Quarterback,190
-QB,T.J.,Yates,Falcons,5,Quarterback,191
-RB,Tevin,Coleman,Falcons,0,Running Back,192
-RB,Michael,Ford,Falcons,2,Running Back,193
-RB,Devonta,Freeman,Falcons,2,Running Back,194
-RB,Antone,Smith,Falcons,6,Running Back,195
-RB,Jerome,Smith,Falcons,1,Running Back,196
-RB,Terron,Ward,Falcons,0,Running Back,197
-FB,Patrick,DiMarco,Falcons,4,Full Back,198
-FB,Collin,Mooney,Falcons,3,Full Back,199
-WR,Marquez,Clark,Falcons,0,Wide Receiver,200
-WR,Leonard,Hankerson,Falcons,5,Wide Receiver,201
-WR,Justin,Hardy,Falcons,0,Wide Receiver,202
-WR,Devin,Hester,Falcons,10,Wide Receiver,203
-WR,Julio,Jones,Falcons,5,Wide Receiver,204
-WR,Carlton,Mitchell,Falcons,5,Wide Receiver,205
-WR,Bernard,Reedy,Falcons,1,Wide Receiver,206
-WR,Eric,Weems,Falcons,9,Wide Receiver,207
-WR,Roddy,White,Falcons,11,Wide Receiver,208
-WR,Nick,Williams,Falcons,1,Wide Receiver,209
-WR,Shane,Wynn,Falcons,0,Wide Receiver,210
-TE,Beau,Gardner,Falcons,0,Tight End,211
-TE,Tony,Moeaki,Falcons,5,Tight End,212
-TE,Mickey,Shuler,Falcons,4,Tight End,213
-TE,Jacob,Tamme,Falcons,8,Tight End,214
-TE,D.J.,Tialavea,Falcons,1,Tight End,215
-TE,Levine,Toilolo,Falcons,3,Tight End,216
-C,Joe,Hawley,Falcons,6,Center,217
-C,Peter,Konz,Falcons,4,Center,218
-C,James,Stone,Falcons,2,Center,219
-C,Valerian,Ume-Ezeoke,Falcons,0,Center,220
-G,Jon,Asamoah,Falcons,6,Guard,221
-G,Chris,Chester,Falcons,10,Guard,222
-G,Eric,Lefeld,Falcons,0,Guard,223
-G,Mike,Person,Falcons,7,Guard,224
-G,Adam,Replogle,Falcons,2,Guard,225
-OL,Pierce,Burton,Falcons,0,Offensive Lineman,226
-OL,Cody,Clay,Falcons,0,Offensive Lineman,227
-OL,DeMarcus,Love,Falcons,3,Offensive Lineman,228
-OL,Jared,Smith,Falcons,1,Offensive Lineman,229
-OT,Lamar,Holmes,Falcons,4,Offensive Tackle,230
-OT,Matt,Huffer,Falcons,0,Offensive Tackle,231
-OT,Jake,Matthews,Falcons,2,Offensive Tackle,232
-OT,Tyler,Polumbus,Falcons,8,Offensive Tackle,233
-OT,Jake,Rodgers,Falcons,0,Offensive Tackle,234
-OT,Ryan,Schraeder,Falcons,3,Offensive Tackle,235
-DE,Adrian,Clayborn,Falcons,5,Defensive End,236
-DE,Malliciah,Goodman,Falcons,3,Defensive End,237
-DE,Ra'Shede,Hageman,Falcons,2,Defensive End,238
-DE,Tyson,Jackson,Falcons,7,Defensive End,239
-DE,Cliff,Matthews,Falcons,5,Defensive End,240
-DE,Sam,Meredith,Falcons,0,Defensive End,241
-DT,Jonathan,Babineaux,Falcons,11,Defensive Tackle,242
-DT,Warren,Herring,Falcons,0,Defensive Tackle,243
-DT,Derrick,Hopkins,Falcons,1,Defensive Tackle,244
-DT,Grady,Jarrett,Falcons,0,Defensive Tackle,245
-DT,Paul,Soliai,Falcons,9,Defensive Tackle,246
-NT,Ricky,Havili-Heimuli,Falcons,1,Nose Tackle,247
-NT,Joey,Mbu,Falcons,0,Nose Tackle,248
-LB,Derek,Akunne,Falcons,0,Linebacker,249
-LB,Boris,Anyama,Falcons,0,Linebacker,250
-LB,Joplo,Bartu,Falcons,3,Linebacker,251
-LB,Vic,Beasley,Falcons,0,Linebacker,252
-LB,Kroy,Biermann,Falcons,8,Linebacker,253
-LB,Allen,Bradford,Falcons,5,Linebacker,254
-LB,Justin,Durant,Falcons,9,Linebacker,255
-LB,Stansly,Maponga,Falcons,3,Linebacker,256
-LB,Brooks,Reed,Falcons,5,Linebacker,257
-LB,O'Brien,Schofield,Falcons,6,Linebacker,258
-LB,Marquis,Spruill,Falcons,2,Linebacker,259
-LB,Tyler,Starr,Falcons,2,Linebacker,260
-LB,Nathan,Stupar,Falcons,2,Linebacker,261
-LB,Paul,Worrilow,Falcons,3,Linebacker,262
-CB,Phillip,Adams,Falcons,6,Cornerback,263
-CB,Robert,Alford,Falcons,3,Cornerback,264
-CB,Ricardo,Allen,Falcons,1,Cornerback,265
-CB,Jalen,Collins,Falcons,0,Cornerback,266
-CB,Dezmen,Southward,Falcons,2,Cornerback,267
-CB,Desmond,Trufant,Falcons,3,Cornerback,268
-CB,Kevin,White,Falcons,0,Cornerback,269
-DB,Michael,Lee,Falcons,0,Defensive Back,270
-DB,Jonathon,Mincy,Falcons,0,Defensive Back,271
-S,Sean,Baker,Falcons,2,Safety,272
-S,Charles,Godfrey,Falcons,8,Safety,273
-S,Kemal,Ishmael,Falcons,3,Safety,274
-S,Akeem,King,Falcons,0,Safety,275
-S,William,Moore,Falcons,6,Safety,276
-S,Damian,Parms,Falcons,0,Safety,277
-S,Robenson,Therezie,Falcons,0,Safety,278
-K,Matt,Bryant,Falcons,14,Kicker,279
-P,Matt,Bosher,Falcons,5,Punter,280
-LS,Josh,Harris,Falcons,4,Long Snapper,281
-QB,Joe,Flacco,Ravens,8,Quarterback,282
-QB,Bryn,Renner,Ravens,1,Quarterback,283
-QB,Matt,Schaub,Ravens,12,Quarterback,284
-RB,Buck,Allen,Ravens,0,Running Back,285
-RB,Justin,Forsett,Ravens,8,Running Back,286
-RB,Terrence,Magee,Ravens,0,Running Back,287
-RB,Lorenzo,Taliaferro,Ravens,2,Running Back,288
-RB,Fitzgerald,Toussaint,Ravens,2,Running Back,289
-FB,Kyle,Juszczyk,Ravens,3,Full Back,290
-FB,Kiero,Small,Ravens,1,Full Back,291
-WR,Kamar,Aiken,Ravens,3,Wide Receiver,292
-WR,Marlon,Brown,Ravens,3,Wide Receiver,293
-WR,Jeremy,Butler,Ravens,2,Wide Receiver,294
-WR,Michael,Campanaro,Ravens,2,Wide Receiver,295
-WR,DeAndre,Carter,Ravens,0,Wide Receiver,296
-WR,Tom,Nelson,Ravens,3,Wide Receiver,297
-WR,Breshad,Perriman,Ravens,0,Wide Receiver,298
-WR,Aldrick,Robinson,Ravens,3,Wide Receiver,299
-WR,Steve,Smith Sr.,Ravens,15,Wide Receiver,300
-WR,Trent,Steelman,Ravens,0,Wide Receiver,301
-WR,Darren,Waller,Ravens,0,Wide Receiver,302
-WR,Cam,Worthy,Ravens,0,Wide Receiver,303
-TE,Nick,Boyle,Ravens,0,Tight End,304
-TE,Crockett,Gillmore,Ravens,2,Tight End,305
-TE,Dennis,Pitta,Ravens,6,Tight End,306
-TE,Allen,Reisner,Ravens,3,Tight End,307
-TE,Konrad,Reuland,Ravens,3,Tight End,308
-TE,Maxx,Williams,Ravens,0,Tight End,309
-C,Nicholas,Easton,Ravens,0,Center,310
-C,Ryan,Jensen,Ravens,2,Center,311
-G,Leon,Brown,Ravens,0,Guard,312
-G,Kaleb,Johnson,Ravens,0,Guard,313
-G,Robert,Myers,Ravens,0,Guard,314
-G,Kelechi,Osemele,Ravens,4,Guard,315
-G,John,Urschel,Ravens,2,Guard,316
-G,Rick,Wagner,Ravens,3,Guard,317
-G,Marshal,Yanda,Ravens,9,Guard,318
-G,Jeremy,Zuttah,Ravens,8,Guard,319
-OT,Darryl,Baldwin,Ravens,0,Offensive Tackle,320
-OT,Blaine,Clausell,Ravens,0,Offensive Tackle,321
-OT,James,Hurst,Ravens,2,Offensive Tackle,322
-OT,Marcel,Jones,Ravens,2,Offensive Tackle,323
-OT,Eugene,Monroe,Ravens,7,Offensive Tackle,324
-OT,Jah,Reid,Ravens,5,Offensive Tackle,325
-OT,De'Ondre,Wesley,Ravens,0,Offensive Tackle,326
-DE,Christo,Bilukidi,Ravens,4,Defensive End,327
-DE,Kapron,Lewis-Moore,Ravens,3,Defensive End,328
-DE,Steven,Means,Ravens,2,Defensive End,329
-DE,Zach,Thompson,Ravens,1,Defensive End,330
-DE,DeAngelo,Tyson,Ravens,4,Defensive End,331
-DE,Brent,Urban,Ravens,2,Defensive End,332
-DT,Carl,Davis,Ravens,0,Defensive Tackle,333
-DT,Lawrence,Guy,Ravens,5,Defensive Tackle,334
-DT,Timmy,Jernigan,Ravens,2,Defensive Tackle,335
-DT,Micajah,Reynolds,Ravens,0,Defensive Tackle,336
-DT,Brandon,Williams,Ravens,3,Defensive Tackle,337
-DL,Chris,Canty,Ravens,11,Defensive Lineman,338
-LB,Brennen,Beyer,Ravens,0,Linebacker,339
-LB,Andrew,Bose,Ravens,0,Linebacker,340
-LB,Arthur,Brown,Ravens,3,Linebacker,341
-LB,Elvis,Dumervil,Ravens,10,Linebacker,342
-LB,Albert,McClellan,Ravens,5,Linebacker,343
-LB,C.J.,Mosley,Ravens,2,Linebacker,344
-LB,Zachary,Orr,Ravens,2,Linebacker,345
-LB,Daryl,Smith,Ravens,12,Linebacker,346
-LB,Za'Darius,Smith,Ravens,0,Linebacker,347
-LB,Terrell,Suggs,Ravens,13,Linebacker,348
-LB,Courtney,Upshaw,Ravens,4,Linebacker,349
-CB,Kyle,Arrington,Ravens,7,Cornerback,350
-CB,Asa,Jackson,Ravens,4,Cornerback,351
-CB,Rashaan,Melvin,Ravens,3,Cornerback,352
-CB,Jimmy,Smith,Ravens,5,Cornerback,353
-CB,Cassius,Vaughn,Ravens,6,Cornerback,354
-CB,Tray,Walker,Ravens,0,Cornerback,355
-CB,Lardarius,Webb,Ravens,7,Cornerback,356
-CB,Julian,Wilson,Ravens,0,Cornerback,357
-DB,Chris,Greenwood,Ravens,3,Defensive Back,358
-DB,Tramain,Jacobs,Ravens,2,Defensive Back,359
-DB,Nick,Perry,Ravens,0,Defensive Back,360
-DB,Quinton,Pointer,Ravens,3,Defensive Back,361
-S,Terrence,Brooks,Ravens,2,Safety,362
-S,Matt,Elam,Ravens,3,Safety,363
-S,Will,Hill,Ravens,4,Safety,364
-S,Anthony,Levine,Ravens,4,Safety,365
-S,Kendrick,Lewis,Ravens,6,Safety,366
-S,Brynden,Trawick,Ravens,3,Safety,367
-K,Justin,Tucker,Ravens,4,Kicker,368
-P,Sam,Koch,Ravens,10,Punter,369
-P,Justin,Manton,Ravens,0,Punter,370
-LS,Morgan,Cox,Ravens,6,Long Snapper,371
-LS,Patrick,Scales,Ravens,1,Long Snapper,372
-QB,Matt,Cassel,Bills,11,Quarterback,373
-QB,EJ,Manuel,Bills,3,Quarterback,374
-QB,Matt,Simms,Bills,2,Quarterback,375
-QB,Tyrod,Taylor,Bills,5,Quarterback,376
-RB,Bryce,Brown,Bills,4,Running Back,377
-RB,Boobie,Dixon,Bills,6,Running Back,378
-RB,Bronson,Hill,Bills,0,Running Back,379
-RB,Fred,Jackson,Bills,9,Running Back,380
-RB,LeSean,McCoy,Bills,7,Running Back,381
-RB,Karlos,Williams,Bills,0,Running Back,382
-FB,John,Conner,Bills,6,Full Back,383
-FB,Jerome,Felton,Bills,8,Full Back,384
-WR,Andre,Davis,Bills,0,Wide Receiver,385
-WR,Marcus,Easley,Bills,5,Wide Receiver,386
-WR,Marquise,Goodwin,Bills,3,Wide Receiver,387
-WR,Percy,Harvin,Bills,7,Wide Receiver,388
-WR,Chris,Hogan,Bills,3,Wide Receiver,389
-WR,Dezmin,Lewis,Bills,0,Wide Receiver,390
-WR,Tobais,Palmer,Bills,1,Wide Receiver,391
-WR,Marcus,Thigpen,Bills,4,Wide Receiver,392
-WR,Deonte,Thompson,Bills,4,Wide Receiver,393
-WR,Sammy,Watkins,Bills,2,Wide Receiver,394
-WR,Robert,Woods,Bills,3,Wide Receiver,395
-TE,Clay,Burton,Bills,0,Tight End,396
-TE,Jamie,Childers,Bills,1,Tight End,397
-TE,Charles,Clay,Bills,5,Tight End,398
-TE,Chris,Gragg,Bills,3,Tight End,399
-TE,MarQueis,Gray,Bills,3,Tight End,400
-TE,Chris,Manhertz,Bills,1,Tight End,401
-TE,Matthew,Mulligan,Bills,6,Tight End,402
-TE,Nick,O'Leary,Bills,0,Tight End,403
-TE,D.J.,Tialavea,Bills,1,Tight End,404
-C,Eric,Wood,Bills,7,Center,405
-G,William,Campbell,Bills,1,Guard,406
-G,Richie,Incognito,Bills,9,Guard,407
-G,Darryl,Johnson,Bills,1,Guard,408
-G,Alex,Kupper,Bills,1,Guard,409
-G,John,Miller,Bills,0,Guard,410
-G,D.J.,Morrell,Bills,1,Guard,411
-G,Cyril,Richardson,Bills,2,Guard,412
-G,Kraig,Urbik,Bills,7,Guard,413
-OT,Tyson,Chandler,Bills,0,Offensive Tackle,414
-OT,Cordy,Glenn,Bills,4,Offensive Tackle,415
-OT,Seantrel,Henderson,Bills,2,Offensive Tackle,416
-OT,Terren,Jones,Bills,2,Offensive Tackle,417
-OT,Cyrus,Kouandjio,Bills,2,Offensive Tackle,418
-DE,Michael,Buchanan,Bills,3,Defensive End,419
-DE,Andrew,Hudson,Bills,0,Defensive End,420
-DE,Jerry,Hughes,Bills,6,Defensive End,421
-DE,B.J.,Larsen,Bills,0,Defensive End,422
-DE,Manny,Lawson,Bills,10,Defensive End,423
-DE,Cedric,Reed,Bills,0,Defensive End,424
-DE,Erik,Williams,Bills,0,Defensive End,425
-DE,Mario,Williams,Bills,10,Defensive End,426
-DE,Jarius,Wynn,Bills,7,Defensive End,427
-DT,Corbin,Bryant,Bills,3,Defensive Tackle,428
-DT,Alex,Carrington,Bills,6,Defensive Tackle,429
-DT,Stefan,Charles,Bills,3,Defensive Tackle,430
-DT,Marcell,Dareus,Bills,5,Defensive Tackle,431
-DT,Andre,Fluellen,Bills,8,Defensive Tackle,432
-DT,Justin,Hamilton,Bills,0,Defensive Tackle,433
-DT,Jeremy,Towns,Bills,1,Defensive Tackle,434
-DT,Kyle,Williams,Bills,10,Defensive Tackle,435
-LB,Nigel,Bradham,Bills,4,Linebacker,436
-LB,Preston,Brown,Bills,2,Linebacker,437
-LB,Ikemefuna,Enemkpali,Bills,2,Linebacker,438
-LB,Jimmy,Gaines,Bills,1,Linebacker,439
-LB,Randell,Johnson,Bills,2,Linebacker,440
-LB,Ty,Powell,Bills,3,Linebacker,441
-LB,Tony,Steward,Bills,0,Linebacker,442
-LB,A.J.,Tarpley,Bills,0,Linebacker,443
-CB,Ron,Brooks,Bills,4,Cornerback,444
-CB,Mario,Butler,Bills,2,Cornerback,445
-CB,Ross,Cockrell,Bills,2,Cornerback,446
-CB,Ronald,Darby,Bills,0,Cornerback,447
-CB,Stephon,Gilmore,Bills,4,Cornerback,448
-CB,Leodis,McKelvin,Bills,8,Cornerback,449
-CB,Merrill,Noel,Bills,0,Cornerback,450
-CB,Nickell,Robey,Bills,3,Cornerback,451
-CB,Rod,Sweeting,Bills,2,Cornerback,452
-CB,Cam,Thomas,Bills,0,Cornerback,453
-S,Corey,Graham,Bills,9,Safety,454
-S,Kenny,Ladler,Bills,2,Safety,455
-S,Jonathan,Meeks,Bills,3,Safety,456
-S,Wesley,Miller,Bills,0,Safety,457
-S,Bacarri,Rambo,Bills,3,Safety,458
-S,Aaron,Williams,Bills,5,Safety,459
-S,Duke,Williams,Bills,3,Safety,460
-K,Dan,Carpenter,Bills,8,Kicker,461
-K,Jordan,Gay,Bills,2,Kicker,462
-P,Colton,Schmidt,Bills,2,Punter,463
-LS,Garrison,Sanborn,Bills,7,Long Snapper,464
-QB,Derek,Anderson,Panthers,11,Quarterback,465
-QB,Cam,Newton,Panthers,5,Quarterback,466
-QB,Joe,Webb,Panthers,6,Quarterback,467
-RB,Cameron,Artis-Payne,Panthers,0,Running Back,468
-RB,Jonathan,Stewart,Panthers,8,Running Back,469
-RB,Jordan,Todman,Panthers,4,Running Back,470
-RB,Brandon,Wegher,Panthers,0,Running Back,471
-RB,Fozzy,Whittaker,Panthers,3,Running Back,472
-FB,Mike,Tolbert,Panthers,8,Full Back,473
-FB,Lee,Ward,Panthers,0,Full Back,474
-WR,Kelvin,Benjamin,Panthers,2,Wide Receiver,475
-WR,Brenton,Bersin,Panthers,2,Wide Receiver,476
-WR,Jarrett,Boykin,Panthers,4,Wide Receiver,477
-WR,Corey,Brown,Panthers,2,Wide Receiver,478
-WR,Mike,Brown,Panthers,3,Wide Receiver,479
-WR,Paul,Browning,Panthers,0,Wide Receiver,480
-WR,Damiere,Byrd,Panthers,0,Wide Receiver,481
-WR,Avius,Capers,Panthers,0,Wide Receiver,482
-WR,Jerricho,Cotchery,Panthers,12,Wide Receiver,483
-WR,Devin,Funchess,Panthers,0,Wide Receiver,484
-WR,Ted,Ginn Jr.,Panthers,9,Wide Receiver,485
-WR,Stephen,Hill,Panthers,3,Wide Receiver,486
-WR,De'Andre,Presley,Panthers,1,Wide Receiver,487
-TE,Richie,Brockel,Panthers,4,Tight End,488
-TE,Jamie,Childers,Panthers,1,Tight End,489
-TE,Ed,Dickson,Panthers,6,Tight End,490
-TE,Marcus,Lucas,Panthers,1,Tight End,491
-TE,Greg,Olsen,Panthers,9,Tight End,492
-TE,Scott,Simonson,Panthers,1,Tight End,493
-TE,Brandon,Williams,Panthers,3,Tight End,494
-C,Brian,Folkerts,Panthers,3,Center,495
-C,Ryan,Kalil,Panthers,9,Center,496
-G,Tyronne,Green,Panthers,5,Guard,497
-G,Ricky,Henry,Panthers,3,Guard,498
-G,Jordan,McCray,Panthers,1,Guard,499
-G,Andrew,Norwell,Panthers,2,Guard,500
-G,Chris,Scott,Panthers,4,Guard,501
-G,Amini,Silatolu,Panthers,4,Guard,502
-G,Trai,Turner,Panthers,2,Guard,503
-OT,Nate,Chandler,Panthers,4,Offensive Tackle,504
-OT,David,Foucault,Panthers,2,Offensive Tackle,505
-OT,Tony,Hills,Panthers,7,Offensive Tackle,506
-OT,Michael,Oher,Panthers,7,Offensive Tackle,507
-OT,Mike,Remmers,Panthers,3,Offensive Tackle,508
-OT,Davonte,Wallace,Panthers,2,Offensive Tackle,509
-OT,Martin,Wallace,Panthers,2,Offensive Tackle,510
-OT,Daryl,Williams,Panthers,0,Offensive Tackle,511
-DE,Mario,Addison,Panthers,5,Defensive End,512
-DE,Frank,Alexander,Panthers,3,Defensive End,513
-DE,Rakim,Cox,Panthers,1,Defensive End,514
-DE,Kony,Ealy,Panthers,2,Defensive End,515
-DE,Wes,Horton,Panthers,3,Defensive End,516
-DE,Charles,Johnson,Panthers,9,Defensive End,517
-DE,Arthur,Miley,Panthers,0,Defensive End,518
-DE,Steve,Miller,Panthers,0,Defensive End,519
-DT,Colin,Cole,Panthers,9,Defensive Tackle,520
-DT,Dwan,Edwards,Panthers,12,Defensive Tackle,521
-DT,Kenny,Horsley,Panthers,0,Defensive Tackle,522
-DT,Star,Lotulelei,Panthers,3,Defensive Tackle,523
-DT,Kyle,Love,Panthers,4,Defensive Tackle,524
-DT,Terry,Redden,Panthers,0,Defensive Tackle,525
-DT,Micanor,Regis,Panthers,1,Defensive Tackle,526
-DT,Kawann,Short,Panthers,3,Defensive Tackle,527
-DL,Chas,Alecxih,Panthers,1,Defensive Lineman,528
-LB,Brian,Blechen,Panthers,0,Linebacker,529
-LB,Thomas,Davis,Panthers,11,Linebacker,530
-LB,Adarius,Glanton,Panthers,2,Linebacker,531
-LB,Ben,Jacobs,Panthers,3,Linebacker,532
-LB,A.J.,Klein,Panthers,3,Linebacker,533
-LB,Luke,Kuechly,Panthers,4,Linebacker,534
-LB,David,Mayo,Panthers,0,Linebacker,535
-LB,Horace,Miller,Panthers,1,Linebacker,536
-LB,Kevin,Reddick,Panthers,2,Linebacker,537
-LB,Shaq,Thompson,Panthers,0,Linebacker,538
-LB,Jason,Trusnik,Panthers,9,Linebacker,539
-CB,Bené,Benwikere,Panthers,2,Cornerback,540
-CB,Carrington,Byndom,Panthers,1,Cornerback,541
-CB,T.J.,Heath,Panthers,2,Cornerback,542
-CB,Josh,Norman,Panthers,4,Cornerback,543
-CB,Charles,Tillman,Panthers,13,Cornerback,544
-CB,Melvin,White,Panthers,3,Cornerback,545
-CB,Teddy,Williams,Panthers,4,Cornerback,546
-CB,Lou,Young,Panthers,1,Cornerback,547
-DB,Tom,Nelson,Panthers,3,Defensive Back,548
-S,Marcus,Ball,Panthers,2,Safety,549
-S,Tre,Boston,Panthers,2,Safety,550
-S,Kurt,Coleman,Panthers,6,Safety,551
-S,Roman,Harper,Panthers,10,Safety,552
-S,Colin,Jones,Panthers,5,Safety,553
-S,Robert,Lester,Panthers,3,Safety,554
-S,Dean,Marlowe,Panthers,0,Safety,555
-K,Graham,Gano,Panthers,6,Kicker,556
-P,Brad,Nortman,Panthers,4,Punter,557
-LS,J.J.,Jansen,Panthers,8,Long Snapper,558
-QB,Shane,Carden,Bears,0,Quarterback,559
-QB,Jimmy,Clausen,Bears,6,Quarterback,560
-QB,Jay,Cutler,Bears,10,Quarterback,561
-QB,David,Fales,Bears,1,Quarterback,562
-RB,Ka'Deem,Carey,Bears,2,Running Back,563
-RB,Michael,Ford,Bears,2,Running Back,564
-RB,Matt,Forte,Bears,8,Running Back,565
-RB,Jeremy,Langford,Bears,0,Running Back,566
-RB,Senorise,Perry,Bears,2,Running Back,567
-RB,Jacquizz,Rodgers,Bears,5,Running Back,568
-RB,Daniel,Thomas,Bears,5,Running Back,569
-WR,Joshua,Bellamy,Bears,1,Wide Receiver,570
-WR,John,Chiles,Bears,1,Wide Receiver,571
-WR,A.J.,Cruz,Bears,1,Wide Receiver,572
-WR,Alshon,Jeffery,Bears,4,Wide Receiver,573
-WR,Rashad,Lawrence,Bears,1,Wide Receiver,574
-WR,Marc,Mariani,Bears,6,Wide Receiver,575
-WR,Cameron,Meredith,Bears,0,Wide Receiver,576
-WR,Levi,Norwood,Bears,0,Wide Receiver,577
-WR,Eddie,Royal,Bears,8,Wide Receiver,578
-WR,Ify,Umodu,Bears,0,Wide Receiver,579
-WR,Kevin,White,Bears,0,Wide Receiver,580
-WR,Marquess,Wilson,Bears,3,Wide Receiver,581
-TE,Blake,Annen,Bears,2,Tight End,582
-TE,Martellus,Bennett,Bears,8,Tight End,583
-TE,Kevin,Greene,Bears,1,Tight End,584
-TE,Zach,Miller,Bears,6,Tight End,585
-TE,Chris,Pantale,Bears,1,Tight End,586
-TE,Bear,Pascoe,Bears,6,Tight End,587
-TE,Dante,Rosario,Bears,9,Tight End,588
-TE,Brian,Vogler,Bears,0,Tight End,589
-C,Hroniss,Grasu,Bears,0,Center,590
-C,Will,Montgomery,Bears,10,Center,591
-G,Conor,Boffeli,Bears,1,Guard,592
-G,Vladimir,Ducasse,Bears,6,Guard,593
-G,Kyle,Long,Bears,3,Guard,594
-G,Tyler,Moore,Bears,1,Guard,595
-G,Matt,Slauson,Bears,7,Guard,596
-OT,Jermon,Bushrod,Bears,9,Offensive Tackle,597
-OT,Tayo,Fabuluje,Bears,0,Offensive Tackle,598
-OT,Cameron,Jefferson,Bears,0,Offensive Tackle,599
-OT,Charles,Leno,Bears,2,Offensive Tackle,600
-OT,Jordan,Mills,Bears,3,Offensive Tackle,601
-OT,Michael,Ola,Bears,2,Offensive Tackle,602
-OT,Jason,Weaver,Bears,1,Offensive Tackle,603
-DE,Olsen,Pierre,Bears,0,Defensive End,604
-DL,David,Carter,Bears,3,Defensive Lineman,605
-DL,Brandon,Dunn,Bears,1,Defensive Lineman,606
-DL,Ego,Ferguson,Bears,2,Defensive Lineman,607
-DL,Eddie,Goldman,Bears,0,Defensive Lineman,608
-DL,Jarvis,Jenkins,Bears,5,Defensive Lineman,609
-DL,Jeremiah,Ratliff,Bears,11,Defensive Lineman,610
-DL,Will,Sutton,Bears,2,Defensive Lineman,611
-DL,Cornelius,Washington,Bears,3,Defensive Lineman,612
-DL,Terry,Williams,Bears,0,Defensive Lineman,613
-LB,Sam,Acho,Bears,5,Linebacker,614
-LB,Jared,Allen,Bears,12,Linebacker,615
-LB,Jonathan,Anderson,Bears,0,Linebacker,616
-LB,David,Bass,Bears,3,Linebacker,617
-LB,Jonathan,Bostic,Bears,3,Linebacker,618
-LB,Mason,Foster,Bears,5,Linebacker,619
-LB,Lamarr,Houston,Bears,6,Linebacker,620
-LB,Christian,Jones,Bears,2,Linebacker,621
-LB,DeDe,Lattimore,Bears,2,Linebacker,622
-LB,Shea,McClellin,Bears,4,Linebacker,623
-LB,Pernell,McPhee,Bears,5,Linebacker,624
-LB,John,Timu,Bears,0,Linebacker,625
-LB,Matt,Wells,Bears,0,Linebacker,626
-LB,Kyle,Woestmann,Bears,0,Linebacker,627
-LB,Willie,Young,Bears,6,Linebacker,628
-CB,Alan,Ball,Bears,8,Cornerback,629
-CB,Qumain,Black,Bears,0,Cornerback,630
-CB,Bryce,Callahan,Bears,0,Cornerback,631
-CB,Kyle,Fuller,Bears,2,Cornerback,632
-CB,Jacoby,Glenn,Bears,0,Cornerback,633
-CB,Demontre,Hurst,Bears,2,Cornerback,634
-CB,Tim,Jennings,Bears,10,Cornerback,635
-CB,Al,Louis-Jean,Bears,2,Cornerback,636
-CB,Sherrick,McManis,Bears,6,Cornerback,637
-CB,Terrance,Mitchell,Bears,2,Cornerback,638
-CB,Tracy,Porter,Bears,8,Cornerback,639
-DB,Anthony,Walters,Bears,4,Defensive Back,640
-S,Adrian,Amos,Bears,0,Safety,641
-S,Malcolm,Bronson,Bears,1,Safety,642
-S,Anthony,Jefferson,Bears,0,Safety,643
-S,Sherrod,Martin,Bears,6,Safety,644
-S,Ryan,Mundy,Bears,7,Safety,645
-S,Antrel,Rolle,Bears,11,Safety,646
-S,Brock,Vereen,Bears,2,Safety,647
-K,Robbie,Gould,Bears,11,Kicker,648
-P,Pat,O'Donnell,Bears,2,Punter,649
-LS,Thomas,Gafford,Bears,8,Long Snapper,650
-LS,Rick,Lovato,Bears,0,Long Snapper,651
-QB,Andy,Dalton,Bengals,5,Quarterback,652
-QB,Josh,Johnson,Bengals,7,Quarterback,653
-QB,AJ,McCarron,Bengals,1,Quarterback,654
-QB,Keith,Wenning,Bengals,1,Quarterback,655
-RB,Giovani,Bernard,Bengals,3,Running Back,656
-RB,Rex,Burkhead,Bengals,3,Running Back,657
-RB,Ryan,Hewitt,Bengals,2,Running Back,658
-RB,Jeremy,Hill,Bengals,2,Running Back,659
-RB,Cedric,Peerman,Bengals,6,Running Back,660
-RB,Terrell,Watson,Bengals,0,Running Back,661
-RB,James,Wilder Jr.,Bengals,1,Running Back,662
-FB,Mark,Weisman,Bengals,0,Full Back,663
-WR,Mario,Alford,Bengals,0,Wide Receiver,664
-WR,A.J.,Green,Bengals,5,Wide Receiver,665
-WR,Marvin,Jones,Bengals,4,Wide Receiver,666
-WR,Jake,Kumerow,Bengals,0,Wide Receiver,667
-WR,Desmond,Lawrence,Bengals,0,Wide Receiver,668
-WR,Greg,Little,Bengals,5,Wide Receiver,669
-WR,Onterio,McCalebb,Bengals,1,Wide Receiver,670
-WR,Denarius,Moore,Bengals,5,Wide Receiver,671
-WR,Tevin,Reese,Bengals,1,Wide Receiver,672
-WR,Mohamed,Sanu,Bengals,4,Wide Receiver,673
-WR,Brandon,Tate,Bengals,7,Wide Receiver,674
-WR,Ryan,Whalen,Bengals,4,Wide Receiver,675
-TE,Tyler,Eifert,Bengals,3,Tight End,676
-TE,Tyler,Kroft,Bengals,0,Tight End,677
-TE,Matt,Lengel,Bengals,0,Tight End,678
-TE,Jake,Murphy,Bengals,1,Tight End,679
-TE,John,Peters,Bengals,0,Tight End,680
-TE,C.J.,Uzomah,Bengals,0,Tight End,681
-C,Russell,Bodine,Bengals,2,Center,682
-C,Chris,Jasperse,Bengals,0,Center,683
-C,T.J.,Johnson,Bengals,2,Center,684
-C,Jake,Smith,Bengals,0,Center,685
-G,Clint,Boling,Bengals,5,Guard,686
-G,Trey,Hopkins,Bengals,2,Guard,687
-G,Kevin,Zeitler,Bengals,4,Guard,688
-OT,Jake,Fisher,Bengals,0,Offensive Tackle,689
-OT,Dan,France,Bengals,1,Offensive Tackle,690
-OT,Tanner,Hawkinson,Bengals,3,Offensive Tackle,691
-OT,Matthew,O'Donnell,Bengals,1,Offensive Tackle,692
-OT,Cedric,Ogbuehi,Bengals,0,Offensive Tackle,693
-OT,Andre,Smith,Bengals,7,Offensive Tackle,694
-OT,Andrew,Whitworth,Bengals,10,Offensive Tackle,695
-OT,Eric,Winston,Bengals,9,Offensive Tackle,696
-DE,Will,Clarke,Bengals,2,Defensive End,697
-DE,Carlos,Dunlap,Bengals,6,Defensive End,698
-DE,Wallace,Gilberry,Bengals,8,Defensive End,699
-DE,Margus,Hunt,Bengals,3,Defensive End,700
-DE,Michael,Johnson,Bengals,7,Defensive End,701
-DE,Sam,Montgomery,Bengals,2,Defensive End,702
-DT,Geno,Atkins,Bengals,6,Defensive Tackle,703
-DT,Kwame,Geathers,Bengals,3,Defensive Tackle,704
-DT,Marcus,Hardison,Bengals,0,Defensive Tackle,705
-DT,Domata,Peko,Bengals,10,Defensive Tackle,706
-DT,Kalafitoni,Pole,Bengals,0,Defensive Tackle,707
-DT,Pat,Sims,Bengals,8,Defensive Tackle,708
-DT,Devon,Still,Bengals,4,Defensive Tackle,709
-DT,Brandon,Thompson,Bengals,4,Defensive Tackle,710
-DT,DeShawn,Williams,Bengals,0,Defensive Tackle,711
-LB,Vontaze,Burfict,Bengals,4,Linebacker,712
-LB,Chris,Carter,Bengals,5,Linebacker,713
-LB,P.J.,Dawson,Bengals,0,Linebacker,714
-LB,Jayson,DiManche,Bengals,3,Linebacker,715
-LB,Marquis,Flowers,Bengals,2,Linebacker,716
-LB,A.J.,Hawk,Bengals,10,Linebacker,717
-LB,Nico,Johnson,Bengals,3,Linebacker,718
-LB,Emmanuel,Lamur,Bengals,4,Linebacker,719
-LB,Rey,Maualuga,Bengals,7,Linebacker,720
-LB,Sean,Porter,Bengals,3,Linebacker,721
-LB,Vincent,Rey,Bengals,5,Linebacker,722
-LB,Trevor,Roach,Bengals,0,Linebacker,723
-CB,Darqueze,Dennard,Bengals,2,Cornerback,724
-CB,Brandon,Ghee,Bengals,6,Cornerback,725
-CB,Troy,Hill,Bengals,0,Cornerback,726
-CB,Adam,Jones,Bengals,9,Cornerback,727
-CB,Dre,Kirkpatrick,Bengals,4,Cornerback,728
-CB,Chris,Lewis-Harris,Bengals,3,Cornerback,729
-CB,Josh,Shaw,Bengals,0,Cornerback,730
-S,Erick,Dargan,Bengals,0,Safety,731
-S,Leon,Hall,Bengals,9,Safety,732
-S,George,Iloka,Bengals,4,Safety,733
-S,Shiloh,Keo,Bengals,4,Safety,734
-S,Reggie,Nelson,Bengals,9,Safety,735
-S,Floyd,Raven,Bengals,0,Safety,736
-S,Derron,Smith,Bengals,0,Safety,737
-S,Shawn,Williams,Bengals,3,Safety,738
-K,Mike,Nugent,Bengals,11,Kicker,739
-K,Tom,Obarski,Bengals,0,Kicker,740
-P,Kevin,Huber,Bengals,7,Punter,741
-LS,Clark,Harris,Bengals,7,Long Snapper,742
-QB,Thaddeus,Lewis,Browns,4,Quarterback,743
-QB,Johnny,Manziel,Browns,2,Quarterback,744
-QB,Josh,McCown,Browns,13,Quarterback,745
-QB,Connor,Shaw,Browns,1,Quarterback,746
-RB,Isaiah,Crowell,Browns,2,Running Back,747
-RB,Shaun,Draughn,Browns,3,Running Back,748
-RB,Timothy,Flanders,Browns,0,Running Back,749
-RB,Duke,Johnson,Browns,0,Running Back,750
-RB,Luke,Lundy,Browns,0,Running Back,751
-RB,Jalen,Parmele,Browns,4,Running Back,752
-RB,Terrance,West,Browns,2,Running Back,753
-RB,Glenn,Winston,Browns,2,Running Back,754
-FB,Malcolm,Johnson,Browns,0,Full Back,755
-WR,Travis,Benjamin,Browns,4,Wide Receiver,756
-WR,Dwayne,Bowe,Browns,9,Wide Receiver,757
-WR,Paul,Browning,Browns,0,Wide Receiver,758
-WR,Taylor,Gabriel,Browns,2,Wide Receiver,759
-WR,Josh,Gordon,Browns,3,Wide Receiver,760
-WR,Brian,Hartline,Browns,7,Wide Receiver,761
-WR,Andrew,Hawkins,Browns,5,Wide Receiver,762
-WR,Darius,Jennings,Browns,0,Wide Receiver,763
-WR,Josh,Lenz,Browns,1,Wide Receiver,764
-WR,Vince,Mayle,Browns,0,Wide Receiver,765
-WR,Marlon,Moore,Browns,6,Wide Receiver,766
-WR,Terrelle,Pryor,Browns,4,Wide Receiver,767
-WR,Shane,Wynn,Browns,0,Wide Receiver,768
-TE,Gary,Barnidge,Browns,8,Tight End,769
-TE,E.J.,Bibbs,Browns,0,Tight End,770
-TE,Jim,Dray,Browns,6,Tight End,771
-TE,Manasseh,Garner,Browns,0,Tight End,772
-TE,Rob,Housler,Browns,5,Tight End,773
-TE,Randall,Telfer,Browns,0,Tight End,774
-OL,Karim,Barton,Browns,1,Offensive Lineman,775
-OL,Joel,Bitonio,Browns,2,Offensive Lineman,776
-OL,Michael,Bowie,Browns,3,Offensive Lineman,777
-OL,Cameron,Erving,Browns,0,Offensive Lineman,778
-OL,John,Greco,Browns,8,Offensive Lineman,779
-OL,Erle,Ladson,Browns,0,Offensive Lineman,780
-OL,Alex,Mack,Browns,7,Offensive Lineman,781
-OL,Joe,Madsen,Browns,1,Offensive Lineman,782
-OL,Andrew,McDonald,Browns,2,Offensive Lineman,783
-OL,Darrian,Miller,Browns,0,Offensive Lineman,784
-OL,Eric,Olsen,Browns,4,Offensive Lineman,785
-OL,Vinston,Painter,Browns,2,Offensive Lineman,786
-OL,Mitchell,Schwartz,Browns,4,Offensive Lineman,787
-OL,Ryan,Seymour,Browns,2,Offensive Lineman,788
-OL,Joe,Thomas,Browns,9,Offensive Lineman,789
-DT,A.J.,Pataiali'i,Browns,1,Defensive Tackle,790
-DL,Armonty,Bryant,Browns,3,Defensive Lineman,791
-DL,Desmond,Bryant,Browns,7,Defensive Lineman,792
-DL,Xavier,Cooper,Browns,0,Defensive Lineman,793
-DL,John,Hughes,Browns,4,Defensive Lineman,794
-DL,Ishmaa'ily,Kitchen,Browns,4,Defensive Lineman,795
-DL,Jacobbi,McDaniel,Browns,1,Defensive Lineman,796
-DL,Jamie,Meder,Browns,1,Defensive Lineman,797
-DL,Danny,Shelton,Browns,0,Defensive Lineman,798
-DL,Randy,Starks,Browns,12,Defensive Lineman,799
-DL,Phil,Taylor,Browns,5,Defensive Lineman,800
-DL,Christian,Tupou,Browns,2,Defensive Lineman,801
-DL,Billy,Winn,Browns,4,Defensive Lineman,802
-DL,Dylan,Wynn,Browns,0,Defensive Lineman,803
-LB,Tank,Carder,Browns,4,Linebacker,804
-LB,Karlos,Dansby,Browns,12,Linebacker,805
-LB,Moise,Fokou,Browns,7,Linebacker,806
-LB,Chris,Kirksey,Browns,2,Linebacker,807
-LB,Paul,Kruger,Browns,7,Linebacker,808
-LB,Barkevious,Mingo,Browns,3,Linebacker,809
-LB,Nate,Orchard,Browns,0,Linebacker,810
-LB,Hayes,Pullard,Browns,0,Linebacker,811
-LB,Mike,Reilly,Browns,0,Linebacker,812
-LB,Craig,Robertson,Browns,4,Linebacker,813
-LB,Scott,Solomon,Browns,4,Linebacker,814
-DB,Johnson,Bademosi,Browns,4,Defensive Back,815
-DB,Ibraheim,Campbell,Browns,0,Defensive Back,816
-DB,Pierre,Desir,Browns,2,Defensive Back,817
-DB,Ifo,Ekpre-Olomu,Browns,0,Defensive Back,818
-DB,Landon,Feichter,Browns,0,Defensive Back,819
-DB,Charles,Gaines,Browns,0,Defensive Back,820
-DB,Justin,Gilbert,Browns,2,Defensive Back,821
-DB,Tashaun,Gipson,Browns,4,Defensive Back,822
-DB,Joe,Haden,Browns,6,Defensive Back,823
-DB,Kendall,James,Browns,1,Defensive Back,824
-DB,Robert,Nelson,Browns,2,Defensive Back,825
-DB,Jordan,Poyer,Browns,3,Defensive Back,826
-DB,Joe,Rankin,Browns,0,Defensive Back,827
-DB,De'Ante,Saunders,Browns,0,Defensive Back,828
-DB,Donte,Whitner,Browns,10,Defensive Back,829
-DB,K'Waun,Williams,Browns,2,Defensive Back,830
-DB,Tramon,Williams,Browns,9,Defensive Back,831
-K,Brandon,Bogotay,Browns,1,Kicker,832
-K,Travis,Coons,Browns,1,Kicker,833
-K,Carey,Spear,Browns,1,Kicker,834
-P,Andy,Lee,Browns,12,Punter,835
-LS,Charley,Hughlett,Browns,1,Long Snapper,836
-QB,Zac,Dysert,Broncos,2,Quarterback,837
-QB,Peyton,Manning,Broncos,18,Quarterback,838
-QB,Brock,Osweiler,Broncos,4,Quarterback,839
-QB,Trevor,Siemian,Broncos,0,Quarterback,840
-RB,C.J.,Anderson,Broncos,3,Running Back,841
-RB,Montee,Ball,Broncos,3,Running Back,842
-RB,Kapri,Bibbs,Broncos,2,Running Back,843
-RB,Ronnie,Hillman,Broncos,4,Running Back,844
-RB,Jeremy,Stewart,Broncos,4,Running Back,845
-RB,Juwan,Thompson,Broncos,2,Running Back,846
-WR,Isaiah,Burse,Broncos,2,Wide Receiver,847
-WR,Andre,Caldwell,Broncos,8,Wide Receiver,848
-WR,Bennie,Fowler,Broncos,1,Wide Receiver,849
-WR,Cody,Latimer,Broncos,2,Wide Receiver,850
-WR,Corbin,Louks,Broncos,1,Wide Receiver,851
-WR,Jordan,Norwood,Broncos,6,Wide Receiver,852
-WR,Nathan,Palmer,Broncos,2,Wide Receiver,853
-WR,Solomon,Patton,Broncos,2,Wide Receiver,854
-WR,Emmanuel,Sanders,Broncos,6,Wide Receiver,855
-WR,Jordan,Taylor,Broncos,0,Wide Receiver,856
-WR,Demaryius,Thomas,Broncos,6,Wide Receiver,857
-WR,Kyle,Williams,Broncos,5,Wide Receiver,858
-TE,James,Casey,Broncos,7,Tight End,859
-TE,Owen,Daniels,Broncos,10,Tight End,860
-TE,Joe Don,Duncan,Broncos,0,Tight End,861
-TE,Virgil,Green,Broncos,5,Tight End,862
-TE,Jeff,Heuerman,Broncos,0,Tight End,863
-TE,Marcel,Jensen,Broncos,2,Tight End,864
-TE,Dominique,Jones,Broncos,4,Tight End,865
-C,Dillon,Day,Broncos,0,Center,866
-C,Max,Garcia,Broncos,0,Center,867
-C,Gino,Gradkowski,Broncos,4,Center,868
-C,Matt,Paradis,Broncos,1,Center,869
-G,Andre,Davis,Broncos,0,Guard,870
-G,Ben,Garland,Broncos,2,Guard,871
-G,Shelley,Smith,Broncos,6,Guard,872
-G,Louis,Vasquez,Broncos,7,Guard,873
-OT,Ryan,Clady,Broncos,8,Offensive Tackle,874
-OT,Chris,Clark,Broncos,7,Offensive Tackle,875
-OT,Ryan,Harris,Broncos,8,Offensive Tackle,876
-OT,DeMarcus,Love,Broncos,3,Offensive Tackle,877
-OT,Kyle,Roberts,Broncos,0,Offensive Tackle,878
-OT,Ty,Sambrailo,Broncos,0,Offensive Tackle,879
-OT,Michael,Schofield,Broncos,2,Offensive Tackle,880
-OT,Charles,Sweeton,Broncos,0,Offensive Tackle,881
-OG,John,Moffitt,Broncos,4,Offensive Guard,882
-DE,Kenny,Anunike,Broncos,2,Defensive End,883
-DE,Malik,Jackson,Broncos,4,Defensive End,884
-DE,Antonio,Smith,Broncos,12,Defensive End,885
-DE,Vance,Walker,Broncos,7,Defensive End,886
-DE,Josh,Watson,Broncos,0,Defensive End,887
-DE,Derek,Wolfe,Broncos,4,Defensive End,888
-NT,Marvin,Austin Jr.,Broncos,5,Nose Tackle,889
-NT,Sione,Fua,Broncos,5,Nose Tackle,890
-NT,Darius,Kilgo,Broncos,0,Nose Tackle,891
-NT,Chuka,Ndulue,Broncos,0,Nose Tackle,892
-NT,Sylvester,Williams,Broncos,3,Nose Tackle,893
-LB,Zaire,Anderson,Broncos,0,Linebacker,894
-LB,Shaquil,Barrett,Broncos,2,Linebacker,895
-LB,Lamin,Barrow,Broncos,2,Linebacker,896
-LB,Todd,Davis,Broncos,2,Linebacker,897
-LB,Steven,Johnson,Broncos,4,Linebacker,898
-LB,Brandon,Marshall,Broncos,4,Linebacker,899
-LB,Danny,Mason,Broncos,0,Linebacker,900
-LB,Lerentee,McCray,Broncos,3,Linebacker,901
-LB,Von,Miller,Broncos,5,Linebacker,902
-LB,Corey,Nelson,Broncos,2,Linebacker,903
-LB,Shane,Ray,Broncos,0,Linebacker,904
-LB,Gerald,Rivers,Broncos,2,Linebacker,905
-LB,Danny,Trevathan,Broncos,4,Linebacker,906
-LB,Chase,Vaughn,Broncos,1,Linebacker,907
-LB,Reggie,Walker,Broncos,7,Linebacker,908
-LB,DeMarcus,Ware,Broncos,11,Linebacker,909
-CB,Tevrin,Brandon,Broncos,0,Cornerback,910
-CB,Tony,Carter,Broncos,7,Cornerback,911
-CB,Lorenzo,Doss,Broncos,0,Cornerback,912
-CB,Chris,Harris Jr.,Broncos,4,Cornerback,913
-CB,Curtis,Marsh,Broncos,4,Cornerback,914
-CB,Taurean,Nixon,Broncos,0,Cornerback,915
-CB,Bradley,Roby,Broncos,2,Cornerback,916
-CB,Aqib,Talib,Broncos,8,Cornerback,917
-CB,Kayvon,Webster,Broncos,3,Cornerback,918
-DB,Josh,Bush,Broncos,4,Defensive Back,919
-S,Omar,Bolden,Broncos,4,Safety,920
-S,David,Bruton Jr.,Broncos,7,Safety,921
-S,Josh,Furman,Broncos,0,Safety,922
-S,Ross,Madison,Broncos,1,Safety,923
-S,Darian,Stewart,Broncos,6,Safety,924
-S,T.J.,Ward,Broncos,6,Safety,925
-K,Connor,Barth,Broncos,8,Kicker,926
-K,Brandon,McManus,Broncos,2,Kicker,927
-P,Britton,Colquitt,Broncos,7,Punter,928
-LS,Aaron,Brewer,Broncos,4,Long Snapper,929
-QB,Garrett,Gilbert,Lions,1,Quarterback,930
-QB,Kellen,Moore,Lions,4,Quarterback,931
-QB,Dan,Orlovsky,Lions,10,Quarterback,932
-QB,Matthew,Stafford,Lions,7,Quarterback,933
-RB,Ameer,Abdullah,Lions,0,Running Back,934
-RB,Joique,Bell,Lions,5,Running Back,935
-RB,Desmond,Martin,Lions,0,Running Back,936
-RB,Theo,Riddick,Lions,3,Running Back,937
-RB,George,Winn,Lions,2,Running Back,938
-RB,Zach,Zenner,Lions,0,Running Back,939
-FB,Michael,Burton,Lions,0,Full Back,940
-FB,Emil,Igwenagu,Lions,2,Full Back,941
-WR,Ryan,Broyles,Lions,4,Wide Receiver,942
-WR,Corey,Fuller,Lions,2,Wide Receiver,943
-WR,Jarred,Haggins,Lions,0,Wide Receiver,944
-WR,Calvin,Johnson,Lions,9,Wide Receiver,945
-WR,Vernon,Johnson,Lions,0,Wide Receiver,946
-WR,TJ,Jones,Lions,1,Wide Receiver,947
-WR,Desmond,Lawrence,Lions,0,Wide Receiver,948
-WR,Lance,Moore,Lions,10,Wide Receiver,949
-WR,Andrew,Peacock,Lions,1,Wide Receiver,950
-WR,Jeremy,Ross,Lions,3,Wide Receiver,951
-WR,Greg,Salas,Lions,5,Wide Receiver,952
-WR,Golden,Tate,Lions,6,Wide Receiver,953
-TE,David,Ausberry,Lions,5,Tight End,954
-TE,Eric,Ebron,Lions,2,Tight End,955
-TE,Joseph,Fauria,Lions,3,Tight End,956
-TE,Jacob,Maxwell,Lions,0,Tight End,957
-TE,Brandon,Pettigrew,Lions,7,Tight End,958
-TE,Casey,Pierce,Lions,0,Tight End,959
-TE,Jordan,Thompson,Lions,1,Tight End,960
-C,Taylor,Boggs,Lions,3,Center,961
-C,Braxston,Cave,Lions,1,Center,962
-C,Travis,Swanson,Lions,2,Center,963
-G,Al,Bond,Lions,0,Guard,964
-G,Darren,Keyton,Lions,1,Guard,965
-G,Manny,Ramirez,Lions,9,Guard,966
-G,Laken,Tomlinson,Lions,0,Guard,967
-G,Larry,Warford,Lions,3,Guard,968
-G,Torrian,Wilson,Lions,0,Guard,969
-OT,Cornelius,Lucas,Lions,2,Offensive Tackle,970
-OT,Xavier,Proctor,Lions,1,Offensive Tackle,971
-OT,Riley,Reiff,Lions,4,Offensive Tackle,972
-OT,Corey,Robinson,Lions,0,Offensive Tackle,973
-OT,LaAdrian,Waddle,Lions,3,Offensive Tackle,974
-OT,Michael,Williams,Lions,2,Offensive Tackle,975
-DE,Ezekiel,Ansah,Lions,3,Defensive End,976
-DE,Phillip,Hunt,Lions,3,Defensive End,977
-DE,Jason,Jones,Lions,8,Defensive End,978
-DE,Darryl,Tapp,Lions,10,Defensive End,979
-DE,Devin,Taylor,Lions,3,Defensive End,980
-DE,Larry,Webster,Lions,2,Defensive End,981
-DE,Corey,Wootton,Lions,6,Defensive End,982
-DT,Jermelle,Cudjo,Lions,4,Defensive Tackle,983
-DT,Derrick,Hopkins,Lions,1,Defensive Tackle,984
-DT,Kerry,Hyder,Lions,1,Defensive Tackle,985
-DT,Haloti,Ngata,Lions,10,Defensive Tackle,986
-DT,Roy,Philon,Lions,1,Defensive Tackle,987
-DT,Caraun,Reid,Lions,2,Defensive Tackle,988
-DT,Tyrunn,Walker,Lions,4,Defensive Tackle,989
-DT,Jerel,Worthy,Lions,3,Defensive Tackle,990
-DT,Gabe,Wright,Lions,0,Defensive Tackle,991
-LB,Josh,Bynes,Lions,4,Linebacker,992
-LB,Brandon,Copeland,Lions,1,Linebacker,993
-LB,DeAndre,Levy,Lions,7,Linebacker,994
-LB,Travis,Lewis,Lions,4,Linebacker,995
-LB,Kevin,Snyder,Lions,0,Linebacker,996
-LB,Julian,Stanford,Lions,3,Linebacker,997
-LB,Stephen,Tulloch,Lions,10,Linebacker,998
-LB,Kyle,Van Noy,Lions,2,Linebacker,999
-LB,Tahir,Whitehead,Lions,4,Linebacker,1000
-CB,Crezdon,Butler,Lions,6,Cornerback,1001
-CB,Alex,Carter,Lions,0,Cornerback,1002
-CB,Quandre,Diggs,Lions,0,Cornerback,1003
-CB,Nevin,Lawson,Lions,2,Cornerback,1004
-CB,Rashean,Mathis,Lions,13,Cornerback,1005
-CB,Chris,Owens,Lions,7,Cornerback,1006
-CB,Darius,Slay,Lions,3,Cornerback,1007
-CB,R.J.,Stanford,Lions,4,Cornerback,1008
-CB,Josh,Wilson,Lions,9,Cornerback,1009
-S,Isa,Abdul-Quddus,Lions,5,Safety,1010
-S,Don,Carey,Lions,7,Safety,1011
-S,James,Ihedigbo,Lions,8,Safety,1012
-S,Isaiah,Johnson,Lions,0,Safety,1013
-S,Taylor,Mays,Lions,6,Safety,1014
-S,Nate,Ness,Lions,4,Safety,1015
-S,Glover,Quin,Lions,7,Safety,1016
-S,Brian,Suite,Lions,0,Safety,1017
-K,Kyle,Brindza,Lions,0,Kicker,1018
-K,Matt,Prater,Lions,9,Kicker,1019
-P,Sam,Martin,Lions,3,Punter,1020
-LS,Don,Muhlbach,Lions,12,Long Snapper,1021
-QB,Matt,Blanchard,Packers,2,Quarterback,1022
-QB,Brett,Hundley,Packers,0,Quarterback,1023
-QB,Chase,Rettig,Packers,1,Quarterback,1024
-QB,Aaron,Rodgers,Packers,11,Quarterback,1025
-QB,Scott,Tolzien,Packers,5,Quarterback,1026
-RB,John,Crockett,Packers,0,Running Back,1027
-RB,Alonzo,Harris,Packers,0,Running Back,1028
-RB,Eddie,Lacy,Packers,3,Running Back,1029
-RB,Rajion,Neal,Packers,1,Running Back,1030
-RB,James,Starks,Packers,6,Running Back,1031
-FB,John,Kuhn,Packers,10,Full Back,1032
-FB,Aaron,Ripkowski,Packers,0,Full Back,1033
-WR,Jared,Abbrederis,Packers,2,Wide Receiver,1034
-WR,Davante,Adams,Packers,2,Wide Receiver,1035
-WR,Javess,Blue,Packers,0,Wide Receiver,1036
-WR,Randall,Cobb,Packers,5,Wide Receiver,1037
-WR,Adrian,Coxson,Packers,0,Wide Receiver,1038
-WR,Jimmie,Hunt,Packers,0,Wide Receiver,1039
-WR,Jeff,Janis,Packers,2,Wide Receiver,1040
-WR,Ty,Montgomery,Packers,0,Wide Receiver,1041
-WR,Jordy,Nelson,Packers,8,Wide Receiver,1042
-WR,Larry,Pinkard,Packers,0,Wide Receiver,1043
-WR,Myles,White,Packers,2,Wide Receiver,1044
-WR,Ed,Williams,Packers,0,Wide Receiver,1045
-TE,Kennard,Backman,Packers,0,Tight End,1046
-TE,Mitchell,Henry,Packers,0,Tight End,1047
-TE,Justin,Perillo,Packers,2,Tight End,1048
-TE,Andrew,Quarless,Packers,6,Tight End,1049
-TE,Richard,Rodgers,Packers,2,Tight End,1050
-TE,Harold,Spears,Packers,0,Tight End,1051
-C,Garth,Gerhart,Packers,2,Center,1052
-C,Corey,Linsley,Packers,2,Center,1053
-C,Andy,Phillips,Packers,0,Center,1054
-C,JC,Tretter,Packers,3,Center,1055
-G,T.J.,Lang,Packers,7,Guard,1056
-G,Marcus,Reed,Packers,0,Guard,1057
-G,Matt,Rotheram,Packers,0,Guard,1058
-G,Josh,Sitton,Packers,8,Guard,1059
-G,Lane,Taylor,Packers,3,Guard,1060
-G,Josh,Walker,Packers,1,Guard,1061
-OT,Aaron,Adams,Packers,2,Offensive Tackle,1062
-OT,David,Bakhtiari,Packers,3,Offensive Tackle,1063
-OT,Don,Barclay,Packers,4,Offensive Tackle,1064
-OT,Bryan,Bulaga,Packers,6,Offensive Tackle,1065
-OT,Fabbians,Ebbele,Packers,0,Offensive Tackle,1066
-OT,Vince,Kowalski,Packers,0,Offensive Tackle,1067
-OT,Jeremy,Vujnovich,Packers,1,Offensive Tackle,1068
-DE,Datone,Jones,Packers,3,Defensive End,1069
-DT,Josh,Boyd,Packers,3,Defensive Tackle,1070
-DT,Mike,Daniels,Packers,4,Defensive Tackle,1071
-DT,Bruce,Gaston,Packers,1,Defensive Tackle,1072
-DT,Letroy,Guion,Packers,8,Defensive Tackle,1073
-DT,Lavon,Hooks,Packers,0,Defensive Tackle,1074
-DT,Mike,Pennel,Packers,2,Defensive Tackle,1075
-DT,B.J.,Raji,Packers,7,Defensive Tackle,1076
-DT,Christian,Ringo,Packers,0,Defensive Tackle,1077
-DT,Khyri,Thornton,Packers,2,Defensive Tackle,1078
-LB,Sam,Barrington,Packers,3,Linebacker,1079
-LB,Carl,Bradford,Packers,2,Linebacker,1080
-LB,Tavarus,Dantzler,Packers,0,Linebacker,1081
-LB,Jayrone,Elliott,Packers,2,Linebacker,1082
-LB,Josh,Francis,Packers,1,Linebacker,1083
-LB,Adrian,Hubbard,Packers,1,Linebacker,1084
-LB,Clay,Matthews,Packers,7,Linebacker,1085
-LB,Andy,Mulumba,Packers,3,Linebacker,1086
-LB,Mike,Neal,Packers,6,Linebacker,1087
-LB,Nate,Palmer,Packers,3,Linebacker,1088
-LB,Julius,Peppers,Packers,14,Linebacker,1089
-LB,Nick,Perry,Packers,4,Linebacker,1090
-LB,Jermauria,Rasco,Packers,0,Linebacker,1091
-LB,Jake,Ryan,Packers,0,Linebacker,1092
-LB,Joe,Thomas,Packers,1,Linebacker,1093
-LB,James,Vaughters,Packers,0,Linebacker,1094
-CB,Tay,Glover-Wright,Packers,1,Cornerback,1095
-CB,Demetri,Goodson,Packers,2,Cornerback,1096
-CB,Ladarius,Gunter,Packers,0,Cornerback,1097
-CB,Casey,Hayward,Packers,4,Cornerback,1098
-CB,Travis,Manning,Packers,0,Cornerback,1099
-CB,Damarious,Randall,Packers,0,Cornerback,1100
-CB,Quinten,Rollins,Packers,0,Cornerback,1101
-CB,Sam,Shields,Packers,6,Cornerback,1102
-DB,Micah,Hyde,Packers,3,Defensive Back,1103
-DB,Kyle,Sebetic,Packers,1,Defensive Back,1104
-S,Chris,Banjo,Packers,2,Safety,1105
-S,Morgan,Burnett,Packers,6,Safety,1106
-S,Ha Ha,Clinton-Dix,Packers,2,Safety,1107
-S,Jean,Fanor,Packers,1,Safety,1108
-S,Sean,Richardson,Packers,4,Safety,1109
-K,Mason,Crosby,Packers,9,Kicker,1110
-P,Tim,Masthay,Packers,6,Punter,1111
-LS,Brett,Goode,Packers,8,Long Snapper,1112
-QB,Brian,Hoyer,Texans,7,Quarterback,1113
-QB,Ryan,Mallett,Texans,5,Quarterback,1114
-QB,Tom,Savage,Texans,2,Quarterback,1115
-RB,Alfred,Blue,Texans,2,Running Back,1116
-RB,Mack,Brown,Texans,0,Running Back,1117
-RB,Arian,Foster,Texans,7,Running Back,1118
-RB,Jonathan,Grimes,Texans,3,Running Back,1119
-RB,Kenny,Hilliard,Texans,0,Running Back,1120
-RB,Chris,Polk,Texans,4,Running Back,1121
-FB,Jay,Prosch,Texans,2,Full Back,1122
-WR,Alan,Bonner,Texans,3,Wide Receiver,1123
-WR,Jace,Davis,Texans,1,Wide Receiver,1124
-WR,DeAndre,Hopkins,Texans,3,Wide Receiver,1125
-WR,Damaris,Johnson,Texans,4,Wide Receiver,1126
-WR,Travis,Labhart,Texans,1,Wide Receiver,1127
-WR,Keshawn,Martin,Texans,4,Wide Receiver,1128
-WR,Keith,Mumphery,Texans,0,Wide Receiver,1129
-WR,Uzoma,Nwachukwu,Texans,1,Wide Receiver,1130
-WR,Cecil,Shorts,Texans,5,Wide Receiver,1131
-WR,Jaelen,Strong,Texans,0,Wide Receiver,1132
-WR,Nate,Washington,Texans,11,Wide Receiver,1133
-WR,Chandler,Worthy,Texans,0,Wide Receiver,1134
-TE,Anthony,Denham,Texans,1,Tight End,1135
-TE,C.J.,Fiedorowicz,Texans,2,Tight End,1136
-TE,Garrett,Graham,Texans,6,Tight End,1137
-TE,Ryan,Griffin,Texans,3,Tight End,1138
-TE,Khari,Lee,Texans,0,Tight End,1139
-TE,Mike,McFarland,Texans,0,Tight End,1140
-C,James,Ferentz,Texans,1,Center,1141
-C,Ben,Jones,Texans,4,Center,1142
-C,Greg,Mancz,Texans,0,Center,1143
-G,Brandon,Brooks,Texans,4,Guard,1144
-G,Chad,Slade,Texans,0,Guard,1145
-G,Xavier,Su'a-Filo,Texans,2,Guard,1146
-G,Cody,White,Texans,4,Guard,1147
-OL,Carlos,Thompson,Texans,0,Offensive Lineman,1148
-OL,Lynden,Trail,Texans,0,Offensive Lineman,1149
-OL,Tony,Washington,Texans,0,Offensive Lineman,1150
-OT,Aaron,Adams,Texans,2,Offensive Tackle,1151
-OT,Jeff,Adams,Texans,2,Offensive Tackle,1152
-OT,Duane,Brown,Texans,8,Offensive Tackle,1153
-OT,Anthony,Dima,Texans,0,Offensive Tackle,1154
-OT,Matt,Feiler,Texans,1,Offensive Tackle,1155
-OT,Derek,Newton,Texans,5,Offensive Tackle,1156
-OT,David,Quessenberry,Texans,3,Offensive Tackle,1157
-OT,Bryan,Witzmann,Texans,2,Offensive Tackle,1158
-DE,Jasper,Coleman,Texans,0,Defensive End,1159
-DE,Jared,Crick,Texans,4,Defensive End,1160
-DE,Brandon,Deaderick,Texans,6,Defensive End,1161
-DE,Cameron,McLeod,Texans,0,Defensive End,1162
-DE,Jeoffrey,Pagan,Texans,2,Defensive End,1163
-DE,Dan,Pettinato,Texans,0,Defensive End,1164
-DE,J.J.,Watt,Texans,5,Defensive End,1165
-DT,Christian,Covington,Texans,0,Defensive Tackle,1166
-DT,Tevita,Finau,Texans,1,Defensive Tackle,1167
-DT,Kendall,Lamm,Texans,0,Defensive Tackle,1168
-DT,Chris,Neild,Texans,5,Defensive Tackle,1169
-DT,Louis,Nix,Texans,2,Defensive Tackle,1170
-DT,Vince,Wilfork,Texans,12,Defensive Tackle,1171
-DL,Joseph,Treadwell,Texans,0,Defensive Lineman,1172
-LB,Jason,Ankrah,Texans,1,Linebacker,1173
-LB,Kourtnei,Brown,Texans,1,Linebacker,1174
-LB,Max,Bullough,Texans,1,Linebacker,1175
-LB,Reshard,Cliett,Texans,0,Linebacker,1176
-LB,Jadeveon,Clowney,Texans,2,Linebacker,1177
-LB,Brian,Cushing,Texans,7,Linebacker,1178
-LB,Akeem,Dent,Texans,5,Linebacker,1179
-LB,Benardrick,McKinney,Texans,0,Linebacker,1180
-LB,Whitney,Mercilus,Texans,4,Linebacker,1181
-LB,Mike,Mohamed,Texans,4,Linebacker,1182
-LB,John,Simon,Texans,3,Linebacker,1183
-LB,Jeff,Tarpinian,Texans,4,Linebacker,1184
-LB,Justin,Tuggle,Texans,3,Linebacker,1185
-CB,A.J.,Bouye,Texans,3,Cornerback,1186
-CB,Kevin,Johnson,Texans,0,Cornerback,1187
-CB,Johnathan,Joseph,Texans,10,Cornerback,1188
-DB,Andre,Hal,Texans,2,Defensive Back,1189
-DB,Kareem,Jackson,Texans,6,Defensive Back,1190
-DB,Charles,James,Texans,2,Defensive Back,1191
-DB,Darryl,Morris,Texans,3,Defensive Back,1192
-DB,Terrance,Parks,Texans,1,Defensive Back,1193
-DB,Jumal,Rolle,Texans,2,Defensive Back,1194
-S,Lonnie,Ballentine,Texans,2,Safety,1195
-S,Stevie,Brown,Texans,6,Safety,1196
-S,Kurtis,Drummond,Texans,0,Safety,1197
-S,Corey,Moore,Texans,0,Safety,1198
-S,Rahim,Moore,Texans,5,Safety,1199
-S,Eddie,Pleasant,Texans,3,Safety,1200
-K,Randy,Bullock,Texans,4,Kicker,1201
-P,Will,Johnson,Texans,0,Punter,1202
-P,Shane,Lechler,Texans,16,Punter,1203
-LS,Jonathan,Weeks,Texans,6,Long Snapper,1204
-QB,Bryan,Bennett,Colts,0,Quarterback,1205
-QB,Matt,Hasselbeck,Colts,17,Quarterback,1206
-QB,Andrew,Luck,Colts,4,Quarterback,1207
-RB,Vick,Ballard,Colts,4,Running Back,1208
-RB,David,Fluellen,Colts,0,Running Back,1209
-RB,Frank,Gore,Colts,11,Running Back,1210
-RB,Daniel,Herron,Colts,3,Running Back,1211
-RB,Josh,Robinson,Colts,0,Running Back,1212
-RB,Zurlon,Tipton,Colts,2,Running Back,1213
-RB,Abou,Toure,Colts,0,Running Back,1214
-RB,Tyler,Varga,Colts,0,Running Back,1215
-WR,Quan,Bray,Colts,0,Wide Receiver,1216
-WR,Vincent,Brown,Colts,5,Wide Receiver,1217
-WR,Duron,Carter,Colts,0,Wide Receiver,1218
-WR,Phillip,Dorsett,Colts,0,Wide Receiver,1219
-WR,T.Y.,Hilton,Colts,4,Wide Receiver,1220
-WR,Andre,Johnson,Colts,13,Wide Receiver,1221
-WR,Ryan,Lankford,Colts,1,Wide Receiver,1222
-WR,Donte,Moncrief,Colts,2,Wide Receiver,1223
-WR,Ezell,Ruffin,Colts,0,Wide Receiver,1224
-WR,Tyler,Rutenbeck,Colts,0,Wide Receiver,1225
-WR,Griff,Whalen,Colts,4,Wide Receiver,1226
-TE,Dwayne,Allen,Colts,4,Tight End,1227
-TE,Jack,Doyle,Colts,3,Tight End,1228
-TE,Coby,Fleener,Colts,4,Tight End,1229
-TE,Sean,McGrath,Colts,2,Tight End,1230
-TE,Justin,Sinz,Colts,0,Tight End,1231
-TE,Erik,Swoope,Colts,1,Tight End,1232
-C,Jonotthan,Harrison,Colts,2,Center,1233
-C,Khaled,Holmes,Colts,3,Center,1234
-C,Brandon,Vitabile,Colts,0,Center,1235
-G,David,Arkin,Colts,4,Guard,1236
-G,Todd,Herremans,Colts,11,Guard,1237
-G,Lance,Louis,Colts,6,Guard,1238
-G,Joe,Reitz,Colts,5,Guard,1239
-G,Dionte,Savage,Colts,0,Guard,1240
-G,Donald,Thomas,Colts,8,Guard,1241
-G,Hugh,Thornton,Colts,3,Guard,1242
-OT,Anthony,Castonzo,Colts,5,Offensive Tackle,1243
-OT,Denzelle,Good,Colts,0,Offensive Tackle,1244
-OT,Tyler,Hoover,Colts,1,Offensive Tackle,1245
-OT,Ulrick,John,Colts,2,Offensive Tackle,1246
-OT,Jack,Mewhort,Colts,2,Offensive Tackle,1247
-DE,Henry,Anderson,Colts,0,Defensive End,1248
-DE,Kendall,Langford,Colts,8,Defensive End,1249
-DE,Earl,Okine,Colts,1,Defensive End,1250
-DT,Montori,Hughes,Colts,3,Defensive Tackle,1251
-DT,Arthur,Jones,Colts,6,Defensive Tackle,1252
-DT,David,Parry,Colts,0,Defensive Tackle,1253
-DT,Jeris,Pendleton,Colts,3,Defensive Tackle,1254
-DT,Kelcy,Quarles,Colts,2,Defensive Tackle,1255
-NT,Josh,Chapman,Colts,4,Nose Tackle,1256
-NT,Zach,Kerr,Colts,2,Nose Tackle,1257
-DL,Camaron,Beard,Colts,0,Defensive Lineman,1258
-LB,Daniel,Adongo,Colts,2,Linebacker,1259
-LB,Trent,Cole,Colts,11,Linebacker,1260
-LB,Carlos,Fields,Colts,1,Linebacker,1261
-LB,Jerrell,Freeman,Colts,4,Linebacker,1262
-LB,Cody,Galea,Colts,0,Linebacker,1263
-LB,Amarlo,Herrera,Colts,0,Linebacker,1264
-LB,Zack,Hodges,Colts,0,Linebacker,1265
-LB,Nate,Irving,Colts,5,Linebacker,1266
-LB,D'Qwell,Jackson,Colts,10,Linebacker,1267
-LB,Cam,Johnson,Colts,3,Linebacker,1268
-LB,Robert,Mathis,Colts,13,Linebacker,1269
-LB,Josh,McNary,Colts,2,Linebacker,1270
-LB,Henoc,Muamba,Colts,2,Linebacker,1271
-LB,Jonathan,Newsome,Colts,2,Linebacker,1272
-LB,Justin,Shirk,Colts,0,Linebacker,1273
-LB,Junior,Sylvestre,Colts,0,Linebacker,1274
-LB,Erik,Walden,Colts,8,Linebacker,1275
-LB,Bjoern,Werner,Colts,3,Linebacker,1276
-CB,Jalil,Brown,Colts,5,Cornerback,1277
-CB,Darius,Butler,Colts,7,Cornerback,1278
-CB,Deveron,Carr,Colts,2,Cornerback,1279
-CB,Chance,Casey,Colts,1,Cornerback,1280
-CB,Donald,Celiscar,Colts,0,Cornerback,1281
-CB,Vontae,Davis,Colts,7,Cornerback,1282
-CB,Tevin,Mitchel,Colts,0,Cornerback,1283
-CB,Joshua,Mitchell,Colts,0,Cornerback,1284
-CB,Eric,Patterson,Colts,0,Cornerback,1285
-CB,Sheldon,Price,Colts,1,Cornerback,1286
-CB,Al-Hajj,Shabazz,Colts,0,Cornerback,1287
-CB,D'Joun,Smith,Colts,0,Cornerback,1288
-CB,Raymon,Taylor,Colts,0,Cornerback,1289
-CB,Greg,Toler,Colts,7,Cornerback,1290
-S,Mike,Adams,Colts,12,Safety,1291
-S,Colt,Anderson,Colts,6,Safety,1292
-S,Clayton,Geathers,Colts,0,Safety,1293
-S,Winston,Guy,Colts,3,Safety,1294
-S,Dwight,Lowery,Colts,8,Safety,1295
-S,Dewey,McDonald,Colts,2,Safety,1296
-K,Adam,Vinatieri,Colts,20,Kicker,1297
-P,Pat,McAfee,Colts,7,Punter,1298
-LS,Matt,Overton,Colts,4,Long Snapper,1299
-QB,Blake,Bortles,Jaguars,2,Quarterback,1300
-QB,Chad,Henne,Jaguars,8,Quarterback,1301
-QB,Stephen,Morris,Jaguars,1,Quarterback,1302
-QB,Jeff,Tuel,Jaguars,2,Quarterback,1303
-RB,Toby,Gerhart,Jaguars,6,Running Back,1304
-RB,Corey,Grant,Jaguars,0,Running Back,1305
-RB,Storm,Johnson,Jaguars,2,Running Back,1306
-RB,Bernard,Pierce,Jaguars,4,Running Back,1307
-RB,Denard,Robinson,Jaguars,3,Running Back,1308
-RB,T.J.,Yeldon,Jaguars,0,Running Back,1309
-FB,Eric,Kettani,Jaguars,1,Full Back,1310
-WR,Arrelious,Benn,Jaguars,5,Wide Receiver,1311
-WR,Justin,Blackmon,Jaguars,2,Wide Receiver,1312
-WR,Kasey,Closs,Jaguars,0,Wide Receiver,1313
-WR,Damian,Copeland,Jaguars,2,Wide Receiver,1314
-WR,Tandon,Doss,Jaguars,5,Wide Receiver,1315
-WR,Rashad,Greene,Jaguars,0,Wide Receiver,1316
-WR,Allen,Hurns,Jaguars,2,Wide Receiver,1317
-WR,Greg,Jenkins,Jaguars,2,Wide Receiver,1318
-WR,Marqise,Lee,Jaguars,2,Wide Receiver,1319
-WR,Allen,Robinson,Jaguars,2,Wide Receiver,1320
-WR,Neal,Sterling,Jaguars,0,Wide Receiver,1321
-WR,Bryan,Walters,Jaguars,4,Wide Receiver,1322
-WR,Tony,Washington,Jaguars,1,Wide Receiver,1323
-TE,Connor,Hamlett,Jaguars,0,Tight End,1324
-TE,Clay,Harbor,Jaguars,6,Tight End,1325
-TE,Nic,Jacobs,Jaguars,2,Tight End,1326
-TE,Ben,Koyack,Jaguars,0,Tight End,1327
-TE,Marcedes,Lewis,Jaguars,10,Tight End,1328
-TE,Julius,Thomas,Jaguars,5,Tight End,1329
-C,Luke,Bowanko,Jaguars,2,Center,1330
-C,Stefen,Wisniewski,Jaguars,5,Center,1331
-G,Zane,Beadles,Jaguars,6,Guard,1332
-G,A.J.,Cann,Jaguars,0,Guard,1333
-G,Brandon,Linder,Jaguars,2,Guard,1334
-G,Jacques,McClendon,Jaguars,4,Guard,1335
-G,Chris,Reed,Jaguars,0,Guard,1336
-G,Tyler,Shatley,Jaguars,2,Guard,1337
-OL,Jack,Rummells,Jaguars,0,Offensive Lineman,1338
-OT,Cody,Booth,Jaguars,1,Offensive Tackle,1339
-OT,Luke,Joeckel,Jaguars,3,Offensive Tackle,1340
-OT,Jermey,Parnell,Jaguars,6,Offensive Tackle,1341
-OT,Austin,Pasztor,Jaguars,3,Offensive Tackle,1342
-OT,Josh,Wells,Jaguars,2,Offensive Tackle,1343
-OT,Brennan,Williams,Jaguars,2,Offensive Tackle,1344
-OT,Sam,Young,Jaguars,6,Offensive Tackle,1345
-DE,Tyson,Alualu,Jaguars,6,Defensive End,1346
-DE,Andre,Branch,Jaguars,4,Defensive End,1347
-DE,Nordly,Capi,Jaguars,0,Defensive End,1348
-DE,Chris,Clemons,Jaguars,12,Defensive End,1349
-DE,Ryan,Davis,Jaguars,3,Defensive End,1350
-DE,Dante,Fowler Jr.,Jaguars,0,Defensive End,1351
-DE,Ikponmwosa,Igbinosun,Jaguars,1,Defensive End,1352
-DE,Chris,Smith,Jaguars,2,Defensive End,1353
-DT,Richard,Ash,Jaguars,0,Defensive Tackle,1354
-DT,Michael,Bennett,Jaguars,0,Defensive Tackle,1355
-DT,David,Carter,Jaguars,3,Defensive Tackle,1356
-DT,Eric,Crume,Jaguars,0,Defensive Tackle,1357
-DT,Ziggy,Hood,Jaguars,7,Defensive Tackle,1358
-DT,Abry,Jones,Jaguars,3,Defensive Tackle,1359
-DT,Sen'Derrick,Marks,Jaguars,7,Defensive Tackle,1360
-DT,Roy,Miller,Jaguars,7,Defensive Tackle,1361
-DL,Camaron,Beard,Jaguars,0,Defensive Lineman,1362
-DL,Jared,Odrick,Jaguars,6,Defensive Lineman,1363
-LB,Thurston,Armbrister,Jaguars,0,Linebacker,1364
-LB,Khairi,Fortt,Jaguars,2,Linebacker,1365
-LB,Jeremiah,George,Jaguars,2,Linebacker,1366
-LB,John,Lotulelei,Jaguars,3,Linebacker,1367
-LB,Paul,Posluszny,Jaguars,9,Linebacker,1368
-LB,LaRoy,Reynolds,Jaguars,3,Linebacker,1369
-LB,Dan,Skuta,Jaguars,7,Linebacker,1370
-LB,Telvin,Smith,Jaguars,2,Linebacker,1371
-LB,Todd,Thomas,Jaguars,0,Linebacker,1372
-CB,Tommie,Campbell,Jaguars,5,Cornerback,1373
-CB,Aaron,Colvin,Jaguars,2,Cornerback,1374
-CB,Dwayne,Gratz,Jaguars,3,Cornerback,1375
-CB,Jeremy,Harris,Jaguars,3,Cornerback,1376
-CB,Davon,House,Jaguars,5,Cornerback,1377
-CB,Nick,Marshall,Jaguars,0,Cornerback,1378
-CB,Demetrius,McCray,Jaguars,3,Cornerback,1379
-CB,Rashaad,Reynolds,Jaguars,2,Cornerback,1380
-CB,Peyton,Thompson,Jaguars,4,Cornerback,1381
-S,Sergio,Brown,Jaguars,6,Safety,1382
-S,Desmond,Cooper,Jaguars,0,Safety,1383
-S,Johnathan,Cyprien,Jaguars,3,Safety,1384
-S,Matt,Daniels,Jaguars,3,Safety,1385
-S,Josh,Evans,Jaguars,3,Safety,1386
-S,Craig,Loston,Jaguars,2,Safety,1387
-S,James,Sample,Jaguars,0,Safety,1388
-K,Jason,Myers,Jaguars,1,Kicker,1389
-K,Josh,Scobee,Jaguars,12,Kicker,1390
-P,Bryan,Anger,Jaguars,4,Punter,1391
-P,Kasey,Redfern,Jaguars,1,Punter,1392
-LS,Carson,Tinker,Jaguars,3,Long Snapper,1393
-QB,Tyler,Bray,Chefs,3,Quarterback,1394
-QB,Chase,Daniel,Chefs,7,Quarterback,1395
-QB,Aaron,Murray,Chefs,2,Quarterback,1396
-QB,Alex,Smith,Chefs,11,Quarterback,1397
-RB,Jamaal,Charles,Chefs,8,Running Back,1398
-RB,Knile,Davis,Chefs,3,Running Back,1399
-RB,Manasseh,Garner,Chefs,0,Running Back,1400
-RB,Keshawn,Hill,Chefs,0,Running Back,1401
-RB,Darrin,Reaves,Chefs,2,Running Back,1402
-RB,Anthony,Sherman,Chefs,5,Running Back,1403
-RB,De'Anthony,Thomas,Chefs,2,Running Back,1404
-RB,Spencer,Ware,Chefs,2,Running Back,1405
-RB,Charcandrick,West,Chefs,2,Running Back,1406
-WR,Jason,Avant,Chefs,10,Wide Receiver,1407
-WR,Da'Ron,Brown,Chefs,0,Wide Receiver,1408
-WR,Chris,Conley,Chefs,0,Wide Receiver,1409
-WR,Kenny,Cook,Chefs,0,Wide Receiver,1410
-WR,Adam,Drake,Chefs,0,Wide Receiver,1411
-WR,Frankie,Hammond,Chefs,2,Wide Receiver,1412
-WR,Junior,Hemingway,Chefs,3,Wide Receiver,1413
-WR,A.J.,Jenkins,Chefs,4,Wide Receiver,1414
-WR,Donatella,Luckett,Chefs,0,Wide Receiver,1415
-WR,Jeremy,Maclin,Chefs,7,Wide Receiver,1416
-WR,Jeret,Smith,Chefs,0,Wide Receiver,1417
-WR,L'Damian,Washington,Chefs,1,Wide Receiver,1418
-WR,Fred,Williams,Chefs,1,Wide Receiver,1419
-WR,Albert,Wilson,Chefs,2,Wide Receiver,1420
-TE,Richard,Gordon,Chefs,5,Tight End,1421
-TE,Demetrius,Harris,Chefs,2,Tight End,1422
-TE,Travis,Kelce,Chefs,3,Tight End,1423
-TE,Sean,McGrath,Chefs,2,Tight End,1424
-TE,James,O'Shaughnessy,Chefs,0,Tight End,1425
-TE,Adam,Schiltz,Chefs,1,Tight End,1426
-TE,Ryan,Taylor,Chefs,5,Tight End,1427
-G,Melvin,Meggs,Chefs,0,Guard,1428
-OL,Jeff,Allen,Chefs,4,Offensive Lineman,1429
-OL,Anthony,Dima,Chefs,0,Offensive Lineman,1430
-OL,Laurent,Duvernay-Tardif,Chefs,2,Offensive Lineman,1431
-OL,Paul,Fanaika,Chefs,5,Offensive Lineman,1432
-OL,Eric,Fisher,Chefs,3,Offensive Lineman,1433
-OL,Garrett,Frye,Chefs,0,Offensive Lineman,1434
-OL,Zach,Fulton,Chefs,2,Offensive Lineman,1435
-OL,Ben,Grubbs,Chefs,9,Offensive Lineman,1436
-OL,Eric,Kush,Chefs,3,Offensive Lineman,1437
-OL,Mitch,Morse,Chefs,0,Offensive Lineman,1438
-OL,Daniel,Munyer,Chefs,0,Offensive Lineman,1439
-OL,Jarrod,Pughsley,Chefs,1,Offensive Lineman,1440
-OL,Marcus,Reed,Chefs,0,Offensive Lineman,1441
-OL,Tavon,Rooks,Chefs,1,Offensive Lineman,1442
-OL,Derek,Sherrod,Chefs,5,Offensive Lineman,1443
-OL,Donald,Stephenson,Chefs,4,Offensive Lineman,1444
-OT,Charles,Sweeton,Chefs,0,Offensive Tackle,1445
-DT,Dontari,Poe,Chefs,4,Defensive Tackle,1446
-DL,Allen,Bailey,Chefs,5,Defensive Lineman,1447
-DL,Mike,Catapano,Chefs,3,Defensive Lineman,1448
-DL,Mike,DeVito,Chefs,9,Defensive Lineman,1449
-DL,Hebron,Fangupo,Chefs,2,Defensive Lineman,1450
-DL,Jaye,Howard,Chefs,4,Defensive Lineman,1451
-DL,David,Irving,Chefs,0,Defensive Lineman,1452
-DL,Vaughn,Martin,Chefs,6,Defensive Lineman,1453
-DL,Rakeem,Nunez-Roches,Chefs,0,Defensive Lineman,1454
-DL,Charles,Tuaau,Chefs,0,Defensive Lineman,1455
-DL,Nick,Williams,Chefs,2,Defensive Lineman,1456
-LB,D.J.,Alexander,Chefs,0,Linebacker,1457
-LB,Dee,Ford,Chefs,2,Linebacker,1458
-LB,Tamba,Hali,Chefs,10,Linebacker,1459
-LB,Alonzo,Highsmith,Chefs,1,Linebacker,1460
-LB,Justin,Houston,Chefs,5,Linebacker,1461
-LB,Derrick,Johnson,Chefs,11,Linebacker,1462
-LB,James-Michael,Johnson,Chefs,4,Linebacker,1463
-LB,Justin,March,Chefs,0,Linebacker,1464
-LB,Josh,Martin,Chefs,3,Linebacker,1465
-LB,Josh,Mauga,Chefs,6,Linebacker,1466
-LB,Dezman,Moses,Chefs,4,Linebacker,1467
-LB,Ramik,Wilson,Chefs,0,Linebacker,1468
-LB,Frank,Zombo,Chefs,6,Linebacker,1469
-DB,Husain,Abdullah,Chefs,7,Defensive Back,1470
-DB,Eric,Berry,Chefs,6,Defensive Back,1471
-DB,Tyvon,Branch,Chefs,8,Defensive Back,1472
-DB,Malcolm,Bronson,Chefs,1,Defensive Back,1473
-DB,Sanders,Commings,Chefs,3,Defensive Back,1474
-DB,Marcus,Cooper,Chefs,3,Defensive Back,1475
-DB,Jamell,Fleming,Chefs,4,Defensive Back,1476
-DB,Phillip,Gaines,Chefs,2,Defensive Back,1477
-DB,Aaron,Hester,Chefs,1,Defensive Back,1478
-DB,Kelcie,McCray,Chefs,4,Defensive Back,1479
-DB,Steven,Nelson,Chefs,0,Defensive Back,1480
-DB,Deji,Olatoye,Chefs,1,Defensive Back,1481
-DB,Ron,Parker,Chefs,5,Defensive Back,1482
-DB,Kenneth,Penny,Chefs,0,Defensive Back,1483
-DB,Marcus,Peters,Chefs,0,Defensive Back,1484
-DB,Kevin,Short,Chefs,0,Defensive Back,1485
-DB,Sean,Smith,Chefs,7,Defensive Back,1486
-DB,Daniel,Sorensen,Chefs,2,Defensive Back,1487
-K,Cairo,Santos,Chefs,2,Kicker,1488
-P,Dustin,Colquitt,Chefs,11,Punter,1489
-LS,Andrew,East,Chefs,0,Long Snapper,1490
-LS,James,Winchester,Chefs,1,Long Snapper,1491
-QB,McLeod,Bethel-Thompson,Dolphins,3,Quarterback,1492
-QB,Josh,Freeman,Dolphins,6,Quarterback,1493
-QB,Matt,Moore,Dolphins,8,Quarterback,1494
-QB,Ryan,Tannehill,Dolphins,4,Quarterback,1495
-RB,Jay,Ajayi,Dolphins,0,Running Back,1496
-RB,Demitrius,Bronson,Dolphins,0,Running Back,1497
-RB,Mike,Gillislee,Dolphins,3,Running Back,1498
-RB,LaMichael,James,Dolphins,4,Running Back,1499
-RB,Lamar,Miller,Dolphins,4,Running Back,1500
-RB,Damien,Williams,Dolphins,2,Running Back,1501
-WR,Damarr,Aultman,Dolphins,0,Wide Receiver,1502
-WR,LaRon,Byrd,Dolphins,3,Wide Receiver,1503
-WR,Kevin,Cone,Dolphins,4,Wide Receiver,1504
-WR,Cobi,Hamilton,Dolphins,1,Wide Receiver,1505
-WR,Matt,Hazel,Dolphins,1,Wide Receiver,1506
-WR,Greg,Jennings,Dolphins,10,Wide Receiver,1507
-WR,Christion,Jones,Dolphins,0,Wide Receiver,1508
-WR,Nigel,King,Dolphins,0,Wide Receiver,1509
-WR,Jarvis,Landry,Dolphins,2,Wide Receiver,1510
-WR,Rishard,Matthews,Dolphins,4,Wide Receiver,1511
-WR,DeVante,Parker,Dolphins,0,Wide Receiver,1512
-WR,Michael,Preston,Dolphins,3,Wide Receiver,1513
-WR,Kenny,Stills,Dolphins,3,Wide Receiver,1514
-WR,Tommy,Streeter,Dolphins,1,Wide Receiver,1515
-TE,Jordan,Cameron,Dolphins,5,Tight End,1516
-TE,Arthur,Lynch,Dolphins,1,Tight End,1517
-TE,Gerell,Robinson,Dolphins,2,Tight End,1518
-TE,Tim,Semisch,Dolphins,0,Tight End,1519
-TE,Dion,Sims,Dolphins,3,Tight End,1520
-TE,Jake,Stoneburner,Dolphins,2,Tight End,1521
-C,Sam,Brenner,Dolphins,2,Center,1522
-C,Mike,Pouncey,Dolphins,5,Center,1523
-G,Jamil,Douglas,Dolphins,0,Guard,1524
-G,Dallas,Thomas,Dolphins,3,Guard,1525
-G,Billy,Turner,Dolphins,1,Guard,1526
-OL,Donald,Hawkins,Dolphins,2,Offensive Lineman,1527
-OL,Michael,Liedtke,Dolphins,0,Offensive Lineman,1528
-OL,Jeffrey,Linkenbach,Dolphins,6,Offensive Lineman,1529
-OL,Jacques,McClendon,Dolphins,4,Offensive Lineman,1530
-OL,Dionte,Savage,Dolphins,0,Offensive Lineman,1531
-OL,Aundrey,Walker,Dolphins,0,Offensive Lineman,1532
-OL,J.D.,Walton,Dolphins,6,Offensive Lineman,1533
-OT,Branden,Albert,Dolphins,8,Offensive Tackle,1534
-OT,Jason,Fox,Dolphins,6,Offensive Tackle,1535
-OT,Ja'Wuan,James,Dolphins,2,Offensive Tackle,1536
-OT,Chris,Martin,Dolphins,1,Offensive Tackle,1537
-OG,Davonte,Wallace,Dolphins,2,Offensive Guard,1538
-DE,Rakim,Cox,Dolphins,1,Defensive End,1539
-DE,Emmanuel,Dieke,Dolphins,1,Defensive End,1540
-DE,Ray,Drew,Dolphins,0,Defensive End,1541
-DE,Terrence,Fede,Dolphins,2,Defensive End,1542
-DE,Dion,Jordan,Dolphins,3,Defensive End,1543
-DE,Kendall,Montgomery,Dolphins,0,Defensive End,1544
-DE,Derrick,Shelby,Dolphins,4,Defensive End,1545
-DE,Olivier,Vernon,Dolphins,4,Defensive End,1546
-DE,Cameron,Wake,Dolphins,7,Defensive End,1547
-DT,Calvin,Barnett,Dolphins,1,Defensive Tackle,1548
-DT,Deandre,Coleman,Dolphins,1,Defensive Tackle,1549
-DT,A.J.,Francis,Dolphins,1,Defensive Tackle,1550
-DT,Anthony,Johnson,Dolphins,2,Defensive Tackle,1551
-DT,Earl,Mitchell,Dolphins,6,Defensive Tackle,1552
-DT,C.J.,Mosley,Dolphins,11,Defensive Tackle,1553
-DT,Jordan,Phillips,Dolphins,0,Defensive Tackle,1554
-DT,Micajah,Reynolds,Dolphins,0,Defensive Tackle,1555
-DT,Ndamukong,Suh,Dolphins,6,Defensive Tackle,1556
-LB,Neville,Hewitt,Dolphins,0,Linebacker,1557
-LB,Mike,Hull,Dolphins,0,Linebacker,1558
-LB,Jelani,Jenkins,Dolphins,3,Linebacker,1559
-LB,Jeff,Luc,Dolphins,0,Linebacker,1560
-LB,Chris,McCain,Dolphins,2,Linebacker,1561
-LB,Koa,Misi,Dolphins,6,Linebacker,1562
-LB,Spencer,Paysinger,Dolphins,5,Linebacker,1563
-LB,Kelvin,Sheppard,Dolphins,5,Linebacker,1564
-LB,Jordan,Tripp,Dolphins,2,Linebacker,1565
-LB,Zach,Vigil,Dolphins,0,Linebacker,1566
-LB,Philip,Wheeler,Dolphins,8,Linebacker,1567
-CB,Zack,Bowman,Dolphins,8,Cornerback,1568
-CB,Will,Davis,Dolphins,3,Cornerback,1569
-CB,Brent,Grimes,Dolphins,9,Cornerback,1570
-CB,Tony,Lippett,Dolphins,0,Cornerback,1571
-CB,Bobby,McCain,Dolphins,0,Cornerback,1572
-CB,Brice,McCain,Dolphins,7,Cornerback,1573
-CB,Sammy,Seamster,Dolphins,2,Cornerback,1574
-CB,Jamar,Taylor,Dolphins,3,Cornerback,1575
-S,Walt,Aikens,Dolphins,2,Safety,1576
-S,Louis,Delmas,Dolphins,7,Safety,1577
-S,Don,Jones,Dolphins,3,Safety,1578
-S,Reshad,Jones,Dolphins,6,Safety,1579
-S,Jordan,Kovacs,Dolphins,3,Safety,1580
-S,Michael,Thomas,Dolphins,3,Safety,1581
-S,Phillip,Thomas,Dolphins,2,Safety,1582
-S,Cedric,Thompson,Dolphins,0,Safety,1583
-K,Andrew,Franks,Dolphins,0,Kicker,1584
-K,Caleb,Sturgis,Dolphins,3,Kicker,1585
-P,Matt,Darr,Dolphins,0,Punter,1586
-P,Brandon,Fields,Dolphins,9,Punter,1587
-LS,John,Denney,Dolphins,11,Long Snapper,1588
-QB,Teddy,Bridgewater,Vikings,2,Quarterback,1589
-QB,Pat,Devlin,Vikings,4,Quarterback,1590
-QB,Taylor,Heinicke,Vikings,0,Quarterback,1591
-QB,Shaun,Hill,Vikings,14,Quarterback,1592
-QB,Mike,Kafka,Vikings,4,Quarterback,1593
-RB,Matt,Asiata,Vikings,4,Running Back,1594
-RB,Joe,Banyard,Vikings,3,Running Back,1595
-RB,DuJuan,Harris,Vikings,5,Running Back,1596
-RB,Jerick,McKinnon,Vikings,2,Running Back,1597
-RB,Adrian,Peterson,Vikings,9,Running Back,1598
-RB,Dominique,Williams,Vikings,1,Running Back,1599
-FB,Zach,Line,Vikings,3,Full Back,1600
-FB,Blake,Renaud,Vikings,0,Full Back,1601
-WR,DaVaris,Daniels,Vikings,0,Wide Receiver,1602
-WR,Stefon,Diggs,Vikings,0,Wide Receiver,1603
-WR,Donte,Foster,Vikings,1,Wide Receiver,1604
-WR,Isaac,Fruechte,Vikings,0,Wide Receiver,1605
-WR,Charles,Johnson,Vikings,3,Wide Receiver,1606
-WR,Jordan,Leslie,Vikings,0,Wide Receiver,1607
-WR,Gavin,Lutman,Vikings,0,Wide Receiver,1608
-WR,Cordarrelle,Patterson,Vikings,3,Wide Receiver,1609
-WR,Adam,Thielen,Vikings,2,Wide Receiver,1610
-WR,Mike,Wallace,Vikings,7,Wide Receiver,1611
-WR,Ryan,Whalen,Vikings,4,Wide Receiver,1612
-WR,Jarius,Wright,Vikings,4,Wide Receiver,1613
-TE,Brandon,Bostick,Vikings,3,Tight End,1614
-TE,Rhett,Ellison,Vikings,4,Tight End,1615
-TE,Chase,Ford,Vikings,3,Tight End,1616
-TE,MyCole,Pruitt,Vikings,0,Tight End,1617
-TE,Kyle,Rudolph,Vikings,5,Tight End,1618
-C,Tom,Farniok,Vikings,0,Center,1619
-C,Zac,Kerin,Vikings,1,Center,1620
-C,John,Sullivan,Vikings,8,Center,1621
-G,Joe,Berger,Vikings,11,Guard,1622
-G,Brandon,Fusco,Vikings,5,Guard,1623
-G,David,Yankey,Vikings,2,Guard,1624
-OL,Babatunde,Aiyegbusi,Vikings,1,Offensive Lineman,1625
-OL,T.J.,Clemmings,Vikings,0,Offensive Lineman,1626
-OL,Josh,Samuda,Vikings,2,Offensive Lineman,1627
-OL,Austin,Shepherd,Vikings,0,Offensive Lineman,1628
-OL,Tyrus,Thompson,Vikings,0,Offensive Lineman,1629
-OL,Bobby,Vardaro,Vikings,0,Offensive Lineman,1630
-OT,Pierce,Burton,Vikings,0,Offensive Tackle,1631
-OT,Carter,Bykowski,Vikings,2,Offensive Tackle,1632
-OT,Mike,Harris,Vikings,4,Offensive Tackle,1633
-OT,Matt,Kalil,Vikings,4,Offensive Tackle,1634
-OT,Phil,Loadholt,Vikings,7,Offensive Tackle,1635
-OG,Jordan,McCray,Vikings,1,Offensive Guard,1636
-DE,Scott,Crichton,Vikings,2,Defensive End,1637
-DE,Everson,Griffen,Vikings,6,Defensive End,1638
-DE,Danielle,Hunter,Vikings,0,Defensive End,1639
-DE,Leon,Mackey,Vikings,1,Defensive End,1640
-DE,Caesar,Rayford,Vikings,2,Defensive End,1641
-DE,Brian,Robison,Vikings,9,Defensive End,1642
-DE,Justin,Trattou,Vikings,4,Defensive End,1643
-DT,Chigbo,Anunoby,Vikings,2,Defensive Tackle,1644
-DT,Isame,Faciane,Vikings,1,Defensive Tackle,1645
-DT,Sharrif,Floyd,Vikings,3,Defensive Tackle,1646
-DT,Tom,Johnson,Vikings,5,Defensive Tackle,1647
-DT,Linval,Joseph,Vikings,6,Defensive Tackle,1648
-DT,Chrishon,Rose,Vikings,0,Defensive Tackle,1649
-DT,Shamar,Stephen,Vikings,2,Defensive Tackle,1650
-DL,B.J.,Dubose,Vikings,0,Defensive Lineman,1651
-LB,Anthony,Barr,Vikings,2,Linebacker,1652
-LB,Audie,Cole,Vikings,4,Linebacker,1653
-LB,Chad,Greenway,Vikings,10,Linebacker,1654
-LB,Gerald,Hodges,Vikings,3,Linebacker,1655
-LB,Josh,Kaddu,Vikings,4,Linebacker,1656
-LB,Eric,Kendricks,Vikings,0,Linebacker,1657
-LB,Casey,Matthews,Vikings,5,Linebacker,1658
-LB,Michael,Mauti,Vikings,3,Linebacker,1659
-LB,Brian,Peters,Vikings,1,Linebacker,1660
-LB,Edmond,Robinson,Vikings,0,Linebacker,1661
-LB,Brandon,Watts,Vikings,2,Linebacker,1662
-CB,Jalil,Carter,Vikings,1,Cornerback,1663
-CB,Justin,Coleman,Vikings,0,Cornerback,1664
-CB,Captain,Munnerlyn,Vikings,7,Cornerback,1665
-CB,Terence,Newman,Vikings,13,Cornerback,1666
-CB,Jabari,Price,Vikings,2,Cornerback,1667
-CB,Xavier,Rhodes,Vikings,3,Cornerback,1668
-CB,Josh,Robinson,Vikings,4,Cornerback,1669
-CB,Marcus,Sherels,Vikings,5,Cornerback,1670
-CB,Josh,Thomas,Vikings,5,Cornerback,1671
-CB,DeMarcus,Van Dyke,Vikings,4,Cornerback,1672
-CB,Trae,Waynes,Vikings,0,Cornerback,1673
-S,Robert,Blanton,Vikings,4,Safety,1674
-S,Antone,Exum Jr.,Vikings,2,Safety,1675
-S,Anthony,Harris,Vikings,0,Safety,1676
-S,Shaun,Prater,Vikings,4,Safety,1677
-S,Andrew,Sendejo,Vikings,5,Safety,1678
-S,Harrison,Smith,Vikings,4,Safety,1679
-K,Blair,Walsh,Vikings,4,Kicker,1680
-P,Jeff,Locke,Vikings,3,Punter,1681
-LS,Cullen,Loeffler,Vikings,12,Long Snapper,1682
-LS,Kevin,McDermott,Vikings,3,Long Snapper,1683
-QB,Tom,Brady,Patriots,16,Quarterback,1684
-QB,Jimmy,Garoppolo,Patriots,2,Quarterback,1685
-QB,Ryan,Lindley,Patriots,4,Quarterback,1686
-RB,LeGarrette,Blount,Patriots,6,Running Back,1687
-RB,Brandon,Bolden,Patriots,4,Running Back,1688
-RB,Travaris,Cadet,Patriots,4,Running Back,1689
-RB,Tony,Creecy,Patriots,0,Running Back,1690
-RB,Tyler,Gaffney,Patriots,2,Running Back,1691
-RB,Jonas,Gray,Patriots,2,Running Back,1692
-RB,Dion,Lewis,Patriots,4,Running Back,1693
-RB,James,White,Patriots,2,Running Back,1694
-FB,James,Develin,Patriots,3,Full Back,1695
-FB,Eric,Kettani,Patriots,1,Full Back,1696
-WR,Danny,Amendola,Patriots,7,Wide Receiver,1697
-WR,Josh,Boyce,Patriots,2,Wide Receiver,1698
-WR,Zach,D'Orazio,Patriots,0,Wide Receiver,1699
-WR,Aaron,Dobson,Patriots,3,Wide Receiver,1700
-WR,Julian,Edelman,Patriots,7,Wide Receiver,1701
-WR,Brandon,Gibson,Patriots,6,Wide Receiver,1702
-WR,Chris,Harper,Patriots,0,Wide Receiver,1703
-WR,Derrick,Johnson,Patriots,0,Wide Receiver,1704
-WR,Jonathan,Krause,Patriots,1,Wide Receiver,1705
-WR,Brandon,LaFell,Patriots,6,Wide Receiver,1706
-WR,Greg,Orton,Patriots,1,Wide Receiver,1707
-WR,Matthew,Slater,Patriots,8,Wide Receiver,1708
-WR,Brian,Tyms,Patriots,3,Wide Receiver,1709
-TE,Jake,Bequette,Patriots,3,Tight End,1710
-TE,Scott,Chandler,Patriots,8,Tight End,1711
-TE,AJ,Derby,Patriots,0,Tight End,1712
-TE,Rob,Gronkowski,Patriots,6,Tight End,1713
-TE,Michael,Hoomanawanui,Patriots,6,Tight End,1714
-TE,Steve,Maneri,Patriots,5,Tight End,1715
-TE,Jimmay,Mundine,Patriots,0,Tight End,1716
-TE,Logan,Stokes,Patriots,0,Tight End,1717
-C,David,Andrews,Patriots,0,Center,1718
-C,Shaq,Mason,Patriots,0,Center,1719
-G,Ryan,Groy,Patriots,2,Guard,1720
-G,Tre',Jackson,Patriots,0,Guard,1721
-OL,Mark,Asper,Patriots,3,Offensive Lineman,1722
-OL,Chris,Barker,Patriots,2,Offensive Lineman,1723
-OL,Marcus,Cannon,Patriots,5,Offensive Lineman,1724
-OL,Cameron,Fleming,Patriots,2,Offensive Lineman,1725
-OL,Caylin,Hauptmann,Patriots,2,Offensive Lineman,1726
-OL,Josh,Kline,Patriots,3,Offensive Lineman,1727
-OL,Bryan,Stork,Patriots,2,Offensive Lineman,1728
-OL,Ryan,Wendell,Patriots,7,Offensive Lineman,1729
-OT,Jordan,Devey,Patriots,2,Offensive Tackle,1730
-OT,Nate,Solder,Patriots,5,Offensive Tackle,1731
-OT,Sebastian,Vollmer,Patriots,7,Offensive Tackle,1732
-DE,Chandler,Jones,Patriots,4,Defensive End,1733
-DE,Rob,Ninkovich,Patriots,10,Defensive End,1734
-DT,Marcus,Forston,Patriots,2,Defensive Tackle,1735
-DT,Chris,Jones,Patriots,3,Defensive Tackle,1736
-DL,Alan,Branch,Patriots,9,Defensive Lineman,1737
-DL,Malcom,Brown,Patriots,0,Defensive Lineman,1738
-DL,Dominique,Easley,Patriots,2,Defensive Lineman,1739
-DL,Trey,Flowers,Patriots,0,Defensive Lineman,1740
-DL,Geneo,Grissom,Patriots,0,Defensive Lineman,1741
-DL,Antonio,Johnson,Patriots,8,Defensive Lineman,1742
-DL,Zach,Moore,Patriots,2,Defensive Lineman,1743
-DL,A.J.,Pataiali'i,Patriots,1,Defensive Lineman,1744
-DL,Jabaal,Sheard,Patriots,5,Defensive Lineman,1745
-DL,Sealver,Siliga,Patriots,4,Defensive Lineman,1746
-DL,Joe,Vellano,Patriots,2,Defensive Lineman,1747
-LB,Jamie,Collins,Patriots,3,Linebacker,1748
-LB,Xzavier,Dickson,Patriots,0,Linebacker,1749
-LB,Darius,Fleming,Patriots,4,Linebacker,1750
-LB,Dane,Fletcher,Patriots,6,Linebacker,1751
-LB,L.J.,Fort,Patriots,2,Linebacker,1752
-LB,Jonathan,Freeny,Patriots,4,Linebacker,1753
-LB,Cameron,Gordon,Patriots,2,Linebacker,1754
-LB,Dont'a,Hightower,Patriots,4,Linebacker,1755
-LB,Rufus,Johnson,Patriots,1,Linebacker,1756
-LB,Eric,Martin,Patriots,3,Linebacker,1757
-LB,Jerod,Mayo,Patriots,8,Linebacker,1758
-LB,James,Morris,Patriots,2,Linebacker,1759
-LB,Dekoda,Watson,Patriots,6,Linebacker,1760
-LB,Matt,Wells,Patriots,0,Linebacker,1761
-CB,Tarell,Brown,Patriots,9,Cornerback,1762
-CB,Malcolm,Butler,Patriots,2,Cornerback,1763
-CB,Bradley,Fletcher,Patriots,7,Cornerback,1764
-CB,Robert,McClain,Patriots,5,Cornerback,1765
-CB,Logan,Ryan,Patriots,3,Cornerback,1766
-DB,Nate,Ebner,Patriots,4,Defensive Back,1767
-DB,Duron,Harmon,Patriots,3,Defensive Back,1768
-DB,Jimmy,Jean,Patriots,0,Defensive Back,1769
-DB,Brandon,King,Patriots,0,Defensive Back,1770
-DB,Devin,McCourty,Patriots,6,Defensive Back,1771
-DB,Eric,Patterson,Patriots,0,Defensive Back,1772
-DB,Jordan,Richards,Patriots,0,Defensive Back,1773
-DB,Darryl,Roberts,Patriots,0,Defensive Back,1774
-DB,Daxton,Swanson,Patriots,1,Defensive Back,1775
-DB,Tavon,Wilson,Patriots,4,Defensive Back,1776
-S,Patrick,Chung,Patriots,7,Safety,1777
-K,Stephen,Gostkowski,Patriots,10,Kicker,1778
-P,Ryan,Allen,Patriots,3,Punter,1779
-LS,Joe,Cardona,Patriots,0,Long Snapper,1780
-QB,Drew,Brees,Saints,15,Quarterback,1781
-QB,Garrett,Grayson,Saints,0,Quarterback,1782
-QB,Ryan,Griffin,Saints,2,Quarterback,1783
-QB,Luke,McCown,Saints,12,Quarterback,1784
-RB,Edwin,Baker,Saints,1,Running Back,1785
-RB,Timothy,Flanders,Saints,0,Running Back,1786
-RB,Tim,Hightower,Saints,5,Running Back,1787
-RB,Mark,Ingram,Saints,5,Running Back,1788
-RB,Marcus,Murphy,Saints,0,Running Back,1789
-RB,Khiry,Robinson,Saints,3,Running Back,1790
-RB,C.J.,Spiller,Saints,6,Running Back,1791
-FB,Austin,Johnson,Saints,2,Full Back,1792
-FB,Erik,Lorig,Saints,6,Full Back,1793
-FB,Toben,Opurum,Saints,1,Full Back,1794
-WR,Brandon,Coleman,Saints,1,Wide Receiver,1795
-WR,Marques,Colston,Saints,10,Wide Receiver,1796
-WR,Brandin,Cooks,Saints,2,Wide Receiver,1797
-WR,R.J.,Harris,Saints,0,Wide Receiver,1798
-WR,Seantavius,Jones,Saints,1,Wide Receiver,1799
-WR,Lance,Lewis,Saints,1,Wide Receiver,1800
-WR,Joseph,Morgan,Saints,5,Wide Receiver,1801
-WR,Josh,Morgan,Saints,8,Wide Receiver,1802
-WR,Kyle,Prater,Saints,0,Wide Receiver,1803
-WR,Jalen,Saunders,Saints,2,Wide Receiver,1804
-WR,Willie,Snead,Saints,1,Wide Receiver,1805
-WR,Andy,Tanner,Saints,2,Wide Receiver,1806
-WR,Nick,Toon,Saints,4,Wide Receiver,1807
-TE,Kevin,Brock,Saints,3,Tight End,1808
-TE,Orson,Charles,Saints,3,Tight End,1809
-TE,Josh,Hill,Saints,3,Tight End,1810
-TE,Alex,Smith,Saints,11,Tight End,1811
-TE,Harold,Spears,Saints,0,Tight End,1812
-TE,Jack,Tabb,Saints,0,Tight End,1813
-TE,Benjamin,Watson,Saints,12,Tight End,1814
-C,Mike,Brewster,Saints,3,Center,1815
-C,Tim,Lelito,Saints,3,Center,1816
-C,Max,Unger,Saints,7,Center,1817
-G,Jahri,Evans,Saints,10,Guard,1818
-G,Mike,Golic Jr.,Saints,1,Guard,1819
-G,Senio,Kelemete,Saints,3,Guard,1820
-G,Cyril,Lemon,Saints,0,Guard,1821
-G,Cole,Manhart,Saints,0,Guard,1822
-G,Mike,McGlynn,Saints,8,Guard,1823
-OL,Antonio,Johnson,Saints,0,Offensive Lineman,1824
-OT,Terron,Armstead,Saints,3,Offensive Tackle,1825
-OT,Nick,Becton,Saints,3,Offensive Tackle,1826
-OT,Bryce,Harris,Saints,4,Offensive Tackle,1827
-OT,Sean,Hickey,Saints,0,Offensive Tackle,1828
-OT,Andrus,Peat,Saints,0,Offensive Tackle,1829
-OT,Zach,Strief,Saints,10,Offensive Tackle,1830
-DE,Tavaris,Barnes,Saints,0,Defensive End,1831
-DE,Akiem,Hicks,Saints,4,Defensive End,1832
-DE,Cameron,Jordan,Saints,5,Defensive End,1833
-DE,Markus,Pierce-Brewster,Saints,0,Defensive End,1834
-DE,Davis,Tull,Saints,0,Defensive End,1835
-DT,Tyeler,Davison,Saints,0,Defensive Tackle,1836
-DT,Kaleb,Eulls,Saints,0,Defensive Tackle,1837
-DT,Ashaad,Mabry,Saints,0,Defensive Tackle,1838
-DT,Bobby,Richardson,Saints,0,Defensive Tackle,1839
-DT,Kevin,Williams,Saints,13,Defensive Tackle,1840
-NT,John,Jenkins,Saints,3,Nose Tackle,1841
-NT,Lawrence,Virgil,Saints,1,Nose Tackle,1842
-LB,Stephone,Anthony,Saints,0,Linebacker,1843
-LB,Henry,Coley,Saints,0,Linebacker,1844
-LB,Kasim,Edebali,Saints,2,Linebacker,1845
-LB,Dannell,Ellerbe,Saints,7,Linebacker,1846
-LB,Jerry,Franklin,Saints,2,Linebacker,1847
-LB,Parys,Haralson,Saints,10,Linebacker,1848
-LB,David,Hawthorne,Saints,8,Linebacker,1849
-LB,Ramon,Humber,Saints,7,Linebacker,1850
-LB,Hau'oli,Kikaha,Saints,0,Linebacker,1851
-LB,Ronald,Powell,Saints,2,Linebacker,1852
-LB,Anthony,Spencer,Saints,9,Linebacker,1853
-CB,Brandon,Browner,Saints,6,Cornerback,1854
-CB,Brian,Dixon,Saints,2,Cornerback,1855
-CB,Terrence,Frederick,Saints,2,Cornerback,1856
-CB,Stanley,Jean-Baptiste,Saints,2,Cornerback,1857
-CB,Keenan,Lewis,Saints,7,Cornerback,1858
-CB,Travis,Manning,Saints,0,Cornerback,1859
-CB,Damian,Swann,Saints,0,Cornerback,1860
-CB,P.J.,Williams,Saints,0,Cornerback,1861
-CB,Kyle,Wilson,Saints,6,Cornerback,1862
-DB,Delvin,Breaux,Saints,1,Defensive Back,1863
-S,Rafael,Bush,Saints,5,Safety,1864
-S,Jairus,Byrd,Saints,7,Safety,1865
-S,Kenny,Phillips,Saints,5,Safety,1866
-S,Jamarca,Sanford,Saints,7,Safety,1867
-S,Vinnie,Sunseri,Saints,2,Safety,1868
-S,Kenny,Vaccaro,Saints,3,Safety,1869
-S,Pierre,Warren,Saints,2,Safety,1870
-K,Zach,Hocker,Saints,1,Kicker,1871
-K,Dustin,Hopkins,Saints,2,Kicker,1872
-P,Thomas,Morstead,Saints,7,Punter,1873
-LS,Justin,Drescher,Saints,6,Long Snapper,1874
-LS,Chris,Highland,Saints,0,Long Snapper,1875
-QB,Eli,Manning,Giants,12,Quarterback,1876
-QB,Ryan,Nassib,Giants,3,Quarterback,1877
-QB,Ricky,Stanzi,Giants,5,Quarterback,1878
-RB,Orleans,Darkwa,Giants,1,Running Back,1879
-RB,Kenneth,Harper,Giants,0,Running Back,1880
-RB,Akeem,Hunt,Giants,0,Running Back,1881
-RB,Rashad,Jennings,Giants,7,Running Back,1882
-RB,Shane,Vereen,Giants,5,Running Back,1883
-RB,Andre,Williams,Giants,2,Running Back,1884
-FB,Henry,Hynoski,Giants,5,Full Back,1885
-FB,Will,Tye,Giants,0,Full Back,1886
-FB,Nikita,Whitlock,Giants,1,Full Back,1887
-WR,Odell,Beckham Jr.,Giants,2,Wide Receiver,1888
-WR,Juron,Criner,Giants,2,Wide Receiver,1889
-WR,Victor,Cruz,Giants,6,Wide Receiver,1890
-WR,Geremy,Davis,Giants,0,Wide Receiver,1891
-WR,Dwayne,Harris,Giants,5,Wide Receiver,1892
-WR,Derrick,Johnson,Giants,0,Wide Receiver,1893
-WR,James,Jones,Giants,9,Wide Receiver,1894
-WR,Preston,Parker,Giants,4,Wide Receiver,1895
-WR,Rueben,Randle,Giants,4,Wide Receiver,1896
-WR,Julian,Talley,Giants,1,Wide Receiver,1897
-WR,Corey,Washington,Giants,2,Wide Receiver,1898
-TE,Jerome,Cunningham,Giants,1,Tight End,1899
-TE,Larry,Donnell,Giants,3,Tight End,1900
-TE,Daniel,Fells,Giants,8,Tight End,1901
-TE,Adrien,Robinson,Giants,4,Tight End,1902
-C,Brett,Jones,Giants,1,Center,1903
-G,Adam,Gettis,Giants,2,Guard,1904
-G,Bobby,Hart,Giants,0,Guard,1905
-G,Eric,Herman,Giants,2,Guard,1906
-G,John,Jerry,Giants,6,Guard,1907
-G,Brandon,Mosley,Giants,4,Guard,1908
-G,Dallas,Reynolds,Giants,4,Guard,1909
-G,Geoff,Schwartz,Giants,7,Guard,1910
-OL,Weston,Richburg,Giants,2,Offensive Lineman,1911
-OT,Michael,Bamiro,Giants,1,Offensive Tackle,1912
-OT,Will,Beatty,Giants,7,Offensive Tackle,1913
-OT,Charles,Brown,Giants,6,Offensive Tackle,1914
-OT,Emmett,Cleary,Giants,1,Offensive Tackle,1915
-OT,Sean,Donnelly,Giants,0,Offensive Tackle,1916
-OT,Ereck,Flowers,Giants,0,Offensive Tackle,1917
-OT,Troy,Kropog,Giants,4,Offensive Tackle,1918
-OT,Marshall,Newhouse,Giants,6,Offensive Tackle,1919
-OT,Justin,Pugh,Giants,3,Offensive Tackle,1920
-DE,Robert,Ayers,Giants,7,Defensive End,1921
-DE,Brad,Bars,Giants,0,Defensive End,1922
-DE,Damontre,Moore,Giants,3,Defensive End,1923
-DE,Owa,Odighizuwa,Giants,0,Defensive End,1924
-DE,Jason,Pierre-Paul,Giants,6,Defensive End,1925
-DE,George,Selvie,Giants,6,Defensive End,1926
-DE,Jordan,Stanton,Giants,1,Defensive End,1927
-DE,Kerry,Wynn,Giants,2,Defensive End,1928
-DT,Jay,Bromley,Giants,2,Defensive Tackle,1929
-DT,Kenrick,Ellis,Giants,5,Defensive Tackle,1930
-DT,Dominique,Hamilton,Giants,1,Defensive Tackle,1931
-DT,Johnathan,Hankins,Giants,3,Defensive Tackle,1932
-DT,Cullen,Jenkins,Giants,12,Defensive Tackle,1933
-DT,Markus,Kuhn,Giants,4,Defensive Tackle,1934
-DT,Carlif,Taylor,Giants,0,Defensive Tackle,1935
-LB,Jon,Beason,Giants,9,Linebacker,1936
-LB,Victor,Butler,Giants,6,Linebacker,1937
-LB,Jonathan,Casillas,Giants,7,Linebacker,1938
-LB,Cole,Farrand,Giants,0,Linebacker,1939
-LB,Mark,Herzlich,Giants,5,Linebacker,1940
-LB,Tony,Johnson,Giants,0,Linebacker,1941
-LB,Devon,Kennard,Giants,2,Linebacker,1942
-LB,Jameel,McClain,Giants,8,Linebacker,1943
-LB,J.T.,Thomas,Giants,5,Linebacker,1944
-LB,Devin,Unga,Giants,1,Linebacker,1945
-CB,Prince,Amukamara,Giants,5,Cornerback,1946
-CB,Chykie,Brown,Giants,5,Cornerback,1947
-CB,Chandler,Fenner,Giants,3,Cornerback,1948
-CB,Mike,Harris,Giants,4,Cornerback,1949
-CB,Jayron,Hosley,Giants,4,Cornerback,1950
-CB,Trumaine,McBride,Giants,8,Cornerback,1951
-CB,Dominique,Rodgers-Cromartie,Giants,8,Cornerback,1952
-DB,Trevin,Wade,Giants,4,Defensive Back,1953
-S,Nat,Berhe,Giants,2,Safety,1954
-S,Landon,Collins,Giants,0,Safety,1955
-S,Justin,Currie,Giants,0,Safety,1956
-S,Josh,Gordy,Giants,5,Safety,1957
-S,Justin,Halley,Giants,0,Safety,1958
-S,Bennett,Jackson,Giants,1,Safety,1959
-S,Jeromy,Miles,Giants,6,Safety,1960
-S,Cooper,Taylor,Giants,3,Safety,1961
-S,Mykkele,Thompson,Giants,0,Safety,1962
-K,Chris,Boswell,Giants,1,Kicker,1963
-K,Josh,Brown,Giants,13,Kicker,1964
-P,Robert,Malone,Giants,3,Punter,1965
-P,Steve,Weatherford,Giants,10,Punter,1966
-LS,Zak,DeOssie,Giants,9,Long Snapper,1967
-QB,Ryan,Fitzpatrick,Jets,11,Quarterback,1968
-QB,Jake,Heaps,Jets,0,Quarterback,1969
-QB,Bryce,Petty,Jets,0,Quarterback,1970
-QB,Geno,Smith,Jets,3,Quarterback,1971
-RB,Chris,Ivory,Jets,6,Running Back,1972
-RB,Bilal,Powell,Jets,5,Running Back,1973
-RB,Daryl,Richardson,Jets,3,Running Back,1974
-RB,Stevan,Ridley,Jets,5,Running Back,1975
-RB,Zac,Stacy,Jets,3,Running Back,1976
-FB,Tommy,Bohanon,Jets,3,Full Back,1977
-WR,Eric,Decker,Jets,6,Wide Receiver,1978
-WR,Quincy,Enunwa,Jets,1,Wide Receiver,1979
-WR,Shaquelle,Evans,Jets,2,Wide Receiver,1980
-WR,T.J.,Graham,Jets,5,Wide Receiver,1981
-WR,Saalim,Hakim,Jets,3,Wide Receiver,1982
-WR,Austin,Hill,Jets,0,Wide Receiver,1983
-WR,Jeremy,Kerley,Jets,5,Wide Receiver,1984
-WR,Brandon,Marshall,Jets,10,Wide Receiver,1985
-WR,Chris,Owusu,Jets,4,Wide Receiver,1986
-WR,DeVier,Posey,Jets,4,Wide Receiver,1987
-WR,Walter,Powell,Jets,2,Wide Receiver,1988
-WR,Jonathon,Rumph,Jets,0,Wide Receiver,1989
-WR,Devin,Smith,Jets,0,Wide Receiver,1990
-WR,Arthur,Williams,Jets,0,Wide Receiver,1991
-TE,Jace,Amaro,Jets,2,Tight End,1992
-TE,Jeff,Cumberland,Jets,6,Tight End,1993
-TE,Kellen,Davis,Jets,8,Tight End,1994
-TE,Steve,Maneri,Jets,5,Tight End,1995
-TE,Wes,Saxton,Jets,0,Tight End,1996
-TE,Zach,Sudfeld,Jets,3,Tight End,1997
-C,Dalton,Freeman,Jets,2,Center,1998
-C,Nick,Mangold,Jets,10,Center,1999
-G,James,Carpenter,Jets,5,Guard,2000
-G,Willie,Colon,Jets,10,Guard,2001
-G,Jarvis,Harrison,Jets,0,Guard,2002
-G,Brian,Winters,Jets,3,Guard,2003
-OL,Oday,Aboushi,Jets,3,Offensive Lineman,2004
-OL,James,Brewer,Jets,5,Offensive Lineman,2005
-OL,Dakota,Dozier,Jets,2,Offensive Lineman,2006
-OL,Wesley,Johnson,Jets,2,Offensive Lineman,2007
-OT,Charles,Brown,Jets,6,Offensive Tackle,2008
-OT,D'Brickashaw,Ferguson,Jets,10,Offensive Tackle,2009
-OT,Breno,Giacomini,Jets,8,Offensive Tackle,2010
-OT,Ben,Ijalana,Jets,5,Offensive Tackle,2011
-OT,Brent,Qvale,Jets,1,Offensive Tackle,2012
-DE,Deion,Barnes,Jets,0,Defensive End,2013
-DE,Stephen,Bowen,Jets,10,Defensive End,2014
-DE,Julian,Howsare,Jets,0,Defensive End,2015
-DE,Lorenzo,Mauldin,Jets,0,Defensive End,2016
-DE,Ronald,Talley,Jets,4,Defensive End,2017
-DE,Muhammad,Wilkerson,Jets,5,Defensive End,2018
-DE,Jordan,Williams,Jets,0,Defensive End,2019
-DE,Leonard,Williams,Jets,0,Defensive End,2020
-DT,T.J.,Barnes,Jets,2,Defensive Tackle,2021
-DT,Leger,Douzable,Jets,8,Defensive Tackle,2022
-DT,Sheldon,Richardson,Jets,3,Defensive Tackle,2023
-DT,Deon,Simon,Jets,0,Defensive Tackle,2024
-DT,Kevin,Vickerson,Jets,10,Defensive Tackle,2025
-DL,Damon,Harrison,Jets,4,Defensive Lineman,2026
-DL,Davon,Walls,Jets,0,Defensive Lineman,2027
-LB,Jason,Babin,Jets,12,Linebacker,2028
-LB,Quinton,Coples,Jets,4,Linebacker,2029
-LB,Demario,Davis,Jets,4,Linebacker,2030
-LB,David,Harris,Jets,9,Linebacker,2031
-LB,Erin,Henderson,Jets,7,Linebacker,2032
-LB,Taiwan,Jones,Jets,0,Linebacker,2033
-LB,Jamari,Lattimore,Jets,5,Linebacker,2034
-LB,Joe,Mays,Jets,8,Linebacker,2035
-LB,Calvin,Pace,Jets,13,Linebacker,2036
-LB,Trevor,Reilly,Jets,2,Linebacker,2037
-CB,Curtis,Brown,Jets,3,Cornerback,2038
-CB,Antonio,Cromartie,Jets,10,Cornerback,2039
-CB,Keith,Lewis,Jets,1,Cornerback,2040
-CB,Keon,Lyn,Jets,0,Cornerback,2041
-CB,Dexter,McDougle,Jets,2,Cornerback,2042
-CB,Dee,Milliner,Jets,3,Cornerback,2043
-CB,Dashaun,Phillips,Jets,1,Cornerback,2044
-CB,Darrelle,Revis,Jets,9,Cornerback,2045
-CB,Buster,Skrine,Jets,5,Cornerback,2046
-CB,Darrin,Walls,Jets,5,Cornerback,2047
-CB,Marcus,Williams,Jets,2,Cornerback,2048
-S,Antonio,Allen,Jets,4,Safety,2049
-S,Durell,Eskridge,Jets,0,Safety,2050
-S,Marcus,Gilchrist,Jets,5,Safety,2051
-S,Jaiquawn,Jarrett,Jets,4,Safety,2052
-S,Rontez,Miles,Jets,1,Safety,2053
-S,Calvin,Pryor,Jets,2,Safety,2054
-K,Nick,Folk,Jets,9,Kicker,2055
-P,Ryan,Quigley,Jets,3,Punter,2056
-P,Jake,Schum,Jets,1,Punter,2057
-LS,Tanner,Purdum,Jets,6,Long Snapper,2058
-QB,Derek,Carr,Raiders,2,Quarterback,2059
-QB,Cody,Fajardo,Raiders,0,Quarterback,2060
-QB,Matt,McGloin,Raiders,3,Quarterback,2061
-QB,Christian,Ponder,Raiders,5,Quarterback,2062
-RB,George,Atkinson,Raiders,1,Running Back,2063
-RB,Michael,Dyer,Raiders,0,Running Back,2064
-RB,Roy,Helu,Raiders,5,Running Back,2065
-RB,Gus,Johnson,Raiders,0,Running Back,2066
-RB,Taiwan,Jones,Raiders,5,Running Back,2067
-RB,Latavius,Murray,Raiders,3,Running Back,2068
-RB,Trent,Richardson,Raiders,4,Running Back,2069
-FB,Jamize,Olawale,Raiders,3,Full Back,2070
-FB,Marcel,Reece,Raiders,6,Full Back,2071
-WR,Brice,Butler,Raiders,3,Wide Receiver,2072
-WR,Amari,Cooper,Raiders,0,Wide Receiver,2073
-WR,Michael,Crabtree,Raiders,7,Wide Receiver,2074
-WR,Andre,Debose,Raiders,0,Wide Receiver,2075
-WR,Kris,Durham,Raiders,4,Wide Receiver,2076
-WR,Josh,Harper,Raiders,0,Wide Receiver,2077
-WR,Trindon,Holliday,Raiders,6,Wide Receiver,2078
-WR,Andre,Holmes,Raiders,4,Wide Receiver,2079
-WR,Seth,Roberts,Raiders,1,Wide Receiver,2080
-WR,Rod,Streater,Raiders,4,Wide Receiver,2081
-WR,Kenbrell,Thompkins,Raiders,3,Wide Receiver,2082
-WR,Milton,Williams,Raiders,0,Wide Receiver,2083
-WR,Austin,Willis,Raiders,0,Wide Receiver,2084
-TE,Gabe,Holmes,Raiders,0,Tight End,2085
-TE,Brian,Leonhardt,Raiders,2,Tight End,2086
-TE,Mychal,Rivera,Raiders,3,Tight End,2087
-TE,Lee,Smith,Raiders,5,Tight End,2088
-TE,Clive,Walford,Raiders,0,Tight End,2089
-C,Rodney,Hudson,Raiders,5,Center,2090
-C,Stefen,Wisniewski,Raiders,5,Center,2091
-G,Mitch,Bell,Raiders,0,Guard,2092
-G,Quinterrius,Eatmon,Raiders,0,Guard,2093
-G,Jon,Feliciano,Raiders,0,Guard,2094
-G,Gabe,Jackson,Raiders,2,Guard,2095
-G,Lamar,Mady,Raiders,2,Guard,2096
-OL,Khalif,Barnes,Raiders,11,Offensive Lineman,2097
-OL,Tony,Bergstrom,Raiders,4,Offensive Lineman,2098
-OL,Matt,McCants,Raiders,3,Offensive Lineman,2099
-OL,J'Marcus,Webb,Raiders,5,Offensive Lineman,2100
-OT,Austin,Howard,Raiders,6,Offensive Tackle,2101
-OT,Dan,Kistler,Raiders,1,Offensive Tackle,2102
-OT,Erle,Ladson,Raiders,0,Offensive Tackle,2103
-OT,Anthony,Morris,Raiders,0,Offensive Tackle,2104
-OT,Donald,Penn,Raiders,10,Offensive Tackle,2105
-OT,Menelik,Watson,Raiders,3,Offensive Tackle,2106
-DE,Denico,Autry,Raiders,2,Defensive End,2107
-DE,Mario,Edwards Jr.,Raiders,0,Defensive End,2108
-DE,Shelby,Harris,Raiders,1,Defensive End,2109
-DE,Khalil,Mack,Raiders,2,Defensive End,2110
-DE,Benson,Mayowa,Raiders,3,Defensive End,2111
-DE,Justin,Tuck,Raiders,11,Defensive End,2112
-DE,Max,Valles,Raiders,0,Defensive End,2113
-DE,Gary,Wilkins,Raiders,0,Defensive End,2114
-DT,Justin,Ellis,Raiders,2,Defensive Tackle,2115
-DT,Ricky,Lumpkin,Raiders,1,Defensive Tackle,2116
-DT,Stacy,McGee,Raiders,3,Defensive Tackle,2117
-DT,Leon,Orr,Raiders,0,Defensive Tackle,2118
-DT,Dan,Williams,Raiders,6,Defensive Tackle,2119
-DL,Josh,Shirley,Raiders,0,Defensive Lineman,2120
-DL,C.J.,Wilson,Raiders,6,Defensive Lineman,2121
-LB,Ray-Ray,Armstrong,Raiders,3,Linebacker,2122
-LB,Neiron,Ball,Raiders,0,Linebacker,2123
-LB,Spencer,Hadley,Raiders,1,Linebacker,2124
-LB,Jimmy,Hall,Raiders,0,Linebacker,2125
-LB,Ben,Heeney,Raiders,0,Linebacker,2126
-LB,Curtis,Lofton,Raiders,8,Linebacker,2127
-LB,Horace,Miller,Raiders,1,Linebacker,2128
-LB,Sio,Moore,Raiders,3,Linebacker,2129
-LB,Malcolm,Smith,Raiders,5,Linebacker,2130
-LB,Chase,Williams,Raiders,0,Linebacker,2131
-CB,TJ,Carrie,Raiders,2,Cornerback,2132
-CB,Chimdi,Chekwa,Raiders,4,Cornerback,2133
-CB,Rob,Daniel,Raiders,0,Cornerback,2134
-CB,James,Dockery,Raiders,5,Cornerback,2135
-CB,Ras-I,Dowling,Raiders,3,Cornerback,2136
-CB,SaQwan,Edwards,Raiders,0,Cornerback,2137
-CB,D.J.,Hayden,Raiders,3,Cornerback,2138
-CB,Dexter,McDonald,Raiders,0,Cornerback,2139
-CB,Keith,McGill,Raiders,2,Cornerback,2140
-CB,Neiko,Thorpe,Raiders,3,Cornerback,2141
-S,Nate,Allen,Raiders,6,Safety,2142
-S,Larry,Asante,Raiders,4,Safety,2143
-S,Jonathan,Dowling,Raiders,2,Safety,2144
-S,Tevin,McDonald,Raiders,0,Safety,2145
-S,Brandian,Ross,Raiders,4,Safety,2146
-S,Charles,Woodson,Raiders,18,Safety,2147
-K,Sebastian,Janikowski,Raiders,16,Kicker,2148
-K,Giorgio,Tavecchio,Raiders,1,Kicker,2149
-P,Steven,Clark,Raiders,1,Punter,2150
-P,Marquette,King,Raiders,4,Punter,2151
-LS,Jon,Condo,Raiders,9,Long Snapper,2152
-QB,Matt,Barkley,Eagles,3,Quarterback,2153
-QB,Sam,Bradford,Eagles,6,Quarterback,2154
-QB,G.J.,Kinne,Eagles,1,Quarterback,2155
-QB,Mark,Sanchez,Eagles,7,Quarterback,2156
-QB,Tim,Tebow,Eagles,4,Quarterback,2157
-RB,Kenjon,Barner,Eagles,2,Running Back,2158
-RB,Ryan,Mathews,Eagles,6,Running Back,2159
-RB,Kevin,Monangai,Eagles,0,Running Back,2160
-RB,Raheem,Mostert,Eagles,0,Running Back,2161
-RB,DeMarco,Murray,Eagles,5,Running Back,2162
-RB,Darren,Sproles,Eagles,11,Running Back,2163
-WR,Nelson,Agholor,Eagles,0,Wide Receiver,2164
-WR,Seyi,Ajirotutu,Eagles,6,Wide Receiver,2165
-WR,Miles,Austin,Eagles,10,Wide Receiver,2166
-WR,Rasheed,Bailey,Eagles,0,Wide Receiver,2167
-WR,Riley,Cooper,Eagles,6,Wide Receiver,2168
-WR,Josh,Huff,Eagles,2,Wide Receiver,2169
-WR,Mike,Johnson,Eagles,0,Wide Receiver,2170
-WR,Jeff,Maehl,Eagles,3,Wide Receiver,2171
-WR,Freddie,Martino,Eagles,1,Wide Receiver,2172
-WR,Jordan,Matthews,Eagles,2,Wide Receiver,2173
-WR,Quron,Pratt,Eagles,1,Wide Receiver,2174
-WR,Josh,Reese,Eagles,0,Wide Receiver,2175
-TE,Trey,Burton,Eagles,2,Tight End,2176
-TE,Brent,Celek,Eagles,9,Tight End,2177
-TE,Zach,Ertz,Eagles,3,Tight End,2178
-TE,Andrew,Gleichert,Eagles,0,Tight End,2179
-TE,Eric,Tomlinson,Eagles,0,Tight End,2180
-TE,Justin,Tukes,Eagles,0,Tight End,2181
-C,Jason,Kelce,Eagles,5,Center,2182
-C,David,Molk,Eagles,3,Center,2183
-C,Julian,Vandervelde,Eagles,4,Center,2184
-G,Josh,Andrews,Eagles,1,Guard,2185
-G,Brett,Boyko,Eagles,0,Guard,2186
-G,Malcolm,Bunche,Eagles,0,Guard,2187
-G,Mike,Coccia,Eagles,0,Guard,2188
-G,John,Moffitt,Eagles,4,Guard,2189
-OL,Jared,Wheeler,Eagles,1,Offensive Lineman,2190
-OT,Allen,Barbre,Eagles,8,Offensive Tackle,2191
-OT,Andrew,Gardner,Eagles,6,Offensive Tackle,2192
-OT,Kevin,Graf,Eagles,1,Offensive Tackle,2193
-OT,Lane,Johnson,Eagles,3,Offensive Tackle,2194
-OT,Dennis,Kelly,Eagles,4,Offensive Tackle,2195
-OT,Cole,Manhart,Eagles,0,Offensive Tackle,2196
-OT,Jason,Peters,Eagles,12,Offensive Tackle,2197
-OT,Matt,Tobin,Eagles,3,Offensive Tackle,2198
-DE,Brandon,Bair,Eagles,3,Defensive End,2199
-DE,Fletcher,Cox,Eagles,4,Defensive End,2200
-DE,Vinny,Curry,Eagles,4,Defensive End,2201
-DE,Taylor,Hart,Eagles,2,Defensive End,2202
-DE,B.J.,McBryde,Eagles,0,Defensive End,2203
-DE,Brian,Mihalik,Eagles,0,Defensive End,2204
-DE,Cedric,Thornton,Eagles,4,Defensive End,2205
-DT,Beau,Allen,Eagles,2,Defensive Tackle,2206
-DT,Wade,Keliikipi,Eagles,1,Defensive Tackle,2207
-DT,Bennie,Logan,Eagles,3,Defensive Tackle,2208
-DT,Travis,Raciti,Eagles,0,Defensive Tackle,2209
-LB,Emmanuel,Acho,Eagles,4,Linebacker,2210
-LB,Kiko,Alonso,Eagles,2,Linebacker,2211
-LB,Connor,Barwin,Eagles,7,Linebacker,2212
-LB,Bryan,Braman,Eagles,5,Linebacker,2213
-LB,Jordan,DeWalt-Ondijo,Eagles,0,Linebacker,2214
-LB,Najee,Goode,Eagles,4,Linebacker,2215
-LB,Brandon,Graham,Eagles,6,Linebacker,2216
-LB,Brandon,Hepburn,Eagles,1,Linebacker,2217
-LB,Jordan,Hicks,Eagles,0,Linebacker,2218
-LB,Brad,Jones,Eagles,7,Linebacker,2219
-LB,Mychal,Kendricks,Eagles,4,Linebacker,2220
-LB,Travis,Long,Eagles,2,Linebacker,2221
-LB,DeMeco,Ryans,Eagles,10,Linebacker,2222
-LB,Marcus,Smith,Eagles,2,Linebacker,2223
-LB,Diaheem,Watkins,Eagles,0,Linebacker,2224
-CB,E.J.,Biggers,Eagles,7,Cornerback,2225
-CB,Nolan,Carroll,Eagles,6,Cornerback,2226
-CB,Randall,Evans,Eagles,0,Cornerback,2227
-CB,Byron,Maxwell,Eagles,5,Cornerback,2228
-CB,Denzel,Rice,Eagles,0,Cornerback,2229
-CB,Eric,Rowe,Eagles,0,Cornerback,2230
-CB,JaCorey,Shepherd,Eagles,0,Cornerback,2231
-CB,Jaylen,Watkins,Eagles,2,Cornerback,2232
-DB,Walter,Thurmond,Eagles,6,Defensive Back,2233
-S,Jerome,Couplin,Eagles,2,Safety,2234
-S,Malcolm,Jenkins,Eagles,7,Safety,2235
-S,Chris,Maragos,Eagles,6,Safety,2236
-S,Chris,Prosinski,Eagles,5,Safety,2237
-S,Ed,Reynolds,Eagles,1,Safety,2238
-S,Earl,Wolff,Eagles,3,Safety,2239
-K,Cody,Parkey,Eagles,2,Kicker,2240
-P,Donnie,Jones,Eagles,12,Punter,2241
-P,Kip,Smith,Eagles,0,Punter,2242
-LS,Jon,Dorenbos,Eagles,13,Long Snapper,2243
-QB,Tajh,Boyd,Steelers,1,Quarterback,2244
-QB,Bruce,Gradkowski,Steelers,10,Quarterback,2245
-QB,Landry,Jones,Steelers,3,Quarterback,2246
-QB,Tyler,Murphy,Steelers,0,Quarterback,2247
-QB,Ben,Roethlisberger,Steelers,12,Quarterback,2248
-RB,Dri,Archer,Steelers,2,Running Back,2249
-RB,Le'Veon,Bell,Steelers,3,Running Back,2250
-RB,Jawon,Chisholm,Steelers,0,Running Back,2251
-RB,Josh,Harris,Steelers,1,Running Back,2252
-RB,Ross,Scheuerman,Steelers,0,Running Back,2253
-RB,Cameron,Stingily,Steelers,0,Running Back,2254
-RB,DeAngelo,Williams,Steelers,10,Running Back,2255
-FB,Will,Johnson,Steelers,4,Full Back,2256
-FB,Roosevelt,Nix,Steelers,1,Full Back,2257
-WR,Tim,Benford,Steelers,1,Wide Receiver,2258
-WR,Antonio,Brown,Steelers,6,Wide Receiver,2259
-WR,Martavis,Bryant,Steelers,2,Wide Receiver,2260
-WR,Sammie,Coates,Steelers,0,Wide Receiver,2261
-WR,Kenzel,Doe,Steelers,0,Wide Receiver,2262
-WR,C.J.,Goodwin,Steelers,1,Wide Receiver,2263
-WR,Darrius,Heyward-Bey,Steelers,7,Wide Receiver,2264
-WR,Lance,Moore,Steelers,10,Wide Receiver,2265
-WR,Shakim,Phillips,Steelers,0,Wide Receiver,2266
-WR,Eli,Rogers,Steelers,0,Wide Receiver,2267
-WR,Markus,Wheaton,Steelers,3,Wide Receiver,2268
-TE,Cameron,Clear,Steelers,0,Tight End,2269
-TE,Ray,Hamilton,Steelers,0,Tight End,2270
-TE,Jesse,James,Steelers,0,Tight End,2271
-TE,Heath,Miller,Steelers,11,Tight End,2272
-TE,Matt,Spaeth,Steelers,9,Tight End,2273
-C,Reese,Dismukes,Steelers,0,Center,2274
-C,B.J.,Finney,Steelers,0,Center,2275
-C,Maurkice,Pouncey,Steelers,6,Center,2276
-C,Collin,Rahrig,Steelers,0,Center,2277
-C,Cody,Wallace,Steelers,6,Center,2278
-G,David,DeCastro,Steelers,4,Guard,2279
-G,Miles,Dieffenbach,Steelers,0,Guard,2280
-G,Ramon,Foster,Steelers,7,Guard,2281
-G,Chris,Hubbard,Steelers,2,Guard,2282
-OL,Micah,Hatchie,Steelers,0,Offensive Lineman,2283
-OT,Mike,Adams,Steelers,4,Offensive Tackle,2284
-OT,Kelvin,Beachum,Steelers,4,Offensive Tackle,2285
-OT,Marcus,Gilbert,Steelers,5,Offensive Tackle,2286
-OT,Kelvin,Palmer,Steelers,1,Offensive Tackle,2287
-OT,Mitchell,Van Dyk,Steelers,1,Offensive Tackle,2288
-OT,Alejandro,Villanueva,Steelers,1,Offensive Tackle,2289
-OT,Kevin,Whimpey,Steelers,0,Offensive Tackle,2290
-OG,Bryant,Browning,Steelers,1,Offensive Guard,2291
-OG,Ronald,Patrick,Steelers,1,Offensive Guard,2292
-DE,Anthony,Chickillo,Steelers,0,Defensive End,2293
-DE,Matt,Conrath,Steelers,3,Defensive End,2294
-DE,Niko,Davis,Steelers,0,Defensive End,2295
-DE,Clifton,Geathers,Steelers,6,Defensive End,2296
-DE,Ethan,Hemer,Steelers,1,Defensive End,2297
-DE,Cameron,Heyward,Steelers,5,Defensive End,2298
-DE,Joe,Kruger,Steelers,2,Defensive End,2299
-DE,Stephon,Tuitt,Steelers,2,Defensive End,2300
-DT,Daniel,McCullers,Steelers,2,Defensive Tackle,2301
-DT,Steve,McLendon,Steelers,6,Defensive Tackle,2302
-DT,Joe,Okafor,Steelers,0,Defensive Tackle,2303
-DT,Cam,Thomas,Steelers,6,Defensive Tackle,2304
-DT,L.T.,Walton,Steelers,0,Defensive Tackle,2305
-DL,Mike,Thornton,Steelers,0,Defensive Lineman,2306
-LB,Bud,Dupree,Steelers,0,Linebacker,2307
-LB,Terence,Garvin,Steelers,3,Linebacker,2308
-LB,Shayon,Green,Steelers,1,Linebacker,2309
-LB,James,Harrison,Steelers,13,Linebacker,2310
-LB,Howard,Jones,Steelers,1,Linebacker,2311
-LB,Jarvis,Jones,Steelers,3,Linebacker,2312
-LB,Arthur,Moats,Steelers,6,Linebacker,2313
-LB,Ryan,Shazier,Steelers,2,Linebacker,2314
-LB,Sean,Spence,Steelers,4,Linebacker,2315
-LB,Lawrence,Timmons,Steelers,9,Linebacker,2316
-LB,Vince,Williams,Steelers,3,Linebacker,2317
-LB,Jordan,Zumwalt,Steelers,2,Linebacker,2318
-CB,Cortez,Allen,Steelers,5,Cornerback,2319
-CB,Antwon,Blake,Steelers,4,Cornerback,2320
-CB,Brandon,Boykin,Steelers,4,Cornerback,2321
-CB,Kevin,Fogg,Steelers,1,Cornerback,2322
-CB,William,Gay,Steelers,9,Cornerback,2323
-CB,Senquez,Golson,Steelers,0,Cornerback,2324
-CB,Doran,Grant,Steelers,0,Cornerback,2325
-CB,Jordan,Sullen,Steelers,1,Cornerback,2326
-CB,B.W.,Webb,Steelers,3,Cornerback,2327
-S,Will,Allen,Steelers,12,Safety,2328
-S,Jordan,Dangerfield,Steelers,1,Safety,2329
-S,Alden,Darby,Steelers,1,Safety,2330
-S,Robert,Golden,Steelers,4,Safety,2331
-S,Gerod,Holliman,Steelers,0,Safety,2332
-S,Mike,Mitchell,Steelers,7,Safety,2333
-S,Shamarko,Thomas,Steelers,3,Safety,2334
-S,Ross,Ventrone,Steelers,3,Safety,2335
-S,Ian,Wild,Steelers,1,Safety,2336
-K,Shaun,Suisham,Steelers,11,Kicker,2337
-P,Jordan,Berry,Steelers,1,Punter,2338
-P,Brad,Wing,Steelers,2,Punter,2339
-LS,Greg,Warren,Steelers,11,Long Snapper,2340
-QB,Kellen,Clemens,Chargers,10,Quarterback,2341
-QB,Chase,Rettig,Chargers,1,Quarterback,2342
-QB,Philip,Rivers,Chargers,12,Quarterback,2343
-QB,Brad,Sorensen,Chargers,2,Quarterback,2344
-RB,DJ,Adams,Chargers,0,Running Back,2345
-RB,Donald,Brown,Chargers,7,Running Back,2346
-RB,Jahwan,Edwards,Chargers,0,Running Back,2347
-RB,Melvin,Gordon,Chargers,0,Running Back,2348
-RB,Branden,Oliver,Chargers,2,Running Back,2349
-RB,Dreamius,Smith,Chargers,0,Running Back,2350
-RB,Danny,Woodhead,Chargers,8,Running Back,2351
-FB,Zach,Boren,Chargers,1,Full Back,2352
-WR,Keenan,Allen,Chargers,3,Wide Receiver,2353
-WR,Torrence,Allen,Chargers,1,Wide Receiver,2354
-WR,Titus,Davis,Chargers,0,Wide Receiver,2355
-WR,Malcom,Floyd,Chargers,10,Wide Receiver,2356
-WR,Javontee,Herndon,Chargers,1,Wide Receiver,2357
-WR,Dontrelle,Inman,Chargers,2,Wide Receiver,2358
-WR,Stevie,Johnson,Chargers,8,Wide Receiver,2359
-WR,Jacoby,Jones,Chargers,9,Wide Receiver,2360
-WR,Austin,Pettis,Chargers,5,Wide Receiver,2361
-WR,Tyrell,Williams,Chargers,0,Wide Receiver,2362
-TE,Eric,Frohnapfel,Chargers,0,Tight End,2363
-TE,Antonio,Gates,Chargers,13,Tight End,2364
-TE,Ladarius,Green,Chargers,4,Tight End,2365
-TE,David,Johnson,Chargers,7,Tight End,2366
-TE,Kyle,Miller,Chargers,2,Tight End,2367
-TE,Brian,Parker,Chargers,0,Tight End,2368
-TE,David,Paulson,Chargers,3,Tight End,2369
-TE,John,Phillips,Chargers,7,Tight End,2370
-C,Trevor,Robinson,Chargers,4,Center,2371
-C,Chris,Watt,Chargers,2,Center,2372
-G,Ben,Beckwith,Chargers,0,Guard,2373
-G,Orlando,Franklin,Chargers,5,Guard,2374
-G,Michael,Huey,Chargers,1,Guard,2375
-G,Jeremiah,Sirles,Chargers,1,Guard,2376
-G,Johnnie,Troutman,Chargers,3,Guard,2377
-G,Craig,Watts,Chargers,1,Guard,2378
-G,Kenny,Wiggins,Chargers,2,Guard,2379
-OL,Tyreek,Burwell,Chargers,0,Offensive Lineman,2380
-OT,Joe,Barksdale,Chargers,5,Offensive Tackle,2381
-OT,King,Dunlap,Chargers,8,Offensive Tackle,2382
-OT,D.J.,Fluker,Chargers,3,Offensive Tackle,2383
-OT,Chris,Hairston,Chargers,4,Offensive Tackle,2384
-OT,Forrestal,Hickman,Chargers,0,Offensive Tackle,2385
-DE,Kyle,Emanuel,Chargers,0,Defensive End,2386
-DE,Brock,Hekking,Chargers,0,Defensive End,2387
-DE,Ricardo,Mathews,Chargers,6,Defensive End,2388
-DE,Ryan,Mueller,Chargers,0,Defensive End,2389
-DE,Kendall,Reyes,Chargers,4,Defensive End,2390
-DT,Chas,Alecxih,Chargers,1,Defensive Tackle,2391
-DT,Cameron,Botticelli,Chargers,0,Defensive Tackle,2392
-DT,Corey,Liuget,Chargers,5,Defensive Tackle,2393
-DT,Tenny,Palepoi,Chargers,2,Defensive Tackle,2394
-DT,Darius,Philon,Chargers,0,Defensive Tackle,2395
-DT,Luther,Robinson,Chargers,2,Defensive Tackle,2396
-DT,Damion,Square,Chargers,3,Defensive Tackle,2397
-DT,Mitch,Unrein,Chargers,5,Defensive Tackle,2398
-NT,Ryan,Carrethers,Chargers,2,Nose Tackle,2399
-NT,Sean,Lissemore,Chargers,6,Nose Tackle,2400
-LB,Chi Chi,Ariguzo,Chargers,0,Linebacker,2401
-LB,Jeremiah,Attaochu,Chargers,2,Linebacker,2402
-LB,Donald,Butler,Chargers,6,Linebacker,2403
-LB,Kavell,Conner,Chargers,6,Linebacker,2404
-LB,Nick,Dzubnar,Chargers,0,Linebacker,2405
-LB,Curtis,Grant,Chargers,0,Linebacker,2406
-LB,Melvin,Ingram,Chargers,4,Linebacker,2407
-LB,Cordarro,Law,Chargers,2,Linebacker,2408
-LB,Denzel,Perryman,Chargers,0,Linebacker,2409
-LB,Manti,Te'o,Chargers,3,Linebacker,2410
-LB,Colton,Underwood,Chargers,1,Linebacker,2411
-LB,Tourek,Williams,Chargers,3,Linebacker,2412
-CB,Richard,Crawford,Chargers,3,Cornerback,2413
-CB,Chris,Davis,Chargers,2,Cornerback,2414
-CB,Greg,Ducre,Chargers,2,Cornerback,2415
-CB,Brandon,Flowers,Chargers,8,Cornerback,2416
-CB,Gordon,Hill,Chargers,0,Cornerback,2417
-CB,Jordan,Mabin,Chargers,1,Cornerback,2418
-CB,Craig,Mager,Chargers,0,Cornerback,2419
-CB,Patrick,Robinson,Chargers,6,Cornerback,2420
-CB,Lowell,Rose,Chargers,2,Cornerback,2421
-CB,Jason,Verrett,Chargers,2,Cornerback,2422
-CB,Steve,Williams,Chargers,3,Cornerback,2423
-DB,Manuel,Asprilla,Chargers,0,Defensive Back,2424
-DB,John,Lowdermilk,Chargers,0,Defensive Back,2425
-S,Jahleel,Addae,Chargers,3,Safety,2426
-S,Adrian,Phillips,Chargers,1,Safety,2427
-S,Darrell,Stuckey,Chargers,6,Safety,2428
-S,Eric,Weddle,Chargers,9,Safety,2429
-S,Jimmy,Wilson,Chargers,5,Safety,2430
-K,Josh,Lambo,Chargers,0,Kicker,2431
-K,Nick,Novak,Chargers,8,Kicker,2432
-P,Mike,Scifres,Chargers,13,Punter,2433
-LS,Mike,Windt,Chargers,6,Long Snapper,2434
-QB,Blaine,Gabbert,49ers,5,Quarterback,2435
-QB,Colin,Kaepernick,49ers,5,Quarterback,2436
-QB,Dylan,Thompson,49ers,0,Quarterback,2437
-RB,Reggie,Bush,49ers,10,Running Back,2438
-RB,Mike,Davis,49ers,0,Running Back,2439
-RB,Kendall,Gaskins,49ers,1,Running Back,2440
-RB,Jarryd,Hayne,49ers,0,Running Back,2441
-RB,Kendall,Hunter,49ers,5,Running Back,2442
-RB,Carlos,Hyde,49ers,2,Running Back,2443
-FB,Trey,Millard,49ers,1,Full Back,2444
-FB,Bruce,Miller,49ers,5,Full Back,2445
-WR,Dres,Anderson,49ers,0,Wide Receiver,2446
-WR,Issac,Blakeney,49ers,1,Wide Receiver,2447
-WR,Anquan,Boldin,49ers,13,Wide Receiver,2448
-WR,DiAndre,Campbell,49ers,0,Wide Receiver,2449
-WR,Bruce,Ellington,49ers,2,Wide Receiver,2450
-WR,Mario,Hull,49ers,0,Wide Receiver,2451
-WR,Chuck,Jacobs,49ers,2,Wide Receiver,2452
-WR,Nigel,King,49ers,0,Wide Receiver,2453
-WR,Quinton,Patton,49ers,3,Wide Receiver,2454
-WR,Jerome,Simpson,49ers,6,Wide Receiver,2455
-WR,DeAndre,Smelter,49ers,0,Wide Receiver,2456
-WR,Torrey,Smith,49ers,5,Wide Receiver,2457
-WR,DeAndrew,White,49ers,0,Wide Receiver,2458
-TE,Busta,Anderson,49ers,0,Tight End,2459
-TE,Blake,Bell,49ers,0,Tight End,2460
-TE,Derek,Carrier,49ers,3,Tight End,2461
-TE,Garrett,Celek,49ers,4,Tight End,2462
-TE,Asante,Cleveland,49ers,2,Tight End,2463
-TE,Vernon,Davis,49ers,10,Tight End,2464
-TE,Xavier,Grimble,49ers,1,Tight End,2465
-TE,Vance,McDonald,49ers,3,Tight End,2466
-TE,Kyle,Nelson,49ers,4,Tight End,2467
-C,Marcus,Martin,49ers,2,Center,2468
-G,Alex,Boone,49ers,6,Guard,2469
-G,Trent,Brown,49ers,0,Guard,2470
-G,Dillon,Farrell,49ers,2,Guard,2471
-G,Daniel,Kilgore,49ers,5,Guard,2472
-G,Joe,Looney,49ers,4,Guard,2473
-G,Erik,Pears,49ers,10,Guard,2474
-G,Brandon,Thomas,49ers,1,Guard,2475
-G,Andrew,Tiller,49ers,3,Guard,2476
-OL,Patrick,Miller,49ers,0,Offensive Lineman,2477
-OL,Justin,Renfrow,49ers,1,Offensive Lineman,2478
-OT,Sean,Hooey,49ers,1,Offensive Tackle,2479
-OT,Ian,Silberman,49ers,0,Offensive Tackle,2480
-OT,Joe,Staley,49ers,9,Offensive Tackle,2481
-DE,Arik,Armstead,49ers,0,Defensive End,2482
-DE,Eli,Harold,49ers,0,Defensive End,2483
-DE,Marcus,Rush,49ers,0,Defensive End,2484
-DT,Tank,Carradine,49ers,3,Defensive Tackle,2485
-DT,Quinton,Dial,49ers,3,Defensive Tackle,2486
-DT,Darnell,Dockett,49ers,12,Defensive Tackle,2487
-DT,Tony,Jerod-Eddie,49ers,3,Defensive Tackle,2488
-DT,Kaleb,Ramsey,49ers,2,Defensive Tackle,2489
-NT,Mike,Purcell,49ers,2,Nose Tackle,2490
-NT,Garrison,Smith,49ers,1,Nose Tackle,2491
-NT,Ian,Williams,49ers,5,Nose Tackle,2492
-DL,Glenn,Dorsey,49ers,8,Defensive Lineman,2493
-DL,Lawrence,Okoye,49ers,2,Defensive Lineman,2494
-LB,Steve,Beauharnais,49ers,2,Linebacker,2495
-LB,Nick,Bellore,49ers,5,Linebacker,2496
-LB,Desmond,Bishop,49ers,8,Linebacker,2497
-LB,NaVorro,Bowman,49ers,6,Linebacker,2498
-LB,Ahmad,Brooks,49ers,10,Linebacker,2499
-LB,Shawn,Lemon,49ers,0,Linebacker,2500
-LB,Corey,Lemonier,49ers,3,Linebacker,2501
-LB,Aaron,Lynch,49ers,2,Linebacker,2502
-LB,Nick,Moody,49ers,3,Linebacker,2503
-LB,Shayne,Skov,49ers,1,Linebacker,2504
-LB,Philip,Wheeler,49ers,8,Linebacker,2505
-LB,Michael,Wilhoite,49ers,4,Linebacker,2506
-CB,Kenneth,Acker,49ers,2,Cornerback,2507
-CB,Tramaine,Brock,49ers,6,Cornerback,2508
-CB,Marcus,Cromartie,49ers,2,Cornerback,2509
-CB,Mylan,Hicks,49ers,0,Cornerback,2510
-CB,Dontae,Johnson,49ers,2,Cornerback,2511
-CB,Leon,McFadden,49ers,3,Cornerback,2512
-CB,Keith,Reaser,49ers,1,Cornerback,2513
-CB,Shareece,Wright,49ers,5,Cornerback,2514
-DB,Jimmie,Ward,49ers,2,Defensive Back,2515
-S,Antoine,Bethea,49ers,10,Safety,2516
-S,Craig,Dahl,49ers,9,Safety,2517
-S,L.J.,McCray,49ers,2,Safety,2518
-S,Eric,Reid,49ers,3,Safety,2519
-S,Jaquiski,Tartt,49ers,0,Safety,2520
-S,Jermaine,Whitehead,49ers,0,Safety,2521
-K,Corey,Acosta,49ers,0,Kicker,2522
-K,Phil,Dawson,49ers,17,Kicker,2523
-P,Bradley,Pinion,49ers,0,Punter,2524
-QB,R.J.,Archer,Seahawks,1,Quarterback,2525
-QB,Tarvaris,Jackson,Seahawks,10,Quarterback,2526
-QB,Russell,Wilson,Seahawks,4,Quarterback,2527
-RB,Brandon,Cottom,Seahawks,0,Running Back,2528
-RB,Marshawn,Lynch,Seahawks,9,Running Back,2529
-RB,Christine,Michael,Seahawks,3,Running Back,2530
-RB,Thomas,Rawls,Seahawks,0,Running Back,2531
-RB,Rod,Smith,Seahawks,0,Running Back,2532
-RB,Robert,Turbin,Seahawks,4,Running Back,2533
-FB,Derrick,Coleman,Seahawks,4,Full Back,2534
-FB,Will,Tukuafu,Seahawks,6,Full Back,2535
-WR,Doug,Baldwin,Seahawks,5,Wide Receiver,2536
-WR,B.J.,Daniels,Seahawks,3,Wide Receiver,2537
-WR,Deshon,Foxx,Seahawks,0,Wide Receiver,2538
-WR,David,Gilreath,Seahawks,2,Wide Receiver,2539
-WR,Austin,Hill,Seahawks,0,Wide Receiver,2540
-WR,Jermaine,Kearse,Seahawks,4,Wide Receiver,2541
-WR,Tyler,Lockett,Seahawks,0,Wide Receiver,2542
-WR,Ricardo,Lockette,Seahawks,5,Wide Receiver,2543
-WR,Chris,Matthews,Seahawks,2,Wide Receiver,2544
-WR,Doug,McNeil,Seahawks,2,Wide Receiver,2545
-WR,Kevin,Norwood,Seahawks,2,Wide Receiver,2546
-WR,Paul,Richardson,Seahawks,2,Wide Receiver,2547
-WR,Kevin,Smith,Seahawks,1,Wide Receiver,2548
-WR,Kasen,Williams,Seahawks,0,Wide Receiver,2549
-TE,RaShaun,Allen,Seahawks,2,Tight End,2550
-TE,Jimmy,Graham,Seahawks,6,Tight End,2551
-TE,Cooper,Helfet,Seahawks,4,Tight End,2552
-TE,Anthony,McCoy,Seahawks,6,Tight End,2553
-TE,Luke,Willson,Seahawks,3,Tight End,2554
-C,Lemuel,Jeanpierre,Seahawks,6,Center,2555
-C,Patrick,Lewis,Seahawks,3,Center,2556
-C,Drew,Nowak,Seahawks,4,Center,2557
-G,Mark,Glowinski,Seahawks,0,Guard,2558
-G,Keavon,Milton,Seahawks,3,Guard,2559
-G,Will,Pericak,Seahawks,1,Guard,2560
-G,Kona,Schwenke,Seahawks,1,Guard,2561
-G,J.R.,Sweezy,Seahawks,4,Guard,2562
-OT,Alvin,Bailey,Seahawks,3,Offensive Tackle,2563
-OT,Justin,Britt,Seahawks,2,Offensive Tackle,2564
-OT,Jesse,Davis,Seahawks,0,Offensive Tackle,2565
-OT,Garry,Gilliam,Seahawks,2,Offensive Tackle,2566
-OT,Russell,Okung,Seahawks,6,Offensive Tackle,2567
-OT,Terry,Poole,Seahawks,0,Offensive Tackle,2568
-DE,Cliff,Avril,Seahawks,8,Defensive End,2569
-DE,Michael,Bennett,Seahawks,7,Defensive End,2570
-DE,Frank,Clark,Seahawks,0,Defensive End,2571
-DE,Demarcus,Dobbs,Seahawks,5,Defensive End,2572
-DE,Obum,Gwacham,Seahawks,0,Defensive End,2573
-DE,David,King,Seahawks,3,Defensive End,2574
-DE,Cassius,Marsh,Seahawks,2,Defensive End,2575
-DE,Ryan,Robinson,Seahawks,2,Defensive End,2576
-DE,Greg,Scruggs,Seahawks,4,Defensive End,2577
-DE,Kristjan,Sokoli,Seahawks,0,Defensive End,2578
-DE,Julius,Warmsley,Seahawks,2,Defensive End,2579
-DT,Jordan,Hill,Seahawks,3,Defensive Tackle,2580
-DT,T.Y.,McGill,Seahawks,0,Defensive Tackle,2581
-DT,Brandon,Mebane,Seahawks,9,Defensive Tackle,2582
-DT,Ahtyba,Rubin,Seahawks,8,Defensive Tackle,2583
-DT,D'Anthony,Smith,Seahawks,6,Defensive Tackle,2584
-DT,Jimmy,Staten,Seahawks,2,Defensive Tackle,2585
-DT,Jesse,Williams,Seahawks,3,Defensive Tackle,2586
-LB,Tyrell,Adams,Seahawks,0,Linebacker,2587
-LB,Brock,Coyle,Seahawks,2,Linebacker,2588
-LB,Bruce,Irvin,Seahawks,4,Linebacker,2589
-LB,Dakorey,Johnson,Seahawks,0,Linebacker,2590
-LB,Mike,Morgan,Seahawks,5,Linebacker,2591
-LB,Quayshawn,Nealy,Seahawks,0,Linebacker,2592
-LB,Kevin,Pierre-Louis,Seahawks,2,Linebacker,2593
-LB,Bobby,Wagner,Seahawks,4,Linebacker,2594
-LB,K.J.,Wright,Seahawks,5,Linebacker,2595
-CB,Will,Blackmon,Seahawks,9,Cornerback,2596
-CB,Jeremy,Lane,Seahawks,4,Cornerback,2597
-CB,Mohammed,Seisay,Seahawks,2,Cornerback,2598
-CB,DeShawn,Shead,Seahawks,4,Cornerback,2599
-CB,Richard,Sherman,Seahawks,5,Cornerback,2600
-CB,Tharold,Simon,Seahawks,3,Cornerback,2601
-CB,Tye,Smith,Seahawks,0,Cornerback,2602
-CB,Cary,Williams,Seahawks,8,Cornerback,2603
-DB,Marcus,Burley,Seahawks,3,Defensive Back,2604
-DB,Trovon,Reed,Seahawks,0,Defensive Back,2605
-S,Dion,Bailey,Seahawks,2,Safety,2606
-S,Keenan,Lambert,Seahawks,0,Safety,2607
-S,Ronald,Martin,Seahawks,0,Safety,2608
-S,Ryan,Murphy,Seahawks,0,Safety,2609
-S,Eric,Pinkins,Seahawks,2,Safety,2610
-S,Steven,Terrell,Seahawks,3,Safety,2611
-S,Earl,Thomas,Seahawks,6,Safety,2612
-S,Triston,Wade,Seahawks,0,Safety,2613
-K,Steven,Hauschka,Seahawks,8,Kicker,2614
-P,Jon,Ryan,Seahawks,10,Punter,2615
-LS,Nate,Boyer,Seahawks,0,Long Snapper,2616
-LS,Clint,Gresham,Seahawks,6,Long Snapper,2617
-QB,Austin,Davis,Rams,3,Quarterback,2618
-QB,Nick,Foles,Rams,4,Quarterback,2619
-QB,Case,Keenum,Rams,4,Quarterback,2620
-QB,Sean,Mannion,Rams,0,Quarterback,2621
-RB,Malcolm,Brown,Rams,0,Running Back,2622
-RB,Benjamin,Cunningham,Rams,3,Running Back,2623
-RB,Todd,Gurley,Rams,0,Running Back,2624
-RB,Tre,Mason,Rams,2,Running Back,2625
-RB,Isaiah,Pead,Rams,4,Running Back,2626
-RB,Chase,Reynolds,Rams,3,Running Back,2627
-RB,Trey,Watts,Rams,2,Running Back,2628
-FB,Zach,Laskey,Rams,0,Full Back,2629
-WR,Tavon,Austin,Rams,3,Wide Receiver,2630
-WR,Stedman,Bailey,Rams,3,Wide Receiver,2631
-WR,Emory,Blake,Rams,1,Wide Receiver,2632
-WR,Kenny,Britt,Rams,7,Wide Receiver,2633
-WR,Isiah,Ferguson,Rams,0,Wide Receiver,2634
-WR,Chris,Givens,Rams,4,Wide Receiver,2635
-WR,Bradley,Marquez,Rams,0,Wide Receiver,2636
-WR,Brian,Quick,Rams,4,Wide Receiver,2637
-WR,Daniel,Rodriguez,Rams,0,Wide Receiver,2638
-WR,Tyler,Slavin,Rams,0,Wide Receiver,2639
-WR,Damian,Williams,Rams,6,Wide Receiver,2640
-WR,Devon,Wylie,Rams,2,Wide Receiver,2641
-TE,Alex,Bayer,Rams,2,Tight End,2642
-TE,Jared,Cook,Rams,7,Tight End,2643
-TE,Justice,Cunningham,Rams,1,Tight End,2644
-TE,Cory,Harkey,Rams,4,Tight End,2645
-TE,Lance,Kendricks,Rams,5,Tight End,2646
-TE,Brad,Smelley,Rams,1,Tight End,2647
-C,Tim,Barnes,Rams,4,Center,2648
-C,Demetrius,Rhaney,Rams,2,Center,2649
-C,David,Wang,Rams,0,Center,2650
-G,Travis,Bond,Rams,1,Guard,2651
-G,Jamon,Brown,Rams,0,Guard,2652
-G,Barrett,Jones,Rams,3,Guard,2653
-G,Rodger,Saffold,Rams,6,Guard,2654
-G,Brandon,Washington,Rams,3,Guard,2655
-G,Cody,Wichmann,Rams,0,Guard,2656
-OT,Steven,Baker,Rams,1,Offensive Tackle,2657
-OT,Andrew,Donnal,Rams,0,Offensive Tackle,2658
-OT,Robert,Havenstein,Rams,0,Offensive Tackle,2659
-OT,Garrett,Reynolds,Rams,7,Offensive Tackle,2660
-OT,Greg,Robinson,Rams,2,Offensive Tackle,2661
-OT,Darrell,Williams,Rams,0,Offensive Tackle,2662
-DE,William,Hayes,Rams,8,Defensive End,2663
-DE,Martin,Ifedi,Rams,0,Defensive End,2664
-DE,Chris,Long,Rams,8,Defensive End,2665
-DE,Matt,Longacre,Rams,0,Defensive End,2666
-DE,Robert,Quinn,Rams,5,Defensive End,2667
-DE,Eugene,Sims,Rams,6,Defensive End,2668
-DT,Michael,Brockers,Rams,4,Defensive Tackle,2669
-DT,Aaron,Donald,Rams,2,Defensive Tackle,2670
-DT,Nick,Fairley,Rams,5,Defensive Tackle,2671
-DT,Marcus,Forston,Rams,2,Defensive Tackle,2672
-DT,Louis,Trinca-Pasat,Rams,0,Defensive Tackle,2673
-DT,Ethan,Westbrooks,Rams,2,Defensive Tackle,2674
-DT,Doug,Worthington,Rams,3,Defensive Tackle,2675
-LB,Akeem,Ayers,Rams,5,Linebacker,2676
-LB,Daren,Bates,Rams,3,Linebacker,2677
-LB,Jo-Lonn,Dunbar,Rams,8,Linebacker,2678
-LB,Bryce,Hager,Rams,0,Linebacker,2679
-LB,James,Laurinaitis,Rams,7,Linebacker,2680
-LB,Cameron,Lynch,Rams,0,Linebacker,2681
-LB,Keshaun,Malone,Rams,0,Linebacker,2682
-LB,Marshall,McFadden,Rams,1,Linebacker,2683
-LB,Alec,Ogletree,Rams,3,Linebacker,2684
-LB,Korey,Toomer,Rams,2,Linebacker,2685
-CB,Imoan,Claiborne,Rams,0,Cornerback,2686
-CB,E.J.,Gaines,Rams,2,Cornerback,2687
-CB,Montell,Garner,Rams,0,Cornerback,2688
-CB,Janoris,Jenkins,Rams,4,Cornerback,2689
-CB,Trumaine,Johnson,Rams,4,Cornerback,2690
-CB,Lamarcus,Joyner,Rams,2,Cornerback,2691
-CB,Brandon,McGee,Rams,3,Cornerback,2692
-CB,Trovon,Reed,Rams,0,Cornerback,2693
-CB,Marcus,Roberson,Rams,2,Cornerback,2694
-DB,Cody,Davis,Rams,3,Defensive Back,2695
-S,Maurice,Alexander,Rams,2,Safety,2696
-S,Mark,Barron,Rams,4,Safety,2697
-S,Christian,Bryant,Rams,1,Safety,2698
-S,Jacob,Hagen,Rams,0,Safety,2699
-S,Jay,Hughes,Rams,0,Safety,2700
-S,T.J.,McDonald,Rams,3,Safety,2701
-S,Rodney,McLeod,Rams,4,Safety,2702
-K,Greg,Zuerlein,Rams,4,Kicker,2703
-P,Johnny,Hekker,Rams,4,Punter,2704
-P,Michael,Palardy,Rams,1,Punter,2705
-LS,Jake,McQuaide,Rams,5,Long Snapper,2706
-LS,Tyler,Ott,Rams,1,Long Snapper,2707
-QB,Mike,Glennon,Buccaneers,3,Quarterback,2708
-QB,Seth,Lobato,Buccaneers,1,Quarterback,2709
-QB,Jameis,Winston,Buccaneers,0,Quarterback,2710
-RB,Dominique,Brown,Buccaneers,0,Running Back,2711
-RB,Joey,Iosefa,Buccaneers,0,Running Back,2712
-RB,Mike,James,Buccaneers,3,Running Back,2713
-RB,Doug,Martin,Buccaneers,4,Running Back,2714
-RB,Bobby,Rainey,Buccaneers,4,Running Back,2715
-RB,Charles,Sims,Buccaneers,2,Running Back,2716
-FB,Jorvorskie,Lane,Buccaneers,3,Full Back,2717
-FB,Evan,Rodriguez,Buccaneers,3,Full Back,2718
-WR,Kenny,Bell,Buccaneers,0,Wide Receiver,2719
-WR,Kaelin,Clay,Buccaneers,0,Wide Receiver,2720
-WR,Donteea,Dye,Buccaneers,0,Wide Receiver,2721
-WR,Mike,Evans,Buccaneers,2,Wide Receiver,2722
-WR,Rannell,Hall,Buccaneers,0,Wide Receiver,2723
-WR,Robert,Herron,Buccaneers,2,Wide Receiver,2724
-WR,Adam,Humphries,Buccaneers,0,Wide Receiver,2725
-WR,Vincent,Jackson,Buccaneers,11,Wide Receiver,2726
-WR,Tavarres,King,Buccaneers,2,Wide Receiver,2727
-WR,Louis,Murphy,Buccaneers,7,Wide Receiver,2728
-WR,Russell,Shepard,Buccaneers,3,Wide Receiver,2729
-TE,Cameron,Brate,Buccaneers,1,Tight End,2730
-TE,Brandon,Myers,Buccaneers,7,Tight End,2731
-TE,Austin,Seferian-Jenkins,Buccaneers,2,Tight End,2732
-TE,Luke,Stocker,Buccaneers,5,Tight End,2733
-TE,Tim,Wright,Buccaneers,3,Tight End,2734
-C,Josh,Allen,Buccaneers,1,Center,2735
-C,Evan,Smith,Buccaneers,6,Center,2736
-C,Jeremiah,Warren,Buccaneers,1,Center,2737
-G,Kadeem,Edwards,Buccaneers,2,Guard,2738
-G,Antoine,Everett,Buccaneers,0,Guard,2739
-G,Logan,Mankins,Buccaneers,11,Guard,2740
-G,Ali,Marpet,Buccaneers,0,Guard,2741
-G,Patrick,Omameh,Buccaneers,3,Guard,2742
-OL,Garrett,Gilkey,Buccaneers,3,Offensive Lineman,2743
-OL,Matthew,Masifilo,Buccaneers,2,Offensive Lineman,2744
-OT,Edawn,Coughman,Buccaneers,1,Offensive Tackle,2745
-OT,Demar,Dotson,Buccaneers,7,Offensive Tackle,2746
-OT,Reid,Fragel,Buccaneers,2,Offensive Tackle,2747
-OT,Kevin,Pamphile,Buccaneers,2,Offensive Tackle,2748
-OT,Donovan,Smith,Buccaneers,0,Offensive Tackle,2749
-DE,Da'Quan,Bowers,Buccaneers,5,Defensive End,2750
-DE,Ryan,Delaire,Buccaneers,0,Defensive End,2751
-DE,Larry,English,Buccaneers,7,Defensive End,2752
-DE,T.J.,Fatinikun,Buccaneers,2,Defensive End,2753
-DE,William,Gholston,Buccaneers,3,Defensive End,2754
-DE,George,Johnson,Buccaneers,4,Defensive End,2755
-DE,Lawrence,Sidbury,Buccaneers,6,Defensive End,2756
-DE,Jacquies,Smith,Buccaneers,2,Defensive End,2757
-DE,George,Uko,Buccaneers,1,Defensive End,2758
-DE,Jamal,Young,Buccaneers,0,Defensive End,2759
-DT,Quayshawne,Buckley,Buccaneers,0,Defensive Tackle,2760
-DT,Caushaud,Lyons,Buccaneers,0,Defensive Tackle,2761
-DT,Gerald,McCoy,Buccaneers,6,Defensive Tackle,2762
-DT,Tony,McDaniel,Buccaneers,9,Defensive Tackle,2763
-DT,Clinton,McDonald,Buccaneers,7,Defensive Tackle,2764
-DT,Henry,Melton,Buccaneers,7,Defensive Tackle,2765
-DT,Akeem,Spence,Buccaneers,3,Defensive Tackle,2766
-LB,Kwon,Alexander,Buccaneers,0,Linebacker,2767
-LB,Quinton,Alston,Buccaneers,0,Linebacker,2768
-LB,Bruce,Carter,Buccaneers,5,Linebacker,2769
-LB,Lavonte,David,Buccaneers,4,Linebacker,2770
-LB,Larry,Dean,Buccaneers,5,Linebacker,2771
-LB,Jeremy,Grable,Buccaneers,0,Linebacker,2772
-LB,Khaseem,Greene,Buccaneers,3,Linebacker,2773
-LB,Josh,Keyes,Buccaneers,0,Linebacker,2774
-LB,Sammuel,Lamur,Buccaneers,0,Linebacker,2775
-LB,Danny,Lansanah,Buccaneers,3,Linebacker,2776
-LB,Orie,Lemon,Buccaneers,5,Linebacker,2777
-LB,Jason,Williams,Buccaneers,7,Linebacker,2778
-CB,Johnthan,Banks,Buccaneers,3,Cornerback,2779
-CB,Brandon,Dixon,Buccaneers,2,Cornerback,2780
-CB,Isaiah,Frey,Buccaneers,3,Cornerback,2781
-CB,Mike,Jenkins,Buccaneers,8,Cornerback,2782
-CB,Leonard,Johnson,Buccaneers,4,Cornerback,2783
-CB,Sterling,Moore,Buccaneers,5,Cornerback,2784
-CB,Al-Hajj,Shabazz,Buccaneers,0,Cornerback,2785
-CB,Alterraun,Verner,Buccaneers,6,Cornerback,2786
-CB,C.J.,Wilson,Buccaneers,2,Cornerback,2787
-DB,Jude,Adjei-Barimah,Buccaneers,0,Defensive Back,2788
-DB,Derrius,Brooks,Buccaneers,1,Defensive Back,2789
-S,Chris,Conte,Buccaneers,5,Safety,2790
-S,Chris,Hackett,Buccaneers,0,Safety,2791
-S,Bradley,McDougald,Buccaneers,3,Safety,2792
-S,Kimario,McFadden,Buccaneers,1,Safety,2793
-S,D.J.,Swearinger,Buccaneers,3,Safety,2794
-S,Keith,Tandy,Buccaneers,4,Safety,2795
-S,Major,Wright,Buccaneers,6,Safety,2796
-K,Brandon,Bogotay,Buccaneers,1,Kicker,2797
-K,Patrick,Murray,Buccaneers,2,Kicker,2798
-P,Michael,Koenen,Buccaneers,11,Punter,2799
-P,Spencer,Lanning,Buccaneers,3,Punter,2800
-LS,Andrew,DePaola,Buccaneers,2,Long Snapper,2801
-QB,Marcus,Mariota,Titans,0,Quarterback,2802
-QB,Zach,Mettenberger,Titans,2,Quarterback,2803
-QB,Alex,Tanney,Titans,2,Quarterback,2804
-QB,Charlie,Whitehurst,Titans,10,Quarterback,2805
-RB,Antonio,Andrews,Titans,2,Running Back,2806
-RB,David,Cobb,Titans,0,Running Back,2807
-RB,David,Fluellen,Titans,0,Running Back,2808
-RB,Shonn,Greene,Titans,6,Running Back,2809
-RB,Dexter,McCluster,Titans,6,Running Back,2810
-RB,Bishop,Sankey,Titans,2,Running Back,2811
-FB,Zach,Boren,Titans,1,Full Back,2812
-FB,Jalston,Fowler,Titans,0,Full Back,2813
-FB,Collin,Mooney,Titans,3,Full Back,2814
-FB,Connor,Neighbors,Titans,0,Full Back,2815
-WR,Harry,Douglas,Titans,8,Wide Receiver,2816
-WR,Jacoby,Ford,Titans,5,Wide Receiver,2817
-WR,Clyde,Gates,Titans,4,Wide Receiver,2818
-WR,Dorial,Green-Beckham,Titans,0,Wide Receiver,2819
-WR,Justin,Hunter,Titans,3,Wide Receiver,2820
-WR,Tebucky,Jones,Titans,0,Wide Receiver,2821
-WR,Deon,Long,Titans,0,Wide Receiver,2822
-WR,Tre,McBride,Titans,0,Wide Receiver,2823
-WR,Hakeem,Nicks,Titans,7,Wide Receiver,2824
-WR,Rico,Richardson,Titans,1,Wide Receiver,2825
-WR,Josh,Stewart,Titans,2,Wide Receiver,2826
-WR,Andrew,Turzilli,Titans,0,Wide Receiver,2827
-WR,Kendall,Wright,Titans,4,Wide Receiver,2828
-TE,Chase,Coffman,Titans,6,Tight End,2829
-TE,Dorin,Dickerson,Titans,4,Tight End,2830
-TE,Anthony,Fasano,Titans,10,Tight End,2831
-TE,Craig,Stevens,Titans,8,Tight End,2832
-TE,Phillip,Supernaw,Titans,2,Tight End,2833
-TE,Delanie,Walker,Titans,10,Tight End,2834
-TE,Tevin,Westbrook,Titans,0,Tight End,2835
-C,Andy,Gallik,Titans,0,Center,2836
-C,Gabe,Ikard,Titans,2,Center,2837
-C,Brian,Schwenke,Titans,3,Center,2838
-C,Fernando,Velasco,Titans,6,Center,2839
-G,Andy,Levitre,Titans,7,Guard,2840
-G,Josue,Matias,Titans,0,Guard,2841
-G,Justin,McCray,Titans,1,Guard,2842
-G,Quinton,Spain,Titans,0,Guard,2843
-G,Chance,Warmack,Titans,3,Guard,2844
-OT,Byron,Bell,Titans,5,Offensive Tackle,2845
-OT,Taylor,Lewan,Titans,2,Offensive Tackle,2846
-OT,Jamon,Meredith,Titans,7,Offensive Tackle,2847
-OT,William,Poehls,Titans,1,Offensive Tackle,2848
-OT,Jeremiah,Poutasi,Titans,0,Offensive Tackle,2849
-OT,Byron,Stingily,Titans,5,Offensive Tackle,2850
-DE,Derrick,Lott,Titans,0,Defensive End,2851
-DE,Deiontrez,Mount,Titans,0,Defensive End,2852
-DE,Ropati,Pitoitua,Titans,6,Defensive End,2853
-DT,Isaako,Aaitui,Titans,2,Defensive Tackle,2854
-DT,Angelo,Blackson,Titans,0,Defensive Tackle,2855
-DT,Jurrell,Casey,Titans,5,Defensive Tackle,2856
-DT,Toby,Johnson,Titans,0,Defensive Tackle,2857
-NT,Sammie,Hill,Titans,7,Nose Tackle,2858
-DL,DaQuan,Jones,Titans,2,Defensive Lineman,2859
-DL,Karl,Klug,Titans,5,Defensive Lineman,2860
-DL,Mike,Martin,Titans,4,Defensive Lineman,2861
-DL,Al,Woods,Titans,6,Defensive Lineman,2862
-LB,Nate,Askew,Titans,1,Linebacker,2863
-LB,Zach,Brown,Titans,4,Linebacker,2864
-LB,Kaelin,Burnett,Titans,4,Linebacker,2865
-LB,Yannik,Cudjoe-Virgil,Titans,0,Linebacker,2866
-LB,Zaviar,Gooden,Titans,3,Linebacker,2867
-LB,Dezmond,Johnson,Titans,0,Linebacker,2868
-LB,Jonathan,Massaquoi,Titans,4,Linebacker,2869
-LB,Derrick,Morgan,Titans,6,Linebacker,2870
-LB,Brian,Orakpo,Titans,7,Linebacker,2871
-LB,Yawin,Smallwood,Titans,1,Linebacker,2872
-LB,Justin,Staples,Titans,2,Linebacker,2873
-LB,Chaz,Sutton,Titans,1,Linebacker,2874
-LB,J.R.,Tavai,Titans,0,Linebacker,2875
-LB,Avery,Williamson,Titans,2,Linebacker,2876
-LB,Wesley,Woodyard,Titans,8,Linebacker,2877
-CB,Ri'Shard,Anderson,Titans,1,Cornerback,2878
-CB,Will,Brown,Titans,0,Cornerback,2879
-CB,Perrish,Cox,Titans,5,Cornerback,2880
-CB,Brandon,Harris,Titans,5,Cornerback,2881
-CB,Jason,McCourty,Titans,7,Cornerback,2882
-CB,Cody,Riggs,Titans,0,Cornerback,2883
-CB,Coty,Sensabaugh,Titans,4,Cornerback,2884
-CB,Blidi,Wreh-Wilson,Titans,3,Cornerback,2885
-DB,Marqueston,Huff,Titans,2,Defensive Back,2886
-DB,Jemea,Thomas,Titans,1,Defensive Back,2887
-DB,Khalid,Wooten,Titans,1,Defensive Back,2888
-S,Josh,Aubrey,Titans,3,Safety,2889
-S,Michael,Griffin,Titans,9,Safety,2890
-S,Cody,Prewitt,Titans,0,Safety,2891
-S,Da'Norris,Searcy,Titans,5,Safety,2892
-S,Daimion,Stafford,Titans,3,Safety,2893
-K,Mike,Meyer,Titans,0,Kicker,2894
-K,Ryan,Succop,Titans,7,Kicker,2895
-P,Brett,Kern,Titans,8,Punter,2896
-LS,Beau,Brinkley,Titans,4,Long Snapper,2897
-QB,Kirk,Cousins,Redskins,4,Quarterback,2898
-QB,Robert,Griffin,Redskins,4,Quarterback,2899
-QB,Colt,McCoy,Redskins,6,Quarterback,2900
-RB,Mack,Brown,Redskins,0,Running Back,2901
-RB,Kyshoen,Jarrett,Redskins,0,Running Back,2902
-RB,Matt,Jones,Redskins,0,Running Back,2903
-RB,Alfred,Morris,Redskins,4,Running Back,2904
-RB,Silas,Redd,Redskins,2,Running Back,2905
-RB,Chris,Thompson,Redskins,2,Running Back,2906
-RB,Trey,Williams,Redskins,0,Running Back,2907
-FB,Jordan,Campbell,Redskins,1,Full Back,2908
-FB,Darrel,Young,Redskins,6,Full Back,2909
-WR,Reggie,Bell,Redskins,0,Wide Receiver,2910
-WR,Jamison,Crowder,Redskins,0,Wide Receiver,2911
-WR,Quinton,Dunbar,Redskins,0,Wide Receiver,2912
-WR,Pierre,Garcon,Redskins,8,Wide Receiver,2913
-WR,Ryan,Grant,Redskins,2,Wide Receiver,2914
-WR,DeSean,Jackson,Redskins,8,Wide Receiver,2915
-WR,Tony,Jones,Redskins,0,Wide Receiver,2916
-WR,Colin,Lockett,Redskins,1,Wide Receiver,2917
-WR,Andre,Roberts,Redskins,6,Wide Receiver,2918
-WR,Rashad,Ross,Redskins,1,Wide Receiver,2919
-WR,Tyler,Rutenbeck,Redskins,0,Wide Receiver,2920
-WR,Evan,Spencer,Redskins,0,Wide Receiver,2921
-TE,Chase,Dixon,Redskins,1,Tight End,2922
-TE,Je'Ron,Hamm,Redskins,1,Tight End,2923
-TE,Devin,Mahina,Redskins,0,Tight End,2924
-TE,Niles,Paul,Redskins,5,Tight End,2925
-TE,Logan,Paulsen,Redskins,6,Tight End,2926
-TE,Jordan,Reed,Redskins,3,Tight End,2927
-C,Tyler,Larsen,Redskins,1,Center,2928
-C,Josh,LeRibeus,Redskins,4,Center,2929
-C,Kory,Lichtensteiger,Redskins,7,Center,2930
-C,Austin,Reiter,Redskins,0,Center,2931
-G,Arie,Kouandjio,Redskins,0,Guard,2932
-G,Shawn,Lauvao,Redskins,6,Guard,2933
-G,Spencer,Long,Redskins,2,Guard,2934
-G,Bryce,Quigley,Redskins,1,Guard,2935
-OL,Ty,Nsekhe,Redskins,1,Offensive Lineman,2936
-OT,Takoby,Cofield,Redskins,0,Offensive Tackle,2937
-OT,Tom,Compton,Redskins,3,Offensive Tackle,2938
-OT,Morgan,Moses,Redskins,2,Offensive Tackle,2939
-OT,Brandon,Scherff,Redskins,0,Offensive Tackle,2940
-OT,Willie,Smith,Redskins,5,Offensive Tackle,2941
-OT,Trent,Williams,Redskins,6,Offensive Tackle,2942
-DE,Corey,Crawford,Redskins,0,Defensive End,2943
-DE,Kedric,Golston,Redskins,10,Defensive End,2944
-DE,Jason,Hatcher,Redskins,10,Defensive End,2945
-DE,Ricky Jean,Francois,Redskins,7,Defensive End,2946
-DE,Frank,Kearse,Redskins,4,Defensive End,2947
-DE,Stephen,Paea,Redskins,5,Defensive End,2948
-NT,Terrance,Knighton,Redskins,7,Nose Tackle,2949
-NT,Jerrell,Powe,Redskins,4,Nose Tackle,2950
-NT,Travian,Robertson,Redskins,4,Nose Tackle,2951
-DL,Chris,Baker,Redskins,4,Defensive Lineman,2952
-DL,Robert,Thomas,Redskins,1,Defensive Lineman,2953
-LB,Houston,Bates,Redskins,0,Linebacker,2954
-LB,Will,Compton,Redskins,2,Linebacker,2955
-LB,Dyshawn,Davis,Redskins,0,Linebacker,2956
-LB,Junior,Galette,Redskins,6,Linebacker,2957
-LB,Adam,Hayward,Redskins,9,Linebacker,2958
-LB,Alonzo,Highsmith,Redskins,1,Linebacker,2959
-LB,Jackson,Jeffcoat,Redskins,2,Linebacker,2960
-LB,Ryan,Kerrigan,Redskins,5,Linebacker,2961
-LB,Tevin,Mitchel,Redskins,0,Linebacker,2962
-LB,Trent,Murphy,Redskins,2,Linebacker,2963
-LB,Terrance,Plummer,Redskins,0,Linebacker,2964
-LB,Perry,Riley Jr.,Redskins,6,Linebacker,2965
-LB,Keenan,Robinson,Redskins,4,Linebacker,2966
-LB,Preston,Smith,Redskins,0,Linebacker,2967
-LB,Martrell,Spaight,Redskins,0,Linebacker,2968
-LB,Trevardo,Williams,Redskins,2,Linebacker,2969
-CB,David,Amerson,Redskins,3,Cornerback,2970
-CB,Bashaud,Breeland,Redskins,2,Cornerback,2971
-CB,Chris,Culliver,Redskins,5,Cornerback,2972
-CB,Deshazor,Everett,Redskins,0,Cornerback,2973
-CB,DeAngelo,Hall,Redskins,12,Cornerback,2974
-CB,Tajh,Hasson,Redskins,0,Cornerback,2975
-CB,DreQuan,Hoskey,Redskins,0,Cornerback,2976
-CB,Bryan,McCann,Redskins,5,Cornerback,2977
-CB,Justin,Rogers,Redskins,4,Cornerback,2978
-S,Da'Mon,Cromartie-Smith,Redskins,2,Safety,2979
-S,Akeem,Davis,Redskins,2,Safety,2980
-S,Dashon,Goldson,Redskins,9,Safety,2981
-S,Duke,Ihenacho,Redskins,4,Safety,2982
-S,Jeron,Johnson,Redskins,5,Safety,2983
-S,Trenton,Robinson,Redskins,4,Safety,2984
-K,Kai,Forbath,Redskins,4,Kicker,2985
-K,Ty,Long,Redskins,0,Kicker,2986
-P,Tress,Way,Redskins,2,Punter,2987
-LS,Nick,Sundberg,Redskins,6,Long Snapper,2988
+QB,Matt,Barkley,Cardinals,4,Quarterback,1
+WR,Jaron,Brown,Cardinals,4,Wide Receiver,2
+WR,John,Brown,Cardinals,3,Wide Receiver,3
+WR,Marquis,Bundy,Cardinals,0,Wide Receiver,4
+WR,Amir,Carlisle,Cardinals,0,Wide Receiver,5
+K,Chandler,Catanzaro,Cardinals,3,Kicker,6
+TE,Gerald,Christian,Cardinals,2,Tight End,7
+QB,Jake,Coker,Cardinals,0,Quarterback,8
+RB,Andre,Ellington,Cardinals,4,Running Back,9
+TE,Darren,Fells,Cardinals,3,Tight End,10
+WR,Larry,Fitzgerald,Cardinals,13,Wide Receiver,11
+WR,Michael,Floyd,Cardinals,5,Wide Receiver,12
+WR,Brittan,Golden,Cardinals,3,Wide Receiver,13
+TE,Jermaine,Gresham,Cardinals,7,Tight End,14
+WR,Chris,Hubert,Cardinals,0,Wide Receiver,15
+RB,Chris,Johnson,Cardinals,9,Running Back,16
+RB,David,Johnson,Cardinals,2,Running Back,17
+TE,Ifeanyi,Momah,Cardinals,2,Tight End,18
+WR,J.J.,Nelson,Cardinals,2,Wide Receiver,19
+TE,Troy,Niklas,Cardinals,3,Tight End,20
+WR,Franky,Okafor,Cardinals,0,Wide Receiver,21
+QB,Carson,Palmer,Cardinals,14,Quarterback,22
+RB,Elijhaa,Penny,Cardinals,0,Running Back,23
+WR,Jaxon,Shipley,Cardinals,1,Wide Receiver,24
+QB,Drew,Stanton,Cardinals,10,Quarterback,25
+RB,Stepfan,Taylor,Cardinals,4,Running Back,26
+TE,Hakeem,Valles,Cardinals,0,Tight End,27
+RB,Kerwynn,Williams,Cardinals,3,Running Back,28
+K,Matt,Bryant,Falcons,15,Kicker,29
+RB,Tevin,Coleman,Falcons,2,Running Back,30
+FB,Patrick,DiMarco,Falcons,5,Fullback,31
+RB,Devonta,Freeman,Falcons,3,Running Back,32
+WR,Devin,Fuller,Falcons,0,Wide Receiver,33
+WR,David,Glidden,Falcons,0,Wide Receiver,34
+WR,C.J.,Goodwin,Falcons,1,Wide Receiver,35
+WR,Justin,Hardy,Falcons,2,Wide Receiver,36
+TE,Austin,Hooper,Falcons,0,Tight End,37
+RB,Gus,Johnson,Falcons,1,Running Back,38
+WR,Julio,Jones,Falcons,6,Wide Receiver,39
+WR,Chris,King,Falcons,0,Wide Receiver,40
+WR,Jordan,Leslie,Falcons,1,Wide Receiver,41
+TE,Arthur,Lynch,Falcons,1,Tight End,42
+WR,J.D.,McKissic,Falcons,0,Wide Receiver,43
+TE,Josh,Perkins,Falcons,0,Tight End,44
+RB,Will,Ratelle,Falcons,0,Running Back,45
+QB,Sean,Renfree,Falcons,4,Quarterback,46
+WR,Aldrick,Robinson,Falcons,4,Wide Receiver,47
+K,Nick,Rose,Falcons,0,Kicker,48
+QB,Matt,Ryan,Falcons,9,Quarterback,49
+WR,Mohamed,Sanu,Falcons,5,Wide Receiver,50
+QB,Matt,Schaub,Falcons,13,Quarterback,51
+QB,Matt,Simms,Falcons,4,Quarterback,52
+TE,Jacob,Tamme,Falcons,9,Tight End,53
+TE,D.J.,Tialavea,Falcons,3,Tight End,54
+TE,Levine,Toilolo,Falcons,4,Tight End,55
+RB,Terron,Ward,Falcons,2,Running Back,56
+WR,Corey,Washington,Falcons,2,Wide Receiver,57
+WR,Eric,Weems,Falcons,10,Wide Receiver,58
+RB,Brandon,Wilds,Falcons,0,Running Back,59
+WR,Nick,Williams,Falcons,3,Wide Receiver,60
+WR,Davonte,Allen,Bills,0,Wide Receiver,61
+TE,Blake,Annen,Bills,2,Tight End,62
+WR,Jarrett,Boykin,Bills,4,Wide Receiver,63
+K,Dan,Carpenter,Bills,9,Kicker,64
+WR,Gary,Chambers,Bills,0,Wide Receiver,65
+TE,Charles,Clay,Bills,6,Tight End,66
+TE,Jim,Dray,Bills,7,Tight End,67
+WR,Marcus,Easley,Bills,5,Wide Receiver,68
+FB,Jerome,Felton,Bills,9,Fullback,69
+K,Jordan,Gay,Bills,3,Kicker,70
+RB,Mike,Gillislee,Bills,3,Running Back,71
+WR,Marquise,Goodwin,Bills,3,Wide Receiver,72
+TE,Chris,Gragg,Bills,4,Tight End,73
+FB,Glenn,Gronkowski,Bills,0,Fullback,74
+WR,Leonard,Hankerson,Bills,6,Wide Receiver,75
+RB,Dan,Herron,Bills,3,Running Back,76
+QB,Cardale,Jones,Bills,0,Quarterback,77
+WR,Dezmin,Lewis,Bills,1,Wide Receiver,78
+WR,Kolby,Listenbee,Bills,0,Wide Receiver,79
+WR,Greg,Little,Bills,5,Wide Receiver,80
+QB,EJ,Manuel,Bills,4,Quarterback,81
+RB,LeSean,McCoy,Bills,8,Running Back,82
+K,Marshall,Morgan,Bills,0,Kicker,83
+TE,Nick,O'Leary,Bills,1,Tight End,84
+WR,Walt,Powell,Bills,2,Wide Receiver,85
+WR,Greg,Salas,Bills,5,Wide Receiver,86
+QB,Tyrod,Taylor,Bills,6,Quarterback,87
+WR,Sammy,Watkins,Bills,3,Wide Receiver,88
+RB,James Jr.,Wilder,Bills,1,Running Back,89
+RB,Jonathan,Williams,Bills,0,Running Back,90
+RB,Karlos,Williams,Bills,2,Running Back,91
+WR,Robert,Woods,Bills,4,Wide Receiver,92
+WR,Kamar,Aiken,Ravens,4,Wide Receiver,93
+RB,Javorius,Allen,Ravens,2,Running Back,94
+TE,Nick,Boyle,Ravens,2,Tight End,95
+TE,Daniel,Brown,Ravens,2,Tight End,96
+WR,Jeremy,Butler,Ravens,3,Wide Receiver,97
+WR,Michael,Campanaro,Ravens,3,Wide Receiver,98
+WR,Kaelin,Clay,Ravens,2,Wide Receiver,99
+WR,Dobson,Collins,Ravens,1,Wide Receiver,100
+RB,Kenneth,Dixon,Ravens,0,Running Back,101
+QB,Joe,Flacco,Ravens,9,Quarterback,102
+RB,Justin,Forsett,Ravens,9,Running Back,103
+TE,Crockett,Gillmore,Ravens,3,Tight End,104
+QB,Josh,Johnson,Ravens,7,Quarterback,105
+QB,Jerrod,Johnson,Ravens,1,Quarterback,106
+FB,Kyle,Juszczyk,Ravens,4,Fullback,107
+K,Will,Lutz,Ravens,0,Kicker,108
+QB,Ryan,Mallett,Ravens,6,Quarterback,109
+WR,Chris,Matthews,Ravens,3,Wide Receiver,110
+WR,Chris,Moore,Ravens,0,Wide Receiver,111
+WR,Breshad,Perriman,Ravens,2,Wide Receiver,112
+TE,Dennis,Pitta,Ravens,7,Tight End,113
+WR,Keenan,Reynolds,Ravens,0,Wide Receiver,114
+RB,Trent,Richardson,Ravens,4,Running Back,115
+WR,Steve,Smith Sr.,Ravens,16,Wide Receiver,116
+RB,Lorenzo,Taliaferro,Ravens,3,Running Back,117
+K,Justin,Tucker,Ravens,5,Kicker,118
+WR,Mike,Wallace,Ravens,8,Wide Receiver,119
+TE,Darren,Waller,Ravens,2,Tight End,120
+TE,Benjamin,Watson,Ravens,13,Tight End,121
+RB,Terrance,West,Ravens,3,Running Back,122
+TE,Maxx,Williams,Ravens,2,Tight End,123
+QB,Derek,Anderson,Panthers,12,Quarterback,124
+RB,Cameron,Artis-Payne,Panthers,2,Running Back,125
+WR,Kelvin,Benjamin,Panthers,3,Wide Receiver,126
+WR,Brenton,Bersin,Panthers,3,Wide Receiver,127
+WR,Corey,Brown,Panthers,3,Wide Receiver,128
+WR,LaRon,Byrd,Panthers,3,Wide Receiver,129
+WR,Damiere,Byrd,Panthers,1,Wide Receiver,130
+WR,Avius,Capers,Panthers,1,Wide Receiver,131
+TE,Braxton,Deaver,Panthers,0,Tight End,132
+TE,Ed,Dickson,Panthers,7,Tight End,133
+WR,Devin,Funchess,Panthers,2,Wide Receiver,134
+K,Graham,Gano,Panthers,7,Kicker,135
+WR,Keyarris,Garrett,Panthers,0,Wide Receiver,136
+WR,Ted,Ginn Jr.,Panthers,10,Wide Receiver,137
+WR,Stephen,Hill,Panthers,4,Wide Receiver,138
+RB,Devon,Johnson,Panthers,0,Running Back,139
+TE,Marcus,Lucas,Panthers,1,Tight End,140
+QB,Cam,Newton,Panthers,6,Quarterback,141
+WR,Kevin,Norwood,Panthers,3,Wide Receiver,142
+TE,Greg,Olsen,Panthers,10,Tight End,143
+WR,Tobais,Palmer,Panthers,1,Wide Receiver,144
+TE,Beau,Sandland,Panthers,0,Tight End,145
+WR,Miles,Shuler,Panthers,0,Wide Receiver,146
+RB,Jalen,Simmons,Panthers,0,Running Back,147
+TE,Scott,Simonson,Panthers,2,Tight End,148
+RB,Jonathan,Stewart,Panthers,9,Running Back,149
+FB,Mike,Tolbert,Panthers,9,Fullback,150
+QB,Joe,Webb,Panthers,6,Quarterback,151
+RB,Brandon,Wegher,Panthers,2,Running Back,152
+RB,Fozzy,Whittaker,Panthers,4,Running Back,153
+WR,Josh,Bellamy,Bears,2,Wide Receiver,154
+TE,Ben,Braunecker,Bears,0,Tight End,155
+WR,Daniel,Braverman,Bears,0,Wide Receiver,156
+RB,Ka'Deem,Carey,Bears,3,Running Back,157
+QB,Jay,Cutler,Bears,11,Quarterback,158
+WR,B.J.,Daniels,Bears,4,Wide Receiver,159
+WR,Kieren,Duncan,Bears,0,Wide Receiver,160
+QB,David,Fales,Bears,2,Quarterback,161
+K,Robbie,Gould,Bears,12,Kicker,162
+TE,Rob,Housler,Bears,6,Tight End,163
+RB,Jordan,Howard,Bears,0,Running Back,164
+QB,Brian,Hoyer,Bears,8,Quarterback,165
+WR,Alshon,Jeffery,Bears,5,Wide Receiver,166
+WR,Derek,Keaton,Bears,0,Wide Receiver,167
+RB,Jeremy,Langford,Bears,2,Running Back,168
+RB,Paul,Lasike,Bears,1,Running Back,169
+TE,Khari,Lee,Bears,2,Tight End,170
+WR,Marc,Mariani,Bears,7,Wide Receiver,171
+WR,Cameron,Meredith,Bears,2,Wide Receiver,172
+TE,Zach,Miller,Bears,7,Tight End,173
+TE,Tony,Moeaki,Bears,7,Tight End,174
+RB,Senorise,Perry,Bears,3,Running Back,175
+WR,Darrin,Peterson,Bears,0,Wide Receiver,176
+RB,Jacquizz,Rodgers,Bears,6,Running Back,177
+WR,Eddie,Royal,Bears,9,Wide Receiver,178
+TE,Greg,Scruggs,Bears,4,Tight End,179
+QB,Connor,Shaw,Bears,2,Quarterback,180
+TE,Gannon,Sinclair,Bears,1,Tight End,181
+TE,Joe,Sommers,Bears,0,Tight End,182
+WR,Deonte,Thompson,Bears,4,Wide Receiver,183
+WR,Kevin,White,Bears,2,Wide Receiver,184
+WR,Marquess,Wilson,Bears,4,Wide Receiver,185
+WR,Mario,Alford,Bengals,2,Wide Receiver,186
+WR,Michael,Bennett,Bengals,1,Wide Receiver,187
+RB,Giovani,Bernard,Bengals,4,Running Back,188
+FB,Andrew,Bonnet,Bengals,0,Fullback,189
+WR,Tyler,Boyd,Bengals,0,Wide Receiver,190
+K,Jon,Brown,Bengals,0,Kicker,191
+RB,Rex,Burkhead,Bengals,4,Running Back,192
+RB,Tra,Carson,Bengals,0,Running Back,193
+WR,Cody,Core,Bengals,0,Wide Receiver,194
+QB,Andy,Dalton,Bengals,6,Quarterback,195
+TE,Tyler,Eifert,Bengals,4,Tight End,196
+WR,Alex,Erickson,Bengals,0,Wide Receiver,197
+WR,Antwane,Grant,Bengals,0,Wide Receiver,198
+WR,A.J.,Green,Bengals,6,Wide Receiver,199
+TE,Ryan,Hewitt,Bengals,3,Tight End,200
+RB,Bronson,Hill,Bengals,1,Running Back,201
+RB,Jeremy,Hill,Bengals,3,Running Back,202
+K,Zach,Hocker,Bengals,2,Kicker,203
+TE,Tyler,Kroft,Bengals,2,Tight End,204
+WR,Jake,Kumerow,Bengals,1,Wide Receiver,205
+WR,Brandon,LaFell,Bengals,7,Wide Receiver,206
+TE,Matt,Lengel,Bengals,1,Tight End,207
+QB,Joe,Licata,Bengals,0,Quarterback,208
+FB,Jeff,Luc,Bengals,1,Fullback,209
+QB,AJ,McCarron,Bengals,2,Quarterback,210
+K,Mike,Nugent,Bengals,12,Kicker,211
+RB,Cedric,Peerman,Bengals,7,Running Back,212
+TE,John,Peters,Bengals,1,Tight End,213
+WR,Alonzo,Russell,Bengals,0,Wide Receiver,214
+WR,Rashaun,Simonise,Bengals,0,Wide Receiver,215
+WR,Brandon,Tate,Bengals,8,Wide Receiver,216
+TE,C.J.,Uzomah,Bengals,2,Tight End,217
+QB,Keith,Wenning,Bengals,1,Quarterback,218
+WR,James,Wright,Bengals,3,Wide Receiver,219
+TE,Gary,Barnidge,Browns,9,Tight End,220
+TE,E.J.,Bibbs,Browns,2,Tight End,221
+WR,Corey,Coleman,Browns,0,Wide Receiver,222
+K,Travis,Coons,Browns,2,Kicker,223
+RB,Isaiah,Crowell,Browns,3,Running Back,224
+QB,Austin,Davis,Browns,5,Quarterback,225
+TE,Seth,Devalve,Browns,0,Tight End,226
+WR,Taylor,Gabriel,Browns,3,Wide Receiver,227
+WR,Josh,Gordon,Browns,3,Wide Receiver,228
+QB,Robert,Griffin III,Browns,5,Quarterback,229
+WR,Rannell,Hall,Browns,1,Wide Receiver,230
+TE,Connor,Hamlett,Browns,1,Tight End,231
+WR,Andrew,Hawkins,Browns,6,Wide Receiver,232
+WR,Rashard,Higgins,Browns,0,Wide Receiver,233
+TE,J.P.,Holtz,Browns,0,Tight End,234
+WR,Darius,Jennings,Browns,1,Wide Receiver,235
+FB,Malcolm,Johnson,Browns,2,Fullback,236
+RB,Duke,Johnson,Browns,2,Running Back,237
+QB,Cody,Kessler,Browns,0,Quarterback,238
+WR,Ricardo,Louis,Browns,0,Wide Receiver,239
+QB,Josh,McCown,Browns,14,Quarterback,240
+WR,Marlon,Moore,Browns,7,Wide Receiver,241
+RB,Raheem,Mostert,Browns,2,Running Back,242
+K,Patrick,Murray,Browns,3,Kicker,243
+WR,Dennis,Parks,Browns,0,Wide Receiver,244
+WR,Jordan,Payton,Browns,0,Wide Receiver,245
+WR,Terrelle,Pryor,Browns,4,Wide Receiver,246
+TE,David,Reeves,Browns,0,Tight End,247
+RB,Patrick,Skov,Browns,0,Running Back,248
+TE,Randall,Telfer,Browns,1,Tight End,249
+RB,Terrell,Watson,Browns,1,Running Back,250
+RB,Glenn,Winston,Browns,3,Running Back,251
+K,Dan,Bailey,Cowboys,6,Kicker,252
+WR,Cole,Beasley,Cowboys,5,Wide Receiver,253
+WR,Chris,Brown,Cowboys,0,Wide Receiver,254
+WR,Dez,Bryant,Cowboys,7,Wide Receiver,255
+WR,Brice,Butler,Cowboys,4,Wide Receiver,256
+RB,Lance,Dunbar,Cowboys,5,Running Back,257
+WR,Ed,Eagan,Cowboys,0,Wide Receiver,258
+RB,Ezekiel,Elliott,Cowboys,0,Running Back,259
+TE,Gavin,Escobar,Cowboys,4,Tight End,260
+TE,Rico,Gathers,Cowboys,0,Tight End,261
+TE,James,Hanna,Cowboys,5,Tight End,262
+RB,Darius,Jackson,Cowboys,0,Running Back,263
+WR,Andy,Jones,Cowboys,0,Wide Receiver,264
+WR,Vince,Mayle,Cowboys,1,Wide Receiver,265
+RB,Darren,McFadden,Cowboys,9,Running Back,266
+QB,Kellen,Moore,Cowboys,5,Quarterback,267
+RB,Alfred,Morris,Cowboys,5,Running Back,268
+QB,Dak,Prescott,Cowboys,0,Quarterback,269
+QB,Tony,Romo,Cowboys,14,Quarterback,270
+QB,Jameill,Showers,Cowboys,1,Quarterback,271
+FB,Keith,Smith,Cowboys,3,Fullback,272
+RB,Rod,Smith,Cowboys,2,Running Back,273
+WR,Rodney,Smith,Cowboys,3,Wide Receiver,274
+WR,Devin,Street,Cowboys,3,Wide Receiver,275
+TE,Geoff,Swaim,Cowboys,2,Tight End,276
+TE,Austin,Traylor,Cowboys,0,Tight End,277
+WR,Lucky,Whitehead,Cowboys,2,Wide Receiver,278
+K,Matt,Wile,Cowboys,1,Kicker,279
+WR,Terrance,Williams,Cowboys,4,Wide Receiver,280
+TE,Jason,Witten,Cowboys,14,Tight End,281
+WR,Bralon,Addison,Broncos,0,Wide Receiver,282
+RB,C.J.,Anderson,Broncos,4,Running Back,283
+RB,Kapri,Bibbs,Broncos,2,Running Back,284
+RB,Devontae,Booker,Broncos,0,Running Back,285
+WR,Marlon,Brown,Broncos,4,Wide Receiver,286
+WR,Bennie,Fowler,Broncos,2,Wide Receiver,287
+WR,Mose,Frazier,Broncos,0,Wide Receiver,288
+TE,Garrett,Graham,Broncos,7,Tight End,289
+TE,Virgil,Green,Broncos,6,Tight End,290
+TE,Jeff,Heuerman,Broncos,2,Tight End,291
+RB,Ronnie,Hillman,Broncos,5,Running Back,292
+FB,Andy,Janovich,Broncos,0,Fullback,293
+TE,Henry,Krieger Coble,Broncos,0,Tight End,294
+WR,Cody,Latimer,Broncos,3,Wide Receiver,295
+QB,Paxton,Lynch,Broncos,0,Quarterback,296
+K,Brandon,McManus,Broncos,3,Kicker,297
+WR,Durron,Neal,Broncos,0,Wide Receiver,298
+WR,Jordan,Norwood,Broncos,7,Wide Receiver,299
+TE,John,Phillips,Broncos,8,Tight End,300
+WR,DeVier,Posey,Broncos,4,Wide Receiver,301
+WR,Kalif,Raymond,Broncos,0,Wide Receiver,302
+QB,Mark,Sanchez,Broncos,8,Quarterback,303
+WR,Emmanuel,Sanders,Broncos,7,Wide Receiver,304
+QB,Trevor,Siemian,Broncos,2,Quarterback,305
+WR,Jordan,Taylor,Broncos,1,Wide Receiver,306
+WR,Demaryius,Thomas,Broncos,7,Wide Receiver,307
+RB,Juwan,Thompson,Broncos,3,Running Back,308
+RB,Ameer,Abdullah,Lions,2,Running Back,309
+WR,Jace,Billingsley,Lions,0,Wide Receiver,310
+WR,Anquan,Boldin,Lions,14,Wide Receiver,311
+FB,Michael,Burton,Lions,2,Fullback,312
+WR,Andre,Caldwell,Lions,9,Wide Receiver,313
+TE,Orson,Charles,Lions,4,Tight End,314
+WR,Quinshad,Davis,Lions,0,Wide Receiver,315
+TE,Eric,Ebron,Lions,3,Tight End,316
+TE,Adam,Fuehne,Lions,0,Tight End,317
+WR,Corey,Fuller,Lions,3,Wide Receiver,318
+WR,Marvin,Jones,Lions,5,Wide Receiver,319
+WR,T.J.,Jones,Lions,2,Wide Receiver,320
+WR,Jeremy,Kerley,Lions,6,Wide Receiver,321
+WR,Jay,Lee,Lions,0,Wide Receiver,322
+TE,Ben,McCord,Lions,0,Tight End,323
+TE,Matthew,Mulligan,Lions,8,Tight End,324
+QB,Dan,Orlovsky,Lions,11,Quarterback,325
+TE,Brandon,Pettigrew,Lions,8,Tight End,326
+K,Matt,Prater,Lions,10,Kicker,327
+RB,Theo,Riddick,Lions,4,Running Back,328
+RB,Stevan,Ridley,Lions,6,Running Back,329
+WR,Andre,Roberts,Lions,7,Wide Receiver,330
+QB,Jake,Rudock,Lions,0,Quarterback,331
+WR,Ryan,Spadola,Lions,2,Wide Receiver,332
+QB,Matthew,Stafford,Lions,8,Quarterback,333
+WR,Golden,Tate,Lions,7,Wide Receiver,334
+RB,Dwayne,Washington,Lions,0,Running Back,335
+TE,Cole,Wick,Lions,0,Tight End,336
+RB,George,Winn,Lions,3,Running Back,337
+TE,Timothy,Wright,Lions,4,Tight End,338
+FB,Zach,Zenner,Lions,2,Fullback,339
+WR,Jared,Abbrederis,Packers,3,Wide Receiver,340
+WR,Davante,Adams,Packers,3,Wide Receiver,341
+WR,Geronimo,Allison,Packers,0,Wide Receiver,342
+TE,Kennard,Backman,Packers,2,Tight End,343
+WR,Harvey,Binford,Packers,1,Wide Receiver,344
+RB,Brandon,Burks,Packers,0,Running Back,345
+QB,Joe,Callahan,Packers,0,Quarterback,346
+WR,Randall,Cobb,Packers,6,Wide Receiver,347
+TE,Jared,Cook,Packers,8,Tight End,348
+RB,John,Crockett,Packers,1,Running Back,349
+K,Mason,Crosby,Packers,10,Kicker,350
+WR,Trevor,Davis,Packers,0,Wide Receiver,351
+TE,Mitchell,Henry,Packers,1,Tight End,352
+QB,Brett,Hundley,Packers,2,Quarterback,353
+WR,Jeff,Janis,Packers,3,Wide Receiver,354
+WR,Jamel,Johnson,Packers,1,Wide Receiver,355
+RB,Eddie,Lacy,Packers,4,Running Back,356
+WR,Ty,Montgomery,Packers,2,Wide Receiver,357
+WR,Jordy,Nelson,Packers,9,Wide Receiver,358
+TE,Justin,Perillo,Packers,3,Tight End,359
+TE,Casey,Pierce,Packers,1,Tight End,360
+FB,Aaron,Ripkowski,Packers,2,Fullback,361
+QB,Aaron,Rodgers,Packers,12,Quarterback,362
+TE,Richard,Rodgers,Packers,3,Tight End,363
+RB,Brandon,Ross,Packers,0,Running Back,364
+RB,Alstevis,Squirewell,Packers,0,Running Back,365
+RB,James,Starks,Packers,7,Running Back,366
+WR,Herb,Waters,Packers,0,Wide Receiver,367
+WR,Ed,Williams,Packers,1,Wide Receiver,368
+QB,Marquise,Williams,Packers,0,Quarterback,369
+TE,Stephen,Anderson,Texans,0,Tight End,370
+RB,Alfred,Blue,Texans,3,Running Back,371
+WR,Quenton,Bundrage,Texans,0,Wide Receiver,372
+TE,Anthony,Denham,Texans,2,Tight End,373
+RB,Tyler,Ervin,Texans,0,Running Back,374
+K,Ka'imi,Fairbairn,Texans,0,Kicker,375
+TE,C.J.,Fiedorowicz,Texans,3,Tight End,376
+WR,Will,Fuller,Texans,0,Wide Receiver,377
+TE,Ryan,Griffin,Texans,4,Tight End,378
+RB,Jonathan,Grimes,Texans,4,Running Back,379
+RB,Kenny,Hilliard,Texans,1,Running Back,380
+WR,DeAndre,Hopkins,Texans,4,Wide Receiver,381
+RB,Akeem,Hunt,Texans,2,Running Back,382
+WR,Tevin,Jones,Texans,0,Wide Receiver,383
+WR,Josh,Lenz,Texans,1,Wide Receiver,384
+WR,Braxton,Miller,Texans,0,Wide Receiver,385
+RB,Lamar,Miller,Texans,5,Running Back,386
+WR,Keith,Mumphery,Texans,2,Wide Receiver,387
+K,Nick,Novak,Texans,9,Kicker,388
+QB,Brock,Osweiler,Texans,5,Quarterback,389
+FB,Jay,Prosch,Texans,3,Fullback,390
+QB,Tom,Savage,Texans,3,Quarterback,391
+WR,Cecil,Shorts,Texans,6,Wide Receiver,392
+WR,Jaelen,Strong,Texans,2,Wide Receiver,393
+TE,Eric,Tomlinson,Texans,1,Tight End,394
+FB,Soma,Vainuku,Texans,0,Fullback,395
+QB,Brandon,Weeden,Texans,5,Quarterback,396
+WR,Wendall,Williams,Texans,0,Wide Receiver,397
+TE,Dwayne,Allen,Colts,5,Tight End,398
+WR,Danny,Anthrop,Colts,0,Wide Receiver,399
+WR,Josh,Boyce,Colts,2,Wide Receiver,400
+WR,Quan,Bray,Colts,2,Wide Receiver,401
+TE,Chase,Coffman,Colts,7,Tight End,402
+WR,Andre,Debose,Colts,2,Wide Receiver,403
+WR,Phillip,Dorsett,Colts,2,Wide Receiver,404
+TE,Jack,Doyle,Colts,4,Tight End,405
+RB,Josh,Ferguson,Colts,0,Running Back,406
+RB,Frank,Gore,Colts,12,Running Back,407
+TE,Darion,Griswold,Colts,0,Tight End,408
+WR,T.Y.,Hilton,Colts,5,Wide Receiver,409
+TE,Emil,Igwenagu,Colts,2,Tight End,410
+WR,Marcus,Leak,Colts,0,Wide Receiver,411
+QB,Andrew,Luck,Colts,5,Quarterback,412
+TE,Mike,McFarland,Colts,2,Tight End,413
+WR,Mekale,McKay,Colts,0,Wide Receiver,414
+WR,Donte,Moncrief,Colts,3,Wide Receiver,415
+QB,Stephen,Morris,Colts,1,Quarterback,416
+TE,Konrad,Reuland,Colts,3,Tight End,417
+WR,Chester,Rogers,Colts,0,Wide Receiver,418
+WR,Tevaun,Smith,Colts,0,Wide Receiver,419
+WR,Joshua,Stangby,Colts,1,Wide Receiver,420
+TE,Erik,Swoope,Colts,1,Tight End,421
+RB,Jordan,Todman,Colts,4,Running Back,422
+QB,Scott,Tolzien,Colts,6,Quarterback,423
+RB,Abou,Toure,Colts,1,Running Back,424
+RB,Robert,Turbin,Colts,5,Running Back,425
+WR,Brian,Tyms,Colts,4,Wide Receiver,426
+K,Adam,Vinatieri,Colts,21,Kicker,427
+RB,Trey,Williams,Colts,2,Running Back,428
+QB,Brandon,Allen,Jaguars,0,Quarterback,429
+WR,Rasheed,Bailey,Jaguars,1,Wide Receiver,430
+RB,Joe,Banyard,Jaguars,4,Running Back,431
+WR,Arrelious,Benn,Jaguars,6,Wide Receiver,432
+WR,Justin,Blackmon,Jaguars,2,Wide Receiver,433
+QB,Blake,Bortles,Jaguars,3,Quarterback,434
+TE,Braedon,Bowman,Jaguars,0,Tight End,435
+WR,Shaq,Evans,Jaguars,3,Wide Receiver,436
+K,Sam,Ficken,Jaguars,0,Kicker,437
+RB,Corey,Grant,Jaguars,2,Running Back,438
+RB,Jonas,Gray,Jaguars,3,Running Back,439
+WR,Rashad,Greene,Jaguars,2,Wide Receiver,440
+QB,Chad,Henne,Jaguars,9,Quarterback,441
+WR,Allen,Hurns,Jaguars,3,Wide Receiver,442
+RB,Chris,Ivory,Jaguars,7,Running Back,443
+TE,Nic,Jacobs,Jaguars,3,Tight End,444
+TE,Ben,Koyack,Jaguars,1,Tight End,445
+WR,Rashad,Lawrence,Jaguars,1,Wide Receiver,446
+WR,Marqise,Lee,Jaguars,3,Wide Receiver,447
+TE,Marcedes,Lewis,Jaguars,11,Tight End,448
+K,Jason,Myers,Jaguars,2,Kicker,449
+WR,Jamal,Robinson,Jaguars,0,Wide Receiver,450
+WR,Allen,Robinson,Jaguars,3,Wide Receiver,451
+RB,Denard,Robinson,Jaguars,4,Running Back,452
+TE,Neal,Sterling,Jaguars,2,Tight End,453
+TE,Julius,Thomas,Jaguars,6,Tight End,454
+WR,Bryan,Walters,Jaguars,5,Wide Receiver,455
+WR,Tony,Washington,Jaguars,2,Wide Receiver,456
+QB,Max,Wittek,Jaguars,0,Quarterback,457
+WR,Shane,Wynn,Jaguars,1,Wide Receiver,458
+RB,T.J.,Yeldon,Jaguars,2,Running Back,459
+QB,Tyler,Bray,Chiefs,4,Quarterback,460
+WR,Da'Ron,Brown,Chiefs,1,Wide Receiver,461
+RB,Jamaal,Charles,Chiefs,9,Running Back,462
+WR,Chris,Conley,Chiefs,2,Wide Receiver,463
+WR,Kenny,Cook,Chiefs,1,Wide Receiver,464
+RB,Knile,Davis,Chiefs,4,Running Back,465
+WR,Frankie,Hammond,Chiefs,3,Wide Receiver,466
+TE,Demetrius,Harris,Chiefs,3,Tight End,467
+WR,Tyreek,Hill,Chiefs,0,Wide Receiver,468
+QB,Kevin,Hogan,Chiefs,0,Quarterback,469
+WR,Seantavius,Jones,Chiefs,1,Wide Receiver,470
+TE,Travis,Kelce,Chiefs,4,Tight End,471
+WR,Jeremy,Maclin,Chiefs,8,Wide Receiver,472
+WR,Mitch,Mathews,Chiefs,0,Wide Receiver,473
+FB,Trey,Millard,Chiefs,2,Fullback,474
+WR,Kashif,Moore,Chiefs,1,Wide Receiver,475
+QB,Aaron,Murray,Chiefs,3,Quarterback,476
+TE,James,O'Shaughnessy,Chiefs,2,Tight End,477
+TE,Brian,Parker,Chiefs,2,Tight End,478
+RB,Darrin,Reaves,Chiefs,2,Running Back,479
+WR,Demarcus,Robinson,Chiefs,0,Wide Receiver,480
+K,Cairo,Santos,Chiefs,3,Kicker,481
+FB,Anthony,Sherman,Chiefs,6,Fullback,482
+QB,Alex,Smith,Chiefs,12,Quarterback,483
+WR,Rod,Streater,Chiefs,3,Wide Receiver,484
+WR,De'Anthony,Thomas,Chiefs,3,Wide Receiver,485
+TE,Ross,Travis,Chiefs,1,Tight End,486
+RB,Spencer,Ware,Chiefs,3,Running Back,487
+RB,Charcandrick,West,Chiefs,3,Running Back,488
+WR,Mike,Williams,Chiefs,6,Wide Receiver,489
+WR,Albert,Wilson,Chiefs,3,Wide Receiver,490
+WR,Tavon,Austin,Rams,4,Wide Receiver,491
+K,Taylor,Bertolet,Rams,0,Kicker,492
+WR,Kenny,Britt,Rams,8,Wide Receiver,493
+RB,Malcolm,Brown,Rams,1,Running Back,494
+TE,Benson,Browne,Rams,0,Tight End,495
+WR,Pharoh,Cooper,Rams,0,Wide Receiver,496
+RB,Benny,Cunningham,Rams,4,Running Back,497
+TE,Justice,Cunningham,Rams,1,Tight End,498
+QB,Jared,Goff,Rams,0,Quarterback,499
+RB,Aaron,Green,Rams,0,Running Back,500
+RB,Todd,Gurley,Rams,2,Running Back,501
+TE,Cory,Harkey,Rams,5,Tight End,502
+TE,Temarrick,Hemingway,Rams,0,Tight End,503
+TE,Tyler,Higbee,Rams,0,Tight End,504
+QB,Case,Keenum,Rams,5,Quarterback,505
+TE,Lance,Kendricks,Rams,6,Tight End,506
+FB,Zach,Laskey,Rams,1,Fullback,507
+RB,Terrence,Magee,Rams,1,Running Back,508
+QB,Sean,Mannion,Rams,2,Quarterback,509
+WR,Bradley,Marquez,Rams,2,Wide Receiver,510
+WR,Paul,McRoberts,Rams,0,Wide Receiver,511
+WR,Marquez,North,Rams,0,Wide Receiver,512
+WR,Brian,Quick,Rams,5,Wide Receiver,513
+RB,Chase,Reynolds,Rams,4,Running Back,514
+WR,Nelson,Spruce,Rams,0,Wide Receiver,515
+WR,Mike,Thomas,Rams,0,Wide Receiver,516
+QB,Dylan,Thompson,Rams,2,Quarterback,517
+WR,Duke,Williams,Rams,0,Wide Receiver,518
+K,Greg,Zuerlein,Rams,5,Kicker,519
+RB,Jay,Ajayi,Dolphins,2,Running Back,520
+TE,Jordan,Cameron,Dolphins,6,Tight End,521
+WR,Leonte,Carroo,Dolphins,0,Wide Receiver,522
+WR,A.J.,Cruz,Dolphins,1,Wide Receiver,523
+QB,Brandon,Doughty,Dolphins,0,Quarterback,524
+RB,Kenyan,Drake,Dolphins,0,Running Back,525
+TE,Thomas,Duarte,Dolphins,0,Tight End,526
+QB,Zac,Dysert,Dolphins,2,Quarterback,527
+RB,Arian,Foster,Dolphins,8,Running Back,528
+K,Andrew,Franks,Dolphins,2,Kicker,529
+WR,Jakeem,Grant,Dolphins,0,Wide Receiver,530
+TE,MarQueis,Gray,Dolphins,4,Tight End,531
+WR,Matt,Hazel,Dolphins,2,Wide Receiver,532
+TE,Gabe,Hughes,Dolphins,0,Tight End,533
+TE,Dominique,Jones,Dolphins,3,Tight End,534
+K,Marshall,Koehn,Dolphins,0,Kicker,535
+WR,Jarvis,Landry,Dolphins,3,Wide Receiver,536
+QB,Matt,Moore,Dolphins,9,Quarterback,537
+WR,Tyler,Murphy,Dolphins,1,Wide Receiver,538
+WR,DeVante,Parker,Dolphins,2,Wide Receiver,539
+RB,Isaiah,Pead,Dolphins,4,Running Back,540
+WR,Rashawn,Scott,Dolphins,0,Wide Receiver,541
+WR,Brandon,Shippen,Dolphins,0,Wide Receiver,542
+TE,Dion,Sims,Dolphins,4,Tight End,543
+WR,Kenny,Stills,Dolphins,4,Wide Receiver,544
+QB,Ryan,Tannehill,Dolphins,5,Quarterback,545
+RB,Daniel,Thomas,Dolphins,5,Running Back,546
+WR,Griff,Whalen,Dolphins,5,Wide Receiver,547
+RB,Damien,Williams,Dolphins,3,Running Back,548
+RB,Matt,Asiata,Vikings,5,Running Back,549
+WR,Moritz,Boehringer,Vikings,0,Wide Receiver,550
+QB,Teddy,Bridgewater,Vikings,3,Quarterback,551
+TE,Kyle,Carter,Vikings,0,Tight End,552
+WR,Stefon,Diggs,Vikings,2,Wide Receiver,553
+TE,Rhett,Ellison,Vikings,5,Tight End,554
+WR,Isaac,Fruechte,Vikings,1,Wide Receiver,555
+RB,C.J.,Ham,Vikings,0,Running Back,556
+QB,Taylor,Heinicke,Vikings,2,Quarterback,557
+QB,Shaun,Hill,Vikings,15,Quarterback,558
+WR,Charles,Johnson,Vikings,4,Wide Receiver,559
+TE,Brian,Leonhardt,Vikings,3,Tight End,560
+FB,Zach,Line,Vikings,4,Fullback,561
+RB,Jerick,McKinnon,Vikings,3,Running Back,562
+WR,Marken,Michel,Vikings,0,Wide Receiver,563
+TE,David,Morgan,Vikings,0,Tight End,564
+WR,Cordarrelle,Patterson,Vikings,4,Wide Receiver,565
+RB,Adrian,Peterson,Vikings,10,Running Back,566
+RB,Jhurrell,Pressley,Vikings,0,Running Back,567
+TE,MyCole,Pruitt,Vikings,2,Tight End,568
+RB,Blake,Renaud,Vikings,1,Running Back,569
+TE,Kyle,Rudolph,Vikings,6,Tight End,570
+WR,Terrell,Sinkfield,Vikings,1,Wide Receiver,571
+QB,Joel,Stave,Vikings,0,Quarterback,572
+WR,Troy,Stoudermire,Vikings,0,Wide Receiver,573
+WR,Adam,Thielen,Vikings,3,Wide Receiver,574
+WR,Laquon,Treadwell,Vikings,0,Wide Receiver,575
+K,Blair,Walsh,Vikings,5,Kicker,576
+WR,Jarius,Wright,Vikings,5,Wide Receiver,577
+WR,Danny,Amendola,Patriots,8,Wide Receiver,578
+TE,Martellus,Bennett,Patriots,9,Tight End,579
+RB,LeGarrette,Blount,Patriots,7,Running Back,580
+RB,Brandon,Bolden,Patriots,5,Running Back,581
+QB,Tom,Brady,Patriots,17,Quarterback,582
+QB,Jacoby,Brissett,Patriots,0,Quarterback,583
+RB,Donald,Brown,Patriots,8,Running Back,584
+WR,DeAndre,Carter,Patriots,1,Wide Receiver,585
+TE,A.J.,Derby,Patriots,2,Tight End,586
+FB,James,Develin,Patriots,4,Fullback,587
+WR,Aaron,Dobson,Patriots,4,Wide Receiver,588
+WR,Julian,Edelman,Patriots,8,Wide Receiver,589
+RB,D.J.,Foster,Patriots,0,Running Back,590
+RB,Tyler,Gaffney,Patriots,3,Running Back,591
+QB,Jimmy,Garoppolo,Patriots,3,Quarterback,592
+K,Stephen,Gostkowski,Patriots,11,Kicker,593
+TE,Rob,Gronkowski,Patriots,7,Tight End,594
+TE,Clay,Harbor,Patriots,7,Tight End,595
+WR,Chris,Harper,Patriots,1,Wide Receiver,596
+WR,Chris,Hogan,Patriots,4,Wide Receiver,597
+FB,Joey,Iosefa,Patriots,1,Fullback,598
+RB,Dion,Lewis,Patriots,5,Running Back,599
+WR,Devin,Lucien,Patriots,0,Wide Receiver,600
+WR,Keshawn,Martin,Patriots,5,Wide Receiver,601
+WR,Malcolm,Mitchell,Patriots,0,Wide Receiver,602
+TE,Bear,Pascoe,Patriots,7,Tight End,603
+TE,Steven,Scheu,Patriots,0,Tight End,604
+WR,Matthew,Slater,Patriots,9,Wide Receiver,605
+WR,Nate,Washington,Patriots,12,Wide Receiver,606
+RB,James,White,Patriots,3,Running Back,607
+TE,Bryce,Williams,Patriots,0,Tight End,608
+TE,Michael,Williams,Patriots,3,Tight End,609
+TE,RaShaun,Allen,Saints,2,Tight End,610
+K,Connor,Barth,Saints,9,Kicker,611
+WR,Reggie,Bell,Saints,1,Wide Receiver,612
+QB,Drew,Brees,Saints,16,Quarterback,613
+RB,Travaris,Cadet,Saints,5,Running Back,614
+WR,Brandon,Coleman,Saints,2,Wide Receiver,615
+WR,Brandin,Cooks,Saints,3,Wide Receiver,616
+WR,Jared,Dangerfield,Saints,0,Wide Receiver,617
+TE,Coby,Fleener,Saints,5,Tight End,618
+K,Kai,Forbath,Saints,5,Kicker,619
+QB,Garrett,Grayson,Saints,2,Quarterback,620
+TE,Garrett,Griffin,Saints,0,Tight End,621
+WR,R.J.,Harris,Saints,1,Wide Receiver,622
+RB,Tim,Hightower,Saints,6,Running Back,623
+TE,Josh,Hill,Saints,4,Tight End,624
+TE,Michael,Hoomanawanui,Saints,7,Tight End,625
+FB,Sione,Houma,Saints,0,Fullback,626
+RB,Mark,Ingram,Saints,6,Running Back,627
+FB,Austin,Johnson,Saints,3,Fullback,628
+WR,Jake,Lampman,Saints,0,Wide Receiver,629
+RB,Daniel,Lasco,Saints,0,Running Back,630
+WR,Tommylee,Lewis,Saints,0,Wide Receiver,631
+TE,Chris,Manhertz,Saints,1,Tight End,632
+QB,Luke,McCown,Saints,13,Quarterback,633
+RB,Marcus,Murphy,Saints,2,Running Back,634
+WR,Hakeem,Nicks,Saints,8,Wide Receiver,635
+WR,Kyle,Prater,Saints,1,Wide Receiver,636
+WR,Willie,Snead,Saints,2,Wide Receiver,637
+RB,C.J.,Spiller,Saints,7,Running Back,638
+WR,Michael,Thomas,Saints,0,Wide Receiver,639
+WR,Jordan,Williams,Saints,0,Wide Receiver,640
+TE,Jerell,Adams,Giants,0,Tight End,641
+WR,Odell,Beckham Jr.,Giants,3,Wide Receiver,642
+WR,Kadron,Boone,Giants,1,Wide Receiver,643
+K,Josh,Brown,Giants,14,Kicker,644
+RB,Marshaun,Coprich,Giants,0,Running Back,645
+WR,Victor,Cruz,Giants,7,Wide Receiver,646
+WR,Anthony,Dable,Giants,1,Wide Receiver,647
+RB,Orleans,Darkwa,Giants,3,Running Back,648
+WR,Geremy,Davis,Giants,2,Wide Receiver,649
+TE,Larry,Donnell,Giants,4,Tight End,650
+WR,Ben,Edwards,Giants,1,Wide Receiver,651
+WR,Dwayne,Harris,Giants,6,Wide Receiver,652
+RB,Rashad,Jennings,Giants,8,Running Back,653
+RB,Will,Johnson,Giants,5,Running Back,654
+WR,Tavarres,King,Giants,3,Wide Receiver,655
+TE,Matt,LaCosse,Giants,1,Tight End,656
+WR,Roger,Lewis,Giants,0,Wide Receiver,657
+TE,Ryan,Malleck,Giants,0,Tight End,658
+QB,Eli,Manning,Giants,13,Quarterback,659
+WR,K.J.,Maye,Giants,0,Wide Receiver,660
+QB,Ryan,Nassib,Giants,4,Quarterback,661
+K,Tom,Obarski,Giants,1,Kicker,662
+RB,Paul,Perkins,Giants,0,Running Back,663
+WR,Darius,Powe,Giants,0,Wide Receiver,664
+RB,Bobby,Rainey,Giants,5,Running Back,665
+WR,Sterling,Shepard,Giants,0,Wide Receiver,666
+QB,Logan,Thomas,Giants,2,Quarterback,667
+TE,Will,Tye,Giants,2,Tight End,668
+RB,Shane,Vereen,Giants,6,Running Back,669
+WR,Myles,White,Giants,3,Wide Receiver,670
+FB,Nikita,Whitlock,Giants,2,Fullback,671
+RB,Andre,Williams,Giants,3,Running Back,672
+TE,Jace,Amaro,Jets,3,Tight End,673
+WR,Robby,Anderson,Jets,0,Wide Receiver,674
+FB,Tommy,Bohanon,Jets,4,Fullback,675
+TE,Brandon,Bostick,Jets,3,Tight End,676
+TE,Kellen,Davis,Jets,9,Tight End,677
+WR,Titus,Davis,Jets,1,Wide Receiver,678
+WR,Eric,Decker,Jets,7,Wide Receiver,679
+WR,Quincy,Enunwa,Jets,2,Wide Receiver,680
+QB,Ryan,Fitzpatrick,Jets,12,Quarterback,681
+K,Nick,Folk,Jets,10,Kicker,682
+RB,Matt,Forte,Jets,9,Running Back,683
+QB,Christian,Hackenberg,Jets,0,Quarterback,684
+FB,Julian,Howsare,Jets,1,Fullback,685
+WR,Jalin,Marshall,Jets,0,Wide Receiver,686
+WR,Brandon,Marshall,Jets,11,Wide Receiver,687
+K,Ross,Martin,Jets,0,Kicker,688
+RB,Romar,Morris,Jets,0,Running Back,689
+WR,Charone,Peake,Jets,0,Wide Receiver,690
+QB,Bryce,Petty,Jets,2,Quarterback,691
+RB,Bernard,Pierce,Jets,5,Running Back,692
+RB,Bilal,Powell,Jets,6,Running Back,693
+RB,Khiry,Robinson,Jets,4,Running Back,694
+WR,Jeremy,Ross,Jets,5,Wide Receiver,695
+TE,Wes,Saxton,Jets,1,Tight End,696
+WR,Devin,Smith,Jets,2,Wide Receiver,697
+QB,Geno,Smith,Jets,4,Quarterback,698
+TE,Zach,Sudfeld,Jets,4,Tight End,699
+WR,Kenbrell,Thompkins,Jets,4,Wide Receiver,700
+TE,Jason,Vander Laan,Jets,0,Tight End,701
+RB,Dominique,Williams,Jets,1,Running Back,702
+WR,Kyle,Williams,Jets,6,Wide Receiver,703
+WR,Chandler,Worthy,Jets,1,Wide Receiver,704
+RB,George,Atkinson,Raiders,1,Running Back,705
+WR,K.J.,Brent,Raiders,0,Wide Receiver,706
+QB,Derek,Carr,Raiders,3,Quarterback,707
+QB,Connor,Cook,Raiders,0,Quarterback,708
+WR,Amari,Cooper,Raiders,2,Wide Receiver,709
+WR,Michael,Crabtree,Raiders,8,Wide Receiver,710
+WR,Marvin,Hall,Raiders,0,Wide Receiver,711
+WR,Joe,Hansley,Raiders,0,Wide Receiver,712
+RB,Roy,Helu,Raiders,6,Running Back,713
+WR,Andre,Holmes,Raiders,5,Wide Receiver,714
+TE,Gabe,Holmes,Raiders,2,Tight End,715
+WR,Johnny,Holton,Raiders,0,Wide Receiver,716
+K,Sebastian,Janikowski,Raiders,17,Kicker,717
+RB,Taiwan,Jones,Raiders,6,Running Back,718
+WR,Max,McCaffrey,Raiders,0,Wide Receiver,719
+QB,Matt,McGloin,Raiders,4,Quarterback,720
+WR,Jaydon,Mickens,Raiders,0,Wide Receiver,721
+RB,Latavius,Murray,Raiders,4,Running Back,722
+TE,Ryan,O'Malley,Raiders,0,Tight End,723
+RB,Jamize,Olawale,Raiders,4,Running Back,724
+WR,Nathan,Palmer,Raiders,2,Wide Receiver,725
+FB,Marcel,Reece,Raiders,7,Fullback,726
+RB,Jalen,Richard,Raiders,0,Running Back,727
+TE,Mychal,Rivera,Raiders,4,Tight End,728
+WR,Seth,Roberts,Raiders,2,Wide Receiver,729
+TE,Lee,Smith,Raiders,6,Tight End,730
+K,Giorgio,Tavecchio,Raiders,1,Kicker,731
+TE,Colton,Underwood,Raiders,1,Tight End,732
+TE,Clive,Walford,Raiders,2,Tight End,733
+RB,DeAndre,Washington,Raiders,0,Running Back,734
+WR,Nelson,Agholor,Eagles,2,Wide Receiver,735
+RB,Kenjon,Barner,Eagles,3,Running Back,736
+QB,McLeod,Bethel-Thompson,Eagles,3,Quarterback,737
+QB,Sam,Bradford,Eagles,7,Quarterback,738
+TE,Trey,Burton,Eagles,3,Tight End,739
+TE,Brent,Celek,Eagles,10,Tight End,740
+QB,Chase,Daniel,Eagles,8,Quarterback,741
+TE,Zach,Ertz,Eagles,4,Tight End,742
+WR,Chris,Givens,Eagles,5,Wide Receiver,743
+WR,T.J.,Graham,Eagles,5,Wide Receiver,744
+WR,Josh,Huff,Eagles,3,Wide Receiver,745
+WR,Marcus,Johnson,Eagles,0,Wide Receiver,746
+WR,Cayleb,Jones,Eagles,0,Wide Receiver,747
+WR,Byron,Marshall,Eagles,0,Wide Receiver,748
+RB,Ryan,Mathews,Eagles,7,Running Back,749
+WR,Jordan,Matthews,Eagles,3,Wide Receiver,750
+TE,M.J.,McFarland,Eagles,0,Tight End,751
+RB,Cedric,O'Neal,Eagles,0,Running Back,752
+TE,Chris,Pantale,Eagles,1,Tight End,753
+K,Cody,Parkey,Eagles,3,Kicker,754
+WR,Rueben,Randle,Eagles,5,Wide Receiver,755
+WR,Xavier,Rush,Eagles,0,Wide Receiver,756
+WR,Hunter,Sharp,Eagles,0,Wide Receiver,757
+RB,Wendell,Smallwood,Eagles,0,Running Back,758
+RB,Darren,Sproles,Eagles,12,Running Back,759
+K,Caleb,Sturgis,Eagles,4,Kicker,760
+WR,Paul,Turner,Eagles,0,Wide Receiver,761
+WR,David,Watford,Eagles,0,Wide Receiver,762
+QB,Carson,Wentz,Eagles,0,Quarterback,763
+WR,DeMarcus,Ayers,Steelers,0,Wide Receiver,764
+RB,Le'Veon,Bell,Steelers,4,Running Back,765
+WR,Issac,Blakeney,Steelers,1,Wide Receiver,766
+K,Chris,Boswell,Steelers,2,Kicker,767
+WR,Antonio,Brown,Steelers,7,Wide Receiver,768
+RB,Brandon,Brown-Dukes,Steelers,0,Running Back,769
+WR,Martavis,Bryant,Steelers,3,Wide Receiver,770
+WR,Sammie,Coates,Steelers,2,Wide Receiver,771
+TE,Mandel,Dixon,Steelers,0,Tight End,772
+QB,Bruce,Gradkowski,Steelers,11,Quarterback,773
+TE,Ladarius,Green,Steelers,5,Tight End,774
+TE,Xavier,Grimble,Steelers,1,Tight End,775
+WR,Darrius,Heyward-Bey,Steelers,8,Wide Receiver,776
+TE,Jesse,James,Steelers,2,Tight End,777
+RB,Brandon,Johnson,Steelers,0,Running Back,778
+TE,David,Johnson,Steelers,8,Tight End,779
+QB,Landry,Jones,Steelers,4,Quarterback,780
+TE,Paul,Lang,Steelers,0,Tight End,781
+FB,Roosevelt,Nix-Jones,Steelers,2,Fullback,782
+WR,Levi,Norwood,Steelers,0,Wide Receiver,783
+WR,Shakim,Phillips,Steelers,1,Wide Receiver,784
+RB,Daryl,Richardson,Steelers,3,Running Back,785
+QB,Ben,Roethlisberger,Steelers,13,Quarterback,786
+WR,Eli,Rogers,Steelers,2,Wide Receiver,787
+WR,Canaan,Severin,Steelers,1,Wide Receiver,788
+RB,Cameron,Stingily,Steelers,1,Running Back,789
+RB,Fitzgerald,Toussaint,Steelers,3,Running Back,790
+WR,Marcus,Tucker,Steelers,0,Wide Receiver,791
+QB,Dustin,Vaughan,Steelers,2,Quarterback,792
+WR,Markus,Wheaton,Steelers,4,Wide Receiver,793
+RB,DeAngelo,Williams,Steelers,11,Running Back,794
+WR,Keenan,Allen,Chargers,4,Wide Receiver,795
+WR,Torrence,Allen,Chargers,2,Wide Receiver,796
+WR,Travis,Benjamin,Chargers,5,Wide Receiver,797
+QB,Mike,Bercovici,Chargers,0,Quarterback,798
+WR,Isaiah,Burse,Chargers,2,Wide Receiver,799
+QB,Kellen,Clemens,Chargers,11,Quarterback,800
+TE,Asante,Cleveland,Chargers,2,Tight End,801
+TE,Jeff,Cumberland,Chargers,7,Tight End,802
+RB,Kenneth,Farrow,Chargers,0,Running Back,803
+TE,Antonio,Gates,Chargers,14,Tight End,804
+RB,Melvin,Gordon,Chargers,2,Running Back,805
+TE,Hunter,Henry,Chargers,0,Tight End,806
+WR,Javontee,Herndon,Chargers,2,Wide Receiver,807
+WR,Dontrelle,Inman,Chargers,3,Wide Receiver,808
+WR,Steve,Johnson,Chargers,9,Wide Receiver,809
+WR,Jamaal,Jones,Chargers,0,Wide Receiver,810
+K,Josh,Lambo,Chargers,2,Kicker,811
+TE,Sean,McGrath,Chargers,2,Tight End,812
+QB,Zach,Mettenberger,Chargers,3,Quarterback,813
+RB,Branden,Oliver,Chargers,3,Running Back,814
+WR,DeAndre,Reaves,Chargers,0,Wide Receiver,815
+QB,Philip,Rivers,Chargers,13,Quarterback,816
+TE,Tim,Semisch,Chargers,1,Tight End,817
+RB,Dreamius,Smith,Chargers,1,Running Back,818
+FB,Chris,Swain,Chargers,0,Fullback,819
+FB,Derek,Watt,Chargers,0,Fullback,820
+TE,Matt,Weiser,Chargers,0,Tight End,821
+WR,Tyrell,Williams,Chargers,2,Wide Receiver,822
+WR,Dom,Williams,Chargers,0,Wide Receiver,823
+RB,Danny,Woodhead,Chargers,9,Running Back,824
+WR,Dres,Anderson,49ers,2,Wide Receiver,825
+TE,Rory,Anderson,49ers,2,Tight End,826
+TE,Blake,Bell,49ers,2,Tight End,827
+WR,Aaron,Burbridge,49ers,0,Wide Receiver,828
+WR,Devon,Cajuste,49ers,0,Wide Receiver,829
+WR,DiAndre,Campbell,49ers,1,Wide Receiver,830
+TE,Garrett,Celek,49ers,5,Tight End,831
+RB,Mike,Davis,49ers,2,Running Back,832
+K,Phil,Dawson,49ers,18,Kicker,833
+RB,Shaun,Draughn,49ers,4,Running Back,834
+QB,Jeff,Driskel,49ers,0,Quarterback,835
+WR,Bruce,Ellington,49ers,3,Wide Receiver,836
+QB,Blaine,Gabbert,49ers,6,Quarterback,837
+RB,Kendall,Gaskins,49ers,2,Running Back,838
+TE,Je'Ron,Hamm,49ers,2,Tight End,839
+RB,DuJuan,Harris,49ers,3,Running Back,840
+RB,Carlos,Hyde,49ers,3,Running Back,841
+QB,Colin,Kaepernick,49ers,6,Quarterback,842
+QB,Thad,Lewis,49ers,4,Quarterback,843
+K,John,Lunsford,49ers,0,Kicker,844
+TE,Vance,McDonald,49ers,4,Tight End,845
+FB,Bruce,Miller,49ers,6,Fullback,846
+WR,Quinton,Patton,49ers,4,Wide Receiver,847
+WR,Eric,Rogers,49ers,1,Wide Receiver,848
+WR,Jerome,Simpson,49ers,7,Wide Receiver,849
+WR,DeAndre,Smelter,49ers,1,Wide Receiver,850
+WR,Torrey,Smith,49ers,6,Wide Receiver,851
+RB,Kelvin,Taylor,49ers,0,Running Back,852
+WR,Bryce,Treggs,49ers,0,Wide Receiver,853
+WR,DeAndrew,White,49ers,2,Wide Receiver,854
+WR,Doug,Baldwin,Seahawks,6,Wide Receiver,855
+QB,Trevone,Boykin,Seahawks,0,Quarterback,856
+RB,Zac,Brooks,Seahawks,0,Running Back,857
+RB,Alex,Collins,Seahawks,0,Running Back,858
+TE,Brandon,Cottom,Seahawks,2,Tight End,859
+TE,Clayton,Echard,Seahawks,0,Tight End,860
+WR,Deshon,Foxx,Seahawks,2,Wide Receiver,861
+WR,Antwan,Goodley,Seahawks,2,Wide Receiver,862
+TE,Jimmy,Graham,Seahawks,7,Tight End,863
+K,Steven,Hauschka,Seahawks,9,Kicker,864
+QB,Jake,Heaps,Seahawks,1,Quarterback,865
+TE,Cooper,Helfet,Seahawks,5,Tight End,866
+WR,Montario,Hunter,Seahawks,0,Wide Receiver,867
+WR,Jermaine,Kearse,Seahawks,5,Wide Receiver,868
+WR,Kenny,Lawler,Seahawks,0,Wide Receiver,869
+WR,Tyler,Lockett,Seahawks,2,Wide Receiver,870
+RB,Tre,Madden,Seahawks,0,Running Back,871
+WR,Douglas,McNeil,Seahawks,3,Wide Receiver,872
+RB,Christine,Michael,Seahawks,4,Running Back,873
+RB,C.J.,Prosise,Seahawks,0,Running Back,874
+RB,Thomas,Rawls,Seahawks,2,Running Back,875
+WR,Paul,Richardson,Seahawks,3,Wide Receiver,876
+TE,Ronnie,Shields,Seahawks,1,Tight End,877
+WR,Kevin,Smith,Seahawks,2,Wide Receiver,878
+FB,Taani,Tupou,Seahawks,0,Fullback,879
+TE,Nick,Vannett,Seahawks,0,Tight End,880
+WR,Kasen,Williams,Seahawks,2,Wide Receiver,881
+TE,Brandon,Williams,Seahawks,4,Tight End,882
+TE,Luke,Willson,Seahawks,4,Tight End,883
+QB,Russell,Wilson,Seahawks,5,Quarterback,884
+K,Roberto,Aguayo,Buccaneers,0,Kicker,885
+RB,Peyton,Barber,Buccaneers,0,Running Back,886
+WR,Kenny,Bell,Buccaneers,2,Wide Receiver,887
+TE,Cameron,Brate,Buccaneers,2,Tight End,888
+TE,Kivon,Cartwright,Buccaneers,0,Tight End,889
+TE,Alan,Cross,Buccaneers,0,Tight End,890
+WR,Andre,Davis,Buccaneers,1,Wide Receiver,891
+WR,Donteea,Dye,Buccaneers,2,Wide Receiver,892
+WR,Mike,Evans,Buccaneers,3,Wide Receiver,893
+QB,Mike,Glennon,Buccaneers,4,Quarterback,894
+QB,Ryan,Griffin,Buccaneers,3,Quarterback,895
+RB,Russell,Hansbrough,Buccaneers,0,Running Back,896
+WR,Adam,Humphries,Buccaneers,2,Wide Receiver,897
+WR,Vincent,Jackson,Buccaneers,12,Wide Receiver,898
+RB,Mike,James,Buccaneers,4,Running Back,899
+RB,Storm,Johnson,Buccaneers,2,Running Back,900
+WR,Jonathan,Krause,Buccaneers,2,Wide Receiver,901
+QB,Dan,LeFevour,Buccaneers,2,Quarterback,902
+RB,Doug,Martin,Buccaneers,5,Running Back,903
+WR,Freddie,Martino,Buccaneers,1,Wide Receiver,904
+WR,Louis,Murphy,Buccaneers,8,Wide Receiver,905
+TE,Brandon,Myers,Buccaneers,8,Tight End,906
+WR,Bernard,Reedy,Buccaneers,1,Wide Receiver,907
+TE,Austin,Seferian-Jenkins,Buccaneers,3,Tight End,908
+WR,Russell,Shepard,Buccaneers,4,Wide Receiver,909
+RB,Charles,Sims,Buccaneers,3,Running Back,910
+WR,Evan,Spencer,Buccaneers,1,Wide Receiver,911
+TE,Luke,Stocker,Buccaneers,6,Tight End,912
+TE,Dan,Vitale,Buccaneers,0,Tight End,913
+TE,Tevin,Westbrook,Buccaneers,1,Tight End,914
+QB,Jameis,Winston,Buccaneers,2,Quarterback,915
+RB,Antonio,Andrews,Titans,3,Running Back,916
+RB,Sam,Bergen,Titans,0,Running Back,917
+QB,Matt,Cassel,Titans,12,Quarterback,918
+RB,David,Cobb,Titans,2,Running Back,919
+TE,Jerome,Cunningham,Titans,2,Tight End,920
+WR,Harry,Douglas,Titans,9,Wide Receiver,921
+TE,Alex,Ellis,Titans,0,Tight End,922
+TE,Anthony,Fasano,Titans,11,Tight End,923
+RB,David,Fluellen,Titans,1,Running Back,924
+FB,Jalston,Fowler,Titans,2,Fullback,925
+WR,Dorial,Green-Beckham,Titans,2,Wide Receiver,926
+RB,Derrick,Henry,Titans,0,Running Back,927
+WR,Reece,Horn,Titans,0,Wide Receiver,928
+WR,Justin,Hunter,Titans,4,Wide Receiver,929
+WR,Andre,Johnson,Titans,14,Wide Receiver,930
+QB,Marcus,Mariota,Titans,2,Quarterback,931
+WR,Rishard,Matthews,Titans,5,Wide Receiver,932
+WR,Tre,McBride,Titans,2,Wide Receiver,933
+RB,Dexter,McCluster,Titans,7,Running Back,934
+RB,DeMarco,Murray,Titans,6,Running Back,935
+WR,Ben,Roberts,Titans,0,Wide Receiver,936
+K,Aldrick,Rosas,Titans,0,Kicker,937
+RB,Bishop,Sankey,Titans,3,Running Back,938
+WR,Tajae,Sharpe,Titans,0,Wide Receiver,939
+TE,Craig,Stevens,Titans,9,Tight End,940
+K,Ryan,Succop,Titans,8,Kicker,941
+TE,Phillip,Supernaw,Titans,3,Tight End,942
+QB,Alex,Tanney,Titans,2,Quarterback,943
+WR,Andrew,Turzilli,Titans,2,Wide Receiver,944
+TE,Delanie,Walker,Titans,11,Tight End,945
+WR,Kendall,Wright,Titans,5,Wide Receiver,946
+RB,Mack,Brown,Redskins,1,Running Back,947
+TE,Derek,Carrier,Redskins,4,Tight End,948
+QB,Kirk,Cousins,Redskins,5,Quarterback,949
+WR,Jamison,Crowder,Redskins,2,Wide Receiver,950
+TE,Vernon,Davis,Redskins,11,Tight End,951
+WR,Reggie,Diggs,Redskins,0,Wide Receiver,952
+WR,Josh,Doctson,Redskins,0,Wide Receiver,953
+WR,Pierre,Garcon,Redskins,9,Wide Receiver,954
+WR,Ryan,Grant,Redskins,3,Wide Receiver,955
+WR,Maurice,Harris,Redskins,0,Wide Receiver,956
+K,Dustin,Hopkins,Redskins,3,Kicker,957
+WR,DeSean,Jackson,Redskins,9,Wide Receiver,958
+TE,Marcel,Jensen,Redskins,2,Tight End,959
+RB,Matt,Jones,Redskins,2,Running Back,960
+RB,Rob,Kelley,Redskins,0,Running Back,961
+FB,Joe,Kerridge,Redskins,0,Fullback,962
+RB,Keith,Marshall,Redskins,0,Running Back,963
+QB,Colt,McCoy,Redskins,7,Quarterback,964
+TE,Niles,Paul,Redskins,6,Tight End,965
+TE,Logan,Paulsen,Redskins,7,Tight End,966
+RB,Silas,Redd,Redskins,3,Running Back,967
+TE,Jordan,Reed,Redskins,4,Tight End,968
+WR,Rashad,Ross,Redskins,2,Wide Receiver,969
+WR,Valdez,Showers,Redskins,0,Wide Receiver,970
+WR,Dez,Stewart,Redskins,0,Wide Receiver,971
+QB,Nate,Sudfeld,Redskins,0,Quarterback,972
+RB,Chris,Thompson,Redskins,3,Running Back,973
+WR,Kendal,Thompson,Redskins,0,Wide Receiver,974
+WR,T.J.,Thorpe,Redskins,0,Wide Receiver,975
+WR,Jarvis,Turner,Redskins,0,Wide Receiver,976
+RB,Kelsey,Young,Redskins,0,Running Back,977

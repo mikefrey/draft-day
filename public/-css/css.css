@@ -90,8 +90,10 @@ header ul.centered li {
 .draft-pick.on-the-clock.cc { background-color: #C1272D; }
 .draft-pick.on-the-clock.cb { background-color: #00854B; }
 .draft-pick.on-the-clock.gc { background-color: #B9A779; }
+.draft-pick.on-the-clock.hut { background-color: #C1272D; }
 .draft-pick.on-the-clock.man { background-color: #295A80; }
 .draft-pick.on-the-clock.mf { background-color: #7A0029; }
+.draft-pick.on-the-clock.ml { background-color: #008047; }
 .draft-pick.on-the-clock.sc { background-color: #B9131A; }
 .draft-pick.on-the-clock.spr { background-color: #498DCB; }
 .draft-pick.on-the-clock.was { background-color: #900028; }
@@ -101,8 +103,10 @@ header ul.centered li {
 .draft-pick.cc .team-logo { background-image: url('/-img/logo-board-cc.png'); }
 .draft-pick.cb .team-logo { background-image: url('/-img/logo-board-cb.png'); }
 .draft-pick.gc .team-logo { background-image: url('/-img/logo-board-gc.png'); }
+.draft-pick.hut .team-logo { background-image: url('/-img/logo-board-hut.png'); }
 .draft-pick.man .team-logo { background-image: url('/-img/logo-board-man.png'); }
 .draft-pick.mf .team-logo { background-image: url('/-img/logo-board-mf.png'); }
+.draft-pick.ml .team-logo { background-image: url('/-img/logo-board-ml.png'); }
 .draft-pick.sc .team-logo { background-image: url('/-img/logo-board-sc.png'); }
 .draft-pick.spr .team-logo { background-image: url('/-img/logo-board-spr.png'); }
 .draft-pick.was .team-logo { background-image: url('/-img/logo-board-was.png'); }
@@ -176,8 +180,10 @@ header ul.centered li {
 #pick.cc { background: url('/-img/background-cc.jpg'); }
 #pick.cb { background: url('/-img/background-cb.jpg'); }
 #pick.gc { background: url('/-img/background-gc.jpg'); }
+#pick.hut { background: url('/-img/background-hut.jpg'); }
 #pick.man { background: url('/-img/background-man.jpg'); }
 #pick.mf { background: url('/-img/background-mf.jpg'); }
+#pick.ml { background: url('/-img/background-ml.jpg'); }
 #pick.sc { background: url('/-img/background-sc.jpg'); }
 #pick.spr { background: url('/-img/background-spr.jpg'); }
 #pick.was { background: url('/-img/background-was.jpg'); }
@@ -187,8 +193,10 @@ header ul.centered li {
 #pick.cc .dffl-team-logo { background-image: url('/-img/logo-pick-cc.png');}
 #pick.cb .dffl-team-logo { background-image: url('/-img/logo-pick-cb.png');}
 #pick.gc .dffl-team-logo { background-image: url('/-img/logo-pick-gc.png');}
+#pick.hut .dffl-team-logo { background-image: url('/-img/logo-pick-hut.png');}
 #pick.man .dffl-team-logo { background-image: url('/-img/logo-pick-man.png');}
 #pick.mf .dffl-team-logo { background-image: url('/-img/logo-pick-mf.png');}
+#pick.ml .dffl-team-logo { background-image: url('/-img/logo-pick-ml.png');}
 #pick.sc .dffl-team-logo { background-image: url('/-img/logo-pick-sc.png');}
 #pick.spr .dffl-team-logo { background-image: url('/-img/logo-pick-spr.png');}
 #pick.was .dffl-team-logo { background-image: url('/-img/logo-pick-was.png');}
@@ -198,8 +206,10 @@ header ul.centered li {
 #pick.cc .player-search button { background: #B80000; }
 #pick.cb .player-search button { background: #00854B; }
 #pick.gc .player-search button { background: #B9A779; }
+#pick.hut .player-search button { background: #B80000; }
 #pick.man .player-search button { background: #2D5980; }
 #pick.mf .player-search button { background: #7A0029; }
+#pick.ml .player-search button { background: #008047; }
 #pick.sc .player-search button { background: #B9131A; }
 #pick.spr .player-search button { background: #498DCB; }
 #pick.was .player-search button { background: #900027 ; }
@@ -220,7 +230,7 @@ header ul.centered li {
   font-family: Arvo;
   text-transform: uppercase;
   padding: 0 30px;
-    height: 56px;
+  height: 56px;
   line-height: 56px;
   border: solid 1px #fff;
   border-radius: 8px;
