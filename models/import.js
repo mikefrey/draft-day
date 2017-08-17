@@ -20,16 +20,16 @@ models.syncPromise
 function importTeams() {
 
   var teams = [
-    { id: 1,    abbrev: 'CC',  name: 'Flash',          city: 'Central City', slug: 'central-city' },
-    { id: 2,    abbrev: 'MF',  name: 'Dragons',        city: 'Mount Fuji',   slug: 'mount-fuji' },
+    { id: 1,    abbrev: 'HUT', name: 'Hell on Cleats', city: 'Hutchinson',   slug: 'hutch' },
+    { id: 2,    abbrev: 'CC',  name: 'Flash',          city: 'Central City', slug: 'central-city' },
     { id: 3,    abbrev: 'WAS', name: 'Weasels',        city: 'Washington',   slug: 'washington' },
-    { id: 4,    abbrev: 'ML',  name: 'Green Backs',    city: 'Mille Lacs',   slug: 'mille-lacs' },
-    { id: 5,    abbrev: 'SC',  name: 'Outcasts',       city: 'Sin City',     slug: 'sin-city' },
-    { id: 6,    abbrev: 'HUT', name: 'Hell on Cleats', city: 'Hutchinson',   slug: 'hutch' },
-    { id: 7,    abbrev: 'BR',  name: 'Rubadubs',       city: 'Baton Rouge',  slug: 'baton-rouge' },
-    { id: 8,    abbrev: 'GC',  name: 'Dark Knights',   city: 'Gotham City',  slug: 'gotham-city' },
-    { id: 9,    abbrev: 'ATL', name: 'Rednecks',       city: 'Atlanta',      slug: 'atlanta' },
-    { id: 10,   abbrev: 'SPR', name: 'D\'oh Boys',     city: 'Springfield',  slug: 'springfield' },
+    { id: 4,    abbrev: 'SC',  name: 'Outcasts',       city: 'Sin City',     slug: 'sin-city' },
+    { id: 5,    abbrev: 'BR',  name: 'Rubadubs',       city: 'Baton Rouge',  slug: 'baton-rouge' },
+    { id: 6,    abbrev: 'LL',  name: 'Goonies',        city: 'Leech Lake',   slug: 'leech-lake' },
+    { id: 7,    abbrev: 'ML',  name: 'Green Backs',    city: 'Mille Lacs',   slug: 'mille-lacs' },
+    { id: 8,    abbrev: 'ATL', name: 'Rednecks',       city: 'Atlanta',      slug: 'atlanta' },
+    { id: 9,    abbrev: 'MF',  name: 'Dragons',        city: 'Mount Fuji',   slug: 'mount-fuji' },
+    { id: 10,   abbrev: 'GC',  name: 'Dark Knights',   city: 'Gotham City',  slug: 'gotham-city' },
   ]
 
   return Team.bulkCreate(teams).then(function() {

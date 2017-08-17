@@ -5,7 +5,7 @@ var Player = models.Player
 
 
 function toCsv(picks) {
-  var csv = 'Round,Pick,Team,Player,Pos,Keeper,Trade,Notes,NFL Team,Pos 2,Exp\n'
+  var csv = 'Round,Pick,Team,Player,Pos,Keeper,Trade,Notes,NFL Team,Pos 2,Exp,Time Taken\n'
 
   csv += picks.map(function(p) {
     var playerName = '', playerPos = '', playerTeam = '', playerPos2 = '', playerExp = ''
@@ -27,7 +27,8 @@ function toCsv(picks) {
       p.note,
       playerTeam,
       playerPos2,
-      playerExp
+      playerExp,
+      p.timeTaken
     ].join(',')
   }).join('\n')
 

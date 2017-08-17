@@ -16,6 +16,7 @@
           <td>Keeper</td>
           <td>Trade</td>
           <td>Note</td>
+          <td>Time</td>
           <td></td>
         </tr>
       </thead>
@@ -28,6 +29,7 @@
           <td>{{pick.keeper | yesno}}</td>
           <td>{{pick.trade | yesno}}</td>
           <td>{{pick.note}}</td>
+          <td>{{pick.timeTaken}}</td>
           <td><button ng-click="ctrl.editPick(pick)">Edit</button></td>
         </tr>
         <tr ng-if="pick.id == editing">
@@ -44,6 +46,7 @@
           <td><input type="checkbox" value="Keeper" ng-model="pick.keeper"></td>
           <td><input type="checkbox" value="Trade" ng-model="pick.trade"></td>
           <td><input type="text" name="note" ng-model="pick.note"></td>
+          <td><input type="text" name="timeTaken" ng-model="pick.timeTaken"></td>
           <td>
             <button ng-click="ctrl.savePick(pick)">Save</button>
             <button ng-click="ctrl.cancelEdit()">Cancel</button>

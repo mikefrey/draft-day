@@ -12,8 +12,18 @@ angular.module('draftDay')
 
     this.players = Players.query(function(players) {
       players.forEach(function(p) {
-        p.display = p.position + ' ' + p.firstname + ' ' + p.lastname + ' (' + p.team + ')'
+        p.search = (p.firstname + ' ' + p.lastname).toLowerCase()
       })
+
+      picks.forEach(pick => {
+        let idx = players.findIndex((player) => {
+          return player.id == pick.playerId
+        })
+        if (idx != -1) {
+          players.splice(idx, 1)
+        }
+      })
+
       return players
     })
 
@@ -77,15 +87,15 @@ angular.module('draftDay')
 
 
     this.setPlayer = function(pick) {
-      Picks.save(pick,
-        function pickSaveSuccess() {
+      return Picks.save(pick).$promise
+        .then(() => {
           console.log('pick save success')
           $timeout(setCurrentPick, 5000)
-        }.bind(this),
-        function pickSaveFailure() {
+        })
+        .catch(() => {
           console.log('pick save failure')
           this.pickShowing = false
-        }.bind(this))
+        })
     }
 
   })

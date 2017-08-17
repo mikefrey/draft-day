@@ -12,6 +12,7 @@ var Pick = db.define('pick', {
   number: Sequelize.INTEGER,
   keeper: Sequelize.BOOLEAN,
   trade: Sequelize.BOOLEAN,
+  timeTaken: Sequelize.INTEGER,
   note: Sequelize.STRING
 })
 

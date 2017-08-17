@@ -28,10 +28,10 @@ angular.module('draftDay')
     })
 
 
-    $interval(function() {
+    $interval(() => {
       if (this.announcePick) return
       var pickId = this.currentPick.id
-      Picks.get({id: pickId}, function(pick) {
+      Picks.get({id: pickId}, pick => {
         if (!pick.playerId) return
 
         var players = this.players
@@ -42,18 +42,19 @@ angular.module('draftDay')
             this.currentPick.playerId = pick.playerId
             this.announcePick = true
             getAudio(this.currentPick.team.abbrev).play()
-            $timeout(function() {
+            $timeout(() => {
               this.announcePick = false
               $timeout(setCurrentPick, 1500)
-            }.bind(this), 9000)
+            }, 9000)
             break
           }
         }
-      }.bind(this))
-    }.bind(this), 4000)
+      })
+    }, 4000)
 
 
     var setCurrentPick = function() {
+      console.log('setCurrentPick')
       // find current pick
       for (var i = 0; i < picks.length; i++) {
         if (!picks[i].player) {

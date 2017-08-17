@@ -14,15 +14,28 @@
 			</header>
 		</div>
 	</div>
-
 	<div class="row h90">
 		<div class="column w100 h100 select-player">
 			<div class="dffl-team-name">
 				<span>The <strong>{{draft.currentPick.team.city}} {{draft.currentPick.team.name}}</strong> Select</span>
 			</div>
 			<div class="dffl-team-logo h25"></div>
-
-			<div class="player-choice">
+			<div class="player-search" ng-if="editing">
+				<div>
+					<input ng-keyup="search(searchText)" ng-model="searchText" type="text" placeholder="Find a Player">
+					<table class="player-search-list">
+						<tr ng-repeat="player in draft.players">
+							<td class="player-search-select-button">
+								<button ng-click="save(player)">Select</button>
+							</td>
+							<td class="player-search-position">{{player.position}}</td>
+							<td class="player-search-player">{{player.firstname}} {{player.lastname}}</td>
+							<td class="player-search-team">{{player.team}}</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="player-choice" ng-if="!editing">
 				<div class="nfl-player">{{draft.currentPick.player.firstname}} {{draft.currentPick.player.lastname}}</div>
 				<div class="nfl-team">{{draft.currentPick.player.position | position}} - {{draft.currentPick.player.team}}</div>
 			</div>
