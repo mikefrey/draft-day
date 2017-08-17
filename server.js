@@ -7,7 +7,7 @@ var players = require('./routes/players')
 var teams = require('./routes/teams')
 
 var server = new Hapi.Server({ connections: { state: { strictHeader: false } } })
-server.connection({ port: 3000 || process.env.PORT, router: { stripTrailingSlash: true } })
+server.connection({ port: process.env.PORT || 3000, router: { stripTrailingSlash: true } })
 
 var plugins = [{
   register: require('good'),
