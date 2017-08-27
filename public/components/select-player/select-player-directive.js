@@ -28,6 +28,7 @@ angular.module('draftDay')
 
         var previousText = ''
         scope.search = function(text) {
+          text = text.toLowerCase()
           var players = allPlayers
           if (text != '') {
             if (text.startsWith(previousText)) {
