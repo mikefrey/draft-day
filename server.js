@@ -1,25 +1,25 @@
-var Hapi = require('hapi')
-var Path = require('path')
+const Hapi = require('hapi')
+const Path = require('path')
 
-var exporter = require('./routes/export')
-var picks = require('./routes/picks')
-var players = require('./routes/players')
-var teams = require('./routes/teams')
+const exporter = require('./routes/export')
+const picks = require('./routes/picks')
+const players = require('./routes/players')
+const teams = require('./routes/teams')
 
-var server = new Hapi.Server({ connections: { state: { strictHeader: false } } })
+const server = new Hapi.Server({ connections: { state: { strictHeader: false } } })
 server.connection({ port: process.env.PORT || 3000, router: { stripTrailingSlash: true } })
 
-var plugins = [{
+const plugins = [{
   register: require('good'),
   options: {
     reporters: [{
       reporter: require('good-console'),
-      events: { log:'*', request:'*', response:'*' }
+      events: { log: '*', request: '*', response: '*' }
     }]
   }
 }]
 
-var home = { file: Path.join(__dirname, 'public/layout.html') }
+const home = { file: Path.join(__dirname, 'public/layout.html') }
 
 server.route([
   // home
@@ -54,8 +54,6 @@ server.route([
   { method: 'POST', path: '/teams/{id}', handler: teams.update },
   { method: 'DELETE', path: '/teams/{id}', handler: teams.destroy },
 
-
-
   // static files
   {
     method: 'GET',
@@ -64,12 +62,7 @@ server.route([
   }
 ])
 
-
-server.register(plugins, function(err) {
+server.register(plugins, err => {
   if (err) throw err
-
-  server.start(function() {
-    console.log('Server running at:', server.info.uri)
-  })
-
+  server.start(() => console.log('Server running at:', server.info.uri))
 })

@@ -1,14 +1,17 @@
-var models = require('../models/models.js')
-var Pick = models.Pick
-var Team = models.Team
-var Player = models.Player
+const models = require('../models/models.js')
+const Pick = models.Pick
+const Team = models.Team
+const Player = models.Player
 
+function toCsv (picks) {
+  let csv = 'Round,Pick,Team,Player,Pos,Keeper,Trade,Notes,NFL Team,Pos 2,Exp,Time Taken\n'
 
-function toCsv(picks) {
-  var csv = 'Round,Pick,Team,Player,Pos,Keeper,Trade,Notes,NFL Team,Pos 2,Exp,Time Taken\n'
-
-  csv += picks.map(function(p) {
-    var playerName = '', playerPos = '', playerTeam = '', playerPos2 = '', playerExp = ''
+  csv += picks.map(p => {
+    let playerName = ''
+    let playerPos = ''
+    let playerTeam = ''
+    let playerPos2 = ''
+    let playerExp = ''
     if (p.player) {
       playerName = p.player.firstname + ' ' + p.player.lastname
       playerPos = p.player.position
@@ -17,7 +20,7 @@ function toCsv(picks) {
       playerExp = p.player.exp
     }
     return [
-      ((((p.number - 1) / 10)|0) + 1),
+      ((((p.number - 1) / 10) | 0) + 1),
       p.number,
       p.team.name,
       playerName,
@@ -35,23 +38,19 @@ function toCsv(picks) {
   return csv
 }
 
-
-
 module.exports = {
-
-  index: function(request, reply) {
-    var side = 'offense' // request.params.side
+  index (request, reply) {
+    const side = 'offense' // request.params.side
 
     Pick.findAll({ include: [ Team, Player ], where: { offense: side === 'offense' } })
-      .then(function (result) {
+      .then(result => {
         reply(toCsv(result))
           .header('content-disposition', 'attachment; filename="dffl-' + side + '.csv"')
       })
-      .error(function() {
+      .error(err => {
         console.log('error', err)
         request.log('error', err)
         reply(err).code(500)
       })
   }
-
 }

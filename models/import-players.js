@@ -1,22 +1,19 @@
-var models = require('./models.js')
-var Pick = models.Pick
-var Team = models.Team
-var Player = models.Player
+const models = require('./models.js')
+const Player = models.Player
 
-var Promise = require('bluebird')
-var parse = require('csv-parse')
-var fs = require('fs')
-var path = require('path')
+const Promise = require('bluebird')
+const parse = require('csv-parse')
+const fs = require('fs')
+const path = require('path')
 
+function importPlayers () {
+  return new Promise((resolve, reject) => {
+    const output = []
+    const parser = parse()
 
-function importPlayers() {
-  return new Promise(function(resolve, reject) {
-    var output = []
-    var parser = parse()
-
-    parser.on('readable', function() {
-      var record
-      while(record = parser.read()) {
+    parser.on('readable', () => {
+      let record
+      while (record = parser.read()) {
         if (!record[0]) continue
         output.push({
           position: record[0],
@@ -29,30 +26,24 @@ function importPlayers() {
       }
     })
 
-    parser.on('finish', function() {
-      var creates = []
-      var players
+    parser.on('finish', () => {
+      const creates = []
+      let players
       while (output.length) {
         players = output.splice(0, Math.min(250, output.length))
         creates.push(Player.bulkCreate(players))
       }
 
       Promise.all(creates).then(resolve).catch(reject)
-
     })
 
     var rs = fs.createReadStream(path.join(__dirname, 'players.csv'))
     rs.pipe(parser)
   })
-
 }
 
-
-
-
-function initial(str) {
+function initial (str) {
   return str.charAt(0).toUpperCase() + str.substring(1).toLowerCase()
 }
-
 
 module.exports = importPlayers

@@ -19,7 +19,9 @@
     "url": "https://github.com/mikefrey/draft-day/issues"
   },
   "homepage": "https://github.com/mikefrey/draft-day",
-  "engines" : { "node" : "7" },
+  "engines": {
+    "node": "7"
+  },
   "dependencies": {
     "bluebird": "^2.9.34",
     "csv-parse": "0.0.5",

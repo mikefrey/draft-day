@@ -6,7 +6,6 @@ var db = new Sequelize('draftday', '', '', {
   storage: Path.join(__dirname, '../data/database.sqlite')
 })
 
-
 var Pick = db.define('pick', {
   offense: Sequelize.BOOLEAN,
   number: Sequelize.INTEGER,

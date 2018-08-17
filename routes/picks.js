@@ -1,12 +1,11 @@
-var models = require('../models/models.js')
-var Pick = models.Pick
-var Team = models.Team
-var Player = models.Player
-var Base = require('./base.js')
+const models = require('../models/models.js')
+const Pick = models.Pick
+const Team = models.Team
+const Player = models.Player
+const Base = require('./base.js')
 
 module.exports = Base(Pick, {
-
-  index: function(request) {
+  index (request) {
     return {
       include: [ Team, Player ],
       where: { offense: true }
@@ -16,5 +15,4 @@ module.exports = Base(Pick, {
   update: {},
   destroy: {},
   show: {}
-
 })

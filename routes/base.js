@@ -1,97 +1,78 @@
 
-function handleError(request, reply, err) {
+function handleError (request, reply, err) {
   console.log('\n\n\n\nERROR HANDLER\n\n\n\n\n')
   console.log('error', err)
   request.log('error', err)
   reply('error').code(500)
 }
 
-function getOpts(request, opts) {
-  if (typeof opts === 'function')
+function getOpts (request, opts) {
+  if (typeof opts === 'function') {
     opts = opts(request)
+  }
   return opts
 }
 
-
-var methods = {
-
-  index: function(Resource, opts) {
-
-    return function(request, reply) {
+const methods = {
+  index (Resource, opts) {
+    return (request, reply) => {
       var options = getOpts(request, opts)
       Resource.findAll(options)
-        .then(function (result) { reply(result) })
+        .then(result => reply(result))
         .error(handleError.bind(null, request, reply))
     }
-
   },
 
-
-  show: function(Resource, opts) {
-
-    return function(request, reply) {
+  show (Resource, opts) {
+    return (request, reply) => {
       var id = parseInt(request.params.id, 10)
       Resource.findById(id)
-        .then(function(result) { reply(result) })
+        .then(result => reply(result))
         .error(handleError.bind(null, request, reply))
     }
-
   },
 
-
-  create: function(Resource, opts) {
-
-    return function(request, reply) {
+  create (Resource, opts) {
+    return (request, reply) => {
       Resource.create(request.payload)
-        .then(function(result) { reply(result) })
+        .then(result => reply(result))
         .error(handleError.bind(null, request, reply))
     }
-
   },
 
-
-  update: function(Resource, opts) {
-
-    return function(request, reply) {
+  update (Resource, opts) {
+    return (request, reply) => {
       var id = parseInt(request.params.id, 10)
       var payload = request.payload
 
       if (id != payload.id) {
-        var msg = 'payload.id and params.id do not match'
+        const msg = 'payload.id and params.id do not match'
         request.log('error', msg)
         reply(msg).code(400)
       }
 
       Resource.findById(id)
-        .then(function(item) {
-          return item.updateAttributes(payload)
-        })
-        .then(function(item) { reply(item) })
+        .then(item => item.updateAttributes(payload))
+        .then(item => reply(item))
         .catch(handleError.bind(null, request, reply))
     }
-
   },
 
-  destroy: function(Resource, opts) {
-
-    return function(request, reply) {
+  destroy (Resource, opts) {
+    return (request, reply) => {
       var id = parseInt(request.params.id, 10)
       Resource.findById(id)
-        .then(function(item) { return item.destroy() })
-        .then(function() { reply() })
+        .then(item => item.destroy())
+        .then(() => reply())
         .catch(handleError.bind(null, request, reply))
     }
-
   }
-
 }
 
+module.exports = (Resource, actions) => {
+  const controller = {}
 
-
-module.exports = function(Resource, actions) {
-  var controller = {}
-
-  for (var key in actions) {
+  for (let key in actions) {
     controller[key] = methods[key](Resource, actions[key])
   }
 

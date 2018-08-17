@@ -1,6 +1,6 @@
-var models = require('../models/models.js')
-var Player = models.Player
-var Base = require('./base.js')
+const models = require('../models/models.js')
+const Player = models.Player
+const Base = require('./base.js')
 
 module.exports = Base(Player, {
   index: {},
