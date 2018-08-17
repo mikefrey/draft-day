@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/mikefrey/draft-day",
   "engines": {
-    "node": "7"
+    "node": "8"
   },
   "dependencies": {
     "bluebird": "^2.9.34",
