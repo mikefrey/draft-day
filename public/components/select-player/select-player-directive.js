@@ -15,7 +15,13 @@ angular.module('draftDay')
         scope.searchText = ''
 
         function filterPlayers(list, text) {
-          return list.filter(p =>  p.search.indexOf(text) != -1)
+          const terms = text.split(' ')
+          console.log(terms)
+          terms.forEach(term => {
+            list = list.filter(p => p.search.indexOf(term) != -1)
+          })
+          return list
+          // return list.filter(p =>  p.search.indexOf(text) != -1)
         }
 
         scope.edit = function() {

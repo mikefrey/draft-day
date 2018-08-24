@@ -1,5 +1,5 @@
 angular.module('draftDay')
-  .controller('PickerController', function(picks, Picks, Players, $timeout) {
+  .controller('PickerController', function(picks, Picks, Players, $timeout, $interval) {
 
     picks.$promise.then(function() {
       this.totalRounds = 14
@@ -9,11 +9,12 @@ angular.module('draftDay')
 
     }.bind(this))
 
-
     this.players = Players.query(function(players) {
       players.forEach(function(p) {
-        p.search = (p.firstname + ' ' + p.lastname).toLowerCase()
+        p.search = (p.firstname + ' ' + p.lastname + ' ' + p.position + ' ' + p.team).toLowerCase()
       })
+
+      players.sort((a, b) => a.lastname+a.firstname < b.lastname+b.firstname ? -1 : 1)
 
       picks.forEach(pick => {
         let idx = players.findIndex((player) => {
@@ -30,18 +31,13 @@ angular.module('draftDay')
 
     var setCurrentPick = function() {
       // find current pick
-      for (var i = 0; i < picks.length; i++) {
-        if (!picks[i].player) {
-          this.currentPick = picks[i]
-          break
-        }
-      }
+      this.currentPick = picks.find(p => !p.player)
 
       this.current = {}
       this.prev = {}
       this.next = {}
 
-      var round = (((this.currentPick.number - 1) / 10)|0) + 1
+      const round = (((this.currentPick.number - 1) / 10)|0) + 1
       this.setRound(round)
     }.bind(this)
 
@@ -68,34 +64,51 @@ angular.module('draftDay')
       return [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]
     }
 
-    this.nextRound = function() {
-      this.setRound(this.current.round + 1)
-    }
+    // this.nextRound = function() {
+    //   this.setRound(this.current.round + 1)
+    // }
 
-    this.prevRound = function() {
-      this.setRound(this.current.round - 1)
-    }
+    // this.prevRound = function() {
+    //   this.setRound(this.current.round - 1)
+    // }
 
 
     this.pickShowing = false
-    this.selectedPick = null
-    this.showPick = function(pick) {
-      console.log('show pick', pick)
-      this.pickShowing = true
-      this.selectedPick = pick
-    }
+    // this.selectedPick = null
+    // this.showPick = function(pick) {
+    //   this.pickShowing = true
+    //   this.selectedPick = pick
+    // }
 
 
     this.setPlayer = function(pick) {
+      this.pickShowing = true
       return Picks.save(pick).$promise
         .then(() => {
-          console.log('pick save success')
-          $timeout(setCurrentPick, 5000)
+          $timeout(() => {
+            setCurrentPick()
+            this.pickShowing = false
+          }, 5000)
         })
         .catch(() => {
           console.log('pick save failure')
           this.pickShowing = false
         })
     }
+
+
+    $interval(() => {
+      if (this.pickShowing) return
+      var pickId = this.currentPick.id
+      Picks.get({id: pickId}, pick => {
+        if (!pick.playerId) return
+
+        var players = this.players
+        let player = players.find(p => p.id == pick.playerId)
+        this.currentPick.player = player
+        this.currentPick.playerId = pick.playerId
+        setCurrentPick()
+      })
+    }, 4000)
 
   })
