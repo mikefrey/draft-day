@@ -85,7 +85,7 @@ header ul.centered li {
 .draft-pick.next { opacity: .5; }
 .draft-pick.on-deck { opacity: .75; }
 .draft-pick.on-the-clock .position { opacity: 1; }
-.draft-pick.on-the-clock.atl { background-color: #ED1C24; }
+/* .draft-pick.on-the-clock.atl { background-color: #ED1C24; } */
 .draft-pick.on-the-clock.br { background-color: #8C3723; }
 .draft-pick.on-the-clock.cc { background-color: #C1272D; }
 /* .draft-pick.on-the-clock.cb { background-color: #00854B; } */
@@ -96,9 +96,10 @@ header ul.centered li {
 .draft-pick.on-the-clock.mf { background-color: #7A0029; }
 .draft-pick.on-the-clock.ml { background-color: #008047; }
 .draft-pick.on-the-clock.sc { background-color: #B9131A; }
+.draft-pick.on-the-clock.si { background-color: #ED1C24; }
 .draft-pick.on-the-clock.was { background-color: #900028; }
 .draft-pick .team-logo { background-size: cover; background-position: 50%; background-repeat: no-repeat; }
-.draft-pick.atl .team-logo { background-image: url('/-img/logo-board-atl.png'); }
+/* .draft-pick.atl .team-logo { background-image: url('/-img/logo-board-atl.png'); } */
 .draft-pick.br .team-logo { background-image: url('/-img/logo-board-br.png'); }
 .draft-pick.cc .team-logo { background-image: url('/-img/logo-board-cc.png'); }
 /* .draft-pick.cb .team-logo { background-image: url('/-img/logo-board-cb.png'); } */
@@ -109,6 +110,7 @@ header ul.centered li {
 .draft-pick.mf .team-logo { background-image: url('/-img/logo-board-mf.png'); }
 .draft-pick.ml .team-logo { background-image: url('/-img/logo-board-ml.png'); }
 .draft-pick.sc .team-logo { background-image: url('/-img/logo-board-sc.png'); }
+.draft-pick.si .team-logo { background-image: url('/-img/logo-board-si.png'); }
 .draft-pick.was .team-logo { background-image: url('/-img/logo-board-was.png'); }
 
 
@@ -175,7 +177,7 @@ header ul.centered li {
 .nfl-player { font-size: 128px; }
 .nfl-team { font-size: 36px; text-transform: uppercase; }
 
-#pick.atl { background-image: url('/-img/background-atl.jpg'); }
+/* #pick.atl { background-image: url('/-img/background-atl.jpg'); } */
 #pick.br { background: url('/-img/background-br.jpg'); }
 #pick.cc { background: url('/-img/background-cc.jpg'); }
 /* #pick.cb { background: url('/-img/background-cb.jpg'); } */
@@ -186,9 +188,10 @@ header ul.centered li {
 #pick.mf { background: url('/-img/background-mf.jpg'); }
 #pick.ml { background: url('/-img/background-ml.jpg'); }
 #pick.sc { background: url('/-img/background-sc.jpg'); }
+#pick.si { background: url('/-img/background-si.jpg'); }
 #pick.was { background: url('/-img/background-was.jpg'); }
 
-#pick.atl .dffl-team-logo { background-image: url('/-img/logo-pick-atl.png');}
+/* #pick.atl .dffl-team-logo { background-image: url('/-img/logo-pick-atl.png');} */
 #pick.br .dffl-team-logo { background-image: url('/-img/logo-pick-br.png');}
 #pick.cc .dffl-team-logo { background-image: url('/-img/logo-pick-cc.png');}
 /* #pick.cb .dffl-team-logo { background-image: url('/-img/logo-pick-cb.png');} */
@@ -199,6 +202,7 @@ header ul.centered li {
 #pick.mf .dffl-team-logo { background-image: url('/-img/logo-pick-mf.png');}
 #pick.ml .dffl-team-logo { background-image: url('/-img/logo-pick-ml.png');}
 #pick.sc .dffl-team-logo { background-image: url('/-img/logo-pick-sc.png');}
+#pick.si .dffl-team-logo { background-image: url('/-img/logo-pick-si.png');}
 #pick.was .dffl-team-logo { background-image: url('/-img/logo-pick-was.png');}
 
 #pick.atl .player-search button { background: #ED1C24; }
@@ -212,6 +216,7 @@ header ul.centered li {
 #pick.mf .player-search button { background: #7A0029; }
 #pick.ml .player-search button { background: #008047; }
 #pick.sc .player-search button { background: #B9131A; }
+#pick.si .player-search button { background: #B9A779; }
 #pick.was .player-search button { background: #900027 ; }
 
 .player-search input {
