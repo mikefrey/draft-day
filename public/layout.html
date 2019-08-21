@@ -29,6 +29,11 @@
         opacity:0;
       }
     </style>
+    <script>
+      window.onload = function() {
+        var context = new AudioContext();
+      }
+      </script>
   </head>
   <body class="h100">
     <div id="container" ng-view="" class="h100"></div>
@@ -62,6 +67,5 @@
     <script src="/edit/players-service.js"></script>
     <script src="/edit/players-controller.js"></script>
     <script src="/edit/picks-controller.js"></script>
-
   </body>
 </html>

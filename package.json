@@ -1,7 +1,7 @@
 {
   "name": "draft-day",
   "version": "0.0.0",
-  "description": "draft-day =========",
+  "description": "draft-day",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

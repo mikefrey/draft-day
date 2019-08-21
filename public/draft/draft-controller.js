@@ -37,11 +37,13 @@ angular.module('draftDay')
         var players = this.players
         for (var i = 0; i < players.length; i++) {
           if (players[i].id == pick.playerId) {
-            console.log('FOUND')
             this.currentPick.player = players[i]
             this.currentPick.playerId = pick.playerId
             this.announcePick = true
             getAudio(this.currentPick.team.abbrev).play()
+              .catch(err => {
+                console.log(err)
+              })
             $timeout(() => {
               this.announcePick = false
               $timeout(setCurrentPick, 1500)
