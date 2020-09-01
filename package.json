@@ -27,7 +27,7 @@
     "csv-parse": "0.0.5",
     "good": "^6.3.0",
     "good-console": "^5.0.2",
-    "hapi": "^8.8.1",
+    "hapi": "^18.1.0",
     "sequelize": "^3.5.1",
     "sqlite3": "^3.0.10"
   },
